@@ -1,0 +1,67 @@
+name: generate_scenarios
+version: 1
+model: smart
+output_schema: Scenario
+template: |
+  You are a senior QA analyst.
+
+  Generate complete QA scenarios using the analyses below.
+
+  Every scenario MUST include a `feature` field that matches one of the
+  features listed in the FEATURES section.
+
+  Include:
+  - positive scenarios
+  - negative scenarios
+  - boundary scenarios
+  - validation scenarios
+  - security scenarios
+  - integration scenarios
+  - API scenarios
+  - concurrency scenarios
+  - usability scenarios
+
+  Format each scenario EXACTLY as:
+
+  Title: <short, action-first>
+  Feature: <one of the features below — exact name>
+  Objective: <one-sentence intent>
+  Preconditions: <state needed>
+  Test Flow:
+  1. <step>
+  2. <step>
+  Expected Result: <observable outcome>
+  Priority: <Highest|High|Medium|Low|Lowest>
+  Type: <Functional|Negative|Boundary|Validation|Integration|API|Security|Performance|Accessibility|Usability|Regression>
+  Related Requirement: <id or short text>
+  Related Risk: <short text>
+
+  Rules:
+  - 8 to 20 scenarios total
+  - one blank line between scenarios
+  - cover all features
+  - no markdown fences or commentary outside the template
+
+  FEATURES (use these EXACT names in the `feature` field):
+
+  {features}
+
+  Retrieved SRS Context:
+
+  {context}
+
+  Requirement Analysis:
+
+  {requirement_analysis}
+
+  Risk Analysis:
+
+  {risk_analysis}
+
+  Security Analysis:
+
+  {security_analysis}
+
+  API Analysis:
+
+  {api_analysis}

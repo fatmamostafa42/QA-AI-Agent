@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+app/rag/vectorstore/
+app/outputs/
+app/markdown/*.md
+.idea/
+.vscode/

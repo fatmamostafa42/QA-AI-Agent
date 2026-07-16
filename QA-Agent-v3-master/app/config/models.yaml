@@ -1,0 +1,7 @@
+ollama:
+  url: http://localhost:11434
+  temperature: 0
+
+models:
+  fast: qwen3:8b
+  smart: deepseek-r1:7b

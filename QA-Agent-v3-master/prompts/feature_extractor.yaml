@@ -1,0 +1,47 @@
+name: feature_extractor
+version: 1
+model: smart
+output_schema: Feature
+template: |
+  You are a senior product analyst.
+
+  Read the requirement analysis and SRS context. Identify the top-level
+  product FEATURES — the user-facing capabilities the system delivers.
+
+  Examples of features for a typical SaaS app:
+    - Account Registration & Login
+    - Two-Factor Authentication
+    - Password Reset
+    - Profile Management
+    - Search
+    - Checkout & Payment
+    - Order History
+    - Admin Dashboard
+    - Notifications
+    - Reporting
+
+  Rules:
+    - 4 to 12 features per system
+    - Each feature is a stable, user-facing capability — not an implementation detail
+    - Each feature's `name` becomes a Jira Epic title — keep it short (2–6 words)
+    - `description` is one sentence
+    - `related_requirements` is a list of short requirement IDs or titles
+      drawn from the requirement analysis
+
+  Return ONLY a JSON array (no prose, no markdown fences) of this shape:
+
+  [
+    {
+      "name": "Account Registration & Login",
+      "description": "Users can create accounts and sign in securely.",
+      "related_requirements": ["REQ-1", "REQ-2"]
+    }
+  ]
+
+  Requirement Analysis:
+
+  {requirement_analysis}
+
+  Retrieved SRS Context:
+
+  {context}

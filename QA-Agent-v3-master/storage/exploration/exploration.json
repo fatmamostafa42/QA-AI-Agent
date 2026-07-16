@@ -1,0 +1,3701 @@
+{
+    "application": {
+        "base_url": "https://opensource-demo.orangehrmlive.com",
+        "generated_at": "2026-07-16T18:02:17.606509",
+        "pages_count": 22
+    },
+    "pages": [
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    }
+                ]
+            },
+            "forms": [],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Reset",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Search",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Add",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Type for hints...",
+                        "locator": "[placeholder='Type for hints...']"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    }
+                ]
+            },
+            "forms": [
+                {
+                    "action": null,
+                    "method": "GET",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "Type for hints...",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='Type for hints...']"
+                        }
+                    ],
+                    "submit_buttons": [
+                        {
+                            "text": "Reset",
+                            "type": "button",
+                            "locator": "button"
+                        },
+                        {
+                            "text": "Search",
+                            "type": "submit",
+                            "locator": "button"
+                        }
+                    ]
+                }
+            ],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Post",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Share Photos",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Share Video",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Most Recent Posts",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Most Liked Posts",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Most Commented Posts",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    }
+                ]
+            },
+            "forms": [
+                {
+                    "action": null,
+                    "method": "GET",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "textarea",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "What's on your mind?",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='What's on your mind?']"
+                        }
+                    ],
+                    "submit_buttons": [
+                        {
+                            "text": "Post",
+                            "type": "submit",
+                            "locator": "button"
+                        }
+                    ]
+                }
+            ],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Reset",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Search",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Assign Claim",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "View Details",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Type for hints...",
+                        "locator": "[placeholder='Type for hints...']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Type for hints...",
+                        "locator": "[placeholder='Type for hints...']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "yyyy-dd-mm",
+                        "locator": "[placeholder='yyyy-dd-mm']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "yyyy-dd-mm",
+                        "locator": "[placeholder='yyyy-dd-mm']"
+                    }
+                ]
+            },
+            "forms": [
+                {
+                    "action": null,
+                    "method": "GET",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "Type for hints...",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='Type for hints...']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "Type for hints...",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='Type for hints...']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "yyyy-dd-mm",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='yyyy-dd-mm']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "yyyy-dd-mm",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='yyyy-dd-mm']"
+                        }
+                    ],
+                    "submit_buttons": [
+                        {
+                            "text": "Reset",
+                            "type": "button",
+                            "locator": "button"
+                        },
+                        {
+                            "text": "Search",
+                            "type": "submit",
+                            "locator": "button"
+                        }
+                    ]
+                }
+            ],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Reset",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Search",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Type for hints...",
+                        "locator": "[placeholder='Type for hints...']"
+                    }
+                ]
+            },
+            "forms": [
+                {
+                    "action": null,
+                    "method": "GET",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "Type for hints...",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='Type for hints...']"
+                        }
+                    ],
+                    "submit_buttons": [
+                        {
+                            "text": "Reset",
+                            "type": "reset",
+                            "locator": "button"
+                        },
+                        {
+                            "text": "Search",
+                            "type": "submit",
+                            "locator": "button"
+                        }
+                    ]
+                }
+            ],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Reset",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Search",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "yyyy-dd-mm",
+                        "locator": "[placeholder='yyyy-dd-mm']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "yyyy-dd-mm",
+                        "locator": "[placeholder='yyyy-dd-mm']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Type for hints...",
+                        "locator": "[placeholder='Type for hints...']"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    }
+                ]
+            },
+            "forms": [
+                {
+                    "action": null,
+                    "method": "GET",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "yyyy-dd-mm",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='yyyy-dd-mm']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "yyyy-dd-mm",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='yyyy-dd-mm']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "Type for hints...",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='Type for hints...']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": "checkbox",
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        }
+                    ],
+                    "submit_buttons": [
+                        {
+                            "text": "Reset",
+                            "type": "reset",
+                            "locator": "button"
+                        },
+                        {
+                            "text": "Search",
+                            "type": "submit",
+                            "locator": "button"
+                        }
+                    ]
+                }
+            ],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [],
+                "external_links": [
+                    "http://www.orangehrm.com"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "Cancel",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Confirm",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": "hidden",
+                        "name": "_token",
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "[name='_token']"
+                    },
+                    {
+                        "type": null,
+                        "name": "username",
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "[name='username']"
+                    },
+                    {
+                        "type": "password",
+                        "name": "password",
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "[name='password']"
+                    }
+                ]
+            },
+            "forms": [
+                {
+                    "action": "/web/index.php/auth/adminVerify",
+                    "method": "POST",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "input",
+                            "type": "hidden",
+                            "name": "_token",
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[name='_token']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": "username",
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": true,
+                            "readonly": false,
+                            "locator": "[name='username']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": "password",
+                            "name": "password",
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[name='password']"
+                        }
+                    ],
+                    "submit_buttons": [
+                        {
+                            "text": "Cancel",
+                            "type": "button",
+                            "locator": "button"
+                        },
+                        {
+                            "text": "Confirm",
+                            "type": "submit",
+                            "locator": "button"
+                        }
+                    ]
+                }
+            ],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Reset",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Search",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Type for hints...",
+                        "locator": "[placeholder='Type for hints...']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "yyyy-dd-mm",
+                        "locator": "[placeholder='yyyy-dd-mm']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "yyyy-dd-mm",
+                        "locator": "[placeholder='yyyy-dd-mm']"
+                    }
+                ]
+            },
+            "forms": [
+                {
+                    "action": null,
+                    "method": "GET",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "Type for hints...",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='Type for hints...']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "yyyy-dd-mm",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='yyyy-dd-mm']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "yyyy-dd-mm",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='yyyy-dd-mm']"
+                        }
+                    ],
+                    "submit_buttons": [
+                        {
+                            "text": "Reset",
+                            "type": "reset",
+                            "locator": "button"
+                        },
+                        {
+                            "text": "Search",
+                            "type": "submit",
+                            "locator": "button"
+                        }
+                    ]
+                }
+            ],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Save",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Add",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": null,
+                        "name": "firstName",
+                        "id": null,
+                        "placeholder": "First Name",
+                        "locator": "[name='firstName']"
+                    },
+                    {
+                        "type": null,
+                        "name": "middleName",
+                        "id": null,
+                        "placeholder": "Middle Name",
+                        "locator": "[name='middleName']"
+                    },
+                    {
+                        "type": null,
+                        "name": "lastName",
+                        "id": null,
+                        "placeholder": "Last Name",
+                        "locator": "[name='lastName']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "yyyy-dd-mm",
+                        "locator": "[placeholder='yyyy-dd-mm']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "yyyy-dd-mm",
+                        "locator": "[placeholder='yyyy-dd-mm']"
+                    },
+                    {
+                        "type": "radio",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "radio",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    }
+                ]
+            },
+            "forms": [
+                {
+                    "action": null,
+                    "method": "GET",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": "firstName",
+                            "id": null,
+                            "placeholder": "First Name",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[name='firstName']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": "middleName",
+                            "id": null,
+                            "placeholder": "Middle Name",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[name='middleName']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": "lastName",
+                            "id": null,
+                            "placeholder": "Last Name",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[name='lastName']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "yyyy-dd-mm",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='yyyy-dd-mm']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "yyyy-dd-mm",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='yyyy-dd-mm']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": "radio",
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": "radio",
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        }
+                    ],
+                    "submit_buttons": [
+                        {
+                            "text": "Save",
+                            "type": "submit",
+                            "locator": "button"
+                        }
+                    ]
+                },
+                {
+                    "action": null,
+                    "method": "GET",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        }
+                    ],
+                    "submit_buttons": [
+                        {
+                            "text": "Save",
+                            "type": "submit",
+                            "locator": "button"
+                        }
+                    ]
+                }
+            ],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Reset",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Search",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Add",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "1",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "2",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Type for hints...",
+                        "locator": "[placeholder='Type for hints...']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Type for hints...",
+                        "locator": "[placeholder='Type for hints...']"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    }
+                ]
+            },
+            "forms": [
+                {
+                    "action": null,
+                    "method": "GET",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "Type for hints...",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='Type for hints...']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "Type for hints...",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='Type for hints...']"
+                        }
+                    ],
+                    "submit_buttons": [
+                        {
+                            "text": "Reset",
+                            "type": "reset",
+                            "locator": "button"
+                        },
+                        {
+                            "text": "Search",
+                            "type": "submit",
+                            "locator": "button"
+                        }
+                    ]
+                }
+            ],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Reset",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Search",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Add",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "1",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "2",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Type for hints...",
+                        "locator": "[placeholder='Type for hints...']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Enter comma seperated words...",
+                        "locator": "[placeholder='Enter comma seperated words...']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "From",
+                        "locator": "[placeholder='From']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "To",
+                        "locator": "[placeholder='To']"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    }
+                ]
+            },
+            "forms": [
+                {
+                    "action": null,
+                    "method": "GET",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "Type for hints...",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='Type for hints...']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "Enter comma seperated words...",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='Enter comma seperated words...']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "From",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='From']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "To",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='To']"
+                        }
+                    ],
+                    "submit_buttons": [
+                        {
+                            "text": "Reset",
+                            "type": "reset",
+                            "locator": "button"
+                        },
+                        {
+                            "text": "Search",
+                            "type": "submit",
+                            "locator": "button"
+                        }
+                    ]
+                }
+            ],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "View",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Type for hints...",
+                        "locator": "[placeholder='Type for hints...']"
+                    }
+                ]
+            },
+            "forms": [
+                {
+                    "action": null,
+                    "method": "GET",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "Type for hints...",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='Type for hints...']"
+                        }
+                    ],
+                    "submit_buttons": [
+                        {
+                            "text": "View",
+                            "type": "submit",
+                            "locator": "button"
+                        }
+                    ]
+                }
+            ],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Save",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Add",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    }
+                ]
+            },
+            "forms": [
+                {
+                    "action": null,
+                    "method": "GET",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        }
+                    ],
+                    "submit_buttons": [
+                        {
+                            "text": "Save",
+                            "type": "submit",
+                            "locator": "button"
+                        }
+                    ]
+                }
+            ],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Add",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    }
+                ]
+            },
+            "forms": [],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Add",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    }
+                ]
+            },
+            "forms": [],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Add",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    }
+                ]
+            },
+            "forms": [],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "yyyy-dd-mm",
+                        "locator": "[placeholder='yyyy-dd-mm']"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    }
+                ]
+            },
+            "forms": [
+                {
+                    "action": null,
+                    "method": "GET",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "yyyy-dd-mm",
+                            "required": false,
+                            "disabled": true,
+                            "readonly": false,
+                            "locator": "[placeholder='yyyy-dd-mm']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": "checkbox",
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        }
+                    ],
+                    "submit_buttons": []
+                }
+            ],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Add",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    }
+                ]
+            },
+            "forms": [],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Save",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Add",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": null,
+                        "name": "firstName",
+                        "id": null,
+                        "placeholder": "First Name",
+                        "locator": "[name='firstName']"
+                    },
+                    {
+                        "type": null,
+                        "name": "middleName",
+                        "id": null,
+                        "placeholder": "Middle Name",
+                        "locator": "[name='middleName']"
+                    },
+                    {
+                        "type": null,
+                        "name": "lastName",
+                        "id": null,
+                        "placeholder": "Last Name",
+                        "locator": "[name='lastName']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "yyyy-dd-mm",
+                        "locator": "[placeholder='yyyy-dd-mm']"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "yyyy-dd-mm",
+                        "locator": "[placeholder='yyyy-dd-mm']"
+                    },
+                    {
+                        "type": "radio",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "radio",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    }
+                ]
+            },
+            "forms": [
+                {
+                    "action": null,
+                    "method": "GET",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": "firstName",
+                            "id": null,
+                            "placeholder": "First Name",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[name='firstName']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": "middleName",
+                            "id": null,
+                            "placeholder": "Middle Name",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[name='middleName']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": "lastName",
+                            "id": null,
+                            "placeholder": "Last Name",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[name='lastName']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "yyyy-dd-mm",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='yyyy-dd-mm']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": "yyyy-dd-mm",
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "[placeholder='yyyy-dd-mm']"
+                        },
+                        {
+                            "tag": "input",
+                            "type": "radio",
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        },
+                        {
+                            "tag": "input",
+                            "type": "radio",
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        }
+                    ],
+                    "submit_buttons": [
+                        {
+                            "text": "Save",
+                            "type": "submit",
+                            "locator": "button"
+                        }
+                    ]
+                },
+                {
+                    "action": null,
+                    "method": "GET",
+                    "id": null,
+                    "name": null,
+                    "locator": "form",
+                    "fields": [
+                        {
+                            "tag": "input",
+                            "type": null,
+                            "name": null,
+                            "id": null,
+                            "placeholder": null,
+                            "required": false,
+                            "disabled": false,
+                            "readonly": false,
+                            "locator": "input"
+                        }
+                    ],
+                    "submit_buttons": [
+                        {
+                            "text": "Save",
+                            "type": "submit",
+                            "locator": "button"
+                        }
+                    ]
+                }
+            ],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Add",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    },
+                    {
+                        "type": "checkbox",
+                        "name": null,
+                        "id": null,
+                        "placeholder": null,
+                        "locator": "input"
+                    }
+                ]
+            },
+            "forms": [],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    }
+                ]
+            },
+            "forms": [],
+            "tables": []
+        },
+        {
+            "page": {
+                "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
+                "title": "OrangeHRM"
+            },
+            "navigation": {
+                "internal_links": [
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/viewMaintenanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
+                    "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule"
+                ],
+                "external_links": [
+                    "http://www.orangehrm.com",
+                    "https://orangehrm.com/open-source/upgrade-to-advanced",
+                    "https://www.orangehrm.com/"
+                ]
+            },
+            "elements": {
+                "buttons": [
+                    {
+                        "text": "",
+                        "locator": "button"
+                    },
+                    {
+                        "text": "Upgrade",
+                        "locator": "button"
+                    }
+                ],
+                "inputs": [
+                    {
+                        "type": null,
+                        "name": null,
+                        "id": null,
+                        "placeholder": "Search",
+                        "locator": "[placeholder='Search']"
+                    }
+                ]
+            },
+            "forms": [],
+            "tables": []
+        }
+    ],
+    "network": [],
+    "screenshots": [],
+    "html_snapshots": [],
+    "errors": []
+}

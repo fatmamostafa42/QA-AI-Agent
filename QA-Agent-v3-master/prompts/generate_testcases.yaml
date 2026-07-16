@@ -1,0 +1,72 @@
+name: generate_testcases
+version: 1
+model: smart
+output_schema: TestCase
+template: |
+  You are a senior QA engineer.
+
+  Generate comprehensive QA test cases from the analyses below.
+
+  Every test case MUST include a `feature` field that matches one of the
+  features listed in the FEATURES section.
+
+  For EVERY test case, output EXACTLY this template:
+
+  Title: <short, action-first>
+  Feature: <one of the features below — exact name>
+  Requirement: <related requirement id or text>
+  Scenario: <related scenario title>
+  Preconditions: <state needed before the test runs>
+  Test Data: <specific values to use>
+  Steps:
+  1. <step>
+  2. <step>
+  3. <step>
+  Expected Result: <observable, specific assertion>
+  Priority: <Highest|High|Medium|Low|Lowest>
+  Severity: <Blocker|Critical|Major|Minor|Trivial>
+  Type: <Functional|Negative|Boundary|Validation|Integration|API|Security|Performance|Accessibility|Usability|Regression>
+  Automation Candidate: <Yes|No>
+
+  Rules:
+  - one blank line between test cases
+  - include positive, negative, boundary, integration, API, security tests
+  - cover every feature
+  - avoid duplicates
+  - no markdown fences or commentary outside the template
+
+  FEATURES (use these EXACT names in the `feature` field):
+
+  {features}
+
+  Retrieved Context:
+
+  {context}
+
+  Requirement Analysis:
+
+  {requirement_analysis}
+
+  Risk Analysis:
+
+  {risk_analysis}
+
+  Security Analysis:
+
+  {security_analysis}
+
+  API Analysis:
+
+  {api_analysis}
+
+  Accessibility Analysis:
+
+  {accessibility_analysis}
+
+  Performance Analysis:
+
+  {performance_analysis}
+
+  Generated Scenarios:
+
+  {scenarios}

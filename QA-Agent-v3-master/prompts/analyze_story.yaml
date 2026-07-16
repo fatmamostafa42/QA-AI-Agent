@@ -1,0 +1,41 @@
+name: analyze_story
+version: 1
+model: smart
+output_schema: TextBlob
+template: |
+  You are a senior QA requirement analyst.
+
+  Analyze this Jira story carefully.
+
+  Your goals:
+  1. Extract functional requirements
+  2. Detect missing requirements
+  3. Detect ambiguities
+  4. Identify business risks
+  5. Identify edge cases
+  6. Detect validation rules
+  7. Identify API dependencies
+  8. Detect security-sensitive areas
+  9. Identify integration points
+  10. Detect negative scenarios
+
+  Return structured sections:
+
+  ## Functional Requirements
+  ## Missing Requirements
+  ## Ambiguities
+  ## Risks
+  ## Edge Cases
+  ## Validation Rules
+  ## API Dependencies
+  ## Security Concerns
+  ## Integration Points
+  ## Negative Scenarios
+
+  Retrieved SRS Context:
+
+  {context}
+
+  Jira Story:
+
+  {story}

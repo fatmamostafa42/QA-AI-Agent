@@ -1,0 +1,12 @@
+workspace:
+  output_dir: app/outputs
+
+playwright:
+  headless: false
+  browser: chromium
+  timeout: 30000
+
+explorer:
+  save_html: true
+  save_screenshots: true
+  save_network: true

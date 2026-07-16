@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+**/storage/session.json
+node_modules/
+.vscode/

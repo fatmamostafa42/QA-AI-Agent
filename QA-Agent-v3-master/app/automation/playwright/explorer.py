@@ -5,18 +5,22 @@ from app.scanners.form_scanner import FormScanner
 from app.scanners.table_scanner import TableScanner
 from app.scanners.accessibility_scanner import AccessibilityScanner
 
+from app.scanners.page_scanner import PageScanner
+from app.scanners.heading_scanner import HeadingScanner
+from app.scanners.validation_scanner import ValidationScanner
+from app.scanners.dialog_scanner import DialogScanner
+from app.scanners.navigation_scanner import NavigationScanner
+
 
 class Explorer:
     """
     Coordinates all scanners.
 
-    Explorer does not scan DOM directly.
-    It only coordinates all scanners and combines their results.
+    Explorer never scans the DOM directly.
+    Each scanner has a single responsibility.
     """
 
     def __init__(self, page):
-
-        print("EXPLORER LOADED")
 
         self.page = page
 
@@ -24,73 +28,68 @@ class Explorer:
 
         self.base_url = f"{parsed.scheme}://{parsed.netloc}"
 
+        # Core scanners
         self.element_scanner = ElementScanner(page)
         self.form_scanner = FormScanner(page)
         self.table_scanner = TableScanner(page)
         self.accessibility_scanner = AccessibilityScanner(page)
 
+        # Smart scanners
+        self.page_scanner = PageScanner(page)
+        self.heading_scanner = HeadingScanner(page)
+        self.validation_scanner = ValidationScanner(page)
+        self.dialog_scanner = DialogScanner(page)
+        self.navigation_scanner = NavigationScanner(page)
+
     def wait_until_ready(self):
 
-        print("WAITING FOR PAGE READY...")
-
-        # Wait until HTML is loaded
         try:
-
             self.page.wait_for_load_state("domcontentloaded")
+        except Exception:
+            pass
 
-            print("DOM CONTENT LOADED")
-
-        except Exception as e:
-
-            print(f"DOM LOAD WARNING: {e}")
-
-        # Wait until network requests finish
         try:
-
             self.page.wait_for_load_state(
                 "networkidle",
                 timeout=10000
             )
-
-            print("NETWORK IDLE REACHED")
-
         except Exception:
+            pass
 
-            print("Network idle timeout, continue...")
-
-        # Wait for SPA rendering
         self.page.wait_for_timeout(3000)
-
-        print("SPA RENDERING WAIT COMPLETED")
 
     def explore(self):
 
-        print("START EXPLORING PAGE:")
-        print(self.page.url)
+        print(f"\nExploring: {self.page.url}")
 
+        # -----------------------------
+        # Element Scanner
+        # -----------------------------
         buttons = self.element_scanner.buttons()
-        print(f"BUTTONS FOUND: {len(buttons)}")
-
         inputs = self.element_scanner.inputs()
-        print(f"INPUTS FOUND: {len(inputs)}")
-
         links = self.element_scanner.links()
-        print(f"LINKS FOUND: {len(links)}")
-
         selects = self.element_scanner.selects()
-        print(f"SELECTS FOUND: {len(selects)}")
-
         textareas = self.element_scanner.textareas()
-        print(f"TEXTAREAS FOUND: {len(textareas)}")
 
+        # -----------------------------
+        # Forms / Tables
+        # -----------------------------
         forms = self.form_scanner.scan()
-        print(f"FORMS FOUND: {len(forms)}")
-
         tables = self.table_scanner.scan()
-        print(f"TABLES FOUND: {len(tables)}")
 
+        # -----------------------------
+        # Accessibility
+        # -----------------------------
         accessibility = self.accessibility_scanner.scan()
-        print(f"ACCESSIBILITY ELEMENTS FOUND: {len(accessibility)}")
+
+        # -----------------------------
+        # Smart Scanners
+        # -----------------------------
+        page_info = self.page_scanner.scan()
+        headings = self.heading_scanner.scan()
+        validations = self.validation_scanner.scan()
+        dialogs = self.dialog_scanner.scan()
+        menus = self.navigation_scanner.scan()
 
         return {
 
@@ -99,6 +98,8 @@ class Explorer:
                 "url": self.page.url,
 
                 "title": self.page.title(),
+
+                **page_info
 
             },
 
@@ -109,6 +110,9 @@ class Explorer:
 
                 "external_links":
                     self.element_scanner.external_links(),
+
+                "menus":
+                    menus
 
             },
 
@@ -137,7 +141,16 @@ class Explorer:
             "tables":
                 tables,
 
+            "headings":
+                headings,
+
+            "dialogs":
+                dialogs,
+
+            "validations":
+                validations,
+
             "accessibility":
-                accessibility,
+                accessibility
 
         }

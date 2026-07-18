@@ -45,11 +45,43 @@ class ElementScanner:
 
                 text = button.inner_text().strip()
 
-                element_locator = self.locator_builder.build(button)
+
+                data = {
+
+                    "text":
+                        text,
+
+
+                    "type":
+                        button.get_attribute("type"),
+
+
+                    "disabled":
+                        button.is_disabled(),
+
+
+                    "visible":
+                        button.is_visible(),
+
+
+                    "aria_label":
+                        button.get_attribute(
+                            "aria-label"
+                        ),
+
+
+                    "locator":
+                        self.locator_builder.build(button)
+
+                }
+
 
                 key = (
+
                     text,
-                    element_locator
+
+                    data["locator"]
+
                 )
 
 
@@ -60,18 +92,14 @@ class ElementScanner:
                 seen.add(key)
 
 
-                buttons.append({
-
-                    "text": text,
-
-                    "locator": element_locator
-
-                })
+                buttons.append(data)
 
 
             except Exception as e:
 
-                print(f"Button Error: {e}")
+                print(
+                    f"Button Error: {e}"
+                )
 
 
         return buttons
@@ -96,22 +124,75 @@ class ElementScanner:
 
                 inputs.append({
 
-                    "type": element.get_attribute("type"),
+                    "type":
+                        element.get_attribute(
+                            "type"
+                        ),
 
-                    "name": element.get_attribute("name"),
 
-                    "id": element.get_attribute("id"),
+                    "name":
+                        element.get_attribute(
+                            "name"
+                        ),
 
-                    "placeholder": element.get_attribute("placeholder"),
 
-                    "locator": self.locator_builder.build(element)
+                    "id":
+                        element.get_attribute(
+                            "id"
+                        ),
+
+
+                    "placeholder":
+                        element.get_attribute(
+                            "placeholder"
+                        ),
+
+
+                    "value":
+                        element.input_value()
+                        if element.is_editable()
+                        else None,
+
+
+                    "required":
+                        element.get_attribute(
+                            "required"
+                        ) is not None,
+
+
+                    "disabled":
+                        element.is_disabled(),
+
+
+                    "readonly":
+                        element.get_attribute(
+                            "readonly"
+                        ) is not None,
+
+
+                    "visible":
+                        element.is_visible(),
+
+
+                    "aria_label":
+                        element.get_attribute(
+                            "aria-label"
+                        ),
+
+
+                    "locator":
+                        self.locator_builder.build(
+                            element
+                        )
 
                 })
 
 
             except Exception as e:
 
-                print(f"Input Error: {e}")
+                print(
+                    f"Input Error: {e}"
+                )
 
 
         return inputs
@@ -136,18 +217,29 @@ class ElementScanner:
 
                 links.append({
 
-                    "text": link.inner_text().strip(),
+                    "text":
+                        link.inner_text().strip(),
 
-                    "href": link.get_attribute("href"),
 
-                    "locator": self.locator_builder.build(link)
+                    "href":
+                        link.get_attribute(
+                            "href"
+                        ),
+
+
+                    "locator":
+                        self.locator_builder.build(
+                            link
+                        )
 
                 })
 
 
             except Exception as e:
 
-                print(f"Link Error: {e}")
+                print(
+                    f"Link Error: {e}"
+                )
 
 
         return links
@@ -172,18 +264,31 @@ class ElementScanner:
 
                 selects.append({
 
-                    "name": select.get_attribute("name"),
+                    "name":
+                        select.get_attribute(
+                            "name"
+                        ),
 
-                    "id": select.get_attribute("id"),
 
-                    "locator": self.locator_builder.build(select)
+                    "id":
+                        select.get_attribute(
+                            "id"
+                        ),
+
+
+                    "locator":
+                        self.locator_builder.build(
+                            select
+                        )
 
                 })
 
 
             except Exception as e:
 
-                print(f"Select Error: {e}")
+                print(
+                    f"Select Error: {e}"
+                )
 
 
         return selects
@@ -208,20 +313,37 @@ class ElementScanner:
 
                 textareas.append({
 
-                    "name": area.get_attribute("name"),
+                    "name":
+                        area.get_attribute(
+                            "name"
+                        ),
 
-                    "id": area.get_attribute("id"),
 
-                    "placeholder": area.get_attribute("placeholder"),
+                    "id":
+                        area.get_attribute(
+                            "id"
+                        ),
 
-                    "locator": self.locator_builder.build(area)
+
+                    "placeholder":
+                        area.get_attribute(
+                            "placeholder"
+                        ),
+
+
+                    "locator":
+                        self.locator_builder.build(
+                            area
+                        )
 
                 })
 
 
             except Exception as e:
 
-                print(f"Textarea Error: {e}")
+                print(
+                    f"Textarea Error: {e}"
+                )
 
 
         return textareas

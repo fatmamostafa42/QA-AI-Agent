@@ -1,21 +1,24 @@
 {
     "application": {
         "base_url": "https://opensource-demo.orangehrmlive.com",
-        "generated_at": "2026-07-18T18:14:22.689008",
-        "pages_count": 22
+        "generated_at": "2026-07-18T19:41:34.980427",
+        "pages_count": 20
     },
     "summary": {
-        "pages": 22,
-        "buttons": 88,
-        "inputs": 216,
-        "links": 443,
-        "forms": 16,
+        "pages": 20,
+        "buttons": 69,
+        "inputs": 190,
+        "links": 371,
+        "forms": 14,
         "tables": 0,
         "dialogs": 0,
-        "menus": 269,
-        "headings": 79,
-        "validation_messages": 217,
-        "accessibility_items": 1077
+        "components": 205,
+        "cards": 169,
+        "grids": 17,
+        "menus": 203,
+        "headings": 76,
+        "validation_messages": 190,
+        "accessibility_items": 892
     },
     "pages": [
         {
@@ -23,34 +26,64 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 2,
             "inputs": 1,
-            "links": 15,
-            "selects": 0,
-            "textareas": 0,
+            "links": 13,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
-            "headings": 1,
-            "menus": 12,
-            "validation_messages": 1,
-            "accessibility": 28,
+            "components": {
+                "cards": 36,
+                "grids": 0,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "(1) Candidate to Interview",
+                "0h 0m",
+                "0h 45m Today",
+                "2020-08-10 05:38 AM",
+                "2026-18-07 09:32 PM",
+                "Apply Leave",
+                "Assign Leave",
+                "Buzz Latest Posts",
+                "Employees on Leave Today",
+                "G shiva Smith",
+                "Hi All;",
+                "Ja na be",
+                "Leave List",
+                "My Actions",
+                "My Leave",
+                "My Timesheet",
+                "Punched In",
+                "Punched In: Today at 09:56 PM (GMT 3)",
+                "Quick Launch",
+                "This Week",
+                "Time at Work",
+                "Timesheets"
+            ],
+            "grid_columns": [],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Upgrade"
             ],
             "input_placeholders": [
                 "Search"
             ],
-            "input_names": [],
-            "form_fields": [],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "OrangeHRM, Inc",
@@ -62,11 +95,9 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -77,7 +108,6 @@
             "headings_text": [
                 "Dashboard"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -85,19 +115,48 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 5,
-            "inputs": 11,
-            "links": 17,
-            "selects": 0,
-            "textareas": 0,
+            "inputs": 15,
+            "links": 15,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
-            "headings": 3,
-            "menus": 14,
-            "validation_messages": 11,
-            "accessibility": 49,
+            "components": {
+                "cards": 11,
+                "grids": 1,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "Admin",
+                "TestPruebaDrive123",
+                "aly salem1784400906927",
+                "asd123",
+                "bassem",
+                "bassemm",
+                "parasoli",
+                "test_user_employee1784403476",
+                "test_user_employee1784403506",
+                "testa",
+                "testasd"
+            ],
+            "grid_columns": [
+                "Actions",
+                "Employee Name",
+                "Status",
+                "User Role",
+                "Username"
+            ],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Add",
                 "Reset",
@@ -108,18 +167,12 @@
                 "Search",
                 "Type for hints..."
             ],
-            "input_names": [],
-            "form_fields": [
-                "Type for hints..."
-            ],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Corporate Branding",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "Nationalities",
@@ -132,12 +185,10 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Corporate Branding",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "Nationalities",
@@ -151,77 +202,6 @@
                 "System Users",
                 "User Management"
             ],
-            "dialog_titles": [],
-            "validation_texts": []
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
-            "title": "OrangeHRM",
-            "page_type": "",
-            "description": "",
-            "breadcrumbs": [],
-            "buttons": 8,
-            "inputs": 1,
-            "links": 15,
-            "selects": 0,
-            "textareas": 1,
-            "forms": 1,
-            "tables": 0,
-            "dialogs": 0,
-            "headings": 1,
-            "menus": 12,
-            "validation_messages": 2,
-            "accessibility": 38,
-            "button_texts": [
-                "Most Commented Posts",
-                "Most Liked Posts",
-                "Most Recent Posts",
-                "Post",
-                "Share Photos",
-                "Share Video",
-                "Upgrade"
-            ],
-            "input_placeholders": [
-                "Search"
-            ],
-            "input_names": [],
-            "form_fields": [
-                "What's on your mind?"
-            ],
-            "navigation": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Leave",
-                "Maintenance",
-                "My Info",
-                "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time",
-                "Upgrade"
-            ],
-            "menu_items": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Leave",
-                "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
-            ],
-            "headings_text": [
-                "Buzz"
-            ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -229,19 +209,53 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 6,
             "inputs": 5,
-            "links": 19,
-            "selects": 0,
-            "textareas": 0,
+            "links": 17,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
-            "headings": 2,
-            "menus": 16,
-            "validation_messages": 5,
-            "accessibility": 34,
+            "components": {
+                "cards": 9,
+                "grids": 1,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "202307180000001",
+                "202307180000002",
+                "202307180000003",
+                "202607180000007",
+                "202607180000008",
+                "202607180000009",
+                "Accommodation",
+                "Medical Reimbursement",
+                "Travel Allowance"
+            ],
+            "grid_columns": [
+                "Actions",
+                "Amount",
+                "Currency",
+                "Description",
+                "Employee Name",
+                "Event Name",
+                "Reference Id",
+                "Status",
+                "Submitted Date"
+            ],
+            "grid_actions": [
+                "Details",
+                "View"
+            ],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Assign Claim",
                 "Reset",
@@ -254,20 +268,13 @@
                 "Type for hints...",
                 "yyyy-dd-mm"
             ],
-            "input_names": [],
-            "form_fields": [
-                "Type for hints...",
-                "yyyy-dd-mm"
-            ],
             "navigation": [
                 "Admin",
                 "Assign Claim",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
                 "Employee Claims",
-                "Leave",
                 "Maintenance",
                 "My Claims",
                 "My Info",
@@ -282,12 +289,10 @@
             "menu_items": [
                 "Admin",
                 "Assign Claim",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
                 "Employee Claims",
-                "Leave",
                 "Maintenance",
                 "My Claims",
                 "My Info",
@@ -301,7 +306,6 @@
                 "Claim",
                 "Employee Claims"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -309,19 +313,45 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 4,
             "inputs": 2,
-            "links": 15,
-            "selects": 0,
-            "textareas": 0,
+            "links": 13,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
-            "headings": 2,
-            "menus": 12,
-            "validation_messages": 2,
-            "accessibility": 23,
+            "components": {
+                "cards": 14,
+                "grids": 0,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "Jane Doe",
+                "John Doe-ourjsi",
+                "Linda Anderson",
+                "Sam Mathur Florek",
+                "Sheri Hills",
+                "Test User Employee1784403476",
+                "Test User Employee1784403506",
+                "Test User Employee1784403698",
+                "TestEmployee 1784403497785",
+                "bassem hazem",
+                "kmya 43 43",
+                "mariam maged afram",
+                "nomiuc def",
+                "sdf asd"
+            ],
+            "grid_columns": [],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Reset",
                 "Search",
@@ -331,17 +361,11 @@
                 "Search",
                 "Type for hints..."
             ],
-            "input_names": [],
-            "form_fields": [
-                "Type for hints..."
-            ],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "OrangeHRM, Inc",
@@ -353,11 +377,9 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -368,85 +390,6 @@
             "headings_text": [
                 "Directory"
             ],
-            "dialog_titles": [],
-            "validation_texts": []
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
-            "title": "OrangeHRM",
-            "page_type": "",
-            "description": "",
-            "breadcrumbs": [],
-            "buttons": 4,
-            "inputs": 6,
-            "links": 19,
-            "selects": 0,
-            "textareas": 0,
-            "forms": 1,
-            "tables": 0,
-            "dialogs": 0,
-            "headings": 2,
-            "menus": 16,
-            "validation_messages": 6,
-            "accessibility": 31,
-            "button_texts": [
-                "Reset",
-                "Search",
-                "Upgrade"
-            ],
-            "input_placeholders": [
-                "Search",
-                "Type for hints...",
-                "yyyy-dd-mm"
-            ],
-            "input_names": [],
-            "form_fields": [
-                "Type for hints...",
-                "yyyy-dd-mm"
-            ],
-            "navigation": [
-                "Admin",
-                "Apply",
-                "Assign Leave",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Leave",
-                "Leave List",
-                "Maintenance",
-                "My Info",
-                "My Leave",
-                "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time",
-                "Upgrade"
-            ],
-            "menu_items": [
-                "Admin",
-                "Apply",
-                "Assign Leave",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Leave",
-                "Leave List",
-                "Maintenance",
-                "My Info",
-                "My Leave",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
-            ],
-            "headings_text": [
-                "Leave",
-                "Leave List"
-            ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -454,34 +397,37 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 2,
             "inputs": 3,
             "links": 1,
-            "selects": 0,
-            "textareas": 0,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
-            "headings": 1,
-            "menus": 0,
-            "validation_messages": 3,
-            "accessibility": 6,
+            "components": {
+                "cards": 1,
+                "grids": 0,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "Administrator Access"
+            ],
+            "grid_columns": [],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Cancel",
                 "Confirm"
             ],
             "input_placeholders": [],
-            "input_names": [
-                "_token",
-                "password",
-                "username"
-            ],
-            "form_fields": [
-                "_token",
-                "password",
-                "username"
-            ],
             "navigation": [
                 "OrangeHRM, Inc"
             ],
@@ -489,7 +435,6 @@
             "headings_text": [
                 "Administrator Access"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -497,19 +442,36 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 4,
             "inputs": 4,
-            "links": 17,
-            "selects": 0,
-            "textareas": 0,
+            "links": 15,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
-            "headings": 3,
-            "menus": 14,
-            "validation_messages": 4,
-            "accessibility": 27,
+            "components": {
+                "cards": 0,
+                "grids": 1,
+                "tabs": 0
+            },
+            "component_types": [],
+            "card_titles": [],
+            "grid_columns": [
+                "Actions",
+                "Due Date",
+                "Employee",
+                "Job Title",
+                "Review Period",
+                "Review Status",
+                "Sub Unit"
+            ],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Reset",
                 "Search",
@@ -520,19 +482,12 @@
                 "Type for hints...",
                 "yyyy-dd-mm"
             ],
-            "input_names": [],
-            "form_fields": [
-                "Type for hints...",
-                "yyyy-dd-mm"
-            ],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
                 "Employee Trackers",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "My Trackers",
@@ -545,12 +500,10 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
                 "Employee Trackers",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "My Trackers",
@@ -564,7 +517,6 @@
                 "Manage Reviews",
                 "Performance"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -572,19 +524,53 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 4,
             "inputs": 14,
-            "links": 25,
-            "selects": 0,
-            "textareas": 0,
+            "links": 23,
             "forms": 2,
             "tables": 0,
             "dialogs": 0,
-            "headings": 5,
-            "menus": 12,
-            "validation_messages": 14,
-            "accessibility": 48,
+            "components": {
+                "cards": 3,
+                "grids": 1,
+                "tabs": 10
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "Custom Fields",
+                "G Smith",
+                "test.png"
+            ],
+            "grid_columns": [
+                "Actions",
+                "Added By",
+                "Date Added",
+                "Description",
+                "File Name",
+                "Size",
+                "Type"
+            ],
+            "grid_actions": [],
+            "tabs": [
+                "Contact Details",
+                "Dependents",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
+                "Memberships",
+                "Personal Details",
+                "Qualifications",
+                "Report-to",
+                "Salary"
+            ],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Add",
                 "Save",
@@ -597,23 +583,8 @@
                 "Search",
                 "yyyy-dd-mm"
             ],
-            "input_names": [
-                "firstName",
-                "lastName",
-                "middleName"
-            ],
-            "form_fields": [
-                "First Name",
-                "Last Name",
-                "Middle Name",
-                "firstName",
-                "lastName",
-                "middleName",
-                "yyyy-dd-mm"
-            ],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -622,7 +593,6 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
-                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -639,11 +609,9 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -654,11 +622,10 @@
             "headings_text": [
                 "Attachments",
                 "Custom Fields",
+                "G Smith",
                 "PIM",
-                "Personal Details",
-                "manda user"
+                "Personal Details"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -666,23 +633,90 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
-            "buttons": 9,
-            "inputs": 55,
-            "links": 18,
-            "selects": 0,
-            "textareas": 0,
+            "buttons": 5,
+            "inputs": 54,
+            "links": 16,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
-            "headings": 2,
-            "menus": 15,
-            "validation_messages": 55,
-            "accessibility": 184,
+            "components": {
+                "cards": 49,
+                "grids": 1,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "0400",
+                "0401",
+                "0403",
+                "0404",
+                "0408",
+                "0411",
+                "0426",
+                "0434",
+                "0436",
+                "0437",
+                "0440",
+                "0443",
+                "0446",
+                "0452",
+                "0453",
+                "0454",
+                "0454789",
+                "0459",
+                "0461",
+                "04645",
+                "0470403476",
+                "0471",
+                "0472403506",
+                "0476",
+                "0477",
+                "0477403698",
+                "0478",
+                "0479",
+                "0480",
+                "0480403730",
+                "0482",
+                "097809",
+                "1784399676",
+                "1784400282",
+                "259",
+                "27644",
+                "3475",
+                "409",
+                "43463",
+                "43567781",
+                "54366",
+                "56986212",
+                "69598",
+                "72327",
+                "78809",
+                "80439",
+                "8305",
+                "8909",
+                "94412"
+            ],
+            "grid_columns": [
+                "Actions",
+                "Employment Status",
+                "First (& Middle) Name",
+                "Id",
+                "Job Title",
+                "Last Name",
+                "Sub Unit",
+                "Supervisor"
+            ],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
-                "1",
-                "2",
-                "3",
                 "Add",
                 "Reset",
                 "Search",
@@ -692,19 +726,13 @@
                 "Search",
                 "Type for hints..."
             ],
-            "input_names": [],
-            "form_fields": [
-                "Type for hints..."
-            ],
             "navigation": [
                 "Add Employee",
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
                 "Employee List",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "OrangeHRM, Inc",
@@ -718,12 +746,10 @@
             "menu_items": [
                 "Add Employee",
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
                 "Employee List",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -736,7 +762,6 @@
                 "Employee Information",
                 "PIM"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -744,22 +769,52 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
-            "buttons": 8,
-            "inputs": 56,
-            "links": 17,
-            "selects": 0,
-            "textareas": 0,
+            "buttons": 5,
+            "inputs": 29,
+            "links": 15,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
-            "headings": 2,
-            "menus": 14,
-            "validation_messages": 56,
-            "accessibility": 213,
+            "components": {
+                "cards": 20,
+                "grids": 1,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "Anto 10:20 AM M Varghese",
+                "Anto 10:26 AM M Varghese",
+                "Anto 10:28 AM M Varghese",
+                "Anto 10:37 AM M Varghese",
+                "Anto 10:40 AM M Varghese",
+                "Joshua Malfoy",
+                "Sales Representative",
+                "Senior QA Lead",
+                "Senior Support Specialist",
+                "Software Engineer",
+                "test1 user",
+                "test2 user",
+                "test3 user"
+            ],
+            "grid_columns": [
+                "Actions",
+                "Candidate",
+                "Date of Application",
+                "Hiring Manager",
+                "Status",
+                "Vacancy"
+            ],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
-                "1",
-                "2",
                 "Add",
                 "Reset",
                 "Search",
@@ -772,21 +827,12 @@
                 "To",
                 "Type for hints..."
             ],
-            "input_names": [],
-            "form_fields": [
-                "Enter comma seperated words...",
-                "From",
-                "To",
-                "Type for hints..."
-            ],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Candidates",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "OrangeHRM, Inc",
@@ -799,12 +845,10 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Candidates",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -817,7 +861,6 @@
                 "Candidates",
                 "Recruitment"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -825,19 +868,39 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 3,
             "inputs": 2,
-            "links": 15,
-            "selects": 0,
-            "textareas": 0,
+            "links": 13,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
-            "headings": 4,
-            "menus": 12,
-            "validation_messages": 2,
-            "accessibility": 24,
+            "components": {
+                "cards": 4,
+                "grids": 1,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "G shiva Smith",
+                "Select Employee"
+            ],
+            "grid_columns": [
+                "Actions",
+                "Employee Name",
+                "Timesheet Period"
+            ],
+            "grid_actions": [
+                "View"
+            ],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Upgrade",
                 "View"
@@ -846,17 +909,11 @@
                 "Search",
                 "Type for hints..."
             ],
-            "input_names": [],
-            "form_fields": [
-                "Type for hints..."
-            ],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "OrangeHRM, Inc",
@@ -868,11 +925,9 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -886,7 +941,6 @@
                 "Timesheets",
                 "Timesheets Pending Action"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -894,19 +948,51 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 4,
             "inputs": 12,
-            "links": 25,
-            "selects": 0,
-            "textareas": 0,
+            "links": 23,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
-            "headings": 7,
-            "menus": 12,
-            "validation_messages": 12,
-            "accessibility": 42,
+            "components": {
+                "cards": 1,
+                "grids": 1,
+                "tabs": 10
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "G Smith"
+            ],
+            "grid_columns": [
+                "Actions",
+                "Added By",
+                "Date Added",
+                "Description",
+                "File Name",
+                "Size",
+                "Type"
+            ],
+            "grid_actions": [],
+            "tabs": [
+                "Contact Details",
+                "Dependents",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
+                "Memberships",
+                "Personal Details",
+                "Qualifications",
+                "Report-to",
+                "Salary"
+            ],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Add",
                 "Save",
@@ -915,11 +1001,8 @@
             "input_placeholders": [
                 "Search"
             ],
-            "input_names": [],
-            "form_fields": [],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -928,7 +1011,6 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
-                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -945,11 +1027,9 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -962,11 +1042,10 @@
                 "Attachments",
                 "Contact Details",
                 "Email",
+                "G Smith",
                 "PIM",
-                "Telephone",
-                "manda user"
+                "Telephone"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -974,19 +1053,48 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 3,
             "inputs": 3,
-            "links": 25,
-            "selects": 0,
-            "textareas": 0,
+            "links": 23,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
-            "headings": 4,
-            "menus": 12,
-            "validation_messages": 3,
-            "accessibility": 33,
+            "components": {
+                "cards": 1,
+                "grids": 1,
+                "tabs": 10
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "G Smith"
+            ],
+            "grid_columns": [
+                "Actions",
+                "Date of Birth",
+                "Name",
+                "Relationship"
+            ],
+            "grid_actions": [],
+            "tabs": [
+                "Contact Details",
+                "Dependents",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
+                "Memberships",
+                "Personal Details",
+                "Qualifications",
+                "Report-to",
+                "Salary"
+            ],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Add",
                 "Upgrade"
@@ -994,11 +1102,8 @@
             "input_placeholders": [
                 "Search"
             ],
-            "input_names": [],
-            "form_fields": [],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1007,7 +1112,6 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
-                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1024,11 +1128,9 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1039,10 +1141,9 @@
             "headings_text": [
                 "Assigned Dependents",
                 "Attachments",
-                "PIM",
-                "manda user"
+                "G Smith",
+                "PIM"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -1050,19 +1151,50 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 3,
             "inputs": 3,
-            "links": 25,
-            "selects": 0,
-            "textareas": 0,
+            "links": 23,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
-            "headings": 4,
-            "menus": 12,
-            "validation_messages": 3,
-            "accessibility": 33,
+            "components": {
+                "cards": 1,
+                "grids": 1,
+                "tabs": 10
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "G Smith"
+            ],
+            "grid_columns": [
+                "Actions",
+                "Home Telephone",
+                "Mobile",
+                "Name",
+                "Relationship",
+                "Work Telephone"
+            ],
+            "grid_actions": [],
+            "tabs": [
+                "Contact Details",
+                "Dependents",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
+                "Memberships",
+                "Personal Details",
+                "Qualifications",
+                "Report-to",
+                "Salary"
+            ],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Add",
                 "Upgrade"
@@ -1070,11 +1202,8 @@
             "input_placeholders": [
                 "Search"
             ],
-            "input_names": [],
-            "form_fields": [],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1083,7 +1212,6 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
-                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1100,11 +1228,9 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1115,10 +1241,9 @@
             "headings_text": [
                 "Assigned Emergency Contacts",
                 "Attachments",
-                "PIM",
-                "manda user"
+                "G Smith",
+                "PIM"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -1126,19 +1251,52 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 3,
             "inputs": 5,
-            "links": 25,
-            "selects": 0,
-            "textareas": 0,
+            "links": 23,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
-            "headings": 4,
-            "menus": 12,
-            "validation_messages": 5,
-            "accessibility": 40,
+            "components": {
+                "cards": 3,
+                "grids": 1,
+                "tabs": 10
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "G Smith",
+                "Immigration.txt",
+                "Passport"
+            ],
+            "grid_columns": [
+                "Actions",
+                "Document",
+                "Expiry Date",
+                "Issued By",
+                "Issued Date",
+                "Number"
+            ],
+            "grid_actions": [],
+            "tabs": [
+                "Contact Details",
+                "Dependents",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
+                "Memberships",
+                "Personal Details",
+                "Qualifications",
+                "Report-to",
+                "Salary"
+            ],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Add",
                 "Upgrade"
@@ -1146,11 +1304,8 @@
             "input_placeholders": [
                 "Search"
             ],
-            "input_names": [],
-            "form_fields": [],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1159,7 +1314,6 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
-                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1176,11 +1330,9 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1191,10 +1343,9 @@
             "headings_text": [
                 "Assigned Immigration Records",
                 "Attachments",
-                "PIM",
-                "manda user"
+                "G Smith",
+                "PIM"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -1202,19 +1353,51 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 2,
             "inputs": 3,
-            "links": 25,
-            "selects": 0,
-            "textareas": 0,
+            "links": 23,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
-            "headings": 4,
-            "menus": 12,
-            "validation_messages": 3,
-            "accessibility": 31,
+            "components": {
+                "cards": 1,
+                "grids": 1,
+                "tabs": 10
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "G Smith"
+            ],
+            "grid_columns": [
+                "Actions",
+                "Added By",
+                "Date Added",
+                "Description",
+                "File Name",
+                "Size",
+                "Type"
+            ],
+            "grid_actions": [],
+            "tabs": [
+                "Contact Details",
+                "Dependents",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
+                "Memberships",
+                "Personal Details",
+                "Qualifications",
+                "Report-to",
+                "Salary"
+            ],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Upgrade"
             ],
@@ -1222,13 +1405,8 @@
                 "Search",
                 "yyyy-dd-mm"
             ],
-            "input_names": [],
-            "form_fields": [
-                "yyyy-dd-mm"
-            ],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1237,7 +1415,6 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
-                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1254,11 +1431,9 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1268,11 +1443,10 @@
             ],
             "headings_text": [
                 "Attachments",
+                "G Smith",
                 "Job Details",
-                "PIM",
-                "manda user"
+                "PIM"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -1280,19 +1454,52 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 3,
             "inputs": 4,
-            "links": 25,
-            "selects": 0,
-            "textareas": 0,
+            "links": 23,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
-            "headings": 4,
-            "menus": 12,
-            "validation_messages": 4,
-            "accessibility": 37,
+            "components": {
+                "cards": 2,
+                "grids": 1,
+                "tabs": 10
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "G Smith",
+                "abc.txt"
+            ],
+            "grid_columns": [
+                "Actions",
+                "Currency",
+                "Membership",
+                "Subscription Amount",
+                "Subscription Commence Date",
+                "Subscription Paid By",
+                "Subscription Renewal Date"
+            ],
+            "grid_actions": [],
+            "tabs": [
+                "Contact Details",
+                "Dependents",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
+                "Memberships",
+                "Personal Details",
+                "Qualifications",
+                "Report-to",
+                "Salary"
+            ],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Add",
                 "Upgrade"
@@ -1300,11 +1507,8 @@
             "input_placeholders": [
                 "Search"
             ],
-            "input_names": [],
-            "form_fields": [],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1313,7 +1517,6 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
-                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1330,11 +1533,9 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1345,10 +1546,9 @@
             "headings_text": [
                 "Assigned Memberships",
                 "Attachments",
-                "PIM",
-                "manda user"
+                "G Smith",
+                "PIM"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -1356,19 +1556,53 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 4,
             "inputs": 14,
-            "links": 25,
-            "selects": 0,
-            "textareas": 0,
+            "links": 23,
             "forms": 2,
             "tables": 0,
             "dialogs": 0,
-            "headings": 5,
-            "menus": 12,
-            "validation_messages": 14,
-            "accessibility": 48,
+            "components": {
+                "cards": 3,
+                "grids": 1,
+                "tabs": 10
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "Custom Fields",
+                "G Smith",
+                "test.png"
+            ],
+            "grid_columns": [
+                "Actions",
+                "Added By",
+                "Date Added",
+                "Description",
+                "File Name",
+                "Size",
+                "Type"
+            ],
+            "grid_actions": [],
+            "tabs": [
+                "Contact Details",
+                "Dependents",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
+                "Memberships",
+                "Personal Details",
+                "Qualifications",
+                "Report-to",
+                "Salary"
+            ],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Add",
                 "Save",
@@ -1381,23 +1615,8 @@
                 "Search",
                 "yyyy-dd-mm"
             ],
-            "input_names": [
-                "firstName",
-                "lastName",
-                "middleName"
-            ],
-            "form_fields": [
-                "First Name",
-                "Last Name",
-                "Middle Name",
-                "firstName",
-                "lastName",
-                "middleName",
-                "yyyy-dd-mm"
-            ],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1406,7 +1625,6 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
-                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1423,11 +1641,9 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1438,11 +1654,10 @@
             "headings_text": [
                 "Attachments",
                 "Custom Fields",
+                "G Smith",
                 "PIM",
-                "Personal Details",
-                "manda user"
+                "Personal Details"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -1450,19 +1665,57 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 3,
-            "inputs": 10,
-            "links": 25,
-            "selects": 0,
-            "textareas": 0,
+            "inputs": 15,
+            "links": 23,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
-            "headings": 9,
-            "menus": 12,
-            "validation_messages": 10,
-            "accessibility": 50,
+            "components": {
+                "cards": 8,
+                "grids": 1,
+                "tabs": 10
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "Bachelor's Degree",
+                "Certified Digital Marketing Professional (CDMP)",
+                "Certified Information Security Manager (CISM)",
+                "Chinese",
+                "Copywriting",
+                "English",
+                "G Smith",
+                "TCS"
+            ],
+            "grid_columns": [
+                "Actions",
+                "Comment",
+                "Company",
+                "From",
+                "Job Title",
+                "To"
+            ],
+            "grid_actions": [],
+            "tabs": [
+                "Contact Details",
+                "Dependents",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
+                "Memberships",
+                "Personal Details",
+                "Qualifications",
+                "Report-to",
+                "Salary"
+            ],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Add",
                 "Upgrade"
@@ -1470,11 +1723,8 @@
             "input_placeholders": [
                 "Search"
             ],
-            "input_names": [],
-            "form_fields": [],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1483,7 +1733,6 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
-                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1500,11 +1749,9 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1515,15 +1762,14 @@
             "headings_text": [
                 "Attachments",
                 "Education",
+                "G Smith",
                 "Languages",
                 "License",
                 "PIM",
                 "Qualifications",
                 "Skills",
-                "Work Experience",
-                "manda user"
+                "Work Experience"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -1531,30 +1777,54 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 2,
             "inputs": 1,
-            "links": 25,
-            "selects": 0,
-            "textareas": 0,
+            "links": 23,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
-            "headings": 6,
-            "menus": 12,
-            "validation_messages": 1,
-            "accessibility": 29,
+            "components": {
+                "cards": 1,
+                "grids": 1,
+                "tabs": 10
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "G Smith"
+            ],
+            "grid_columns": [
+                "Name",
+                "Reporting Method"
+            ],
+            "grid_actions": [],
+            "tabs": [
+                "Contact Details",
+                "Dependents",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
+                "Memberships",
+                "Personal Details",
+                "Qualifications",
+                "Report-to",
+                "Salary"
+            ],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Upgrade"
             ],
             "input_placeholders": [
                 "Search"
             ],
-            "input_names": [],
-            "form_fields": [],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1563,7 +1833,6 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
-                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1580,11 +1849,9 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1596,11 +1863,10 @@
                 "Assigned Subordinates",
                 "Assigned Supervisors",
                 "Attachments",
+                "G Smith",
                 "PIM",
-                "Report to",
-                "manda user"
+                "Report to"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         },
         {
@@ -1608,30 +1874,57 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "breadcrumbs": [],
             "buttons": 2,
             "inputs": 1,
-            "links": 25,
-            "selects": 0,
-            "textareas": 0,
+            "links": 23,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
-            "headings": 4,
-            "menus": 12,
-            "validation_messages": 1,
-            "accessibility": 29,
+            "components": {
+                "cards": 1,
+                "grids": 1,
+                "tabs": 10
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "G Smith"
+            ],
+            "grid_columns": [
+                "Amount",
+                "Currency",
+                "Direct Deposit Amount",
+                "Pay Frequency",
+                "Salary Component"
+            ],
+            "grid_actions": [],
+            "tabs": [
+                "Contact Details",
+                "Dependents",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
+                "Memberships",
+                "Personal Details",
+                "Qualifications",
+                "Report-to",
+                "Salary"
+            ],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
             "button_texts": [
                 "Upgrade"
             ],
             "input_placeholders": [
                 "Search"
             ],
-            "input_names": [],
-            "form_fields": [],
             "navigation": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1640,7 +1933,6 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
-                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1657,11 +1949,9 @@
             ],
             "menu_items": [
                 "Admin",
-                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1672,10 +1962,9 @@
             "headings_text": [
                 "Assigned Salary Components",
                 "Attachments",
-                "PIM",
-                "manda user"
+                "G Smith",
+                "PIM"
             ],
-            "dialog_titles": [],
             "validation_texts": []
         }
     ],
@@ -1686,8 +1975,7 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1697,19 +1985,7 @@
                 "Button Interaction",
                 "Data Entry",
                 "Form Submission",
-                "Navigation",
-                "Accessibility"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
-            "title": "OrangeHRM",
-            "capabilities": [
-                "Button Interaction",
-                "Data Entry",
-                "Form Submission",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1719,8 +1995,7 @@
                 "Button Interaction",
                 "Data Entry",
                 "Form Submission",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1730,19 +2005,7 @@
                 "Button Interaction",
                 "Data Entry",
                 "Form Submission",
-                "Navigation",
-                "Accessibility"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
-            "title": "OrangeHRM",
-            "capabilities": [
-                "Button Interaction",
-                "Data Entry",
-                "Form Submission",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1752,8 +2015,7 @@
                 "Button Interaction",
                 "Data Entry",
                 "Form Submission",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1763,8 +2025,7 @@
                 "Button Interaction",
                 "Data Entry",
                 "Form Submission",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1774,8 +2035,7 @@
                 "Button Interaction",
                 "Data Entry",
                 "Form Submission",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1785,8 +2045,7 @@
                 "Button Interaction",
                 "Data Entry",
                 "Form Submission",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1796,8 +2055,7 @@
                 "Button Interaction",
                 "Data Entry",
                 "Form Submission",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1807,8 +2065,7 @@
                 "Button Interaction",
                 "Data Entry",
                 "Form Submission",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1818,8 +2075,7 @@
                 "Button Interaction",
                 "Data Entry",
                 "Form Submission",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1828,8 +2084,7 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1838,8 +2093,7 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1848,8 +2102,7 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1859,8 +2112,7 @@
                 "Button Interaction",
                 "Data Entry",
                 "Form Submission",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1869,8 +2121,7 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1880,8 +2131,7 @@
                 "Button Interaction",
                 "Data Entry",
                 "Form Submission",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1890,8 +2140,7 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1900,8 +2149,7 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         },
         {
@@ -1910,8 +2158,7 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Navigation",
-                "Accessibility"
+                "Navigation"
             ]
         }
     ]

@@ -1,4 +1,4 @@
-from typing import Dict, List
+from typing import Dict
 
 
 class KnowledgeBuilder:
@@ -20,17 +20,27 @@ class KnowledgeBuilder:
 
         self.exploration = exploration
 
+
+
     def build(self) -> Dict:
 
-        pages = self.exploration.get("pages", [])
+        pages = self.exploration.get(
+            "pages",
+            []
+        )
+
 
         return {
 
-            "application": self._application(),
+            "application":
+                self._application(),
 
-            "summary": self._summary(pages),
 
-            "pages": [
+            "summary":
+                self._summary(pages),
+
+
+            "pages":[
 
                 self._page(page)
 
@@ -40,6 +50,9 @@ class KnowledgeBuilder:
 
         }
 
+
+
+
     def _application(self):
 
         return self.exploration.get(
@@ -47,97 +60,248 @@ class KnowledgeBuilder:
             {}
         )
 
+
+
+
     def _summary(self, pages):
 
         summary = {
 
             "pages": len(pages),
 
-            "buttons": 0,
+            "buttons":0,
 
-            "inputs": 0,
+            "inputs":0,
 
-            "links": 0,
+            "links":0,
 
-            "forms": 0,
+            "forms":0,
 
-            "tables": 0,
+            "tables":0,
 
-            "dialogs": 0,
+            "dialogs":0,
 
-            "menus": 0,
+            "components":0,
 
-            "headings": 0,
+            "cards":0,
 
-            "validation_messages": 0,
+            "grids":0,
 
-            "accessibility_items": 0
+            "menus":0,
+
+            "headings":0,
+
+            "validation_messages":0,
+
+            "accessibility_items":0
 
         }
 
+
+
         for page in pages:
 
-            elements = page.get("elements", {})
+
+            elements = page.get(
+                "elements",
+                {}
+            )
+
+
+            components = page.get(
+                "components",
+                {}
+            )
+
 
             summary["buttons"] += len(
-                elements.get("buttons", [])
+                elements.get(
+                    "buttons",
+                    []
+                )
             )
+
 
             summary["inputs"] += len(
-                elements.get("inputs", [])
+                elements.get(
+                    "inputs",
+                    []
+                )
             )
+
 
             summary["links"] += len(
-                elements.get("links", [])
+                elements.get(
+                    "links",
+                    []
+                )
             )
+
 
             summary["forms"] += len(
-                page.get("forms", [])
+                page.get(
+                    "forms",
+                    []
+                )
             )
+
 
             summary["tables"] += len(
-                page.get("tables", [])
+                page.get(
+                    "tables",
+                    []
+                )
             )
+
 
             summary["dialogs"] += len(
-                page.get("dialogs", [])
+                page.get(
+                    "dialogs",
+                    []
+                )
             )
+
 
             summary["menus"] += len(
-                page.get("navigation", {}).get("menus", [])
+                page.get(
+                    "navigation",
+                    {}
+                ).get(
+                    "menus",
+                    []
+                )
             )
+
 
             summary["headings"] += len(
-                page.get("headings", [])
+                page.get(
+                    "headings",
+                    []
+                )
             )
+
 
             summary["validation_messages"] += len(
-                page.get("validations", [])
+                page.get(
+                    "validations",
+                    []
+                )
             )
 
+
             summary["accessibility_items"] += len(
-                page.get("accessibility", [])
+                page.get(
+                    "accessibility",
+                    []
+                )
             )
+
+
+
+            summary["cards"] += len(
+                components.get(
+                    "cards",
+                    []
+                )
+            )
+
+
+            summary["grids"] += len(
+                components.get(
+                    "data_grids",
+                    []
+                )
+            )
+
+
+            summary["components"] += (
+
+                len(
+                    components.get(
+                        "cards",
+                        []
+                    )
+                )
+
+                +
+
+                len(
+                    components.get(
+                        "data_grids",
+                        []
+                    )
+                )
+
+                +
+
+                len(
+                    components.get(
+                        "dialogs",
+                        []
+                    )
+                )
+
+            )
+
+
 
         return summary
 
-    def _page(self, page):
 
-        elements = page.get("elements", {})
 
-        buttons = elements.get("buttons", [])
 
-        inputs = elements.get("inputs", [])
 
-        links = elements.get("links", [])
 
-        forms = page.get("forms", [])
+    def _page(self,page):
 
-        headings = page.get("headings", [])
 
-        dialogs = page.get("dialogs", [])
+        elements = page.get(
+            "elements",
+            {}
+        )
 
-        validations = page.get("validations", [])
+
+        buttons = elements.get(
+            "buttons",
+            []
+        )
+
+
+        inputs = elements.get(
+            "inputs",
+            []
+        )
+
+
+        links = elements.get(
+            "links",
+            []
+        )
+
+
+        forms = page.get(
+            "forms",
+            []
+        )
+
+
+        headings = page.get(
+            "headings",
+            []
+        )
+
+
+        dialogs = page.get(
+            "dialogs",
+            []
+        )
+
+
+        validations = page.get(
+            "validations",
+            []
+        )
+
 
         menus = page.get(
             "navigation",
@@ -147,213 +311,382 @@ class KnowledgeBuilder:
             []
         )
 
+
+        components = page.get(
+            "components",
+            {}
+        )
+
+
+
+        cards = components.get(
+            "cards",
+            []
+        )
+
+
+        grids = components.get(
+            "data_grids",
+            []
+        )
+
+
+
         return {
 
-            # --------------------------------
-
-            # Basic
-
-            # --------------------------------
 
             "url":
 
-                page.get("page", {}).get("url"),
+                page.get(
+                    "page",
+                    {}
+                ).get(
+                    "url"
+                ),
+
+
 
             "title":
 
-                page.get("page", {}).get("title"),
+                page.get(
+                    "page",
+                    {}
+                ).get(
+                    "title"
+                ),
+
+
 
             "page_type":
 
-                page.get("page", {}).get("page_type", ""),
+                page.get(
+                    "page",
+                    {}
+                ).get(
+                    "page_type",
+                    ""
+                ),
+
+
 
             "description":
 
-                page.get("page", {}).get("description", ""),
+                page.get(
+                    "page",
+                    {}
+                ).get(
+                    "description",
+                    ""
+                ),
 
-            "breadcrumbs":
 
-                page.get("page", {}).get("breadcrumbs", []),
 
-            # --------------------------------
 
             # Counts
 
-            # --------------------------------
-
             "buttons":
-
                 len(buttons),
 
-            "inputs":
 
+            "inputs":
                 len(inputs),
 
-            "links":
 
+            "links":
                 len(links),
 
-            "selects":
-
-                len(elements.get("selects", [])),
-
-            "textareas":
-
-                len(elements.get("textareas", [])),
 
             "forms":
-
                 len(forms),
 
-            "tables":
 
-                len(page.get("tables", [])),
+            "tables":
+                len(page.get(
+                    "tables",
+                    []
+                )),
+
 
             "dialogs":
-
                 len(dialogs),
 
-            "headings":
 
-                len(headings),
 
-            "menus":
+            "components":
 
-                len(menus),
+            {
 
-            "validation_messages":
+                "cards":
 
-                len(validations),
+                    len(cards),
 
-            "accessibility":
 
-                len(page.get("accessibility", [])),
+                "grids":
 
-            # --------------------------------
+                    len(grids),
 
-            # Smart Knowledge
 
-            # --------------------------------
+                "tabs":
 
-            "button_texts":
+                    len(
+                        components.get(
+                            "tabs",
+                            []
+                        )
+                    )
 
-                sorted({
+            },
 
-                    b.get("text", "").strip()
 
-                    for b in buttons
 
-                    if b.get("text", "").strip()
 
-                }),
+            # -------------------------
+            # Component Knowledge
+            # -------------------------
 
-            "input_placeholders":
 
-                sorted({
-
-                    i.get("placeholder", "").strip()
-
-                    for i in inputs
-
-                    if i.get("placeholder")
-
-                }),
-
-            "input_names":
+            "component_types":
 
                 sorted({
 
-                    i.get("name", "").strip()
+                    c.get(
+                        "type"
+                    )
 
-                    for i in inputs
+                    for c in cards
 
-                    if i.get("name")
+                    if c.get("type")
 
                 }),
 
-            "form_fields":
+
+
+            "card_titles":
 
                 sorted({
 
-                    value.strip()
+                    c.get(
+                        "title",
+                        ""
+                    )
 
-                    for form in forms
+                    for c in cards
 
-                    for field in form.get("fields", [])
-
-                    for value in [
-
-                        field.get("placeholder"),
-
-                        field.get("label"),
-
-                        field.get("name"),
-
-                        field.get("id")
-
-                    ]
-
-                    if value and value.strip()
+                    if c.get(
+                        "title"
+                    )
 
                 }),
 
-            "navigation":
+
+
+
+            "grid_columns":
 
                 sorted({
 
-                    l.get("text", "").strip()
+                    column
 
-                    for l in links
+                    for grid in grids
 
-                    if l.get("text", "").strip()
+                    for column in grid.get(
+                        "columns",
+                        []
+                    )
 
                 }),
 
-            "menu_items":
+
+
+
+            "grid_actions":
 
                 sorted({
 
-                    m.get("text", "").strip()
+                    action
 
-                    for m in menus
+                    for grid in grids
 
-                    if m.get("text", "").strip()
-
-                }),
-
-            "headings_text":
-
-                sorted({
-
-                    h.get("text", "").strip()
-
-                    for h in headings
-
-                    if h.get("text", "").strip()
+                    for action in grid.get(
+                        "actions",
+                        []
+                    )
 
                 }),
+
+
+
+            "tabs":
+
+                sorted(
+
+                    components.get(
+                        "tabs",
+                        []
+                    )
+
+                ),
+
+
+
 
             "dialog_titles":
 
                 sorted({
 
-                    d.get("title", "").strip()
+                    d.get(
+                        "title",
+                        ""
+                    )
 
-                    for d in dialogs
+                    for d in components.get(
+                        "dialogs",
+                        []
+                    )
 
-                    if d.get("title", "").strip()
+                    if d.get(
+                        "title"
+                    )
 
                 }),
+
+
+
+
+            "dropdowns":
+
+                components.get(
+                    "dropdowns",
+                    {}
+
+                ),
+
+
+
+
+
+            # -------------------------
+            # Existing Knowledge
+            # -------------------------
+
+
+            "button_texts":
+
+                sorted({
+
+                    b.get(
+                        "text",
+                        ""
+                    ).strip()
+
+                    for b in buttons
+
+                    if b.get(
+                        "text",
+                        ""
+                    ).strip()
+
+                }),
+
+
+
+
+            "input_placeholders":
+
+                sorted({
+
+                    i.get(
+                        "placeholder",
+                        ""
+                    ).strip()
+
+                    for i in inputs
+
+                    if i.get(
+                        "placeholder"
+                    )
+
+                }),
+
+
+
+
+            "navigation":
+
+                sorted({
+
+                    l.get(
+                        "text",
+                        ""
+                    ).strip()
+
+                    for l in links
+
+                    if l.get(
+                        "text",
+                        ""
+                    ).strip()
+
+                }),
+
+
+
+
+            "menu_items":
+
+                sorted({
+
+                    m.get(
+                        "text",
+                        ""
+                    ).strip()
+
+                    for m in menus
+
+                    if m.get(
+                        "text",
+                        ""
+                    ).strip()
+
+                }),
+
+
+
+
+            "headings_text":
+
+                sorted({
+
+                    h.get(
+                        "text",
+                        ""
+                    ).strip()
+
+                    for h in headings
+
+                    if h.get(
+                        "text"
+                    )
+
+                }),
+
+
+
 
             "validation_texts":
 
                 sorted({
 
-                    v.get("text", "").strip()
+                    v.get(
+                        "text",
+                        ""
+                    ).strip()
 
                     for v in validations
 
-                    if v.get("text", "").strip()
+                    if v.get(
+                        "text"
+                    )
 
                 })
 

@@ -1,24 +1,24 @@
 {
     "application": {
         "base_url": "https://opensource-demo.orangehrmlive.com",
-        "generated_at": "2026-07-18T19:41:34.980427",
-        "pages_count": 20
+        "generated_at": "2026-07-20T10:56:30.177585",
+        "pages_count": 22
     },
     "summary": {
-        "pages": 20,
-        "buttons": 69,
-        "inputs": 190,
-        "links": 371,
-        "forms": 14,
+        "pages": 22,
+        "buttons": 90,
+        "inputs": 256,
+        "links": 443,
+        "forms": 16,
         "tables": 0,
         "dialogs": 0,
-        "components": 205,
-        "cards": 169,
-        "grids": 17,
-        "menus": 203,
-        "headings": 76,
-        "validation_messages": 190,
-        "accessibility_items": 892
+        "components": 255,
+        "cards": 216,
+        "grids": 18,
+        "menus": 269,
+        "headings": 79,
+        "validation_messages": 257,
+        "accessibility_items": 1196
     },
     "features": [
         {
@@ -50,6 +50,21 @@
             ]
         },
         {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Buzz Feed",
+                "Data Entry",
+                "Form Management",
+                "Navigation",
+                "Photo Upload",
+                "Post Management",
+                "Search",
+                "Video Upload"
+            ]
+        },
+        {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
             "title": "OrangeHRM",
             "features": [
@@ -73,6 +88,21 @@
                 "Data Entry",
                 "Employee Directory",
                 "Form Management",
+                "Navigation",
+                "Reset Forms",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+            "title": "OrangeHRM",
+            "features": [
+                "Auto Complete",
+                "Button Actions",
+                "Data Entry",
+                "Data Persistence",
+                "Form Management",
+                "Leave Management",
                 "Navigation",
                 "Reset Forms",
                 "Search"

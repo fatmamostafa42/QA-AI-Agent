@@ -1,24 +1,24 @@
 {
     "application": {
         "base_url": "https://opensource-demo.orangehrmlive.com",
-        "generated_at": "2026-07-18T19:41:34.980427",
-        "pages_count": 20
+        "generated_at": "2026-07-20T10:56:30.177585",
+        "pages_count": 22
     },
     "summary": {
-        "pages": 20,
-        "buttons": 69,
-        "inputs": 190,
-        "links": 371,
-        "forms": 14,
+        "pages": 22,
+        "buttons": 90,
+        "inputs": 256,
+        "links": 443,
+        "forms": 16,
         "tables": 0,
         "dialogs": 0,
-        "components": 205,
-        "cards": 169,
-        "grids": 17,
-        "menus": 203,
-        "headings": 76,
-        "validation_messages": 190,
-        "accessibility_items": 892
+        "components": 255,
+        "cards": 216,
+        "grids": 18,
+        "menus": 269,
+        "headings": 79,
+        "validation_messages": 257,
+        "accessibility_items": 1196
     },
     "pages": [
         {
@@ -28,12 +28,12 @@
             "description": "",
             "buttons": 2,
             "inputs": 1,
-            "links": 13,
+            "links": 15,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 36,
+                "cards": 42,
                 "grids": 0,
                 "tabs": 0
             },
@@ -41,28 +41,31 @@
                 "card"
             ],
             "card_titles": [
-                "(1) Candidate to Interview",
-                "0h 0m",
-                "0h 45m Today",
-                "2020-08-10 05:38 AM",
-                "2026-18-07 09:32 PM",
+                "(1) Pending Self Review",
+                "04145",
+                "0h 9m",
+                "0h 9m Today",
+                "20-07-2026 01:42 PM",
+                "20-07-2026 01:46 PM",
                 "Apply Leave",
                 "Assign Leave",
                 "Buzz Latest Posts",
+                "CAN - Bereavement (Half Day - Morning)",
                 "Employees on Leave Today",
-                "G shiva Smith",
-                "Hi All;",
-                "Ja na be",
+                "GoodWork",
+                "Hi Hello Good Morning",
                 "Leave List",
                 "My Actions",
                 "My Leave",
                 "My Timesheet",
-                "Punched In",
-                "Punched In: Today at 09:56 PM (GMT 3)",
+                "Punched Out",
+                "Punched Out: Today at 05:13 PM (GMT 3)",
                 "Quick Launch",
                 "This Week",
+                "Thomas Kutty Benny",
                 "Time at Work",
-                "Timesheets"
+                "Timesheets",
+                "zayn safi"
             ],
             "grid_columns": [],
             "grid_actions": [],
@@ -81,9 +84,11 @@
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "OrangeHRM, Inc",
@@ -95,9 +100,11 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -116,13 +123,13 @@
             "page_type": "",
             "description": "",
             "buttons": 5,
-            "inputs": 15,
-            "links": 15,
+            "inputs": 51,
+            "links": 17,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 11,
+                "cards": 47,
                 "grids": 1,
                 "tabs": 0
             },
@@ -131,16 +138,52 @@
             ],
             "card_titles": [
                 "Admin",
-                "TestPruebaDrive123",
-                "aly salem1784400906927",
-                "asd123",
-                "bassem",
-                "bassemm",
-                "parasoli",
-                "test_user_employee1784403476",
-                "test_user_employee1784403506",
-                "testa",
-                "testasd"
+                "AyeshaBegum",
+                "Darshan",
+                "Darshan1784543615649",
+                "Darshan1784544148724",
+                "Darshan1784544414619",
+                "Darshan_Test01",
+                "Demon",
+                "FMLName",
+                "FMLName1",
+                "Idhaya M",
+                "Jobinsam@6742",
+                "JohnEmi",
+                "JohnJose",
+                "JojoChen",
+                "Joseph J",
+                "KalaivaniGiri",
+                "Pratik",
+                "Radhika",
+                "Rajosh",
+                "Remon17166656675",
+                "Rohan",
+                "Rohan5",
+                "SaviShree",
+                "Shobs1!",
+                "Subha",
+                "Sumitpadhiyar",
+                "Vighnesh",
+                "Welcome",
+                "abcdef",
+                "abcdefg",
+                "ahmed19",
+                "ahmed722",
+                "amr.diab",
+                "aryan123",
+                "ewqwqeqw123",
+                "johnnycontreras",
+                "khaled.magdy",
+                "khaled.magdy.admin",
+                "mohamed.ramadan",
+                "om123",
+                "robertwagner",
+                "sarah79",
+                "shama1",
+                "shlokmahadeshwar",
+                "swaraj",
+                "tamilkumar"
             ],
             "grid_columns": [
                 "Actions",
@@ -169,10 +212,12 @@
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Corporate Branding",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "Nationalities",
@@ -185,10 +230,12 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Corporate Branding",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "Nationalities",
@@ -205,18 +252,97 @@
             "validation_texts": []
         },
         {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+            "title": "OrangeHRM",
+            "page_type": "",
+            "description": "",
+            "buttons": 8,
+            "inputs": 1,
+            "links": 15,
+            "forms": 1,
+            "tables": 0,
+            "dialogs": 0,
+            "components": {
+                "cards": 2,
+                "grids": 0,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "Buzz Newsfeed",
+                "Upcoming Anniversaries"
+            ],
+            "grid_columns": [],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
+            "button_texts": [
+                "Most Commented Posts",
+                "Most Liked Posts",
+                "Most Recent Posts",
+                "Post",
+                "Share Photos",
+                "Share Video",
+                "Upgrade"
+            ],
+            "input_placeholders": [
+                "Search"
+            ],
+            "navigation": [
+                "Admin",
+                "Buzz",
+                "Claim",
+                "Dashboard",
+                "Directory",
+                "Leave",
+                "Maintenance",
+                "My Info",
+                "OrangeHRM, Inc",
+                "PIM",
+                "Performance",
+                "Recruitment",
+                "Time",
+                "Upgrade"
+            ],
+            "menu_items": [
+                "Admin",
+                "Buzz",
+                "Claim",
+                "Dashboard",
+                "Directory",
+                "Leave",
+                "Maintenance",
+                "My Info",
+                "PIM",
+                "Performance",
+                "Recruitment",
+                "Time"
+            ],
+            "headings_text": [
+                "Buzz"
+            ],
+            "validation_texts": []
+        },
+        {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
             "buttons": 6,
             "inputs": 5,
-            "links": 17,
+            "links": 19,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 9,
+                "cards": 8,
                 "grids": 1,
                 "tabs": 0
             },
@@ -227,9 +353,8 @@
                 "202307180000001",
                 "202307180000002",
                 "202307180000003",
-                "202607180000007",
-                "202607180000008",
-                "202607180000009",
+                "202607200000007",
+                "202607200000008",
                 "Accommodation",
                 "Medical Reimbursement",
                 "Travel Allowance"
@@ -266,15 +391,17 @@
             "input_placeholders": [
                 "Search",
                 "Type for hints...",
-                "yyyy-dd-mm"
+                "dd-mm-yyyy"
             ],
             "navigation": [
                 "Admin",
                 "Assign Claim",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
                 "Employee Claims",
+                "Leave",
                 "Maintenance",
                 "My Claims",
                 "My Info",
@@ -289,10 +416,12 @@
             "menu_items": [
                 "Admin",
                 "Assign Claim",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
                 "Employee Claims",
+                "Leave",
                 "Maintenance",
                 "My Claims",
                 "My Info",
@@ -315,12 +444,12 @@
             "description": "",
             "buttons": 4,
             "inputs": 2,
-            "links": 13,
+            "links": 15,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 14,
+                "cards": 15,
                 "grids": 0,
                 "tabs": 0
             },
@@ -328,20 +457,19 @@
                 "card"
             ],
             "card_titles": [
-                "Jane Doe",
-                "John Doe-ourjsi",
-                "Linda Anderson",
-                "Sam Mathur Florek",
-                "Sheri Hills",
-                "Test User Employee1784403476",
-                "Test User Employee1784403506",
-                "Test User Employee1784403698",
-                "TestEmployee 1784403497785",
-                "bassem hazem",
-                "kmya 43 43",
-                "mariam maged afram",
-                "nomiuc def",
-                "sdf asd"
+                "Administration",
+                "Ayesha Begum",
+                "Chief Financial Officer",
+                "John Basil",
+                "New York Sales Office",
+                "Petefiza Mac Anderson",
+                "Ranga Akunuri",
+                "Ravi M B",
+                "Rohan Suresh Algude",
+                "Timothy Lewis Amiano",
+                "admin Admin123",
+                "aman aman aman",
+                "yedghjb1 ru84 90jsnd"
             ],
             "grid_columns": [],
             "grid_actions": [],
@@ -363,9 +491,11 @@
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "OrangeHRM, Inc",
@@ -377,9 +507,11 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -389,6 +521,96 @@
             ],
             "headings_text": [
                 "Directory"
+            ],
+            "validation_texts": []
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+            "title": "OrangeHRM",
+            "page_type": "",
+            "description": "",
+            "buttons": 4,
+            "inputs": 6,
+            "links": 19,
+            "forms": 1,
+            "tables": 0,
+            "dialogs": 0,
+            "components": {
+                "cards": 0,
+                "grids": 1,
+                "tabs": 0
+            },
+            "component_types": [],
+            "card_titles": [],
+            "grid_columns": [
+                "Actions",
+                "Comments",
+                "Date",
+                "Employee Name",
+                "Leave Balance (Days)",
+                "Leave Type",
+                "Number of Days",
+                "Status"
+            ],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
+            "button_texts": [
+                "Reset",
+                "Search",
+                "Upgrade"
+            ],
+            "input_placeholders": [
+                "Search",
+                "Type for hints...",
+                "dd-mm-yyyy"
+            ],
+            "navigation": [
+                "Admin",
+                "Apply",
+                "Assign Leave",
+                "Buzz",
+                "Claim",
+                "Dashboard",
+                "Directory",
+                "Leave",
+                "Leave List",
+                "Maintenance",
+                "My Info",
+                "My Leave",
+                "OrangeHRM, Inc",
+                "PIM",
+                "Performance",
+                "Recruitment",
+                "Time",
+                "Upgrade"
+            ],
+            "menu_items": [
+                "Admin",
+                "Apply",
+                "Assign Leave",
+                "Buzz",
+                "Claim",
+                "Dashboard",
+                "Directory",
+                "Leave",
+                "Leave List",
+                "Maintenance",
+                "My Info",
+                "My Leave",
+                "PIM",
+                "Performance",
+                "Recruitment",
+                "Time"
+            ],
+            "headings_text": [
+                "Leave",
+                "Leave List"
             ],
             "validation_texts": []
         },
@@ -444,7 +666,7 @@
             "description": "",
             "buttons": 4,
             "inputs": 4,
-            "links": 15,
+            "links": 17,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
@@ -480,14 +702,16 @@
             "input_placeholders": [
                 "Search",
                 "Type for hints...",
-                "yyyy-dd-mm"
+                "dd-mm-yyyy"
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
                 "Employee Trackers",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "My Trackers",
@@ -500,10 +724,12 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
                 "Employee Trackers",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "My Trackers",
@@ -526,7 +752,7 @@
             "description": "",
             "buttons": 4,
             "inputs": 14,
-            "links": 23,
+            "links": 25,
             "forms": 2,
             "tables": 0,
             "dialogs": 0,
@@ -539,8 +765,8 @@
                 "card"
             ],
             "card_titles": [
+                "Atharv urawane",
                 "Custom Fields",
-                "G Smith",
                 "test.png"
             ],
             "grid_columns": [
@@ -581,10 +807,11 @@
                 "Last Name",
                 "Middle Name",
                 "Search",
-                "yyyy-dd-mm"
+                "dd-mm-yyyy"
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -593,6 +820,7 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
+                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -609,9 +837,11 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -620,9 +850,9 @@
                 "Time"
             ],
             "headings_text": [
+                "Atharv urawane",
                 "Attachments",
                 "Custom Fields",
-                "G Smith",
                 "PIM",
                 "Personal Details"
             ],
@@ -633,14 +863,14 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "buttons": 5,
-            "inputs": 54,
-            "links": 16,
+            "buttons": 10,
+            "inputs": 55,
+            "links": 18,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 49,
+                "cards": 41,
                 "grids": 1,
                 "tabs": 0
             },
@@ -648,55 +878,41 @@
                 "card"
             ],
             "card_titles": [
-                "0400",
-                "0401",
-                "0403",
-                "0404",
-                "0408",
-                "0411",
+                "00392",
+                "0290",
+                "0292",
+                "0294",
+                "0303",
+                "0320",
+                "0360",
+                "0363",
+                "0367",
+                "0378",
+                "0382",
+                "0383",
+                "0384",
+                "0387",
+                "0393",
+                "0402",
+                "0407",
+                "0412",
+                "0420",
+                "04221",
                 "0426",
+                "0427",
+                "0430",
+                "04329",
                 "0434",
-                "0436",
-                "0437",
-                "0440",
+                "0442",
                 "0443",
-                "0446",
-                "0452",
-                "0453",
-                "0454",
-                "0454789",
-                "0459",
-                "0461",
-                "04645",
-                "0470403476",
-                "0471",
-                "0472403506",
-                "0476",
-                "0477",
-                "0477403698",
-                "0478",
-                "0479",
-                "0480",
-                "0480403730",
-                "0482",
-                "097809",
-                "1784399676",
-                "1784400282",
-                "259",
-                "27644",
-                "3475",
-                "409",
-                "43463",
-                "43567781",
-                "54366",
-                "56986212",
-                "69598",
-                "72327",
-                "78809",
-                "80439",
-                "8305",
-                "8909",
-                "94412"
+                "0445",
+                "09557",
+                "0999",
+                "1235",
+                "5481",
+                "9876543210",
+                "ATPValue",
+                "Rohan1"
             ],
             "grid_columns": [
                 "Actions",
@@ -717,6 +933,10 @@
                 "custom_dropdowns": 0
             },
             "button_texts": [
+                "1",
+                "2",
+                "3",
+                "4",
                 "Add",
                 "Reset",
                 "Search",
@@ -729,10 +949,12 @@
             "navigation": [
                 "Add Employee",
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
                 "Employee List",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "OrangeHRM, Inc",
@@ -746,10 +968,12 @@
             "menu_items": [
                 "Add Employee",
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
                 "Employee List",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -769,14 +993,14 @@
             "title": "OrangeHRM",
             "page_type": "",
             "description": "",
-            "buttons": 5,
-            "inputs": 29,
-            "links": 15,
+            "buttons": 9,
+            "inputs": 56,
+            "links": 17,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 20,
+                "cards": 33,
                 "grids": 1,
                 "tabs": 0
             },
@@ -784,19 +1008,16 @@
                 "card"
             ],
             "card_titles": [
-                "Anto 10:20 AM M Varghese",
-                "Anto 10:26 AM M Varghese",
-                "Anto 10:28 AM M Varghese",
-                "Anto 10:37 AM M Varghese",
-                "Anto 10:40 AM M Varghese",
-                "Joshua Malfoy",
-                "Sales Representative",
+                "Junior Account Assistant",
+                "Payroll Administrator",
+                "QA engineer",
                 "Senior QA Lead",
-                "Senior Support Specialist",
                 "Software Engineer",
-                "test1 user",
-                "test2 user",
-                "test3 user"
+                "Tanmay Anderson O'Keefe",
+                "Tanmay sree Dachu",
+                "Tejesh1784545040763 Kumar",
+                "test norhan",
+                "test try"
             ],
             "grid_columns": [
                 "Actions",
@@ -815,6 +1036,9 @@
                 "custom_dropdowns": 0
             },
             "button_texts": [
+                "1",
+                "2",
+                "3",
                 "Add",
                 "Reset",
                 "Search",
@@ -829,10 +1053,12 @@
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Candidates",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "OrangeHRM, Inc",
@@ -845,10 +1071,12 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Candidates",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -870,12 +1098,12 @@
             "description": "",
             "buttons": 3,
             "inputs": 2,
-            "links": 13,
+            "links": 15,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 4,
+                "cards": 5,
                 "grids": 1,
                 "tabs": 0
             },
@@ -883,7 +1111,7 @@
                 "card"
             ],
             "card_titles": [
-                "G shiva Smith",
+                "Atharv suhas urawane",
                 "Select Employee"
             ],
             "grid_columns": [
@@ -911,9 +1139,11 @@
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "OrangeHRM, Inc",
@@ -925,9 +1155,11 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -950,7 +1182,7 @@
             "description": "",
             "buttons": 4,
             "inputs": 12,
-            "links": 23,
+            "links": 25,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
@@ -963,7 +1195,7 @@
                 "card"
             ],
             "card_titles": [
-                "G Smith"
+                "Atharv urawane"
             ],
             "grid_columns": [
                 "Actions",
@@ -1003,6 +1235,7 @@
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1011,6 +1244,7 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
+                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1027,9 +1261,11 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1039,10 +1275,10 @@
             ],
             "headings_text": [
                 "Address",
+                "Atharv urawane",
                 "Attachments",
                 "Contact Details",
                 "Email",
-                "G Smith",
                 "PIM",
                 "Telephone"
             ],
@@ -1055,7 +1291,7 @@
             "description": "",
             "buttons": 3,
             "inputs": 3,
-            "links": 23,
+            "links": 25,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
@@ -1068,7 +1304,7 @@
                 "card"
             ],
             "card_titles": [
-                "G Smith"
+                "Atharv urawane"
             ],
             "grid_columns": [
                 "Actions",
@@ -1104,6 +1340,7 @@
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1112,6 +1349,7 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
+                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1128,9 +1366,11 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1140,8 +1380,8 @@
             ],
             "headings_text": [
                 "Assigned Dependents",
+                "Atharv urawane",
                 "Attachments",
-                "G Smith",
                 "PIM"
             ],
             "validation_texts": []
@@ -1153,7 +1393,7 @@
             "description": "",
             "buttons": 3,
             "inputs": 3,
-            "links": 23,
+            "links": 25,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
@@ -1166,7 +1406,7 @@
                 "card"
             ],
             "card_titles": [
-                "G Smith"
+                "Atharv urawane"
             ],
             "grid_columns": [
                 "Actions",
@@ -1204,6 +1444,7 @@
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1212,6 +1453,7 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
+                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1228,9 +1470,11 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1240,8 +1484,8 @@
             ],
             "headings_text": [
                 "Assigned Emergency Contacts",
+                "Atharv urawane",
                 "Attachments",
-                "G Smith",
                 "PIM"
             ],
             "validation_texts": []
@@ -1253,7 +1497,7 @@
             "description": "",
             "buttons": 3,
             "inputs": 5,
-            "links": 23,
+            "links": 25,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
@@ -1266,7 +1510,7 @@
                 "card"
             ],
             "card_titles": [
-                "G Smith",
+                "Atharv urawane",
                 "Immigration.txt",
                 "Passport"
             ],
@@ -1306,6 +1550,7 @@
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1314,6 +1559,7 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
+                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1330,9 +1576,11 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1342,8 +1590,8 @@
             ],
             "headings_text": [
                 "Assigned Immigration Records",
+                "Atharv urawane",
                 "Attachments",
-                "G Smith",
                 "PIM"
             ],
             "validation_texts": []
@@ -1355,7 +1603,7 @@
             "description": "",
             "buttons": 2,
             "inputs": 3,
-            "links": 23,
+            "links": 25,
             "forms": 1,
             "tables": 0,
             "dialogs": 0,
@@ -1368,7 +1616,7 @@
                 "card"
             ],
             "card_titles": [
-                "G Smith"
+                "Atharv urawane"
             ],
             "grid_columns": [
                 "Actions",
@@ -1403,10 +1651,11 @@
             ],
             "input_placeholders": [
                 "Search",
-                "yyyy-dd-mm"
+                "dd-mm-yyyy"
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1415,6 +1664,7 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
+                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1431,9 +1681,11 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1442,8 +1694,8 @@
                 "Time"
             ],
             "headings_text": [
+                "Atharv urawane",
                 "Attachments",
-                "G Smith",
                 "Job Details",
                 "PIM"
             ],
@@ -1456,7 +1708,7 @@
             "description": "",
             "buttons": 3,
             "inputs": 4,
-            "links": 23,
+            "links": 25,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
@@ -1469,7 +1721,7 @@
                 "card"
             ],
             "card_titles": [
-                "G Smith",
+                "Atharv urawane",
                 "abc.txt"
             ],
             "grid_columns": [
@@ -1509,6 +1761,7 @@
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1517,6 +1770,7 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
+                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1533,9 +1787,11 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1545,8 +1801,8 @@
             ],
             "headings_text": [
                 "Assigned Memberships",
+                "Atharv urawane",
                 "Attachments",
-                "G Smith",
                 "PIM"
             ],
             "validation_texts": []
@@ -1558,7 +1814,7 @@
             "description": "",
             "buttons": 4,
             "inputs": 14,
-            "links": 23,
+            "links": 25,
             "forms": 2,
             "tables": 0,
             "dialogs": 0,
@@ -1571,8 +1827,8 @@
                 "card"
             ],
             "card_titles": [
+                "Atharv urawane",
                 "Custom Fields",
-                "G Smith",
                 "test.png"
             ],
             "grid_columns": [
@@ -1613,10 +1869,11 @@
                 "Last Name",
                 "Middle Name",
                 "Search",
-                "yyyy-dd-mm"
+                "dd-mm-yyyy"
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1625,6 +1882,7 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
+                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1641,9 +1899,11 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1652,9 +1912,9 @@
                 "Time"
             ],
             "headings_text": [
+                "Atharv urawane",
                 "Attachments",
                 "Custom Fields",
-                "G Smith",
                 "PIM",
                 "Personal Details"
             ],
@@ -1666,13 +1926,13 @@
             "page_type": "",
             "description": "",
             "buttons": 3,
-            "inputs": 15,
-            "links": 23,
+            "inputs": 10,
+            "links": 25,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 8,
+                "cards": 4,
                 "grids": 1,
                 "tabs": 10
             },
@@ -1680,13 +1940,9 @@
                 "card"
             ],
             "card_titles": [
+                "Atharv urawane",
                 "Bachelor's Degree",
-                "Certified Digital Marketing Professional (CDMP)",
-                "Certified Information Security Manager (CISM)",
-                "Chinese",
-                "Copywriting",
                 "English",
-                "G Smith",
                 "TCS"
             ],
             "grid_columns": [
@@ -1725,6 +1981,7 @@
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1733,6 +1990,7 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
+                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1749,9 +2007,11 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1760,9 +2020,9 @@
                 "Time"
             ],
             "headings_text": [
+                "Atharv urawane",
                 "Attachments",
                 "Education",
-                "G Smith",
                 "Languages",
                 "License",
                 "PIM",
@@ -1779,12 +2039,12 @@
             "description": "",
             "buttons": 2,
             "inputs": 1,
-            "links": 23,
+            "links": 25,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 1,
+                "cards": 2,
                 "grids": 1,
                 "tabs": 10
             },
@@ -1792,7 +2052,8 @@
                 "card"
             ],
             "card_titles": [
-                "G Smith"
+                "Atharv urawane",
+                "Sara Tencrady"
             ],
             "grid_columns": [
                 "Name",
@@ -1825,6 +2086,7 @@
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1833,6 +2095,7 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
+                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1849,9 +2112,11 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1862,8 +2127,8 @@
             "headings_text": [
                 "Assigned Subordinates",
                 "Assigned Supervisors",
+                "Atharv urawane",
                 "Attachments",
-                "G Smith",
                 "PIM",
                 "Report to"
             ],
@@ -1876,7 +2141,7 @@
             "description": "",
             "buttons": 2,
             "inputs": 1,
-            "links": 23,
+            "links": 25,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
@@ -1889,7 +2154,7 @@
                 "card"
             ],
             "card_titles": [
-                "G Smith"
+                "Atharv urawane"
             ],
             "grid_columns": [
                 "Amount",
@@ -1925,6 +2190,7 @@
             ],
             "navigation": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Contact Details",
                 "Dashboard",
@@ -1933,6 +2199,7 @@
                 "Emergency Contacts",
                 "Immigration",
                 "Job",
+                "Leave",
                 "Maintenance",
                 "Memberships",
                 "My Info",
@@ -1949,9 +2216,11 @@
             ],
             "menu_items": [
                 "Admin",
+                "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
+                "Leave",
                 "Maintenance",
                 "My Info",
                 "PIM",
@@ -1961,8 +2230,8 @@
             ],
             "headings_text": [
                 "Assigned Salary Components",
+                "Atharv urawane",
                 "Attachments",
-                "G Smith",
                 "PIM"
             ],
             "validation_texts": []

@@ -1,39 +1,39 @@
 {
     "application": {
         "base_url": "https://opensource-demo.orangehrmlive.com",
-        "generated_at": "2026-07-20T10:56:30.177585",
-        "pages_count": 22
+        "generated_at": "2026-07-20T22:54:21.802347",
+        "pages_count": 21
     },
     "summary": {
-        "pages": 22,
-        "buttons": 90,
-        "inputs": 256,
-        "links": 443,
-        "forms": 16,
+        "pages": 21,
+        "buttons": 125,
+        "inputs": 48,
+        "links": 398,
+        "forms": 0,
         "tables": 0,
         "dialogs": 0,
-        "components": 255,
-        "cards": 216,
-        "grids": 18,
-        "menus": 269,
-        "headings": 79,
-        "validation_messages": 257,
-        "accessibility_items": 1196
+        "components": 224,
+        "cards": 187,
+        "grids": 17,
+        "menus": 346,
+        "headings": 74,
+        "validation_messages": 227,
+        "accessibility_items": 1101
     },
     "pages": [
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "dashboard",
             "description": "",
-            "buttons": 2,
+            "buttons": 9,
             "inputs": 1,
-            "links": 15,
+            "links": 14,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 42,
+                "cards": 45,
                 "grids": 0,
                 "tabs": 0
             },
@@ -42,30 +42,33 @@
             ],
             "card_titles": [
                 "(1) Pending Self Review",
-                "04145",
-                "0h 9m",
-                "0h 9m Today",
-                "20-07-2026 01:42 PM",
-                "20-07-2026 01:46 PM",
+                "0h 0m",
+                "0h 0m Today",
+                "2020-08-10 05:33 AM",
+                "2020-08-10 05:34 AM",
+                "2020-08-10 05:38 AM",
+                "Alex Marie Smith",
                 "Apply Leave",
                 "Assign Leave",
                 "Buzz Latest Posts",
-                "CAN - Bereavement (Half Day - Morning)",
                 "Employees on Leave Today",
-                "GoodWork",
-                "Hi Hello Good Morning",
+                "Hi All;",
                 "Leave List",
+                "Live SIMPLY",
                 "My Actions",
                 "My Leave",
                 "My Timesheet",
                 "Punched Out",
-                "Punched Out: Today at 05:13 PM (GMT 3)",
+                "Punched Out: Mar 29th at 01:19 PM (GMT 7)",
                 "Quick Launch",
+                "Rebecca Harmony",
+                "Russel Hamilton",
+                "Sania Shaheen",
                 "This Week",
-                "Thomas Kutty Benny",
+                "Throwback Thursdays!!",
                 "Time at Work",
                 "Timesheets",
-                "zayn safi"
+                "World Championship: What makes the perfect snooker player?"
             ],
             "grid_columns": [],
             "grid_actions": [],
@@ -120,16 +123,16 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 5,
-            "inputs": 51,
-            "links": 17,
-            "forms": 1,
+            "buttons": 6,
+            "inputs": 2,
+            "links": 16,
+            "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 47,
+                "cards": 31,
                 "grids": 1,
                 "tabs": 0
             },
@@ -138,52 +141,36 @@
             ],
             "card_titles": [
                 "Admin",
-                "AyeshaBegum",
-                "Darshan",
-                "Darshan1784543615649",
-                "Darshan1784544148724",
-                "Darshan1784544414619",
-                "Darshan_Test01",
-                "Demon",
                 "FMLName",
                 "FMLName1",
-                "Idhaya M",
                 "Jobinsam@6742",
-                "JohnEmi",
-                "JohnJose",
-                "JojoChen",
-                "Joseph J",
-                "KalaivaniGiri",
-                "Pratik",
-                "Radhika",
-                "Rajosh",
-                "Remon17166656675",
-                "Rohan",
-                "Rohan5",
-                "SaviShree",
-                "Shobs1!",
-                "Subha",
-                "Sumitpadhiyar",
-                "Vighnesh",
-                "Welcome",
-                "abcdef",
-                "abcdefg",
-                "ahmed19",
-                "ahmed722",
-                "amr.diab",
-                "aryan123",
-                "ewqwqeqw123",
-                "johnnycontreras",
-                "khaled.magdy",
-                "khaled.magdy.admin",
-                "mohamed.ramadan",
-                "om123",
-                "robertwagner",
-                "sarah79",
-                "shama1",
-                "shlokmahadeshwar",
-                "swaraj",
-                "tamilkumar"
+                "autotest0412",
+                "emp_1784587526874",
+                "emp_1784587613422",
+                "user-10f0835e-a9b9-4ae9-ba3c-cbbcc5",
+                "user-151f1ad5-601e-4df8-9428-d597e2",
+                "user-1a57dbdb-8de2-46e1-a416-ddd962",
+                "user-2b4f6085-4c63-41b2-a096-5e5b14",
+                "user-30497f26-38fb-4894-9d7d-60b1de",
+                "user-468b3d95-3e6b-4994-8a5d-481b73",
+                "user-59555f6d-cfee-421d-b878-28d282",
+                "user-6ed5ce75-551f-4089-9935-9c10b0",
+                "user-7b94e1f5-0557-4fc0-96f4-0efef1",
+                "user-821ae750-783d-446a-a66c-8db6eb",
+                "user-93dbc04c-149a-4c2a-aaa0-39f4c5",
+                "user-97636eda-012e-4c15-9f2e-25d0bd",
+                "user-9988ce59-a7da-4238-9667-c83583",
+                "user-a582c32b-9f26-4266-9ea9-3b2d9f",
+                "user-b0b590d8-0241-4a33-bc51-107cd3",
+                "user-b6a7cdd1-c824-4d04-bd77-05d7a3",
+                "user-c0531106-70c4-4b61-ab95-c98088",
+                "user-c9213d29-da6f-4eb2-a74d-5748b7",
+                "user-ed46c507-11bb-4fa9-8c54-fef4a8",
+                "user-fa401556-6730-4157-8178-ec9885",
+                "user-fca8863d-8caa-49c3-8358-ba7137",
+                "user-fe88789c-fcdb-495b-ae0b-28c8c1",
+                "user-ff1b9392-789b-42f5-a4da-1a9f25",
+                "userExample"
             ],
             "grid_columns": [
                 "Actions",
@@ -232,7 +219,6 @@
                 "Admin",
                 "Buzz",
                 "Claim",
-                "Corporate Branding",
                 "Dashboard",
                 "Directory",
                 "Leave",
@@ -254,12 +240,12 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 8,
+            "buttons": 9,
             "inputs": 1,
-            "links": 15,
-            "forms": 1,
+            "links": 14,
+            "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
@@ -333,16 +319,16 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 6,
+            "buttons": 9,
             "inputs": 5,
-            "links": 19,
-            "forms": 1,
+            "links": 18,
+            "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 8,
+                "cards": 6,
                 "grids": 1,
                 "tabs": 0
             },
@@ -353,8 +339,6 @@
                 "202307180000001",
                 "202307180000002",
                 "202307180000003",
-                "202607200000007",
-                "202607200000008",
                 "Accommodation",
                 "Medical Reimbursement",
                 "Travel Allowance"
@@ -391,7 +375,7 @@
             "input_placeholders": [
                 "Search",
                 "Type for hints...",
-                "dd-mm-yyyy"
+                "yyyy-dd-mm"
             ],
             "navigation": [
                 "Admin",
@@ -415,15 +399,12 @@
             ],
             "menu_items": [
                 "Admin",
-                "Assign Claim",
                 "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Employee Claims",
                 "Leave",
                 "Maintenance",
-                "My Claims",
                 "My Info",
                 "PIM",
                 "Performance",
@@ -440,16 +421,16 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 4,
+            "buttons": 5,
             "inputs": 2,
-            "links": 15,
-            "forms": 1,
+            "links": 14,
+            "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 15,
+                "cards": 18,
                 "grids": 0,
                 "tabs": 0
             },
@@ -457,18 +438,21 @@
                 "card"
             ],
             "card_titles": [
+                "123445 34 444444",
+                "99N75 425 5TlV",
+                "A8DCo 4Ys 010Z",
                 "Administration",
-                "Ayesha Begum",
+                "Amelia Brown",
+                "Charles Carter",
                 "Chief Financial Officer",
-                "John Basil",
+                "James Butler",
                 "New York Sales Office",
-                "Petefiza Mac Anderson",
+                "Peter Mac Anderson",
+                "Rahul Das",
                 "Ranga Akunuri",
                 "Ravi M B",
-                "Rohan Suresh Algude",
+                "Thomas Kutty Benny",
                 "Timothy Lewis Amiano",
-                "admin Admin123",
-                "aman aman aman",
                 "yedghjb1 ru84 90jsnd"
             ],
             "grid_columns": [],
@@ -527,12 +511,12 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 4,
-            "inputs": 6,
-            "links": 19,
-            "forms": 1,
+            "buttons": 6,
+            "inputs": 4,
+            "links": 18,
+            "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
@@ -563,12 +547,13 @@
             "button_texts": [
                 "Reset",
                 "Search",
-                "Upgrade"
+                "Upgrade",
+                "×"
             ],
             "input_placeholders": [
                 "Search",
                 "Type for hints...",
-                "dd-mm-yyyy"
+                "yyyy-dd-mm"
             ],
             "navigation": [
                 "Admin",
@@ -593,16 +578,13 @@
             "menu_items": [
                 "Admin",
                 "Apply",
-                "Assign Leave",
                 "Buzz",
                 "Claim",
                 "Dashboard",
                 "Directory",
                 "Leave",
-                "Leave List",
                 "Maintenance",
                 "My Info",
-                "My Leave",
                 "PIM",
                 "Performance",
                 "Recruitment",
@@ -617,12 +599,12 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "login",
             "description": "",
             "buttons": 2,
             "inputs": 3,
             "links": 1,
-            "forms": 1,
+            "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
@@ -662,12 +644,12 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 4,
+            "buttons": 6,
             "inputs": 4,
-            "links": 17,
-            "forms": 1,
+            "links": 16,
+            "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
@@ -697,12 +679,13 @@
             "button_texts": [
                 "Reset",
                 "Search",
-                "Upgrade"
+                "Upgrade",
+                "×"
             ],
             "input_placeholders": [
                 "Search",
                 "Type for hints...",
-                "dd-mm-yyyy"
+                "yyyy-dd-mm"
             ],
             "navigation": [
                 "Admin",
@@ -728,7 +711,6 @@
                 "Claim",
                 "Dashboard",
                 "Directory",
-                "Employee Trackers",
                 "Leave",
                 "Maintenance",
                 "My Info",
@@ -748,12 +730,12 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 4,
-            "inputs": 14,
-            "links": 25,
-            "forms": 2,
+            "buttons": 6,
+            "inputs": 6,
+            "links": 24,
+            "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
@@ -765,7 +747,7 @@
                 "card"
             ],
             "card_titles": [
-                "Atharv urawane",
+                "Alex Smith",
                 "Custom Fields",
                 "test.png"
             ],
@@ -807,7 +789,7 @@
                 "Last Name",
                 "Middle Name",
                 "Search",
-                "dd-mm-yyyy"
+                "yyyy-dd-mm"
             ],
             "navigation": [
                 "Admin",
@@ -839,18 +821,28 @@
                 "Admin",
                 "Buzz",
                 "Claim",
+                "Contact Details",
                 "Dashboard",
+                "Dependents",
                 "Directory",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
                 "Leave",
                 "Maintenance",
+                "Memberships",
                 "My Info",
                 "PIM",
                 "Performance",
+                "Personal Details",
+                "Qualifications",
                 "Recruitment",
+                "Report-to",
+                "Salary",
                 "Time"
             ],
             "headings_text": [
-                "Atharv urawane",
+                "Alex Smith",
                 "Attachments",
                 "Custom Fields",
                 "PIM",
@@ -861,12 +853,12 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 10,
-            "inputs": 55,
-            "links": 18,
-            "forms": 1,
+            "buttons": 9,
+            "inputs": 3,
+            "links": 17,
+            "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
@@ -879,40 +871,39 @@
             ],
             "card_titles": [
                 "00392",
+                "01715",
                 "0290",
                 "0292",
                 "0294",
+                "0295",
                 "0303",
+                "0312",
+                "0315hh",
+                "0317",
                 "0320",
+                "0322",
+                "0323",
                 "0360",
+                "0361",
                 "0363",
+                "0365",
                 "0367",
-                "0378",
-                "0382",
-                "0383",
-                "0384",
-                "0387",
-                "0393",
-                "0402",
-                "0407",
-                "0412",
-                "0420",
-                "04221",
-                "0426",
-                "0427",
-                "0430",
-                "04329",
-                "0434",
-                "0442",
-                "0443",
-                "0445",
+                "0367010",
+                "03700412",
+                "0375",
                 "09557",
-                "0999",
+                "0987",
                 "1235",
-                "5481",
-                "9876543210",
+                "2211",
+                "3736",
+                "418",
+                "4864",
+                "6939",
+                "7275",
+                "7755",
                 "ATPValue",
-                "Rohan1"
+                "Alex Marie",
+                "dfgsjsjdh"
             ],
             "grid_columns": [
                 "Actions",
@@ -936,7 +927,6 @@
                 "1",
                 "2",
                 "3",
-                "4",
                 "Add",
                 "Reset",
                 "Search",
@@ -966,7 +956,6 @@
                 "Upgrade"
             ],
             "menu_items": [
-                "Add Employee",
                 "Admin",
                 "Buzz",
                 "Claim",
@@ -979,7 +968,6 @@
                 "PIM",
                 "Performance",
                 "Recruitment",
-                "Reports",
                 "Time"
             ],
             "headings_text": [
@@ -991,16 +979,16 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 9,
-            "inputs": 56,
-            "links": 17,
-            "forms": 1,
+            "buttons": 8,
+            "inputs": 5,
+            "links": 16,
+            "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 33,
+                "cards": 20,
                 "grids": 1,
                 "tabs": 0
             },
@@ -1008,16 +996,20 @@
                 "card"
             ],
             "card_titles": [
-                "Junior Account Assistant",
+                "Anto 10:15 AM M Varghese",
+                "Anto 10:20 AM M Varghese",
+                "Anto 10:26 AM M Varghese",
+                "Anto 10:28 AM M Varghese",
+                "Anto 10:37 AM M Varghese",
+                "Anto 10:40 AM M Varghese",
+                "AntoAnto 09:58 AM M Varghese",
+                "Manu K M",
                 "Payroll Administrator",
-                "QA engineer",
+                "Sales Representative",
                 "Senior QA Lead",
-                "Software Engineer",
                 "Tanmay Anderson O'Keefe",
                 "Tanmay sree Dachu",
-                "Tejesh1784545040763 Kumar",
-                "test norhan",
-                "test try"
+                "madhav m"
             ],
             "grid_columns": [
                 "Actions",
@@ -1038,7 +1030,6 @@
             "button_texts": [
                 "1",
                 "2",
-                "3",
                 "Add",
                 "Reset",
                 "Search",
@@ -1082,8 +1073,7 @@
                 "PIM",
                 "Performance",
                 "Recruitment",
-                "Time",
-                "Vacancies"
+                "Time"
             ],
             "headings_text": [
                 "Candidates",
@@ -1094,16 +1084,16 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 3,
+            "buttons": 7,
             "inputs": 2,
-            "links": 15,
-            "forms": 1,
+            "links": 14,
+            "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 5,
+                "cards": 4,
                 "grids": 1,
                 "tabs": 0
             },
@@ -1111,7 +1101,7 @@
                 "card"
             ],
             "card_titles": [
-                "Atharv suhas urawane",
+                "Alex Marie Smith",
                 "Select Employee"
             ],
             "grid_columns": [
@@ -1178,12 +1168,12 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 4,
-            "inputs": 12,
-            "links": 25,
-            "forms": 1,
+            "buttons": 5,
+            "inputs": 1,
+            "links": 24,
+            "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
@@ -1195,7 +1185,7 @@
                 "card"
             ],
             "card_titles": [
-                "Atharv urawane"
+                "Alex Smith"
             ],
             "grid_columns": [
                 "Actions",
@@ -1263,19 +1253,29 @@
                 "Admin",
                 "Buzz",
                 "Claim",
+                "Contact Details",
                 "Dashboard",
+                "Dependents",
                 "Directory",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
                 "Leave",
                 "Maintenance",
+                "Memberships",
                 "My Info",
                 "PIM",
                 "Performance",
+                "Personal Details",
+                "Qualifications",
                 "Recruitment",
+                "Report-to",
+                "Salary",
                 "Time"
             ],
             "headings_text": [
                 "Address",
-                "Atharv urawane",
+                "Alex Smith",
                 "Attachments",
                 "Contact Details",
                 "Email",
@@ -1287,11 +1287,11 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 3,
-            "inputs": 3,
-            "links": 25,
+            "buttons": 5,
+            "inputs": 1,
+            "links": 24,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
@@ -1304,7 +1304,7 @@
                 "card"
             ],
             "card_titles": [
-                "Atharv urawane"
+                "Alex Smith"
             ],
             "grid_columns": [
                 "Actions",
@@ -1368,19 +1368,29 @@
                 "Admin",
                 "Buzz",
                 "Claim",
+                "Contact Details",
                 "Dashboard",
+                "Dependents",
                 "Directory",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
                 "Leave",
                 "Maintenance",
+                "Memberships",
                 "My Info",
                 "PIM",
                 "Performance",
+                "Personal Details",
+                "Qualifications",
                 "Recruitment",
+                "Report-to",
+                "Salary",
                 "Time"
             ],
             "headings_text": [
+                "Alex Smith",
                 "Assigned Dependents",
-                "Atharv urawane",
                 "Attachments",
                 "PIM"
             ],
@@ -1389,11 +1399,11 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 3,
-            "inputs": 3,
-            "links": 25,
+            "buttons": 5,
+            "inputs": 1,
+            "links": 24,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
@@ -1406,7 +1416,7 @@
                 "card"
             ],
             "card_titles": [
-                "Atharv urawane"
+                "Alex Smith"
             ],
             "grid_columns": [
                 "Actions",
@@ -1472,19 +1482,29 @@
                 "Admin",
                 "Buzz",
                 "Claim",
+                "Contact Details",
                 "Dashboard",
+                "Dependents",
                 "Directory",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
                 "Leave",
                 "Maintenance",
+                "Memberships",
                 "My Info",
                 "PIM",
                 "Performance",
+                "Personal Details",
+                "Qualifications",
                 "Recruitment",
+                "Report-to",
+                "Salary",
                 "Time"
             ],
             "headings_text": [
+                "Alex Smith",
                 "Assigned Emergency Contacts",
-                "Atharv urawane",
                 "Attachments",
                 "PIM"
             ],
@@ -1493,11 +1513,11 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 3,
-            "inputs": 5,
-            "links": 25,
+            "buttons": 5,
+            "inputs": 1,
+            "links": 24,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
@@ -1510,7 +1530,7 @@
                 "card"
             ],
             "card_titles": [
-                "Atharv urawane",
+                "Alex Smith",
                 "Immigration.txt",
                 "Passport"
             ],
@@ -1578,19 +1598,29 @@
                 "Admin",
                 "Buzz",
                 "Claim",
+                "Contact Details",
                 "Dashboard",
+                "Dependents",
                 "Directory",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
                 "Leave",
                 "Maintenance",
+                "Memberships",
                 "My Info",
                 "PIM",
                 "Performance",
+                "Personal Details",
+                "Qualifications",
                 "Recruitment",
+                "Report-to",
+                "Salary",
                 "Time"
             ],
             "headings_text": [
+                "Alex Smith",
                 "Assigned Immigration Records",
-                "Atharv urawane",
                 "Attachments",
                 "PIM"
             ],
@@ -1599,12 +1629,12 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 2,
-            "inputs": 3,
-            "links": 25,
-            "forms": 1,
+            "buttons": 3,
+            "inputs": 2,
+            "links": 24,
+            "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
@@ -1616,7 +1646,7 @@
                 "card"
             ],
             "card_titles": [
-                "Atharv urawane"
+                "Jordan Taylor"
             ],
             "grid_columns": [
                 "Actions",
@@ -1651,7 +1681,7 @@
             ],
             "input_placeholders": [
                 "Search",
-                "dd-mm-yyyy"
+                "yyyy-dd-mm"
             ],
             "navigation": [
                 "Admin",
@@ -1683,20 +1713,30 @@
                 "Admin",
                 "Buzz",
                 "Claim",
+                "Contact Details",
                 "Dashboard",
+                "Dependents",
                 "Directory",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
                 "Leave",
                 "Maintenance",
+                "Memberships",
                 "My Info",
                 "PIM",
                 "Performance",
+                "Personal Details",
+                "Qualifications",
                 "Recruitment",
+                "Report-to",
+                "Salary",
                 "Time"
             ],
             "headings_text": [
-                "Atharv urawane",
                 "Attachments",
                 "Job Details",
+                "Jordan Taylor",
                 "PIM"
             ],
             "validation_texts": []
@@ -1704,11 +1744,11 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 3,
-            "inputs": 4,
-            "links": 25,
+            "buttons": 5,
+            "inputs": 1,
+            "links": 24,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
@@ -1721,7 +1761,7 @@
                 "card"
             ],
             "card_titles": [
-                "Atharv urawane",
+                "Jordan Taylor",
                 "abc.txt"
             ],
             "grid_columns": [
@@ -1789,92 +1829,6 @@
                 "Admin",
                 "Buzz",
                 "Claim",
-                "Dashboard",
-                "Directory",
-                "Leave",
-                "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
-            ],
-            "headings_text": [
-                "Assigned Memberships",
-                "Atharv urawane",
-                "Attachments",
-                "PIM"
-            ],
-            "validation_texts": []
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-            "title": "OrangeHRM",
-            "page_type": "",
-            "description": "",
-            "buttons": 4,
-            "inputs": 14,
-            "links": 25,
-            "forms": 2,
-            "tables": 0,
-            "dialogs": 0,
-            "components": {
-                "cards": 3,
-                "grids": 1,
-                "tabs": 10
-            },
-            "component_types": [
-                "card"
-            ],
-            "card_titles": [
-                "Atharv urawane",
-                "Custom Fields",
-                "test.png"
-            ],
-            "grid_columns": [
-                "Actions",
-                "Added By",
-                "Date Added",
-                "Description",
-                "File Name",
-                "Size",
-                "Type"
-            ],
-            "grid_actions": [],
-            "tabs": [
-                "Contact Details",
-                "Dependents",
-                "Emergency Contacts",
-                "Immigration",
-                "Job",
-                "Memberships",
-                "Personal Details",
-                "Qualifications",
-                "Report-to",
-                "Salary"
-            ],
-            "dialog_titles": [],
-            "dropdowns": {
-                "native_selects": 0,
-                "aria_combobox": 0,
-                "custom_dropdowns": 0
-            },
-            "button_texts": [
-                "Add",
-                "Save",
-                "Upgrade"
-            ],
-            "input_placeholders": [
-                "First Name",
-                "Last Name",
-                "Middle Name",
-                "Search",
-                "dd-mm-yyyy"
-            ],
-            "navigation": [
-                "Admin",
-                "Buzz",
-                "Claim",
                 "Contact Details",
                 "Dashboard",
                 "Dependents",
@@ -1886,7 +1840,6 @@
                 "Maintenance",
                 "Memberships",
                 "My Info",
-                "OrangeHRM, Inc",
                 "PIM",
                 "Performance",
                 "Personal Details",
@@ -1894,40 +1847,24 @@
                 "Recruitment",
                 "Report-to",
                 "Salary",
-                "Time",
-                "Upgrade"
-            ],
-            "menu_items": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Leave",
-                "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
                 "Time"
             ],
             "headings_text": [
-                "Atharv urawane",
+                "Assigned Memberships",
                 "Attachments",
-                "Custom Fields",
-                "PIM",
-                "Personal Details"
+                "Jordan Taylor",
+                "PIM"
             ],
             "validation_texts": []
         },
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 3,
-            "inputs": 10,
-            "links": 25,
+            "buttons": 9,
+            "inputs": 1,
+            "links": 24,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
@@ -1940,9 +1877,9 @@
                 "card"
             ],
             "card_titles": [
-                "Atharv urawane",
                 "Bachelor's Degree",
                 "English",
+                "Jordan Taylor",
                 "TCS"
             ],
             "grid_columns": [
@@ -2009,20 +1946,30 @@
                 "Admin",
                 "Buzz",
                 "Claim",
+                "Contact Details",
                 "Dashboard",
+                "Dependents",
                 "Directory",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
                 "Leave",
                 "Maintenance",
+                "Memberships",
                 "My Info",
                 "PIM",
                 "Performance",
+                "Personal Details",
+                "Qualifications",
                 "Recruitment",
+                "Report-to",
+                "Salary",
                 "Time"
             ],
             "headings_text": [
-                "Atharv urawane",
                 "Attachments",
                 "Education",
+                "Jordan Taylor",
                 "Languages",
                 "License",
                 "PIM",
@@ -2035,11 +1982,11 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 2,
+            "buttons": 3,
             "inputs": 1,
-            "links": 25,
+            "links": 24,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
@@ -2052,7 +1999,7 @@
                 "card"
             ],
             "card_titles": [
-                "Atharv urawane",
+                "Jordan Taylor",
                 "Sara Tencrady"
             ],
             "grid_columns": [
@@ -2114,21 +2061,31 @@
                 "Admin",
                 "Buzz",
                 "Claim",
+                "Contact Details",
                 "Dashboard",
+                "Dependents",
                 "Directory",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
                 "Leave",
                 "Maintenance",
+                "Memberships",
                 "My Info",
                 "PIM",
                 "Performance",
+                "Personal Details",
+                "Qualifications",
                 "Recruitment",
+                "Report-to",
+                "Salary",
                 "Time"
             ],
             "headings_text": [
                 "Assigned Subordinates",
                 "Assigned Supervisors",
-                "Atharv urawane",
                 "Attachments",
+                "Jordan Taylor",
                 "PIM",
                 "Report to"
             ],
@@ -2137,11 +2094,11 @@
         {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
             "title": "OrangeHRM",
-            "page_type": "",
+            "page_type": "form",
             "description": "",
-            "buttons": 2,
+            "buttons": 3,
             "inputs": 1,
-            "links": 25,
+            "links": 24,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
@@ -2154,7 +2111,7 @@
                 "card"
             ],
             "card_titles": [
-                "Atharv urawane"
+                "Jordan Taylor"
             ],
             "grid_columns": [
                 "Amount",
@@ -2218,20 +2175,30 @@
                 "Admin",
                 "Buzz",
                 "Claim",
+                "Contact Details",
                 "Dashboard",
+                "Dependents",
                 "Directory",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
                 "Leave",
                 "Maintenance",
+                "Memberships",
                 "My Info",
                 "PIM",
                 "Performance",
+                "Personal Details",
+                "Qualifications",
                 "Recruitment",
+                "Report-to",
+                "Salary",
                 "Time"
             ],
             "headings_text": [
                 "Assigned Salary Components",
-                "Atharv urawane",
                 "Attachments",
+                "Jordan Taylor",
                 "PIM"
             ],
             "validation_texts": []
@@ -2253,7 +2220,6 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Form Submission",
                 "Navigation"
             ]
         },
@@ -2263,7 +2229,6 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Form Submission",
                 "Navigation"
             ]
         },
@@ -2273,7 +2238,6 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Form Submission",
                 "Navigation"
             ]
         },
@@ -2283,7 +2247,6 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Form Submission",
                 "Navigation"
             ]
         },
@@ -2293,7 +2256,6 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Form Submission",
                 "Navigation"
             ]
         },
@@ -2303,7 +2265,6 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Form Submission",
                 "Navigation"
             ]
         },
@@ -2313,7 +2274,6 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Form Submission",
                 "Navigation"
             ]
         },
@@ -2323,7 +2283,6 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Form Submission",
                 "Navigation"
             ]
         },
@@ -2333,7 +2292,6 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Form Submission",
                 "Navigation"
             ]
         },
@@ -2343,7 +2301,6 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Form Submission",
                 "Navigation"
             ]
         },
@@ -2353,7 +2310,6 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Form Submission",
                 "Navigation"
             ]
         },
@@ -2363,7 +2319,6 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Form Submission",
                 "Navigation"
             ]
         },
@@ -2400,7 +2355,6 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Form Submission",
                 "Navigation"
             ]
         },
@@ -2410,16 +2364,6 @@
             "capabilities": [
                 "Button Interaction",
                 "Data Entry",
-                "Navigation"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-            "title": "OrangeHRM",
-            "capabilities": [
-                "Button Interaction",
-                "Data Entry",
-                "Form Submission",
                 "Navigation"
             ]
         },

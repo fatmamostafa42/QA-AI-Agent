@@ -1,406 +1,1363 @@
-from playwright.sync_api import Page
-
-from app.scanners.locator_builder import LocatorBuilder
+from typing import Dict
 
 
 class ElementScanner:
+
     """
-    Scans common UI elements from the current page.
+    Generic Web Element Scanner V3
+
+    Responsibility:
+    - Discover UI elements
+    - Normalize element metadata
+    - Provide semantic hints
+
+    Does NOT:
+    - Generate test cases
+    - Detect workflows
+    - Decide business rules
     """
 
-    def __init__(self, page: Page):
+
+    def __init__(self, page):
 
         self.page = page
-        self.locator_builder = LocatorBuilder(page)
 
 
-    def scan(self) -> dict:
 
-        return {
-            "buttons": self.buttons(),
-            "inputs": self.inputs(),
-            "links": self.links(),
-            "selects": self.selects(),
-            "textareas": self.textareas(),
+    # =========================
+    # MAIN SCAN
+    # =========================
+
+
+    def scan(self) -> Dict:
+
+        print("ELEMENT SCANNER V3 SAFE LOADED")
+
+
+        result = {
+
+            "buttons": [],
+            "inputs": [],
+            "links": [],
+            "selects": [],
+            "textareas": [],
+            "checkboxes": [],
+            "radio_buttons": []
+
         }
 
 
-    def buttons(self):
+        try:
+            result["buttons"] = self._scan_buttons()
+        except Exception as e:
+            print("buttons scan failed:", e)
 
-        print("NEW BUTTON SCANNER LOADED")
 
-        buttons = []
-        seen = set()
+        try:
+            result["inputs"] = self._scan_inputs()
+        except Exception as e:
+            print("inputs scan failed:", e)
 
-        locator = self.page.locator("button")
+
+        try:
+            result["links"] = self._scan_links()
+        except Exception as e:
+            print("links scan failed:", e)
+
+
+        try:
+            result["selects"] = self._scan_selects()
+        except Exception as e:
+            print("select scan failed:", e)
+
+
+        try:
+            result["textareas"] = self._scan_textareas()
+        except Exception as e:
+            print("textarea scan failed:", e)
+
+
+        try:
+            result["checkboxes"] = self._scan_checkboxes()
+        except Exception as e:
+            print("checkbox scan failed:", e)
+
+
+        try:
+            result["radio_buttons"] = self._scan_radios()
+        except Exception as e:
+            print("radio scan failed:", e)
+
+
+
+        result["summary"] = {
+
+            "buttons":
+                len(result["buttons"]),
+
+            "inputs":
+                len(result["inputs"]),
+
+            "links":
+                len(result["links"]),
+
+            "selects":
+                len(result["selects"])
+
+        }
+
+
+        return result
+
+
+
+
+# =========================
+# BUTTONS
+# =========================
+
+
+    def _scan_buttons(self):
+
+        elements = []
+
+
+        locator = self.page.locator(
+            "button, [role='button'], input[type='button'], input[type='submit']"
+        )
+
 
         count = locator.count()
 
 
-        for i in range(count):
+        for index in range(count):
 
             try:
 
-                button = locator.nth(i)
-
-                text = button.inner_text().strip()
+                element = locator.nth(index)
 
 
-                data = {
+                data = self._extract_common(
+                    element
+                )
+
+
+                text = self._safe_text(
+                    element
+                )
+
+
+                data.update({
+
+                    "element_type":
+                        "button",
+
 
                     "text":
                         text,
 
 
-                    "type":
-                        button.get_attribute("type"),
+                    "semantic_hints":
+                    {
+
+                        "possible_actions":
+                            self._detect_actions(
+                                text
+                            )
+
+                    }
+
+                })
 
 
-                    "disabled":
-                        button.is_disabled(),
+                if self._is_meaningful(data):
 
-
-                    "visible":
-                        button.is_visible(),
-
-
-                    "aria_label":
-                        button.get_attribute(
-                            "aria-label"
-                        ),
-
-
-                    "locator":
-                        self.locator_builder.build(button)
-
-                }
-
-
-                key = (
-
-                    text,
-
-                    data["locator"]
-
-                )
-
-
-                if key in seen:
-                    continue
-
-
-                seen.add(key)
-
-
-                buttons.append(data)
+                    elements.append(data)
 
 
             except Exception as e:
 
                 print(
-                    f"Button Error: {e}"
+                    f"button {index} skipped:",
+                    e
                 )
 
 
-        return buttons
+        return elements
 
 
 
-    def inputs(self):
 
-        inputs = []
+# =========================
+# INPUTS
+# =========================
 
-        locator = self.page.locator("input")
+
+    def _scan_inputs(self):
+
+        elements = []
+
+
+        locator = self.page.locator(
+            "input"
+        )
+
 
         count = locator.count()
 
 
-        for i in range(count):
+
+        for index in range(count):
 
             try:
 
-                element = locator.nth(i)
+
+                element = locator.nth(index)
 
 
-                inputs.append({
 
-                    "type":
-                        element.get_attribute(
-                            "type"
-                        ),
-
-
-                    "name":
-                        element.get_attribute(
-                            "name"
-                        ),
+                input_type = (
+                    self._safe_attribute(
+                        element,
+                        "type"
+                    )
+                    or
+                    "text"
+                )
 
 
-                    "id":
-                        element.get_attribute(
-                            "id"
+
+                if input_type in [
+                    "checkbox",
+                    "radio"
+                ]:
+
+                    continue
+
+
+
+                data = self._extract_common(
+                    element
+                )
+
+
+
+                data.update({
+
+                    "element_type":
+                        "input",
+
+
+                    "input_type":
+                        input_type,
+
+
+                    "value":
+                        self._safe_input_value(
+                            element
                         ),
 
 
                     "placeholder":
-                        element.get_attribute(
+                        self._safe_attribute(
+                            element,
                             "placeholder"
                         ),
 
 
-                    "value":
-                        element.input_value()
-                        if element.is_editable()
-                        else None,
-
-
                     "required":
-                        element.get_attribute(
+                        self._has_attribute(
+                            element,
                             "required"
-                        ) is not None,
-
-
-                    "disabled":
-                        element.is_disabled(),
-
-
-                    "readonly":
-                        element.get_attribute(
-                            "readonly"
-                        ) is not None,
-
-
-                    "visible":
-                        element.is_visible(),
-
-
-                    "aria_label":
-                        element.get_attribute(
-                            "aria-label"
                         ),
 
 
-                    "locator":
-                        self.locator_builder.build(
+                    "readonly":
+                        self._has_attribute(
+                            element,
+                            "readonly"
+                        ),
+
+
+                    "semantic_hints":
+                    {
+
+                        "possible_purpose":
+                            self._detect_input_purpose(
+                                element,
+                                input_type
+                            )
+
+                    }
+
+
+                })
+
+
+
+                if self._is_meaningful(data):
+
+                    elements.append(data)
+
+
+
+            except Exception as e:
+
+                print(
+                    f"input {index} skipped:",
+                    e
+                )
+
+
+
+        return elements
+    # =========================
+# LINKS
+# =========================
+
+
+    def _scan_links(self):
+
+        elements = []
+
+
+        locator = self.page.locator(
+            "a"
+        )
+
+
+        count = locator.count()
+
+
+        for index in range(count):
+
+            try:
+
+                element = locator.nth(index)
+
+
+                data = self._extract_common(
+                    element
+                )
+
+
+                text = self._safe_text(
+                    element
+                )
+
+
+                data.update({
+
+                    "element_type":
+                        "link",
+
+
+                    "text":
+                        text,
+
+
+                    "href":
+                        self._safe_attribute(
+                            element,
+                            "href"
+                        ),
+
+
+                    "semantic_hints":
+                    {
+
+                        "possible_actions":
+                            self._detect_actions(
+                                text
+                            )
+
+                    }
+
+                })
+
+
+
+                if self._is_meaningful(data):
+
+                    elements.append(data)
+
+
+
+            except Exception as e:
+
+                print(
+                    f"link {index} skipped:",
+                    e
+                )
+
+
+        return elements
+
+
+
+
+
+# =========================
+# SELECT DROPDOWN
+# =========================
+
+
+    def _scan_selects(self):
+
+        elements = []
+
+
+        locator = self.page.locator(
+            "select"
+        )
+
+
+        count = locator.count()
+
+
+
+        for index in range(count):
+
+            try:
+
+
+                element = locator.nth(index)
+
+
+                data = self._extract_common(
+                    element
+                )
+
+
+                options = element.locator(
+                    "option"
+                )
+
+
+                values = []
+
+
+
+                for i in range(options.count()):
+
+                    try:
+
+                        values.append(
+                            options.nth(i)
+                            .inner_text()
+                            .strip()
+                        )
+
+                    except:
+
+                        continue
+
+
+
+                data.update({
+
+                    "element_type":
+                        "select",
+
+
+                    "options":
+                        values,
+
+
+                    "required":
+                        self._has_attribute(
+                            element,
+                            "required"
+                        )
+
+                })
+
+
+
+                if self._is_meaningful(data):
+
+                    elements.append(data)
+
+
+
+            except Exception as e:
+
+                print(
+                    f"select {index} skipped:",
+                    e
+                )
+
+
+
+        return elements
+
+
+
+
+
+# =========================
+# TEXTAREA
+# =========================
+
+
+    def _scan_textareas(self):
+
+        elements = []
+
+
+        locator = self.page.locator(
+            "textarea"
+        )
+
+
+        count = locator.count()
+
+
+
+        for index in range(count):
+
+            try:
+
+                element = locator.nth(index)
+
+
+                data = self._extract_common(
+                    element
+                )
+
+
+
+                data.update({
+
+                    "element_type":
+                        "textarea",
+
+
+                    "placeholder":
+                        self._safe_attribute(
+                            element,
+                            "placeholder"
+                        ),
+
+
+                    "required":
+                        self._has_attribute(
+                            element,
+                            "required"
+                        )
+
+                })
+
+
+
+                if self._is_meaningful(data):
+
+                    elements.append(data)
+
+
+
+            except Exception as e:
+
+                print(
+                    f"textarea {index} skipped:",
+                    e
+                )
+
+
+
+        return elements
+
+
+
+
+
+# =========================
+# CHECKBOX
+# =========================
+
+
+    def _scan_checkboxes(self):
+
+        elements = []
+
+
+        locator = self.page.locator(
+            "input[type='checkbox']"
+        )
+
+
+        count = locator.count()
+
+
+
+        for index in range(count):
+
+            try:
+
+
+                element = locator.nth(index)
+
+
+                data = self._extract_common(
+                    element
+                )
+
+
+                data.update({
+
+                    "element_type":
+                        "checkbox",
+
+
+                    "checked":
+                        self._safe_checked(
                             element
                         )
 
                 })
 
 
+
+                if self._is_meaningful(data):
+
+                    elements.append(data)
+
+
+
             except Exception as e:
 
                 print(
-                    f"Input Error: {e}"
+                    f"checkbox {index} skipped:",
+                    e
                 )
 
 
-        return inputs
+
+        return elements
 
 
 
-    def links(self):
 
-        links = []
 
-        locator = self.page.locator("a")
+# =========================
+# RADIO BUTTONS
+# =========================
+
+
+    def _scan_radios(self):
+
+        elements = []
+
+
+        locator = self.page.locator(
+            "input[type='radio']"
+        )
+
 
         count = locator.count()
 
 
-        for i in range(count):
+
+        for index in range(count):
 
             try:
 
-                link = locator.nth(i)
+
+                element = locator.nth(index)
 
 
-                links.append({
-
-                    "text":
-                        link.inner_text().strip(),
-
-
-                    "href":
-                        link.get_attribute(
-                            "href"
-                        ),
+                data = self._extract_common(
+                    element
+                )
 
 
-                    "locator":
-                        self.locator_builder.build(
-                            link
+
+                data.update({
+
+                    "element_type":
+                        "radio",
+
+
+                    "checked":
+                        self._safe_checked(
+                            element
                         )
 
                 })
 
 
+
+                if self._is_meaningful(data):
+
+                    elements.append(data)
+
+
+
             except Exception as e:
 
                 print(
-                    f"Link Error: {e}"
+                    f"radio {index} skipped:",
+                    e
                 )
 
 
-        return links
+
+        return elements
+    
+# =========================
+# COMMON EXTRACTION
+# =========================
+
+
+    def _extract_common(self, element):
+
+        return {
+
+            "tag":
+                self._safe_evaluate(
+                    element,
+                    "(el)=>el.tagName.toLowerCase()"
+                ),
+
+
+            "id":
+                self._safe_attribute(
+                    element,
+                    "id"
+                ),
+
+
+            "name":
+                self._safe_attribute(
+                    element,
+                    "name"
+                ),
+
+
+            "role":
+                self._safe_attribute(
+                    element,
+                    "role"
+                ),
+
+
+            "aria_label":
+                self._safe_attribute(
+                    element,
+                    "aria-label"
+                ),
+
+
+            "title":
+                self._safe_attribute(
+                    element,
+                    "title"
+                ),
+
+
+            "data_testid":
+                (
+                    self._safe_attribute(
+                        element,
+                        "data-testid"
+                    )
+                    or
+                    self._safe_attribute(
+                        element,
+                        "data-test"
+                    )
+                ),
+
+
+            "class":
+                self._safe_attribute(
+                    element,
+                    "class"
+                ),
+
+
+            "visible":
+                self._is_visible(
+                    element
+                ),
+
+
+            "locator":
+                self._build_locator(
+                    element
+                ),
+
+
+            "label":
+                self._find_label(
+                    element
+                )
+
+        }
 
 
 
-    def selects(self):
-
-        selects = []
-
-        locator = self.page.locator("select")
-
-        count = locator.count()
 
 
-        for i in range(count):
-
-            try:
-
-                select = locator.nth(i)
+# =========================
+# SAFE LOCATOR BUILDER
+# =========================
 
 
-                selects.append({
+    def _build_locator(self, element):
 
-                    "name":
-                        select.get_attribute(
-                            "name"
-                        ),
+        try:
 
 
-                    "id":
-                        select.get_attribute(
-                            "id"
-                        ),
+            test_id = (
+                self._safe_attribute(
+                    element,
+                    "data-testid"
+                )
+                or
+                self._safe_attribute(
+                    element,
+                    "data-test"
+                )
+            )
 
 
-                    "locator":
-                        self.locator_builder.build(
-                            select
+            if test_id:
+
+                return {
+
+                    "strategy":
+                        "data-testid",
+
+                    "value":
+                        f"[data-testid='{test_id}']"
+
+                }
+
+
+
+            element_id = self._safe_attribute(
+                element,
+                "id"
+            )
+
+
+            if element_id:
+
+                return {
+
+                    "strategy":
+                        "id",
+
+                    "value":
+                        f"#{element_id}"
+
+                }
+
+
+
+            name = self._safe_attribute(
+                element,
+                "name"
+            )
+
+
+            if name:
+
+                return {
+
+                    "strategy":
+                        "name",
+
+                    "value":
+                        f"[name='{name}']"
+
+                }
+
+
+
+            aria = self._safe_attribute(
+                element,
+                "aria-label"
+            )
+
+
+            if aria:
+
+                return {
+
+                    "strategy":
+                        "aria-label",
+
+                    "value":
+                        f"[aria-label='{aria}']"
+
+                }
+
+
+
+
+            placeholder = self._safe_attribute(
+                element,
+                "placeholder"
+            )
+
+
+            if placeholder:
+
+                return {
+
+                    "strategy":
+                        "placeholder",
+
+                    "value":
+                        f"[placeholder='{placeholder}']"
+
+                }
+
+
+
+            text = self._safe_text(
+                element
+            )
+
+
+            if text:
+
+                return {
+
+                    "strategy":
+                        "text",
+
+                    "value":
+                        text[:100]
+
+                }
+
+
+
+        except Exception as e:
+
+            print(
+                "locator build failed:",
+                e
+            )
+
+
+
+        return {
+
+            "strategy":
+                "css",
+
+            "value":
+                "unknown"
+
+        }
+
+
+
+
+
+# =========================
+# LABEL DETECTION
+# =========================
+
+
+    def _find_label(self, element):
+
+        try:
+
+
+            element_id = self._safe_attribute(
+                element,
+                "id"
+            )
+
+
+            if element_id:
+
+
+                label = self.page.locator(
+                    f"label[for='{element_id}']"
+                )
+
+
+                if label.count():
+
+                    return (
+                        label.first
+                        .inner_text(
+                            timeout=1000
                         )
+                        .strip()
+                    )
 
-                })
 
 
-            except Exception as e:
+            parent = element.locator(
+                "xpath=ancestor::label"
+            )
 
-                print(
-                    f"Select Error: {e}"
+
+            if parent.count():
+
+                return (
+                    parent.first
+                    .inner_text(
+                        timeout=1000
+                    )
+                    .strip()
                 )
 
 
-        return selects
+        except:
+
+            pass
 
 
 
-    def textareas(self):
-
-        textareas = []
-
-        locator = self.page.locator("textarea")
-
-        count = locator.count()
+        return None
 
 
-        for i in range(count):
-
-            try:
-
-                area = locator.nth(i)
 
 
-                textareas.append({
 
-                    "name":
-                        area.get_attribute(
-                            "name"
-                        ),
+# =========================
+# ACTION DETECTION
+# =========================
 
 
-                    "id":
-                        area.get_attribute(
-                            "id"
-                        ),
+    def _detect_actions(self, text):
+
+        if not text:
+
+            return []
 
 
-                    "placeholder":
-                        area.get_attribute(
-                            "placeholder"
-                        ),
+        value = text.lower()
 
 
-                    "locator":
-                        self.locator_builder.build(
-                            area
-                        )
 
-                })
+        mapping = {
 
 
-            except Exception as e:
+            "create":
+            [
+                "add",
+                "new",
+                "create",
+                "register"
+            ],
 
-                print(
-                    f"Textarea Error: {e}"
+
+            "save":
+            [
+                "save",
+                "submit",
+                "confirm",
+                "apply"
+            ],
+
+
+            "update":
+            [
+                "edit",
+                "update",
+                "modify"
+            ],
+
+
+            "delete":
+            [
+                "delete",
+                "remove",
+                "trash"
+            ],
+
+
+            "search":
+            [
+                "search",
+                "find",
+                "lookup"
+            ],
+
+
+            "reset":
+            [
+                "reset",
+                "clear"
+            ],
+
+
+            "export":
+            [
+                "export",
+                "download"
+            ]
+
+        }
+
+
+
+        result = []
+
+
+        for action, words in mapping.items():
+
+            for word in words:
+
+                if word in value:
+
+                    result.append(
+                        action
+                    )
+
+                    break
+
+
+
+        return result
+
+
+
+
+
+# =========================
+# INPUT PURPOSE
+# =========================
+
+
+    def _detect_input_purpose(
+            self,
+            element,
+            input_type
+    ):
+
+
+        text = " ".join([
+
+
+            str(
+                self._safe_attribute(
+                    element,
+                    "name"
                 )
+            ),
 
 
-        return textareas
-
-
-
-    def internal_links(self):
-
-        links = []
-
-        domain = self.page.url.split("/")[2]
-
-
-        for link in self.links():
-
-            href = link.get("href")
-
-
-            if not href:
-                continue
-
-
-            if href.startswith("/"):
-
-                links.append(
-                    f"https://{domain}{href}"
+            str(
+                self._safe_attribute(
+                    element,
+                    "placeholder"
                 )
+            ),
 
 
-            elif domain in href:
-
-                links.append(href)
-
-
-        return sorted(set(links))
-
+            str(
+                self._find_label(
+                    element
+                )
+            )
 
 
-    def external_links(self):
-
-        links = []
-
-        domain = self.page.url.split("/")[2]
+        ]).lower()
 
 
-        for link in self.links():
 
-            href = link.get("href")
+        if "email" in text:
 
-
-            if not href:
-                continue
+            return "email"
 
 
-            if href.startswith("http") and domain not in href:
 
-                links.append(href)
+        if "password" in text:
+
+            return "password"
 
 
-        return sorted(set(links))
+
+        if "search" in text:
+
+            return "search"
+
+
+
+        if "phone" in text:
+
+            return "phone"
+
+
+
+        if input_type == "date":
+
+            return "date"
+
+
+
+        return "unknown"
+
+
+
+
+
+# =========================
+# SAFE HELPERS
+# =========================
+
+
+    def _safe_attribute(
+            self,
+            element,
+            attribute
+    ):
+
+
+        try:
+
+            return element.get_attribute(
+                attribute,
+                timeout=1500
+            )
+
+
+        except:
+
+            return None
+
+
+
+
+
+    def _safe_text(self, element):
+
+        try:
+
+            return (
+                element.inner_text(
+                    timeout=1500
+                )
+                .strip()
+            )
+
+        except:
+
+            return ""
+
+
+
+
+
+    def _safe_input_value(self, element):
+
+        try:
+
+            return element.input_value(
+                timeout=1500
+            )
+
+        except:
+
+            return None
+
+
+
+
+
+    def _safe_checked(self, element):
+
+        try:
+
+            return element.is_checked(
+                timeout=1500
+            )
+
+        except:
+
+            return False
+
+
+
+
+
+    def _safe_evaluate(
+            self,
+            element,
+            script
+    ):
+
+        try:
+
+            return element.evaluate(
+                script
+            )
+
+        except:
+
+            return None
+
+
+
+
+
+    def _is_visible(self, element):
+
+        try:
+
+            return element.is_visible(
+                timeout=1000
+            )
+
+        except:
+
+            return False
+
+
+
+
+
+    def _has_attribute(
+            self,
+            element,
+            attribute
+    ):
+
+        return (
+            self._safe_attribute(
+                element,
+                attribute
+            )
+            is not None
+        )
+
+
+
+
+
+    def _is_meaningful(self, data):
+
+        fields = [
+
+            "text",
+            "id",
+            "name",
+            "role",
+            "aria_label",
+            "placeholder",
+            "title",
+            "data_testid",
+            "label"
+
+        ]
+
+
+        for field in fields:
+
+            if data.get(field):
+
+                return True
+
+
+
+        return False

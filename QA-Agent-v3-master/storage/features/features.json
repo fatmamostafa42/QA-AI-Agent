@@ -1,24 +1,24 @@
 {
     "application": {
         "base_url": "https://opensource-demo.orangehrmlive.com",
-        "generated_at": "2026-07-20T10:56:30.177585",
-        "pages_count": 22
+        "generated_at": "2026-07-20T22:54:21.802347",
+        "pages_count": 21
     },
     "summary": {
-        "pages": 22,
-        "buttons": 90,
-        "inputs": 256,
-        "links": 443,
-        "forms": 16,
+        "pages": 21,
+        "buttons": 125,
+        "inputs": 48,
+        "links": 398,
+        "forms": 0,
         "tables": 0,
         "dialogs": 0,
-        "components": 255,
-        "cards": 216,
-        "grids": 18,
-        "menus": 269,
-        "headings": 79,
-        "validation_messages": 257,
-        "accessibility_items": 1196
+        "components": 224,
+        "cards": 187,
+        "grids": 17,
+        "menus": 346,
+        "headings": 74,
+        "validation_messages": 227,
+        "accessibility_items": 1101
     },
     "features": [
         {
@@ -41,7 +41,6 @@
                 "Corporate Branding",
                 "Create Records",
                 "Data Entry",
-                "Form Management",
                 "Nationality Management",
                 "Navigation",
                 "Reset Forms",
@@ -56,7 +55,6 @@
                 "Button Actions",
                 "Buzz Feed",
                 "Data Entry",
-                "Form Management",
                 "Navigation",
                 "Photo Upload",
                 "Post Management",
@@ -73,7 +71,6 @@
                 "Claim Management",
                 "Data Entry",
                 "Data Persistence",
-                "Form Management",
                 "Navigation",
                 "Reset Forms",
                 "Search"
@@ -87,7 +84,6 @@
                 "Button Actions",
                 "Data Entry",
                 "Employee Directory",
-                "Form Management",
                 "Navigation",
                 "Reset Forms",
                 "Search"
@@ -101,7 +97,6 @@
                 "Button Actions",
                 "Data Entry",
                 "Data Persistence",
-                "Form Management",
                 "Leave Management",
                 "Navigation",
                 "Reset Forms",
@@ -115,7 +110,6 @@
                 "Button Actions",
                 "Cancel Operation",
                 "Data Entry",
-                "Form Management",
                 "Maintenance",
                 "Navigation"
             ]
@@ -127,7 +121,6 @@
                 "Auto Complete",
                 "Button Actions",
                 "Data Entry",
-                "Form Management",
                 "Navigation",
                 "Performance Management",
                 "Reset Forms",
@@ -143,7 +136,6 @@
                 "Data Entry",
                 "Data Persistence",
                 "Employee Management",
-                "Form Management",
                 "Navigation",
                 "Search"
             ]
@@ -157,7 +149,6 @@
                 "Create Records",
                 "Data Entry",
                 "Employee Management",
-                "Form Management",
                 "Navigation",
                 "Reset Forms",
                 "Search"
@@ -171,7 +162,6 @@
                 "Button Actions",
                 "Create Records",
                 "Data Entry",
-                "Form Management",
                 "Navigation",
                 "Recruitment",
                 "Reset Forms",
@@ -185,7 +175,6 @@
                 "Auto Complete",
                 "Button Actions",
                 "Data Entry",
-                "Form Management",
                 "Navigation",
                 "Search",
                 "Time Management"
@@ -200,7 +189,6 @@
                 "Data Entry",
                 "Data Persistence",
                 "Employee Management",
-                "Form Management",
                 "Navigation",
                 "Search"
             ]
@@ -248,7 +236,6 @@
                 "Button Actions",
                 "Data Entry",
                 "Employee Management",
-                "Form Management",
                 "Navigation",
                 "Search"
             ]
@@ -261,20 +248,6 @@
                 "Create Records",
                 "Data Entry",
                 "Employee Management",
-                "Navigation",
-                "Search"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Create Records",
-                "Data Entry",
-                "Data Persistence",
-                "Employee Management",
-                "Form Management",
                 "Navigation",
                 "Search"
             ]

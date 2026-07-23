@@ -1,7 +1,7 @@
 {
     "application": {
         "base_url": "https://opensource-demo.orangehrmlive.com",
-        "generated_at": "2026-07-23T14:01:18.673792",
+        "generated_at": "2026-07-23T20:06:40.914598",
         "pages_count": 12
     },
     "summary": {
@@ -12,13 +12,13 @@
         "forms": 0,
         "tables": 0,
         "dialogs": 0,
-        "components": 165,
-        "cards": 146,
+        "components": 162,
+        "cards": 143,
         "grids": 8,
         "menus": 132,
         "headings": 28,
         "validation_messages": 158,
-        "accessibility_items": 694
+        "accessibility_items": 698
     },
     "pages": [
         {
@@ -293,14 +293,14 @@
             "title": "OrangeHRM",
             "page_type": "form",
             "description": "",
-            "buttons": 10,
+            "buttons": 9,
             "inputs": 5,
             "links": 18,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 9,
+                "cards": 6,
                 "grids": 1,
                 "tabs": 0
             },
@@ -311,11 +311,8 @@
                 "202307180000001",
                 "202307180000002",
                 "202307180000003",
-                "202607230000007",
                 "Accommodation",
-                "Automation Event 347888",
                 "Medical Reimbursement",
-                "Sprint 9 Claim automation test 347888",
                 "Travel Allowance"
             ],
             "grid_columns": [
@@ -404,7 +401,7 @@
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 18,
+                "cards": 19,
                 "grids": 0,
                 "tabs": 0
             },
@@ -419,6 +416,7 @@
                 "Amelia Brown",
                 "Charles Carter",
                 "Chief Financial Officer",
+                "Darren Clark",
                 "James Butler",
                 "New York Sales Office",
                 "Peter Mac Anderson",
@@ -815,7 +813,7 @@
             "title": "OrangeHRM",
             "page_type": "form",
             "description": "",
-            "buttons": 8,
+            "buttons": 9,
             "inputs": 3,
             "links": 17,
             "forms": 0,
@@ -837,9 +835,7 @@
                 "0294",
                 "0295",
                 "0303",
-                "0308",
                 "0312",
-                "0315",
                 "0315hh",
                 "0317",
                 "0320",
@@ -856,14 +852,16 @@
                 "0365",
                 "0367",
                 "0367010",
-                "0370",
-                "0372",
-                "0373",
+                "0376",
+                "0382",
                 "09557",
                 "1235",
+                "3719",
+                "4347",
+                "923",
+                "9999",
                 "ATPValue",
-                "dfgsjsjdh",
-                "muser"
+                "dfgsjsjdh"
             ],
             "grid_columns": [
                 "Actions",
@@ -886,6 +884,7 @@
             "button_texts": [
                 "1",
                 "2",
+                "3",
                 "Add",
                 "Reset",
                 "Search",
@@ -946,7 +945,7 @@
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 19,
+                "cards": 18,
                 "grids": 1,
                 "tabs": 0
             },
@@ -954,15 +953,18 @@
                 "card"
             ],
             "card_titles": [
-                "Junior Account Assistant",
+                "Anto 10:15 AM M Varghese",
+                "Anto 10:20 AM M Varghese",
+                "Anto 10:26 AM M Varghese",
+                "Anto 10:28 AM M Varghese",
+                "AntoAnto 09:58 AM M Varghese",
                 "Manu K M",
                 "Payroll Administrator",
                 "Senior QA Lead",
                 "Tanmay Anderson O'Keefe",
                 "Tanmay sree Dachu",
-                "aggh kkk",
                 "madhav m",
-                "test"
+                "pp pp"
             ],
             "grid_columns": [
                 "Actions",
@@ -1054,7 +1056,7 @@
             ],
             "card_titles": [
                 "Select Employee",
-                "manda Auto630068 user"
+                "manda akhil user"
             ],
             "grid_columns": [
                 "Actions",

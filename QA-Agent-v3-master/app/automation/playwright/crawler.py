@@ -4,8 +4,8 @@ import re
 
 from app.automation.playwright.explorer import Explorer
 from app.core.collector import Collector
-from explorer.smart_explorer import SmartExplorer
-from explorer.flow_discovery import FlowDiscovery
+from app.automation.explorer.smart_explorer import SmartExplorer
+from app.automation.explorer.flow_discovery import FlowDiscovery
 
 
 class Crawler:
@@ -197,20 +197,37 @@ class Crawler:
                 page_data = self.explorer.explore()
                 ai_page = self.smart_explorer.analyze_page()
 
-                self.flow_discovery.add_page(ai_page["url"])
                 current_page = ai_page["url"]
+
+                # Add current page node
+                self.flow_discovery.add_node(
+                    current_page,
+                    title=ai_page.get("title", ""),
+                    page_type=ai_page.get("page_type", "unknown"),
+                    metadata=ai_page
+                )
+
+                # Save page actions
+                self.flow_discovery.set_actions(
+                    current_page,
+                    ai_page.get("actions", [])
+                )
+
 
                 for action in ai_page.get("actions", []):
 
-                    target_page = action.get("target")
+                   target_page = action.get("target")
 
-                    if target_page:
+                   if target_page:
 
-                       self.flow_discovery.add_transition(
+                       self.flow_discovery.add_edge(
                             current_page,
-                            target_page
-                        )
-
+                            target_page,
+                            action=action.get("action", "navigate"),
+                            element=action.get("element", ""),
+                            locator=action.get("locator", "")
+                    )
+                       
                 page_data["page"]["requested_url"] = requested_url
                 page_data["page"]["final_url"] = final_url
                 page_data["page"]["crawl_depth"] = depth

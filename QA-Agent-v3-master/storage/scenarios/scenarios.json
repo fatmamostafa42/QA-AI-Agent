@@ -1,7 +1,7 @@
 {
     "application": {
         "base_url": "https://opensource-demo.orangehrmlive.com",
-        "generated_at": "2026-07-23T14:01:18.673792",
+        "generated_at": "2026-07-23T20:06:40.914598",
         "pages_count": 12
     },
     "summary": {
@@ -12,13 +12,13 @@
         "forms": 0,
         "tables": 0,
         "dialogs": 0,
-        "components": 165,
-        "cards": 146,
+        "components": 162,
+        "cards": 143,
         "grids": 8,
         "menus": 132,
         "headings": 28,
         "validation_messages": 158,
-        "accessibility_items": 694
+        "accessibility_items": 698
     },
     "scenarios": [
         {

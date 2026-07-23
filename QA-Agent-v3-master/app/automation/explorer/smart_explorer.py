@@ -3,7 +3,8 @@
 from typing import Dict, Any
 from playwright.sync_api import Page
 
-from explorer.action_engine import ActionEngine
+from app.automation.explorer.action_engine import ActionEngine
+
 
 
 class SmartExplorer:

@@ -1,7 +1,7 @@
 {
     "application": {
         "base_url": "https://opensource-demo.orangehrmlive.com",
-        "generated_at": "2026-07-23T14:01:18.673792",
+        "generated_at": "2026-07-23T20:06:40.914598",
         "pages_count": 12
     },
     "pages": [
@@ -6417,7 +6417,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nClaim\nUpgrade\n\nmanda user\n\nConfiguration \nSubmit Claim\nMy Claims\nEmployee Claims\nAssign Claim\nEmployee Claims\nEmployee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch\n\n\n Assign Claim\n(4) Records Found\nReference Id\nEmployee Name\nEvent Name\nDescription\nCurrency\nSubmitted Date\nStatus\nAmount\nActions\n202607230000007\nRanga Akunuri\nAutomation Event 347888\nSprint 9 Claim automation test 347888\nIndian Rupee\nInitiated\n1,500.00\nView Details\n202307180000003\nmanda user\nTravel Allowance\nAlgerian Dinar\n2023-18-07\nSubmitted\n7,300.32\nView Details\n202307180000002\nmanda user\nMedical Reimbursement\nCanadian Dollar\n2023-18-07\nSubmitted\n1,250.12\nView Details\n202307180000001\nmanda user\nAccommodation\nAfghanistan Afghani\nInitiated\n0.00\nView Details\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
+                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nClaim\nUpgrade\n\nmanda user\n\nConfiguration \nSubmit Claim\nMy Claims\nEmployee Claims\nAssign Claim\nEmployee Claims\nEmployee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch\n\n\n Assign Claim\n(3) Records Found\nReference Id\nEmployee Name\nEvent Name\nDescription\nCurrency\nSubmitted Date\nStatus\nAmount\nActions\n202307180000003\nmanda user\nTravel Allowance\nAlgerian Dinar\n2023-18-07\nSubmitted\n7,300.32\nView Details\n202307180000002\nmanda user\nMedical Reimbursement\nCanadian Dollar\n2023-18-07\nSubmitted\n1,250.12\nView Details\n202307180000001\nmanda user\nAccommodation\nAfghanistan Afghani\nInitiated\n0.00\nView Details\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
                 "crawl_depth": 1,
@@ -7412,12 +7412,6 @@
                         "text": "View Details",
                         "role": null,
                         "class": "oxd-button oxd-button--medium oxd-button--text oxd-table-cell-action-space"
-                    },
-                    {
-                        "tag": "button",
-                        "text": "View Details",
-                        "role": null,
-                        "class": "oxd-button oxd-button--medium oxd-button--text oxd-table-cell-action-space"
                     }
                 ]
             },
@@ -7549,27 +7543,6 @@
                         "label": null,
                         "element_type": "button",
                         "text": "Assign Claim",
-                        "semantic_hints": {
-                            "possible_actions": []
-                        }
-                    },
-                    {
-                        "tag": "button",
-                        "id": null,
-                        "name": null,
-                        "role": null,
-                        "aria_label": null,
-                        "title": null,
-                        "data_testid": null,
-                        "class": "oxd-button oxd-button--medium oxd-button--text oxd-table-cell-action-space",
-                        "visible": true,
-                        "locator": {
-                            "strategy": "text",
-                            "value": "View Details"
-                        },
-                        "label": null,
-                        "element_type": "button",
-                        "text": "View Details",
                         "semantic_hints": {
                             "possible_actions": []
                         }
@@ -8256,37 +8229,6 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "202607230000007",
-                        "content": [
-                            "202607230000007",
-                            "Ranga Akunuri",
-                            "Automation Event 347888",
-                            "Sprint 9 Claim automation test 347888",
-                            "Indian Rupee"
-                        ],
-                        "locator": "div.oxd-table-card"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "Automation Event 347888",
-                        "content": [
-                            "Automation Event 347888"
-                        ],
-                        "locator": "text=Automation Event 347888"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "Sprint 9 Claim automation test 347888",
-                        "content": [
-                            "Sprint 9 Claim automation test 347888"
-                        ],
-                        "locator": "text=Sprint 9 Claim automation test 347888"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
                         "title": "202307180000003",
                         "content": [
                             "202307180000003",
@@ -8774,18 +8716,6 @@
                     "hidden": false
                 },
                 {
-                    "tag": "button",
-                    "text": "View Details",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
                     "tag": "a",
                     "text": "OrangeHRM, Inc",
                     "label": null,
@@ -8813,7 +8743,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nDirectory\nUpgrade\n\nmanda user\n\nDirectory\nEmployee Name\nJob Title\n-- Select --\nLocation\n-- Select --\nReset\nSearch\n\n\n(96) Records Found\n\nA8DCo 4Ys 010Z\n\n123445 34 444444\n\n99N75 425 5TlV\n\nyedghjb1 ru84 90jsnd\n\nRanga Akunuri\n\nTimothy Lewis Amiano\n\nPeter Mac Anderson\n\nChief Financial Officer\n\nAdministration\n\nNew York Sales Office\n\nRavi M B\n\nThomas Kutty Benny\n\nAmelia Brown\n\nJames Butler\n\nCharles Carter\n\nRahul Das\n\nRahul Das\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
+                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nDirectory\nUpgrade\n\nmanda user\n\nDirectory\nEmployee Name\nJob Title\n-- Select --\nLocation\n-- Select --\nReset\nSearch\n\n\n(108) Records Found\n\nA8DCo 4Ys 010Z\n\n123445 34 444444\n\n99N75 425 5TlV\n\nyedghjb1 ru84 90jsnd\n\nRanga Akunuri\n\nTimothy Lewis Amiano\n\nPeter Mac Anderson\n\nChief Financial Officer\n\nAdministration\n\nNew York Sales Office\n\nRavi M B\n\nThomas Kutty Benny\n\nAmelia Brown\n\nJames Butler\n\nCharles Carter\n\nDarren Clark\n\nRahul Das\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
                 "crawl_depth": 1,
@@ -10287,6 +10217,15 @@
                             "Charles Carter"
                         ],
                         "locator": "text=Charles Carter"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "Darren Clark",
+                        "content": [
+                            "Darren Clark"
+                        ],
+                        "locator": "text=Darren Clark"
                     },
                     {
                         "type": "card",
@@ -12813,7 +12752,7 @@
                         "label": null,
                         "element_type": "input",
                         "input_type": "hidden",
-                        "value": "ef8.gjfTrrjOapOlFgKZ4oDjQIVWMzmAkwd4dzMY6_H47OI.0nzr1uGNC8XrQ2Opt-eHLfBvVlvY8UILG0tNhpS0pr3WTef-1_hZo84nSw",
+                        "value": "ca8e5222442206b165.caxpMMcFQl2m1EYCJU1jmohRJwg2hsmXRxfDc90yiDA.JM0DSJJhcWjUvTVwX30L28poVj9HyKzkD2WGNpd1uAMXlS5m821yPuvjLQ",
                         "placeholder": null,
                         "required": false,
                         "readonly": false,
@@ -17655,7 +17594,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nPIM\nUpgrade\n\nmanda user\n\nConfiguration \nEmployee List\nAdd Employee\nReports\nEmployee Information\nEmployee Name\nEmployee Id\nEmployment Status\n-- Select --\nInclude\nCurrent Employees Only\nSupervisor Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nReset\nSearch\n\n\n Add\n(100) Records Found\nId\nFirst (& Middle) Name\nLast Name\nJob Title\nEmployment Status\nSub Unit\nSupervisor\nActions\ndfgsjsjdh\n123445 34\n444444\n0295\n99N75 425\n5TlV\n0312\nA8DCo 4Ys\n010Z\n0370\nAhsen\nŞahin\n01715\nAmelia\nBrown\n0360\naniket t\nt\n0367\nAsh J\nTyson\n0373\nAutoQA\ntc215447136\n0303\nbala kumar\nravi\n0292\nbmrtahvwhibmrtahvwhi\nhbfqkhjfqbhbfqkhjfqb\n0320\nCharles\nCarter\n00392\nCharlotte\nSmith\n0363\nChristopher\nMcmillan\n0290\ndhbrukkuzldhbrukkuzl\nibuvlwtfsfibuvlwtfsf\n0294\nDHINA KARAN\nP\n09557\nEmily\nJones\n1235\nFName Mname\nLName\nATPValue\nftdkux\nltsxgy\nATPValue\nfthnvn\nltwrrt\nATPValue\nfthnvn\nltwrrt\nATPValue\nfthyfv\nltrhtm\nATPValue\nftioiu\nltpugr\nATPValue\nftioiu\nltpugr\nATPValue\nftioiu\nltpugr\nATPValue\nftioiu\nltpugr\nATPValue\nftndlm\nltdyyf\nATPValue\nftpjte\nltpzkj\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\n0315hh\nhh\nhh\n0365\nJames\nButler\n0367010\nJobin Mathew\nSam\n0303\njoker john\nselvam\n0361\nJoseph\nEvans\n0323\nJoy\nSmith\n0317\nJoy\nSmith\n0322\nJoy\nSmith\n0359\nJoy\nSmith\n0335\nJoy\nSmith\n0321\nJoy\nSmith\n0364\nJoy\nSmith\n0342\nJoy\nSmith\n0315\nJoyToy\nSmithSmith\n0372\nLohith\nB\nmuser\nmanda akhil\nuser\nHR Manager\nFull-Time Permanent\nHuman Resources\n0308\nmurugan moorthi\nthiru\n1\n2\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
+                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nPIM\nUpgrade\n\nmanda user\n\nConfiguration \nEmployee List\nAdd Employee\nReports\nEmployee Information\nEmployee Name\nEmployee Id\nEmployment Status\n-- Select --\nInclude\nCurrent Employees Only\nSupervisor Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nReset\nSearch\n\n\n Add\n(109) Records Found\nId\nFirst (& Middle) Name\nLast Name\nJob Title\nEmployment Status\nSub Unit\nSupervisor\nActions\ndfgsjsjdh\n123445 34\n444444\n0295\n99N75 425\n5TlV\n0312\nA8DCo 4Ys\n010Z\n01715\nAmelia\nBrown\n923\naniket Ashok\npatil\n0360\naniket t\nt\n0376\nAnita ajay\nshaha\n0367\nAsh J\nTyson\n0382\nAuto\nEmpqzx7\n0303\nbala kumar\nravi\n0292\nbmrtahvwhibmrtahvwhi\nhbfqkhjfqbhbfqkhjfqb\n0320\nCharles\nCarter\n00392\nCharlotte\nSmith\n0363\nChristopher\nMcmillan\n9999\nCLAUDIO J N\nSANTOS\n4347\nDarren\nClark\n3719\nDawn\nVasquez\n0290\ndhbrukkuzldhbrukkuzl\nibuvlwtfsfibuvlwtfsf\n0294\nDHINA KARAN\nP\n09557\nEmily\nJones\n1235\nFName Mname\nLName\nATPValue\nftdkux\nltsxgy\nATPValue\nfthnvn\nltwrrt\nATPValue\nfthnvn\nltwrrt\nATPValue\nfthyfv\nltrhtm\nATPValue\nftioiu\nltpugr\nATPValue\nftioiu\nltpugr\nATPValue\nftioiu\nltpugr\nATPValue\nftioiu\nltpugr\nATPValue\nftndlm\nltdyyf\nATPValue\nftpjte\nltpzkj\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\n0315hh\nhh\nhh\n0365\nJames\nButler\n0367010\nJobin Mathew\nSam\n0303\njoker john\nselvam\n0361\nJoseph\nEvans\n0342\nJoy\nSmith\n0323\nJoy\nSmith\n0317\nJoy\nSmith\n0322\nJoy\nSmith\n0359\nJoy\nSmith\n0335\nJoy\nSmith\n0321\nJoy\nSmith\n0364\nJoy\nSmith\n1\n2\n3\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
                 "crawl_depth": 1,
@@ -18221,6 +18160,12 @@
                     },
                     {
                         "tag": "button",
+                        "text": "3",
+                        "role": null,
+                        "class": "oxd-pagination-page-item oxd-pagination-page-item--page"
+                    },
+                    {
+                        "tag": "button",
                         "text": "",
                         "role": null,
                         "class": "oxd-pagination-page-item oxd-pagination-page-item--previous-next"
@@ -18576,6 +18521,12 @@
                     {
                         "tag": "button",
                         "text": "2",
+                        "role": null,
+                        "class": "oxd-pagination-page-item oxd-pagination-page-item--page"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "3",
                         "role": null,
                         "class": "oxd-pagination-page-item oxd-pagination-page-item--page"
                     },
@@ -19223,6 +19174,12 @@
                     },
                     {
                         "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
                         "text": "1",
                         "role": null,
                         "class": "oxd-pagination-page-item oxd-pagination-page-item--page oxd-pagination-page-item--page-selected"
@@ -19230,6 +19187,12 @@
                     {
                         "tag": "button",
                         "text": "2",
+                        "role": null,
+                        "class": "oxd-pagination-page-item oxd-pagination-page-item--page"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "3",
                         "role": null,
                         "class": "oxd-pagination-page-item oxd-pagination-page-item--page"
                     },
@@ -19413,6 +19376,27 @@
                         "label": null,
                         "element_type": "button",
                         "text": "2",
+                        "semantic_hints": {
+                            "possible_actions": []
+                        }
+                    },
+                    {
+                        "tag": "button",
+                        "id": null,
+                        "name": null,
+                        "role": null,
+                        "aria_label": null,
+                        "title": null,
+                        "data_testid": null,
+                        "class": "oxd-pagination-page-item oxd-pagination-page-item--page",
+                        "visible": true,
+                        "locator": {
+                            "strategy": "text",
+                            "value": "3"
+                        },
+                        "label": null,
+                        "element_type": "button",
+                        "text": "3",
                         "semantic_hints": {
                             "possible_actions": []
                         }
@@ -20393,17 +20377,6 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "0370",
-                        "content": [
-                            "0370",
-                            "Ahsen",
-                            "Şahin"
-                        ],
-                        "locator": "text=0370\nAhsen\nŞahin"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
                         "title": "01715",
                         "content": [
                             "01715",
@@ -20411,6 +20384,17 @@
                             "Brown"
                         ],
                         "locator": "text=01715\nAmelia\nBrown"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "923",
+                        "content": [
+                            "923",
+                            "aniket Ashok",
+                            "patil"
+                        ],
+                        "locator": "text=923\naniket Ashok\npatil"
                     },
                     {
                         "type": "card",
@@ -20426,6 +20410,17 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
+                        "title": "0376",
+                        "content": [
+                            "0376",
+                            "Anita ajay",
+                            "shaha"
+                        ],
+                        "locator": "text=0376\nAnita ajay\nshaha"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
                         "title": "0367",
                         "content": [
                             "0367",
@@ -20437,13 +20432,13 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "0373",
+                        "title": "0382",
                         "content": [
-                            "0373",
-                            "AutoQA",
-                            "tc215447136"
+                            "0382",
+                            "Auto",
+                            "Empqzx7"
                         ],
-                        "locator": "text=0373\nAutoQA\ntc215447136"
+                        "locator": "text=0382\nAuto\nEmpqzx7"
                     },
                     {
                         "type": "card",
@@ -20499,6 +20494,39 @@
                             "Mcmillan"
                         ],
                         "locator": "text=0363\nChristopher\nMcmillan"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "9999",
+                        "content": [
+                            "9999",
+                            "CLAUDIO J N",
+                            "SANTOS"
+                        ],
+                        "locator": "text=9999\nCLAUDIO J N\nSANTOS"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "4347",
+                        "content": [
+                            "4347",
+                            "Darren",
+                            "Clark"
+                        ],
+                        "locator": "text=4347\nDarren\nClark"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "3719",
+                        "content": [
+                            "3719",
+                            "Dawn",
+                            "Vasquez"
+                        ],
+                        "locator": "text=3719\nDawn\nVasquez"
                     },
                     {
                         "type": "card",
@@ -20679,6 +20707,17 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
+                        "title": "0342",
+                        "content": [
+                            "0342",
+                            "Joy",
+                            "Smith"
+                        ],
+                        "locator": "text=0342\nJoy\nSmith"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
                         "title": "0323",
                         "content": [
                             "0323",
@@ -20752,63 +20791,6 @@
                             "Smith"
                         ],
                         "locator": "text=0364\nJoy\nSmith"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "0342",
-                        "content": [
-                            "0342",
-                            "Joy",
-                            "Smith"
-                        ],
-                        "locator": "text=0342\nJoy\nSmith"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "0315",
-                        "content": [
-                            "0315",
-                            "JoyToy",
-                            "SmithSmith"
-                        ],
-                        "locator": "text=0315\nJoyToy\nSmithSmith"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "0372",
-                        "content": [
-                            "0372",
-                            "Lohith",
-                            "B"
-                        ],
-                        "locator": "text=0372\nLohith\nB"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "muser",
-                        "content": [
-                            "muser",
-                            "manda akhil",
-                            "user",
-                            "HR Manager",
-                            "Full-Time Permanent"
-                        ],
-                        "locator": "div.oxd-table-card"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "0308",
-                        "content": [
-                            "0308",
-                            "murugan moorthi",
-                            "thiru"
-                        ],
-                        "locator": "text=0308\nmurugan moorthi\nthiru"
                     }
                 ],
                 "tabs": [],
@@ -22938,6 +22920,18 @@
                     "hidden": false
                 },
                 {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
                     "tag": "input",
                     "text": "",
                     "label": null,
@@ -22999,6 +22993,18 @@
                 },
                 {
                     "tag": "button",
+                    "text": "3",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
                     "text": "",
                     "label": null,
                     "role": null,
@@ -23037,7 +23043,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nRecruitment\nUpgrade\n\nmanda user\n\nCandidates\nVacancies\nCandidates\nJob Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nCandidate Name\nKeywords\nDate of Application\n \nMethod of Application\n-- Select --\nReset\nSearch\n\n\n Add\n(69) Records Found\nVacancy\nCandidate\nHiring Manager\nDate of Application\nStatus\nActions\nPayroll Administrator\nTest Demo1\nmanda akhil user\n2026-23-07\nShortlisted\nPayroll Administrator\nTest Demo1\nmanda akhil user\n2026-23-07\nShortlisted\nPayroll Administrator\nTest Demo2\nmanda akhil user\n2026-23-07\nShortlisted\nPayroll Administrator\nTest Demo2\nmanda akhil user\n2026-23-07\nApplication Initiated\nPayroll Administrator\nTest Demo3\nmanda akhil user\n2026-23-07\nShortlisted\naggh kkk\n(Deleted)\n2026-23-07\nJunior Account Assistant\naggh kkk\n(Deleted)\n2026-23-07\nApplication Initiated\nPayroll Administrator\ntesting automation task\nmanda akhil user\n2026-23-07\nApplication Initiated\ntest\nAkshay A vadodariya\nRahul Mulge Patil\n2026-14-07\nShortlisted\nTanmay Anderson O'Keefe\n(Deleted)\n2024-29-03\nTanmay sree Dachu\n(Deleted)\n2024-06-02\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nRejected\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nManu K M\n(Deleted)\n2024-06-02\nManu K M\n(Deleted)\n2024-06-02\nManu K M\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nRejected\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nApplication Initiated\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nApplication Initiated\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nRejected\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nCedric C Ross.\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nCedric C Ross.\n(Deleted)\n2024-06-02\nShortlisted\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\n1\n2\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
+                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nRecruitment\nUpgrade\n\nmanda user\n\nCandidates\nVacancies\nCandidates\nJob Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nCandidate Name\nKeywords\nDate of Application\n \nMethod of Application\n-- Select --\nReset\nSearch\n\n\n Add\n(65) Records Found\nVacancy\nCandidate\nHiring Manager\nDate of Application\nStatus\nActions\nSenior QA Lead\nTom K Peter\n(Deleted)\n2026-24-07\nApplication Initiated\nSenior QA Lead\nTom K Peter\n(Deleted)\n2026-24-07\nApplication Initiated\nSenior QA Lead\nTom K Peter\n(Deleted)\n2026-24-07\nApplication Initiated\npp pp\n(Deleted)\n2026-24-07\nTanmay Anderson O'Keefe\n(Deleted)\n2024-29-03\nTanmay sree Dachu\n(Deleted)\n2024-06-02\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nRejected\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nManu K M\n(Deleted)\n2024-06-02\nManu K M\n(Deleted)\n2024-06-02\nManu K M\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nRejected\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nApplication Initiated\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nApplication Initiated\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nRejected\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nCedric C Ross.\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nCedric C Ross.\n(Deleted)\n2024-06-02\nShortlisted\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nAntoAnto 09:58 AM M Varghese\n(Deleted)\n2024-06-02\nAnto 10:15 AM M Varghese\n(Deleted)\n2024-06-02\nAnto 10:20 AM M Varghese\n(Deleted)\n2024-06-02\nAnto 10:26 AM M Varghese\n(Deleted)\n2024-06-02\nAnto 10:28 AM M Varghese\n(Deleted)\n2024-06-02\n1\n2\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
                 "crawl_depth": 1,
@@ -23966,6 +23972,24 @@
                         "text": "Add",
                         "role": null,
                         "class": "oxd-button oxd-button--medium oxd-button--secondary"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
                     },
                     {
                         "tag": "button",
@@ -25912,104 +25936,26 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "Payroll Administrator",
+                        "title": "Senior QA Lead",
                         "content": [
-                            "Payroll Administrator",
-                            "Test Demo1",
-                            "manda akhil user",
-                            "2026-23-07",
-                            "Shortlisted"
-                        ],
-                        "locator": "div.oxd-table-card"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "Payroll Administrator",
-                        "content": [
-                            "Payroll Administrator",
-                            "Test Demo2",
-                            "manda akhil user",
-                            "2026-23-07",
-                            "Shortlisted"
-                        ],
-                        "locator": "div.oxd-table-card"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "Payroll Administrator",
-                        "content": [
-                            "Payroll Administrator",
-                            "Test Demo2",
-                            "manda akhil user",
-                            "2026-23-07",
-                            "Application Initiated"
-                        ],
-                        "locator": "div.oxd-table-card"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "Payroll Administrator",
-                        "content": [
-                            "Payroll Administrator",
-                            "Test Demo3",
-                            "manda akhil user",
-                            "2026-23-07",
-                            "Shortlisted"
-                        ],
-                        "locator": "div.oxd-table-card"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "aggh kkk",
-                        "content": [
-                            "aggh kkk",
+                            "Senior QA Lead",
+                            "Tom K Peter",
                             "(Deleted)",
-                            "2026-23-07"
+                            "2026-24-07",
+                            "Application Initiated"
                         ],
-                        "locator": "text=aggh kkk\n(Deleted)\n2026-23-07"
+                        "locator": "div.oxd-table-card"
                     },
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "Junior Account Assistant",
+                        "title": "pp pp",
                         "content": [
-                            "Junior Account Assistant",
-                            "aggh kkk",
+                            "pp pp",
                             "(Deleted)",
-                            "2026-23-07",
-                            "Application Initiated"
+                            "2026-24-07"
                         ],
-                        "locator": "div.oxd-table-card"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "Payroll Administrator",
-                        "content": [
-                            "Payroll Administrator",
-                            "testing automation task",
-                            "manda akhil user",
-                            "2026-23-07",
-                            "Application Initiated"
-                        ],
-                        "locator": "div.oxd-table-card"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "test",
-                        "content": [
-                            "test",
-                            "Akshay A vadodariya",
-                            "Rahul Mulge Patil",
-                            "2026-14-07",
-                            "Shortlisted"
-                        ],
-                        "locator": "div.oxd-table-card"
+                        "locator": "text=pp pp\n(Deleted)\n2026-24-07"
                     },
                     {
                         "type": "card",
@@ -26143,6 +26089,61 @@
                             "manda akhil user",
                             "2024-06-02",
                             "Application Initiated"
+                        ],
+                        "locator": "div.oxd-table-card"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "AntoAnto 09:58 AM M Varghese",
+                        "content": [
+                            "AntoAnto 09:58 AM M Varghese",
+                            "(Deleted)",
+                            "2024-06-02"
+                        ],
+                        "locator": "div.oxd-table-card"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "Anto 10:15 AM M Varghese",
+                        "content": [
+                            "Anto 10:15 AM M Varghese",
+                            "(Deleted)",
+                            "2024-06-02"
+                        ],
+                        "locator": "div.oxd-table-card"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "Anto 10:20 AM M Varghese",
+                        "content": [
+                            "Anto 10:20 AM M Varghese",
+                            "(Deleted)",
+                            "2024-06-02"
+                        ],
+                        "locator": "div.oxd-table-card"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "Anto 10:26 AM M Varghese",
+                        "content": [
+                            "Anto 10:26 AM M Varghese",
+                            "(Deleted)",
+                            "2024-06-02"
+                        ],
+                        "locator": "div.oxd-table-card"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "Anto 10:28 AM M Varghese",
+                        "content": [
+                            "Anto 10:28 AM M Varghese",
+                            "(Deleted)",
+                            "2024-06-02"
                         ],
                         "locator": "div.oxd-table-card"
                     }
@@ -26558,30 +26559,6 @@
                     "hidden": false
                 },
                 {
-                    "tag": "input",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
-                    "tag": "button",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
                     "tag": "button",
                     "text": "",
                     "label": null,
@@ -26630,30 +26607,6 @@
                     "hidden": false
                 },
                 {
-                    "tag": "input",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
-                    "tag": "button",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
                     "tag": "button",
                     "text": "",
                     "label": null,
@@ -26679,102 +26632,6 @@
                 },
                 {
                     "tag": "button",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
-                    "tag": "button",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
-                    "tag": "input",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
-                    "tag": "button",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
-                    "tag": "button",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
-                    "tag": "input",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
-                    "tag": "button",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
-                    "tag": "button",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
-                    "tag": "input",
                     "text": "",
                     "label": null,
                     "role": null,
@@ -28635,6 +28492,186 @@
                 },
                 {
                     "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "input",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "input",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "input",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "input",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "input",
                     "text": "",
                     "label": null,
                     "role": null,
@@ -28733,7 +28770,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nTime\nTimesheets\nUpgrade\n\nmanda user\n\nTimesheets \nAttendance \nReports \nProject Info \nSelect Employee\nEmployee Name\n\n* Required\n\nView\n\n\nTimesheets Pending Action\n(3) Records Found\nEmployee Name\nTimesheet Period\nActions\nmanda Auto630068 user\n2023-16-01 - 2023-22-01\nView\nmanda Auto630068 user\n2022-15-08 - 2022-21-08\nView\nmanda Auto630068 user\n2020-14-09 - 2020-20-09\nView\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
+                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nTime\nTimesheets\nUpgrade\n\nmanda user\n\nTimesheets \nAttendance \nReports \nProject Info \nSelect Employee\nEmployee Name\n\n* Required\n\nView\n\n\nTimesheets Pending Action\n(3) Records Found\nEmployee Name\nTimesheet Period\nActions\nmanda akhil user\n2023-16-01 - 2023-22-01\nView\nmanda akhil user\n2022-15-08 - 2022-21-08\nView\nmanda akhil user\n2020-14-09 - 2020-20-09\nView\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
                 "crawl_depth": 1,
@@ -30136,9 +30173,9 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "manda Auto630068 user",
+                        "title": "manda akhil user",
                         "content": [
-                            "manda Auto630068 user",
+                            "manda akhil user",
                             "2023-16-01 - 2023-22-01",
                             "View"
                         ],
@@ -30147,9 +30184,9 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "manda Auto630068 user",
+                        "title": "manda akhil user",
                         "content": [
-                            "manda Auto630068 user",
+                            "manda akhil user",
                             "2022-15-08 - 2022-21-08",
                             "View"
                         ],
@@ -30158,9 +30195,9 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "manda Auto630068 user",
+                        "title": "manda akhil user",
                         "content": [
-                            "manda Auto630068 user",
+                            "manda akhil user",
                             "2020-14-09 - 2020-20-09",
                             "View"
                         ],

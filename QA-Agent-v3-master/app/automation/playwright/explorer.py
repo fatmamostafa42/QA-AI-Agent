@@ -121,13 +121,51 @@ class Explorer:
 
         try:
 
-            self.page.wait_for_timeout(150)
+            self.wait_for_dom_stability()
 
         except Exception:
 
             pass
 
+    def wait_for_dom_stability(self):
 
+        try:
+
+            previous = None
+            stable_count = 0
+
+
+            for _ in range(10):
+
+                current = self.page.evaluate(
+                """
+                () => document.body.innerHTML.length
+                """
+                )
+
+
+                if current == previous:
+
+                    stable_count += 1
+
+                else:
+
+                    stable_count = 0
+
+
+                if stable_count >= 2:
+
+                    break
+
+
+            previous = current
+
+            self.page.wait_for_timeout(300)
+
+
+        except Exception:
+
+                pass
     # ===================================================
     # SAFE SCANNER EXECUTION
     # ===================================================
@@ -174,10 +212,14 @@ class Explorer:
         # Run lightweight scanners first
         # ---------------------------------
 
+        
+         # Wait until application UI is stable
+        self.wait_until_ready()
+
         page_info = self.run_scanner(
             "page"
         )
-
+       
         navigation = self.run_scanner(
             "navigation"
         )
@@ -282,28 +324,31 @@ class Explorer:
 
             "navigation": {
 
-                "internal_links":
+    "internal_links":
+        navigation.get(
+            "internal_links",
+            []
+        ),
 
-                    navigation.get(
-                        "internal_links",
-                        []
-                    ),
+    "external_links":
+        navigation.get(
+            "external_links",
+            []
+        ),
 
-                "external_links":
+    "menus":
+        navigation.get(
+            "menus",
+            []
+        ),
 
-                    navigation.get(
-                        "external_links",
-                        []
-                    ),
+    "interactive_elements":
+        navigation.get(
+            "interactive_elements",
+            []
+        )
 
-                "menus":
-
-                    navigation.get(
-                        "menus",
-                        []
-                    )
-
-            },
+},
 
 
 
@@ -560,3 +605,5 @@ class Explorer:
             return self.page.url
         except Exception:
             return ""
+          
+    

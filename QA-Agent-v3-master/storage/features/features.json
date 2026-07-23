@@ -1,24 +1,24 @@
 {
     "application": {
         "base_url": "https://opensource-demo.orangehrmlive.com",
-        "generated_at": "2026-07-20T22:54:21.802347",
-        "pages_count": 21
+        "generated_at": "2026-07-23T14:01:18.673792",
+        "pages_count": 12
     },
     "summary": {
-        "pages": 21,
-        "buttons": 125,
-        "inputs": 48,
-        "links": 398,
+        "pages": 12,
+        "buttons": 80,
+        "inputs": 38,
+        "links": 182,
         "forms": 0,
         "tables": 0,
         "dialogs": 0,
-        "components": 224,
-        "cards": 187,
-        "grids": 17,
-        "menus": 346,
-        "headings": 74,
-        "validation_messages": 227,
-        "accessibility_items": 1101
+        "components": 165,
+        "cards": 146,
+        "grids": 8,
+        "menus": 132,
+        "headings": 28,
+        "validation_messages": 158,
+        "accessibility_items": 694
     },
     "features": [
         {
@@ -178,112 +178,6 @@
                 "Navigation",
                 "Search",
                 "Time Management"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Create Records",
-                "Data Entry",
-                "Data Persistence",
-                "Employee Management",
-                "Navigation",
-                "Search"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Create Records",
-                "Data Entry",
-                "Employee Management",
-                "Navigation",
-                "Search"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Create Records",
-                "Data Entry",
-                "Employee Management",
-                "Navigation",
-                "Search"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Create Records",
-                "Data Entry",
-                "Employee Management",
-                "Navigation",
-                "Search"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Data Entry",
-                "Employee Management",
-                "Navigation",
-                "Search"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Create Records",
-                "Data Entry",
-                "Employee Management",
-                "Navigation",
-                "Search"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Create Records",
-                "Data Entry",
-                "Employee Management",
-                "Navigation",
-                "Search"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Data Entry",
-                "Employee Management",
-                "Navigation",
-                "Search"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Data Entry",
-                "Employee Management",
-                "Navigation",
-                "Search"
             ]
         }
     ]

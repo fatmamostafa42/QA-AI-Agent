@@ -4,18 +4,23 @@ import re
 
 from app.automation.playwright.explorer import Explorer
 from app.core.collector import Collector
+from explorer.smart_explorer import SmartExplorer
+from explorer.flow_discovery import FlowDiscovery
 
 
 class Crawler:
     """
-    Generic Web Application Crawler
+    Generic Web Application Crawler (V5)
 
-    Responsibilities:
-    - Discover application pages
-    - Handle SPA navigation
+    Responsibilities
+    ----------------
+    - Crawl any web application
+    - Support SPA and traditional websites
     - Prevent infinite loops
-    - Detect redirects
+    - Handle redirects safely
     - Collect exploration data
+
+    This crawler contains NO application-specific logic.
     """
 
     def __init__(self, page):
@@ -23,13 +28,18 @@ class Crawler:
         self.page = page
 
         self.explorer = Explorer(page)
+        self.smart_explorer = SmartExplorer(page)
+        self.flow_discovery = FlowDiscovery()
 
         parsed = urlparse(page.url)
 
         self.base_domain = parsed.netloc
         self.base_scheme = parsed.scheme
 
+        self.default_max_depth = 5
+
         self.blocked_extensions = {
+
             ".png",
             ".jpg",
             ".jpeg",
@@ -42,35 +52,37 @@ class Crawler:
             ".ico",
             ".pdf",
             ".zip",
-            ".mp4",
+            ".rar",
+            ".7z",
             ".mp3",
-            ".avi"
+            ".mp4",
+            ".avi",
+            ".mov",
+            ".webm"
+
         }
 
         self.authentication_patterns = [
+
             "/login",
             "/signin",
             "/sign-in",
             "/auth",
             "/authenticate",
             "/authentication",
-            "/account/login",
-            "/user/login",
             "/session"
+
         ]
 
-        self.default_max_depth = 5
-
-        # Pages already explored
+        # Already crawled URLs
         self.visited_urls = set()
 
-        # Fingerprints already explored
+        # Canonical fingerprints
         self.visited_fingerprints = set()
 
-        # Fingerprints already queued
+        # URLs waiting inside queue
         self.queued_fingerprints = set()
-
-    # =====================================================
+            # =====================================================
     # MAIN CRAWLER
     # =====================================================
 
@@ -99,12 +111,19 @@ class Crawler:
             return collector.export()
 
         queue.append({
+
             "url": start_url,
+
             "depth": 0
+
         })
 
         self.queued_fingerprints.add(
-            self.get_url_fingerprint(start_url)
+
+            self.get_url_fingerprint(
+                start_url
+            )
+
         )
 
         page_counter = 0
@@ -116,21 +135,18 @@ class Crawler:
             requested_url = item["url"]
             depth = item["depth"]
 
-            fingerprint = self.get_url_fingerprint(
+            if depth > max_depth:
+                continue
+
+            requested_fp = self.get_url_fingerprint(
                 requested_url
             )
 
             self.queued_fingerprints.discard(
-                fingerprint
+                requested_fp
             )
 
-            if not requested_url:
-                continue
-
-            if depth > max_depth:
-                continue
-
-            if fingerprint in self.visited_fingerprints:
+            if requested_fp in self.visited_fingerprints:
                 continue
 
             if requested_url in self.visited_urls:
@@ -163,13 +179,11 @@ class Crawler:
                 if not final_url:
                     continue
 
-                final_fingerprint = (
-                    self.get_url_fingerprint(
-                        final_url
-                    )
+                final_fp = self.get_url_fingerprint(
+                    final_url
                 )
 
-                if final_fingerprint in self.visited_fingerprints:
+                if final_fp in self.visited_fingerprints:
                     continue
 
                 if final_url in self.visited_urls:
@@ -181,6 +195,21 @@ class Crawler:
                 )
 
                 page_data = self.explorer.explore()
+                ai_page = self.smart_explorer.analyze_page()
+
+                self.flow_discovery.add_page(ai_page["url"])
+                current_page = ai_page["url"]
+
+                for action in ai_page.get("actions", []):
+
+                    target_page = action.get("target")
+
+                    if target_page:
+
+                       self.flow_discovery.add_transition(
+                            current_page,
+                            target_page
+                        )
 
                 page_data["page"]["requested_url"] = requested_url
                 page_data["page"]["final_url"] = final_url
@@ -199,7 +228,7 @@ class Crawler:
                 )
 
                 self.visited_fingerprints.add(
-                    final_fingerprint
+                    final_fp
                 )
 
                 if redirect_info.get(
@@ -228,23 +257,30 @@ class Crawler:
 
                 for link in links:
 
-                    normalized = self.normalize_url(
-                        link
-                    )
+                    normalized = self.normalize_url(link)
 
                     if not normalized:
                         continue
 
-                    link_fingerprint = (
-                        self.get_url_fingerprint(
-                            normalized
-                        )
-                    )
-
-                    if link_fingerprint in self.visited_fingerprints:
+                    # Don't revisit the current page
+                    if normalized == final_url:
                         continue
 
-                    if link_fingerprint in self.queued_fingerprints:
+                    # Already explored by URL
+                    if normalized in self.visited_urls:
+                        continue
+
+                    # Canonical fingerprint
+                    link_fp = self.get_url_fingerprint(
+                        normalized
+                    )
+
+                    # Already explored
+                    if link_fp in self.visited_fingerprints:
+                        continue
+
+                    # Already queued
+                    if link_fp in self.queued_fingerprints:
                         continue
 
                     queue.append({
@@ -253,30 +289,36 @@ class Crawler:
                     })
 
                     self.queued_fingerprints.add(
-                        link_fingerprint
+                        link_fp
                     )
 
                 print(
                     f"QUEUE SIZE: {len(queue)}"
                 )
 
-                if max_pages and len(self.visited_urls) >= max_pages:
+                if (
+                    max_pages
+                    and len(self.visited_urls) >= max_pages
+                ):
                     break
 
-            except Exception as e:
+            except Exception as ex:
 
                 print(
-                    f"ERROR crawling {requested_url}: {e}"
+                    f"ERROR crawling {requested_url}: {ex}"
                 )
 
-                collector.add_error(e)
+                collector.add_error(ex)
 
         print("\n==============================")
-        print(f"Total pages crawled: {len(self.visited_urls)}")
+        print(
+            f"Total pages crawled: {len(self.visited_urls)}"
+        )
         print("==============================")
 
         return collector.export()
-        # =====================================================
+
+    # =====================================================
     # REDIRECT DETECTION
     # =====================================================
 
@@ -287,18 +329,21 @@ class Crawler:
     ):
 
         result = {
+
             "redirected": requested_url != final_url,
+
             "redirect_reason": None
+
         }
 
         if not result["redirected"]:
             return result
 
-        lower_url = final_url.lower()
+        lower = final_url.lower()
 
         for pattern in self.authentication_patterns:
 
-            if pattern in lower_url:
+            if pattern in lower:
 
                 result["redirect_reason"] = (
                     "authentication_required"
@@ -311,9 +356,7 @@ class Crawler:
         )
 
         return result
-
-
-    # =====================================================
+        # =====================================================
     # URL NORMALIZATION
     # =====================================================
 
@@ -342,7 +385,7 @@ class Crawler:
 
             path = parsed.path
 
-            # Remove duplicated slashes
+            # Remove duplicate slashes
             path = re.sub(
                 r"/+",
                 "/",
@@ -363,19 +406,19 @@ class Crawler:
                 if lower_path.endswith(ext):
                     return None
 
-            # Remove fragment (#...)
-            fragmentless = (
+            normalized = (
                 f"{self.base_scheme}://"
                 f"{parsed.netloc}"
                 f"{path}"
             )
 
-            return fragmentless
+            return normalized
 
         except Exception:
 
             return None
-            # =====================================================
+
+    # =====================================================
     # URL FINGERPRINT
     # =====================================================
 
@@ -383,30 +426,28 @@ class Crawler:
         self,
         url
     ):
+
         """
-        Create a generic fingerprint for dynamic URLs.
+        Convert dynamic URLs into canonical fingerprints.
 
         Examples
 
-        /employee/7
-        /employee/15
-        -> /employee/{id}
+        /users/7
+        /users/15
+            -> /users/{id}
 
-        /user/10/profile
-        /user/20/profile
-        -> /user/{id}/profile
+        /orders/125/items
+        /orders/300/items
+            -> /orders/{id}/items
         """
 
         if not url:
             return None
 
-        parsed = urlparse(
-            url
-        )
+        parsed = urlparse(url)
 
         path = parsed.path.lower()
-
-        # Replace numeric IDs
+                # Replace numeric IDs
         path = re.sub(
             r"/\d+",
             "/{id}",
@@ -420,33 +461,40 @@ class Crawler:
             path
         )
 
-        # OrangeHRM style
-        path = re.sub(
+        # Replace common dynamic key/value URL patterns
+        dynamic_patterns = [
+
             r"empnumber/\d+",
-            "empnumber/{id}",
-            path,
-            flags=re.IGNORECASE
-        )
-
-        path = re.sub(
             r"candidateid/\d+",
-            "candidateid/{id}",
-            path,
-            flags=re.IGNORECASE
-        )
-
-        path = re.sub(
             r"vacancyid/\d+",
-            "vacancyid/{id}",
-            path,
-            flags=re.IGNORECASE
-        )
+            r"userid/\d+",
+            r"jobid/\d+",
+            r"recordid/\d+",
+            r"customerid/\d+",
+            r"employeeid/\d+",
+            r"projectid/\d+",
+            r"invoiceid/\d+",
+            r"orderid/\d+",
+            r"productid/\d+",
+            r"companyid/\d+",
+            r"departmentid/\d+",
+            r"id/\d+"
 
-        path = re.sub(
-            r"id/\d+",
-            "id/{id}",
-            path,
-            flags=re.IGNORECASE
-        )
+        ]
+
+        for pattern in dynamic_patterns:
+
+            path = re.sub(
+
+                pattern,
+
+                lambda m: m.group(0).split("/")[0] + "/{id}",
+
+                path,
+
+                flags=re.IGNORECASE
+
+            )
 
         return f"{parsed.netloc}{path}"
+           

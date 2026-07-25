@@ -98,9 +98,12 @@ def main():
         # -----------------------------
         print("Generating Scenarios...")
 
+        flow_discovery = crawler.flow_discovery
+
         scenarios = ScenarioGenerator(
-            features
-        ).generate()
+                features=features,
+                flow_discovery=flow_discovery
+            ).generate()
 
         ScenariosExporter().export(
             scenarios

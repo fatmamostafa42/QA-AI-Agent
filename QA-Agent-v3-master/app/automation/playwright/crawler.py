@@ -215,17 +215,30 @@ class Crawler:
 
 
                 for action in ai_page.get("actions", []):
+                    print("=" * 60)
+                    print(action)
 
-                   target_page = action.get("target")
+                    target_page = action.get("target")
 
-                   if target_page:
+                    if not target_page:
+                       continue
 
-                       self.flow_discovery.add_edge(
-                            current_page,
-                            target_page,
-                            action=action.get("action", "navigate"),
-                            element=action.get("element", ""),
-                            locator=action.get("locator", "")
+                    target_page = self.normalize_url(target_page)
+
+                    if not target_page:
+                        continue
+                    print("RAW TARGET:", target_page)
+
+                    target_page = self.normalize_url(target_page)
+
+                    print("NORMALIZED TARGET:", target_page)
+
+                    self.flow_discovery.add_edge(
+                    current_page,
+                    target_page,
+                    action=action.get("action", "navigate"),
+                    element=action.get("metadata", {}).get("text", ""),
+                    locator=action.get("locator", "")
                     )
                        
                 page_data["page"]["requested_url"] = requested_url
@@ -333,6 +346,11 @@ class Crawler:
         )
         print("==============================")
 
+        print("=" * 60)
+        print("FLOW NODES:", len(self.flow_discovery.nodes))
+        print("FLOW EDGES:", len(self.flow_discovery.edges))
+        print("=" * 60)
+
         return collector.export()
 
     # =====================================================
@@ -373,7 +391,7 @@ class Crawler:
         )
 
         return result
-        # =====================================================
+    # =====================================================
     # URL NORMALIZATION
     # =====================================================
 

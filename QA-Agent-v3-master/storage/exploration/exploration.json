@@ -1,7 +1,7 @@
 {
     "application": {
         "base_url": "https://opensource-demo.orangehrmlive.com",
-        "generated_at": "2026-07-23T20:06:40.914598",
+        "generated_at": "2026-07-25T18:34:15.612357",
         "pages_count": 12
     },
     "pages": [
@@ -19,7 +19,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nDashboard\nUpgrade\n\nmanda user\n\nTime at Work\n\nPunched Out\n\nPunched Out: Mar 29th at 01:19 PM (GMT 7)\n\n0h 0m Today\n\nThis Week\n\nJul 20 - Jul 26\n\n0h 0m\n\nMy Actions\n\n(1) Pending Self Review\n\n(1) Candidate to Interview\n\nQuick Launch\n\nAssign Leave\n\nLeave List\n\nTimesheets\n\nApply Leave\n\nMy Leave\n\nMy Timesheet\n\nBuzz Latest Posts\n\nmanda akhil user\n\n2020-08-10 05:38 AM\n\nHi All;\r\n\r\nLinda has been blessed with a baby boy!\r\n\r\n\r\n\r\nLinda: With love, we welcome your dear new baby to this world. Congratulations!\n\nSania Shaheen\n\n2020-08-10 05:38 AM\n\nWorld Championship: What makes the perfect snooker player?\r\n\r\nMark Selby: Robertson has one of the best techniques in the game. It is very, very straight and he fully commits to every single shot he plays.\r\n\r\nJohn Higgins: Every shot is repetitive. He always keeps the same technique and cues through the ball bang straight.\r\n\r\nBarry Hawkins: Robertson is textbook with his grip and has a ramrod solid cue action, delivering it in a straight line.\r\n\r\nHonourable mentions: Shaun Murphy, Ding Junhui, Jack Lisowski.\n\nRebecca Harmony\n\n2020-08-10 05:34 AM\n\n Throwback Thursdays!! \n\nRussel Hamilton\n\n2020-08-10 05:33 AM\n\nLive SIMPLY\r\nDream BIG\r\nBe GREATFULL\r\nGive LOVE\r\nLaugh LOT.......\n\nEmployees on Leave Today\n\nNo Employees are on Leave Today\n\nEmployee Distribution by Sub Unit\n\nEngineering\nHuman Resources\nAdministration\nClient Services\nUnassigned\n\nEmployee Distribution by Location\n\nTexas R&D\nNew York Sales Office\nUnassigned\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
+                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nDashboard\nUpgrade\n\nTest 10 user\n\nTime at Work\n\nPunched Out\n\nPunched Out: Mar 29th at 01:19 PM (GMT 7)\n\n0h 0m Today\n\nThis Week\n\nJul 20 - Jul 26\n\n0h 0m\n\nMy Actions\n\n(1) Candidate to Interview\n\nQuick Launch\n\nAssign Leave\n\nLeave List\n\nTimesheets\n\nApply Leave\n\nMy Leave\n\nMy Timesheet\n\nBuzz Latest Posts\n\nTest 10 akhil user\n\n2020-08-10 05:38 AM\n\nHi All;\r\n\r\nLinda has been blessed with a baby boy!\r\n\r\n\r\n\r\nLinda: With love, we welcome your dear new baby to this world. Congratulations!\n\nSania Shaheen\n\n2020-08-10 05:38 AM\n\nWorld Championship: What makes the perfect snooker player?\r\n\r\nMark Selby: Robertson has one of the best techniques in the game. It is very, very straight and he fully commits to every single shot he plays.\r\n\r\nJohn Higgins: Every shot is repetitive. He always keeps the same technique and cues through the ball bang straight.\r\n\r\nBarry Hawkins: Robertson is textbook with his grip and has a ramrod solid cue action, delivering it in a straight line.\r\n\r\nHonourable mentions: Shaun Murphy, Ding Junhui, Jack Lisowski.\n\nRebecca Harmony\n\n2020-08-10 05:34 AM\n\n Throwback Thursdays!! \n\nRussel Hamilton\n\n2020-08-10 05:33 AM\n\nLive SIMPLY\r\nDream BIG\r\nBe GREATFULL\r\nGive LOVE\r\nLaugh LOT.......\n\nEmployees on Leave Today\n\nNo Employees are on Leave Today\n\nEmployee Distribution by Sub Unit\n\nEngineering\nHuman Resources\nAdministration\nClient Services\nUnassigned\n\nEmployee Distribution by Location\n\nTexas R&D\nNew York Sales Office\nUnassigned\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
                 "crawl_depth": 0,
@@ -814,12 +814,6 @@
                         "tag": "button",
                         "text": "",
                         "role": null,
-                        "class": "oxd-icon-button oxd-icon-button--danger orangehrm-report-icon"
-                    },
-                    {
-                        "tag": "button",
-                        "text": "",
-                        "role": null,
                         "class": "oxd-icon-button oxd-icon-button--info orangehrm-report-icon"
                     },
                     {
@@ -1553,9 +1547,9 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "manda akhil user",
+                        "title": "Test 10 akhil user",
                         "content": [
-                            "manda akhil user",
+                            "Test 10 akhil user",
                             "2020-08-10 05:38 AM",
                             "Hi All;",
                             "Linda has been blessed with a baby boy!",
@@ -1628,10 +1622,9 @@
                         "title": "My Actions",
                         "content": [
                             "My Actions",
-                            "(1) Pending Self Review",
                             "(1) Candidate to Interview"
                         ],
-                        "locator": "div.oxd-grid-item"
+                        "locator": "text=My Actions\n\n(1) Candidate to Interview"
                     },
                     {
                         "type": "card",
@@ -1645,12 +1638,11 @@
                     {
                         "type": "card",
                         "selector": "[class*='widget']",
-                        "title": "(1) Pending Self Review",
+                        "title": "(1) Candidate to Interview",
                         "content": [
-                            "(1) Pending Self Review",
                             "(1) Candidate to Interview"
                         ],
-                        "locator": "div.orangehrm-dashboard-widget-body"
+                        "locator": "text=(1) Candidate to Interview"
                     },
                     {
                         "type": "card",
@@ -1693,7 +1685,7 @@
                         "title": "Buzz Latest Posts",
                         "content": [
                             "Buzz Latest Posts",
-                            "manda akhil user",
+                            "Test 10 akhil user",
                             "2020-08-10 05:38 AM",
                             "Hi All;",
                             "Linda has been blessed with a baby boy!"
@@ -1712,21 +1704,21 @@
                     {
                         "type": "card",
                         "selector": "[class*='widget']",
-                        "title": "manda akhil user",
+                        "title": "Test 10 akhil user",
                         "content": [
-                            "manda akhil user",
+                            "Test 10 akhil user",
                             "2020-08-10 05:38 AM"
                         ],
-                        "locator": "text=manda akhil user\n\n2020-08-10 05:38 AM"
+                        "locator": "text=Test 10 akhil user\n\n2020-08-10 05:38 AM"
                     },
                     {
                         "type": "card",
                         "selector": "[class*='widget']",
-                        "title": "manda akhil user",
+                        "title": "Test 10 akhil user",
                         "content": [
-                            "manda akhil user"
+                            "Test 10 akhil user"
                         ],
-                        "locator": "text=manda akhil user"
+                        "locator": "text=Test 10 akhil user"
                     },
                     {
                         "type": "card",
@@ -2217,18 +2209,6 @@
                     "hidden": false
                 },
                 {
-                    "tag": "button",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
                     "tag": "a",
                     "text": "OrangeHRM, Inc",
                     "label": null,
@@ -2256,7 +2236,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nAdmin\nUser Management\nUpgrade\n\nmanda user\n\nUser Management \nJob \nOrganization \nQualifications \nNationalities\nCorporate Branding\nConfiguration \nSystem Users\nUsername\nUser Role\n-- Select --\nEmployee Name\nStatus\n-- Select --\nReset\nSearch\n\n\n Add\n(4) Records Found\nUsername\nUser Role\nEmployee Name\nStatus\nActions\nAdmin\nAdmin\nmanda user\nEnabled\nFMLName\nESS\nQwerty LName\nEnabled\nFMLName1\nESS\nFName LName\nEnabled\nJobinsam@6742\nESS\nJobin Sam\nEnabled\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
+                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nAdmin\nUser Management\nUpgrade\n\nTest 10 user\n\nUser Management \nJob \nOrganization \nQualifications \nNationalities\nCorporate Branding\nConfiguration \nSystem Users\nUsername\nUser Role\n-- Select --\nEmployee Name\nStatus\n-- Select --\nReset\nSearch\n\n\n Add\n(10) Records Found\nUsername\nUser Role\nEmployee Name\nStatus\nActions\nAdmin\nAdmin\nTest 10 user\nEnabled\nAdmin5678\nAdmin\nPeter Anderson\nEnabled\nBhavikTestUser3\nAdmin\nA8DCo 010Z\nEnabled\nFMLName\nESS\nQwerty LName\nEnabled\nFMLName1\nESS\nFName LName\nEnabled\nJobinsam@6742\nESS\nJobin Sam\nEnabled\ntest_user_05657005\nAdmin\nThomas Benny\nEnabled\ntest_user_10725206\nAdmin\nThomas Benny\nEnabled\ntest_user_42556406\nAdmin\nThomas Benny\nEnabled\ntest_user_75554562\nAdmin\nThomas Benny\nEnabled\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
                 "crawl_depth": 1,
@@ -3197,6 +3177,78 @@
                         "text": "",
                         "role": null,
                         "class": "oxd-icon-button oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button oxd-table-cell-action-space"
                     }
                 ]
             },
@@ -3827,6 +3879,54 @@
                     "minlength": null,
                     "pattern": null,
                     "placeholder": null
+                },
+                {
+                    "required": false,
+                    "type": "checkbox",
+                    "maxlength": null,
+                    "minlength": null,
+                    "pattern": null,
+                    "placeholder": null
+                },
+                {
+                    "required": false,
+                    "type": "checkbox",
+                    "maxlength": null,
+                    "minlength": null,
+                    "pattern": null,
+                    "placeholder": null
+                },
+                {
+                    "required": false,
+                    "type": "checkbox",
+                    "maxlength": null,
+                    "minlength": null,
+                    "pattern": null,
+                    "placeholder": null
+                },
+                {
+                    "required": false,
+                    "type": "checkbox",
+                    "maxlength": null,
+                    "minlength": null,
+                    "pattern": null,
+                    "placeholder": null
+                },
+                {
+                    "required": false,
+                    "type": "checkbox",
+                    "maxlength": null,
+                    "minlength": null,
+                    "pattern": null,
+                    "placeholder": null
+                },
+                {
+                    "required": false,
+                    "type": "checkbox",
+                    "maxlength": null,
+                    "minlength": null,
+                    "pattern": null,
+                    "placeholder": null
                 }
             ],
             "components": {
@@ -3857,10 +3957,34 @@
                         "content": [
                             "Admin",
                             "Admin",
-                            "manda user",
+                            "Test 10 user",
                             "Enabled"
                         ],
-                        "locator": "text=Admin\nAdmin\nmanda user\nEnabled"
+                        "locator": "text=Admin\nAdmin\nTest 10 user\nEnabled"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "Admin5678",
+                        "content": [
+                            "Admin5678",
+                            "Admin",
+                            "Peter Anderson",
+                            "Enabled"
+                        ],
+                        "locator": "text=Admin5678\nAdmin\nPeter Anderson\nEnabled"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "BhavikTestUser3",
+                        "content": [
+                            "BhavikTestUser3",
+                            "Admin",
+                            "A8DCo 010Z",
+                            "Enabled"
+                        ],
+                        "locator": "text=BhavikTestUser3\nAdmin\nA8DCo 010Z\nEnabled"
                     },
                     {
                         "type": "card",
@@ -3897,6 +4021,54 @@
                             "Enabled"
                         ],
                         "locator": "text=Jobinsam@6742\nESS\nJobin Sam\nEnabled"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "test_user_05657005",
+                        "content": [
+                            "test_user_05657005",
+                            "Admin",
+                            "Thomas Benny",
+                            "Enabled"
+                        ],
+                        "locator": "div.oxd-table-card"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "test_user_10725206",
+                        "content": [
+                            "test_user_10725206",
+                            "Admin",
+                            "Thomas Benny",
+                            "Enabled"
+                        ],
+                        "locator": "div.oxd-table-card"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "test_user_42556406",
+                        "content": [
+                            "test_user_42556406",
+                            "Admin",
+                            "Thomas Benny",
+                            "Enabled"
+                        ],
+                        "locator": "div.oxd-table-card"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "test_user_75554562",
+                        "content": [
+                            "test_user_75554562",
+                            "Admin",
+                            "Thomas Benny",
+                            "Enabled"
+                        ],
+                        "locator": "div.oxd-table-card"
                     }
                 ],
                 "tabs": [],
@@ -4394,6 +4566,222 @@
                     "hidden": false
                 },
                 {
+                    "tag": "input",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "input",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "input",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "input",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "input",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "input",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
                     "tag": "a",
                     "text": "OrangeHRM, Inc",
                     "label": null,
@@ -4421,7 +4809,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nBuzz\nUpgrade\n\nmanda user\n\nBuzz Newsfeed\n\nPost\nShare Photos\nShare Video\n Most Recent Posts\n Most Liked Posts\n Most Commented Posts\n\nmanda akhil user\n\n2020-08-10 05:38 AM\n\nHi All;\r\n\r\nLinda has been blessed with a baby boy!\r\n\r\n\r\n\r\nLinda: With love, we welcome your dear new baby to this world. Congratulations!\n\n0 Likes\n\n0 Comments\n\n‚ \n\n0 Shares\n\nSania Shaheen\n\n2020-08-10 05:38 AM\n\nWorld Championship: What makes the perfect snooker player?\r\n\r\nMark Selby: Robertson has one of the best techniques in the game. It is very, very straight and he fully commits to every single shot he plays.\r\n\r\nJohn Higgins: Every shot is repetitive. He always keeps the same technique and cues through the ball bang straight.\r\n\r\nBarry Hawkins: Robertson is textbook with his grip and has a ramrod solid cue action, delivering it in a straight line.\r\n\r\nHonourable mentions: Shaun Murphy, Ding Junhui, Jack Lisowski.\n\nRead More\n\n1 Like\n\n0 Comments\n\n‚ \n\n0 Shares\n\nRebecca Harmony\n\n2020-08-10 05:34 AM\n\n Throwback Thursdays!! \n\n\n\n\n0 Likes\n\n0 Comments\n\n‚ \n\n0 Shares\n\nRussel Hamilton\n\n2020-08-10 05:33 AM\n\nLive SIMPLY\r\nDream BIG\r\nBe GREATFULL\r\nGive LOVE\r\nLaugh LOT.......\n\n2 Likes\n\n0 Comments\n\n‚ \n\n0 Shares\n\nUpcoming Anniversaries\n\nNo Records Found\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
+                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nBuzz\nUpgrade\n\nTest 10 user\n\nBuzz Newsfeed\n\nPost\nShare Photos\nShare Video\n Most Recent Posts\n Most Liked Posts\n Most Commented Posts\n\nTest 10 akhil user\n\n2020-08-10 05:38 AM\n\nHi All;\r\n\r\nLinda has been blessed with a baby boy!\r\n\r\n\r\n\r\nLinda: With love, we welcome your dear new baby to this world. Congratulations!\n\n0 Likes\n\n0 Comments\n\n‚ \n\n0 Shares\n\nSania Shaheen\n\n2020-08-10 05:38 AM\n\nWorld Championship: What makes the perfect snooker player?\r\n\r\nMark Selby: Robertson has one of the best techniques in the game. It is very, very straight and he fully commits to every single shot he plays.\r\n\r\nJohn Higgins: Every shot is repetitive. He always keeps the same technique and cues through the ball bang straight.\r\n\r\nBarry Hawkins: Robertson is textbook with his grip and has a ramrod solid cue action, delivering it in a straight line.\r\n\r\nHonourable mentions: Shaun Murphy, Ding Junhui, Jack Lisowski.\n\nRead More\n\n1 Like\n\n0 Comments\n\n‚ \n\n0 Shares\n\nRebecca Harmony\n\n2020-08-10 05:34 AM\n\n Throwback Thursdays!! \n\n\n\n\n0 Likes\n\n0 Comments\n\n‚ \n\n0 Shares\n\nRussel Hamilton\n\n2020-08-10 05:33 AM\n\nLive SIMPLY\r\nDream BIG\r\nBe GREATFULL\r\nGive LOVE\r\nLaugh LOT.......\n\n3 Likes\n\n0 Comments\n\n‚ \n\n0 Shares\n\nUpcoming Anniversaries\n\nNo Records Found\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
                 "crawl_depth": 1,
@@ -6417,7 +6805,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nClaim\nUpgrade\n\nmanda user\n\nConfiguration \nSubmit Claim\nMy Claims\nEmployee Claims\nAssign Claim\nEmployee Claims\nEmployee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch\n\n\n Assign Claim\n(3) Records Found\nReference Id\nEmployee Name\nEvent Name\nDescription\nCurrency\nSubmitted Date\nStatus\nAmount\nActions\n202307180000003\nmanda user\nTravel Allowance\nAlgerian Dinar\n2023-18-07\nSubmitted\n7,300.32\nView Details\n202307180000002\nmanda user\nMedical Reimbursement\nCanadian Dollar\n2023-18-07\nSubmitted\n1,250.12\nView Details\n202307180000001\nmanda user\nAccommodation\nAfghanistan Afghani\nInitiated\n0.00\nView Details\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
+                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nClaim\nUpgrade\n\nTest 10 user\n\nConfiguration \nSubmit Claim\nMy Claims\nEmployee Claims\nAssign Claim\nEmployee Claims\nEmployee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch\n\n\n Assign Claim\n(3) Records Found\nReference Id\nEmployee Name\nEvent Name\nDescription\nCurrency\nSubmitted Date\nStatus\nAmount\nActions\n202307180000003\nTest 10 user\nTravel Allowance\nAlgerian Dinar\n2023-18-07\nSubmitted\n7,300.32\nView Details\n202307180000002\nTest 10 user\nMedical Reimbursement\nCanadian Dollar\n2023-18-07\nSubmitted\n1,250.12\nView Details\n202307180000001\nTest 10 user\nAccommodation\nAfghanistan Afghani\nInitiated\n0.00\nView Details\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaimModule",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
                 "crawl_depth": 1,
@@ -8232,7 +8620,7 @@
                         "title": "202307180000003",
                         "content": [
                             "202307180000003",
-                            "manda user",
+                            "Test 10 user",
                             "Travel Allowance",
                             "Algerian Dinar",
                             "2023-18-07"
@@ -8254,7 +8642,7 @@
                         "title": "202307180000002",
                         "content": [
                             "202307180000002",
-                            "manda user",
+                            "Test 10 user",
                             "Medical Reimbursement",
                             "Canadian Dollar",
                             "2023-18-07"
@@ -8276,7 +8664,7 @@
                         "title": "202307180000001",
                         "content": [
                             "202307180000001",
-                            "manda user",
+                            "Test 10 user",
                             "Accommodation",
                             "Afghanistan Afghani",
                             "Initiated"
@@ -8743,7 +9131,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nDirectory\nUpgrade\n\nmanda user\n\nDirectory\nEmployee Name\nJob Title\n-- Select --\nLocation\n-- Select --\nReset\nSearch\n\n\n(108) Records Found\n\nA8DCo 4Ys 010Z\n\n123445 34 444444\n\n99N75 425 5TlV\n\nyedghjb1 ru84 90jsnd\n\nRanga Akunuri\n\nTimothy Lewis Amiano\n\nPeter Mac Anderson\n\nChief Financial Officer\n\nAdministration\n\nNew York Sales Office\n\nRavi M B\n\nThomas Kutty Benny\n\nAmelia Brown\n\nJames Butler\n\nCharles Carter\n\nDarren Clark\n\nRahul Das\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
+                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nDirectory\nUpgrade\n\nTest 10 user\n\nDirectory\nEmployee Name\nJob Title\n-- Select --\nLocation\n-- Select --\nReset\nSearch\n\n\n(129) Records Found\n\nA8DCo 4Ys 010Z\n\n123445 34 444444\n\n99N75 425 5TlV\n\nyedghjb1 ru84 90jsnd\n\nRanga Akunuri\n\nTimothy Lewis Amiano\n\nPeter Mac Anderson\n\nChief Financial Officer\n\nAdministration\n\nNew York Sales Office\n\nRavi M B\n\nManoj B\n\nManoj B\n\nManoj B\n\nBoom Boo Bang\n\nBoom Boo Bang\n\nBoom Boo Bang\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
                 "crawl_depth": 1,
@@ -10185,56 +10573,20 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "Thomas Kutty Benny",
+                        "title": "Manoj B",
                         "content": [
-                            "Thomas Kutty Benny"
+                            "Manoj B"
                         ],
-                        "locator": "text=Thomas Kutty Benny"
+                        "locator": "text=Manoj B"
                     },
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "Amelia Brown",
+                        "title": "Boom Boo Bang",
                         "content": [
-                            "Amelia Brown"
+                            "Boom Boo Bang"
                         ],
-                        "locator": "text=Amelia Brown"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "James Butler",
-                        "content": [
-                            "James Butler"
-                        ],
-                        "locator": "text=James Butler"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "Charles Carter",
-                        "content": [
-                            "Charles Carter"
-                        ],
-                        "locator": "text=Charles Carter"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "Darren Clark",
-                        "content": [
-                            "Darren Clark"
-                        ],
-                        "locator": "text=Darren Clark"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "Rahul Das",
-                        "content": [
-                            "Rahul Das"
-                        ],
-                        "locator": "text=Rahul Das"
+                        "locator": "text=Boom Boo Bang"
                     }
                 ],
                 "tabs": [],
@@ -10555,7 +10907,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nLeave\nUpgrade\n\nmanda user\n\nApply\nMy Leave\nEntitlements \nReports \nConfigure \nLeave List\nAssign Leave\nLeave List\nFrom Date\nTo Date\nShow Leave with Status\n-- Select --\nPending Approval\nLeave Type\n-- Select --\nEmployee Name\nSub Unit\n-- Select --\n\nInclude Past Employees\n\n* Required\n\nReset\nSearch\n\n\nNo Records Found\nDate\nEmployee Name\nLeave Type\nLeave Balance (Days)\nNumber of Days\nStatus\nComments\nActions\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n\n\nInfo\n\nNo Records Found\n\n×",
+                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nLeave\nUpgrade\n\nTest 10 user\n\nApply\nMy Leave\nEntitlements \nReports \nConfigure \nLeave List\nAssign Leave\nLeave List\nFrom Date\nTo Date\nShow Leave with Status\n-- Select --\nPending Approval\nLeave Type\n-- Select --\nEmployee Name\nSub Unit\n-- Select --\n\nInclude Past Employees\n\n* Required\n\nReset\nSearch\n\n\n(2) Records Found\nDate\nEmployee Name\nLeave Type\nLeave Balance (Days)\nNumber of Days\nStatus\nComments\nActions\n2026-03-09 to 2026-04-09\nPeter Mac Anderson\nCAN - Vacation\n74.00\n2.00\nPending Approval (2.00)\nVacation trip\nApprove\nReject\n2026-01-09 to 2026-02-09\nPeter Mac Anderson\nCAN - Vacation\n74.00\n2.00\nPending Approval (2.00)\nVacation trip\nApprove\nReject\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
                 "crawl_depth": 1,
@@ -11526,6 +11878,42 @@
                         "text": "Search",
                         "role": null,
                         "class": "oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "Approve",
+                        "role": null,
+                        "class": "oxd-button oxd-button--medium oxd-button--label-success oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "Reject",
+                        "role": null,
+                        "class": "oxd-button oxd-button--medium oxd-button--label-danger oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "Approve",
+                        "role": null,
+                        "class": "oxd-button oxd-button--medium oxd-button--label-success oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "Reject",
+                        "role": null,
+                        "class": "oxd-button oxd-button--medium oxd-button--label-danger oxd-table-cell-action-space"
+                    },
+                    {
+                        "tag": "button",
+                        "text": "",
+                        "role": null,
+                        "class": "oxd-icon-button"
                     }
                 ]
             },
@@ -11638,6 +12026,90 @@
                             "possible_actions": [
                                 "search"
                             ]
+                        }
+                    },
+                    {
+                        "tag": "button",
+                        "id": null,
+                        "name": null,
+                        "role": null,
+                        "aria_label": null,
+                        "title": null,
+                        "data_testid": null,
+                        "class": "oxd-button oxd-button--medium oxd-button--label-success oxd-table-cell-action-space",
+                        "visible": true,
+                        "locator": {
+                            "strategy": "text",
+                            "value": "Approve"
+                        },
+                        "label": null,
+                        "element_type": "button",
+                        "text": "Approve",
+                        "semantic_hints": {
+                            "possible_actions": []
+                        }
+                    },
+                    {
+                        "tag": "button",
+                        "id": null,
+                        "name": null,
+                        "role": null,
+                        "aria_label": null,
+                        "title": null,
+                        "data_testid": null,
+                        "class": "oxd-button oxd-button--medium oxd-button--label-danger oxd-table-cell-action-space",
+                        "visible": true,
+                        "locator": {
+                            "strategy": "text",
+                            "value": "Reject"
+                        },
+                        "label": null,
+                        "element_type": "button",
+                        "text": "Reject",
+                        "semantic_hints": {
+                            "possible_actions": []
+                        }
+                    },
+                    {
+                        "tag": "button",
+                        "id": null,
+                        "name": null,
+                        "role": null,
+                        "aria_label": null,
+                        "title": null,
+                        "data_testid": null,
+                        "class": "oxd-button oxd-button--medium oxd-button--label-success oxd-table-cell-action-space",
+                        "visible": true,
+                        "locator": {
+                            "strategy": "text",
+                            "value": "Approve"
+                        },
+                        "label": null,
+                        "element_type": "button",
+                        "text": "Approve",
+                        "semantic_hints": {
+                            "possible_actions": []
+                        }
+                    },
+                    {
+                        "tag": "button",
+                        "id": null,
+                        "name": null,
+                        "role": null,
+                        "aria_label": null,
+                        "title": null,
+                        "data_testid": null,
+                        "class": "oxd-button oxd-button--medium oxd-button--label-danger oxd-table-cell-action-space",
+                        "visible": true,
+                        "locator": {
+                            "strategy": "text",
+                            "value": "Reject"
+                        },
+                        "label": null,
+                        "element_type": "button",
+                        "text": "Reject",
+                        "semantic_hints": {
+                            "possible_actions": []
                         }
                     }
                 ],
@@ -12209,6 +12681,22 @@
                     "minlength": null,
                     "pattern": null,
                     "placeholder": null
+                },
+                {
+                    "required": false,
+                    "type": "checkbox",
+                    "maxlength": null,
+                    "minlength": null,
+                    "pattern": null,
+                    "placeholder": null
+                },
+                {
+                    "required": false,
+                    "type": "checkbox",
+                    "maxlength": null,
+                    "minlength": null,
+                    "pattern": null,
+                    "placeholder": null
                 }
             ],
             "components": {
@@ -12226,7 +12714,10 @@
                             "Number of Days",
                             "Status"
                         ],
-                        "actions": [],
+                        "actions": [
+                            "Approve",
+                            "Reject"
+                        ],
                         "features": {
                             "pagination": false,
                             "search": true,
@@ -12234,7 +12725,34 @@
                         }
                     }
                 ],
-                "cards": [],
+                "cards": [
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "2026-03-09 to 2026-04-09",
+                        "content": [
+                            "2026-03-09 to 2026-04-09",
+                            "Peter Mac Anderson",
+                            "CAN - Vacation",
+                            "74.00",
+                            "2.00"
+                        ],
+                        "locator": "div.oxd-table-card"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "2026-01-09 to 2026-02-09",
+                        "content": [
+                            "2026-01-09 to 2026-02-09",
+                            "Peter Mac Anderson",
+                            "CAN - Vacation",
+                            "74.00",
+                            "2.00"
+                        ],
+                        "locator": "div.oxd-table-card"
+                    }
+                ],
                 "tabs": [],
                 "dialogs": [
                     {
@@ -12622,6 +13140,102 @@
                     "hidden": false
                 },
                 {
+                    "tag": "input",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "Approve",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "Reject",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "input",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "Approve",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "Reject",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
+                    "tag": "button",
+                    "text": "",
+                    "label": null,
+                    "role": null,
+                    "aria_label": null,
+                    "aria_required": null,
+                    "required": false,
+                    "disabled": false,
+                    "readonly": false,
+                    "hidden": false
+                },
+                {
                     "tag": "a",
                     "text": "OrangeHRM, Inc",
                     "label": null,
@@ -12752,7 +13366,7 @@
                         "label": null,
                         "element_type": "input",
                         "input_type": "hidden",
-                        "value": "ca8e5222442206b165.caxpMMcFQl2m1EYCJU1jmohRJwg2hsmXRxfDc90yiDA.JM0DSJJhcWjUvTVwX30L28poVj9HyKzkD2WGNpd1uAMXlS5m821yPuvjLQ",
+                        "value": "15d2f52b9062.y2p8diRCl5_2wmlSw1gj7G-EpqnA0Wk9s5aNZCP8wPs.shgIJ2EP4NG8kggXoD5apCH91fqi5CdXisbkLRSKhZyZKSoZUAjT0qKpGg",
                         "placeholder": null,
                         "required": false,
                         "readonly": false,
@@ -12998,7 +13612,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nPerformance\nManage Reviews\nUpgrade\n\nmanda user\n\nConfigure \nManage Reviews \nMy Trackers\nEmployee Trackers\nEmployee Reviews\nEmployee Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nInclude\nCurrent Employees Only\nReview Status\n-- Select --\nFrom Date\nTo Date\nReset\nSearch\n\n\nNo Records Found\nEmployee\nJob Title\nSub Unit\nReview Period\nDue Date\nReview Status\nActions\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n\n\nInfo\n\nNo Records Found\n\n×",
+                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nPerformance\nManage Reviews\nUpgrade\n\nTest 10 user\n\nConfigure \nManage Reviews \nMy Trackers\nEmployee Trackers\nEmployee Reviews\nEmployee Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nInclude\nCurrent Employees Only\nReview Status\n-- Select --\nFrom Date\nTo Date\nReset\nSearch\n\n\nNo Records Found\nEmployee\nJob Title\nSub Unit\nReview Period\nDue Date\nReview Status\nActions\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n\n\nInfo\n\nNo Records Found\n\n×",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
                 "crawl_depth": 1,
@@ -14901,7 +15515,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nPIM\nUpgrade\n\nmanda user\n\nmanda user\nPersonal Details\nContact Details\nEmergency Contacts\nDependents\nImmigration\nJob\nSalary\nReport-to\nQualifications\nMemberships\nPersonal Details\nEmployee Full Name\nEmployee Id\nOther Id\nDriver's License Number\nLicense Expiry Date\nNationality\nAmerican\nMarital Status\nSingle\nDate of Birth\nGender\nMale\nFemale\n\n* Required\n\nSave\nCustom Fields\nBlood Type\nA+\nTest_Field\nSave\nAttachments\n Add\n(1) Record Found\nFile Name\nDescription\nSize\nType\nDate Added\nAdded By\nActions\ntest.png\ntest\n53.16 kB\nimage/png\n2024-06-02\nAdmin\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
+                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nPIM\nUpgrade\n\nTest 10 user\n\nTest 10 user\nPersonal Details\nContact Details\nEmergency Contacts\nDependents\nImmigration\nJob\nSalary\nReport-to\nQualifications\nMemberships\nPersonal Details\nEmployee Full Name\nEmployee Id\nOther Id\nDriver's License Number\nLicense Expiry Date\nNationality\nAmerican\nMarital Status\nSingle\nDate of Birth\nGender\nMale\nFemale\n\n* Required\n\nSave\nCustom Fields\nBlood Type\nA+\nTest_Field\nSave\nAttachments\n Add\n(1) Record Found\nFile Name\nDescription\nSize\nType\nDate Added\nAdded By\nActions\ntest.png\ntest\n53.16 kB\nimage/png\n2024-06-02\nAdmin\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
                 "crawl_depth": 1,
@@ -16082,7 +16696,7 @@
                         "label": null,
                         "element_type": "input",
                         "input_type": "text",
-                        "value": "manda",
+                        "value": "Test 10",
                         "placeholder": "First Name",
                         "required": false,
                         "readonly": false,
@@ -16772,7 +17386,7 @@
                 },
                 {
                     "tag": "h6",
-                    "text": "manda user"
+                    "text": "Test 10 user"
                 },
                 {
                     "tag": "h6",
@@ -16928,9 +17542,9 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "manda user",
+                        "title": "Test 10 user",
                         "content": [
-                            "manda user",
+                            "Test 10 user",
                             "Personal Details",
                             "Contact Details",
                             "Emergency Contacts",
@@ -17594,7 +18208,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nPIM\nUpgrade\n\nmanda user\n\nConfiguration \nEmployee List\nAdd Employee\nReports\nEmployee Information\nEmployee Name\nEmployee Id\nEmployment Status\n-- Select --\nInclude\nCurrent Employees Only\nSupervisor Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nReset\nSearch\n\n\n Add\n(109) Records Found\nId\nFirst (& Middle) Name\nLast Name\nJob Title\nEmployment Status\nSub Unit\nSupervisor\nActions\ndfgsjsjdh\n123445 34\n444444\n0295\n99N75 425\n5TlV\n0312\nA8DCo 4Ys\n010Z\n01715\nAmelia\nBrown\n923\naniket Ashok\npatil\n0360\naniket t\nt\n0376\nAnita ajay\nshaha\n0367\nAsh J\nTyson\n0382\nAuto\nEmpqzx7\n0303\nbala kumar\nravi\n0292\nbmrtahvwhibmrtahvwhi\nhbfqkhjfqbhbfqkhjfqb\n0320\nCharles\nCarter\n00392\nCharlotte\nSmith\n0363\nChristopher\nMcmillan\n9999\nCLAUDIO J N\nSANTOS\n4347\nDarren\nClark\n3719\nDawn\nVasquez\n0290\ndhbrukkuzldhbrukkuzl\nibuvlwtfsfibuvlwtfsf\n0294\nDHINA KARAN\nP\n09557\nEmily\nJones\n1235\nFName Mname\nLName\nATPValue\nftdkux\nltsxgy\nATPValue\nfthnvn\nltwrrt\nATPValue\nfthnvn\nltwrrt\nATPValue\nfthyfv\nltrhtm\nATPValue\nftioiu\nltpugr\nATPValue\nftioiu\nltpugr\nATPValue\nftioiu\nltpugr\nATPValue\nftioiu\nltpugr\nATPValue\nftndlm\nltdyyf\nATPValue\nftpjte\nltpzkj\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\n0315hh\nhh\nhh\n0365\nJames\nButler\n0367010\nJobin Mathew\nSam\n0303\njoker john\nselvam\n0361\nJoseph\nEvans\n0342\nJoy\nSmith\n0323\nJoy\nSmith\n0317\nJoy\nSmith\n0322\nJoy\nSmith\n0359\nJoy\nSmith\n0335\nJoy\nSmith\n0321\nJoy\nSmith\n0364\nJoy\nSmith\n1\n2\n3\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
+                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nPIM\nUpgrade\n\nTest 10 user\n\nConfiguration \nEmployee List\nAdd Employee\nReports\nEmployee Information\nEmployee Name\nEmployee Id\nEmployment Status\n-- Select --\nInclude\nCurrent Employees Only\nSupervisor Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nReset\nSearch\n\n\n Add\n(130) Records Found\nId\nFirst (& Middle) Name\nLast Name\nJob Title\nEmployment Status\nSub Unit\nSupervisor\nActions\n00001241\n12323asdfwqe Singh\npradhan\ndfgsjsjdh\n123445 34\n444444\n0295\n99N75 425\n5TlV\n0377\n@ J\nRay\n0312\nA8DCo 4Ys\n010Z\n01715\nAmelia\nBrown\n917\naniket Ashok\npatil\n0360\naniket t\nt\nApi\nTester295745\nApi\nTester993866\n0367\nAsh J\nTyson\n0303\nbala kumar\nravi\n0292\nbmrtahvwhibmrtahvwhi\nhbfqkhjfqbhbfqkhjfqb\n0392\nBoom Boo\nBang\n0371\nBoom Boo\nBang\n0388\nBoom Boo\nBang\n0400\nBoom Boo\nBang\n0393\nBoom Boo\nBang\n00001243\nchamans Singh\npradhan\n0320\nCharles\nCarter\n00392\nCharlotte\nSmith\n0363\nChristopher\nMcmillan\n0290\ndhbrukkuzldhbrukkuzl\nibuvlwtfsfibuvlwtfsf\n0294\nDHINA KARAN\nP\n09557\nEmily\nJones\n00001265\newrwwer Singh\npradhan\n1235\nFName Mname\nLName\nATPValue\nftdkux\nltsxgy\nATPValue\nfthnvn\nltwrrt\nATPValue\nfthnvn\nltwrrt\nATPValue\nfthyfv\nltrhtm\nATPValue\nftioiu\nltpugr\nATPValue\nftioiu\nltpugr\nATPValue\nftioiu\nltpugr\nATPValue\nftioiu\nltpugr\nATPValue\nftndlm\nltdyyf\nATPValue\nftpjte\nltpzkj\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\nATPValue\nftyseo\nltzbbp\n0315hh\nhh\nhh\n0365\nJames\nButler\n0367010\nJobin Mathew\nSam\n0303\njoker john\nselvam\n0361\nJoseph\nEvans\n0359\nJoy\nSmith\n0335\nJoy\nSmith\n1\n2\n3\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
                 "crawl_depth": 1,
@@ -20344,6 +20958,17 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
+                        "title": "00001241",
+                        "content": [
+                            "00001241",
+                            "12323asdfwqe Singh",
+                            "pradhan"
+                        ],
+                        "locator": "text=00001241\n12323asdfwqe Singh\npradhan"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
                         "title": "dfgsjsjdh",
                         "content": [
                             "dfgsjsjdh",
@@ -20362,6 +20987,17 @@
                             "5TlV"
                         ],
                         "locator": "text=0295\n99N75 425\n5TlV"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "0377",
+                        "content": [
+                            "0377",
+                            "@ J",
+                            "Ray"
+                        ],
+                        "locator": "text=0377\n@ J\nRay"
                     },
                     {
                         "type": "card",
@@ -20388,13 +21024,13 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "923",
+                        "title": "917",
                         "content": [
-                            "923",
+                            "917",
                             "aniket Ashok",
                             "patil"
                         ],
-                        "locator": "text=923\naniket Ashok\npatil"
+                        "locator": "text=917\naniket Ashok\npatil"
                     },
                     {
                         "type": "card",
@@ -20410,13 +21046,22 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "0376",
+                        "title": "Api",
                         "content": [
-                            "0376",
-                            "Anita ajay",
-                            "shaha"
+                            "Api",
+                            "Tester295745"
                         ],
-                        "locator": "text=0376\nAnita ajay\nshaha"
+                        "locator": "text=Api\nTester295745"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "Api",
+                        "content": [
+                            "Api",
+                            "Tester993866"
+                        ],
+                        "locator": "text=Api\nTester993866"
                     },
                     {
                         "type": "card",
@@ -20428,17 +21073,6 @@
                             "Tyson"
                         ],
                         "locator": "text=0367\nAsh J\nTyson"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "0382",
-                        "content": [
-                            "0382",
-                            "Auto",
-                            "Empqzx7"
-                        ],
-                        "locator": "text=0382\nAuto\nEmpqzx7"
                     },
                     {
                         "type": "card",
@@ -20461,6 +21095,72 @@
                             "hbfqkhjfqbhbfqkhjfqb"
                         ],
                         "locator": "div.oxd-table-card"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "0392",
+                        "content": [
+                            "0392",
+                            "Boom Boo",
+                            "Bang"
+                        ],
+                        "locator": "text=0392\nBoom Boo\nBang"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "0371",
+                        "content": [
+                            "0371",
+                            "Boom Boo",
+                            "Bang"
+                        ],
+                        "locator": "text=0371\nBoom Boo\nBang"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "0388",
+                        "content": [
+                            "0388",
+                            "Boom Boo",
+                            "Bang"
+                        ],
+                        "locator": "text=0388\nBoom Boo\nBang"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "0400",
+                        "content": [
+                            "0400",
+                            "Boom Boo",
+                            "Bang"
+                        ],
+                        "locator": "text=0400\nBoom Boo\nBang"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "0393",
+                        "content": [
+                            "0393",
+                            "Boom Boo",
+                            "Bang"
+                        ],
+                        "locator": "text=0393\nBoom Boo\nBang"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "00001243",
+                        "content": [
+                            "00001243",
+                            "chamans Singh",
+                            "pradhan"
+                        ],
+                        "locator": "text=00001243\nchamans Singh\npradhan"
                     },
                     {
                         "type": "card",
@@ -20498,39 +21198,6 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "9999",
-                        "content": [
-                            "9999",
-                            "CLAUDIO J N",
-                            "SANTOS"
-                        ],
-                        "locator": "text=9999\nCLAUDIO J N\nSANTOS"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "4347",
-                        "content": [
-                            "4347",
-                            "Darren",
-                            "Clark"
-                        ],
-                        "locator": "text=4347\nDarren\nClark"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "3719",
-                        "content": [
-                            "3719",
-                            "Dawn",
-                            "Vasquez"
-                        ],
-                        "locator": "text=3719\nDawn\nVasquez"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
                         "title": "0290",
                         "content": [
                             "0290",
@@ -20560,6 +21227,17 @@
                             "Jones"
                         ],
                         "locator": "text=09557\nEmily\nJones"
+                    },
+                    {
+                        "type": "card",
+                        "selector": "[class*='card']",
+                        "title": "00001265",
+                        "content": [
+                            "00001265",
+                            "ewrwwer Singh",
+                            "pradhan"
+                        ],
+                        "locator": "text=00001265\newrwwer Singh\npradhan"
                     },
                     {
                         "type": "card",
@@ -20707,50 +21385,6 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "0342",
-                        "content": [
-                            "0342",
-                            "Joy",
-                            "Smith"
-                        ],
-                        "locator": "text=0342\nJoy\nSmith"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "0323",
-                        "content": [
-                            "0323",
-                            "Joy",
-                            "Smith"
-                        ],
-                        "locator": "text=0323\nJoy\nSmith"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "0317",
-                        "content": [
-                            "0317",
-                            "Joy",
-                            "Smith"
-                        ],
-                        "locator": "text=0317\nJoy\nSmith"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "0322",
-                        "content": [
-                            "0322",
-                            "Joy",
-                            "Smith"
-                        ],
-                        "locator": "text=0322\nJoy\nSmith"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
                         "title": "0359",
                         "content": [
                             "0359",
@@ -20769,28 +21403,6 @@
                             "Smith"
                         ],
                         "locator": "text=0335\nJoy\nSmith"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "0321",
-                        "content": [
-                            "0321",
-                            "Joy",
-                            "Smith"
-                        ],
-                        "locator": "text=0321\nJoy\nSmith"
-                    },
-                    {
-                        "type": "card",
-                        "selector": "[class*='card']",
-                        "title": "0364",
-                        "content": [
-                            "0364",
-                            "Joy",
-                            "Smith"
-                        ],
-                        "locator": "text=0364\nJoy\nSmith"
                     }
                 ],
                 "tabs": [],
@@ -23043,7 +23655,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nRecruitment\nUpgrade\n\nmanda user\n\nCandidates\nVacancies\nCandidates\nJob Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nCandidate Name\nKeywords\nDate of Application\n \nMethod of Application\n-- Select --\nReset\nSearch\n\n\n Add\n(65) Records Found\nVacancy\nCandidate\nHiring Manager\nDate of Application\nStatus\nActions\nSenior QA Lead\nTom K Peter\n(Deleted)\n2026-24-07\nApplication Initiated\nSenior QA Lead\nTom K Peter\n(Deleted)\n2026-24-07\nApplication Initiated\nSenior QA Lead\nTom K Peter\n(Deleted)\n2026-24-07\nApplication Initiated\npp pp\n(Deleted)\n2026-24-07\nTanmay Anderson O'Keefe\n(Deleted)\n2024-29-03\nTanmay sree Dachu\n(Deleted)\n2024-06-02\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nRejected\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nManu K M\n(Deleted)\n2024-06-02\nManu K M\n(Deleted)\n2024-06-02\nManu K M\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nRejected\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nApplication Initiated\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nApplication Initiated\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nRejected\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nCedric C Ross.\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nCedric C Ross.\n(Deleted)\n2024-06-02\nShortlisted\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nmanda akhil user\n2024-06-02\nApplication Initiated\nAntoAnto 09:58 AM M Varghese\n(Deleted)\n2024-06-02\nAnto 10:15 AM M Varghese\n(Deleted)\n2024-06-02\nAnto 10:20 AM M Varghese\n(Deleted)\n2024-06-02\nAnto 10:26 AM M Varghese\n(Deleted)\n2024-06-02\nAnto 10:28 AM M Varghese\n(Deleted)\n2024-06-02\n1\n2\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
+                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nRecruitment\nUpgrade\n\nTest 10 user\n\nCandidates\nVacancies\nCandidates\nJob Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nCandidate Name\nKeywords\nDate of Application\n \nMethod of Application\n-- Select --\nReset\nSearch\n\n\n Add\n(67) Records Found\nVacancy\nCandidate\nHiring Manager\nDate of Application\nStatus\nActions\nTest Code Automate\n(Deleted)\n2026-25-07\nTest Code Automate\n(Deleted)\n2026-25-07\nTest Code Automate\n(Deleted)\n2026-25-07\nPayroll Administrator\nTestFN1 TestMN1 TestLN1\nTest 10 akhil user\n2026-06-07\nShortlisted\nTanmay Anderson O'Keefe\n(Deleted)\n2024-29-03\nTanmay sree Dachu\n(Deleted)\n2024-06-02\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nRejected\nSenior QA Lead\nJohn Doe\n(Deleted)\n2024-06-02\nShortlisted\nManu K M\n(Deleted)\n2024-06-02\nManu K M\n(Deleted)\n2024-06-02\nManu K M\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nmadhav m\n(Deleted)\n2024-06-02\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nRejected\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nApplication Initiated\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nApplication Initiated\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nRejected\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nGautham Raj R\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nCedric C Ross.\n(Deleted)\n2024-06-02\nShortlisted\nSenior QA Lead\nCedric C Ross.\n(Deleted)\n2024-06-02\nShortlisted\nPayroll Administrator\nTestFN TestMN TestLN\nTest 10 akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nTest 10 akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nTest 10 akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nTest 10 akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nTest 10 akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nTest 10 akhil user\n2024-06-02\nApplication Initiated\nPayroll Administrator\nTestFN TestMN TestLN\nTest 10 akhil user\n2024-06-02\nApplication Initiated\nAntoAnto 09:58 AM M Varghese\n(Deleted)\n2024-06-02\nAnto 10:15 AM M Varghese\n(Deleted)\n2024-06-02\nAnto 10:20 AM M Varghese\n(Deleted)\n2024-06-02\nAnto 10:26 AM M Varghese\n(Deleted)\n2024-06-02\nAnto 10:28 AM M Varghese\n(Deleted)\n2024-06-02\n1\n2\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
                 "crawl_depth": 1,
@@ -23972,24 +24584,6 @@
                         "text": "Add",
                         "role": null,
                         "class": "oxd-button oxd-button--medium oxd-button--secondary"
-                    },
-                    {
-                        "tag": "button",
-                        "text": "",
-                        "role": null,
-                        "class": "oxd-icon-button oxd-table-cell-action-space"
-                    },
-                    {
-                        "tag": "button",
-                        "text": "",
-                        "role": null,
-                        "class": "oxd-icon-button oxd-table-cell-action-space"
-                    },
-                    {
-                        "tag": "button",
-                        "text": "",
-                        "role": null,
-                        "class": "oxd-icon-button oxd-table-cell-action-space"
                     },
                     {
                         "tag": "button",
@@ -25936,26 +26530,26 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "Senior QA Lead",
+                        "title": "Test Code Automate",
                         "content": [
-                            "Senior QA Lead",
-                            "Tom K Peter",
+                            "Test Code Automate",
                             "(Deleted)",
-                            "2026-24-07",
-                            "Application Initiated"
+                            "2026-25-07"
                         ],
-                        "locator": "div.oxd-table-card"
+                        "locator": "text=Test Code Automate\n(Deleted)\n2026-25-07"
                     },
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "pp pp",
+                        "title": "Payroll Administrator",
                         "content": [
-                            "pp pp",
-                            "(Deleted)",
-                            "2026-24-07"
+                            "Payroll Administrator",
+                            "TestFN1 TestMN1 TestLN1",
+                            "Test 10 akhil user",
+                            "2026-06-07",
+                            "Shortlisted"
                         ],
-                        "locator": "text=pp pp\n(Deleted)\n2026-24-07"
+                        "locator": "div.oxd-table-card"
                     },
                     {
                         "type": "card",
@@ -26086,7 +26680,7 @@
                         "content": [
                             "Payroll Administrator",
                             "TestFN TestMN TestLN",
-                            "manda akhil user",
+                            "Test 10 akhil user",
                             "2024-06-02",
                             "Application Initiated"
                         ],
@@ -26559,18 +27153,6 @@
                     "hidden": false
                 },
                 {
-                    "tag": "button",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
                     "tag": "input",
                     "text": "",
                     "label": null,
@@ -26607,31 +27189,7 @@
                     "hidden": false
                 },
                 {
-                    "tag": "button",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
                     "tag": "input",
-                    "text": "",
-                    "label": null,
-                    "role": null,
-                    "aria_label": null,
-                    "aria_required": null,
-                    "required": false,
-                    "disabled": false,
-                    "readonly": false,
-                    "hidden": false
-                },
-                {
-                    "tag": "button",
                     "text": "",
                     "label": null,
                     "role": null,
@@ -28770,7 +29328,7 @@
                 },
                 "has_horizontal_scroll": false,
                 "language": null,
-                "page_text": "Admin\nPIM\nLeave\nTime\nRecruitment\nMy Info\nPerformance\nDashboard\nDirectory\nMaintenance\nClaim\nBuzz\nTime\nTimesheets\nUpgrade\n\nmanda user\n\nTimesheets \nAttendance \nReports \nProject Info \nSelect Employee\nEmployee Name\n\n* Required\n\nView\n\n\nTimesheets Pending Action\n(3) Records Found\nEmployee Name\nTimesheet Period\nActions\nmanda akhil user\n2023-16-01 - 2023-22-01\nView\nmanda akhil user\n2022-15-08 - 2022-21-08\nView\nmanda akhil user\n2020-14-09 - 2020-20-09\nView\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
+                "page_text": "Administrador\nMódulo de Información Personal\nLicencias y Permisos\nTiempo\nReclutamiento\nMi Información\nDesempeño\nPizarra de pendientes\nDirectory\nMaintenance\nClaim\nBuzz\nTiempo\nHojas de asistencia\nUpgrade\n\nTest 10 user\n\nHojas de asistencia \nAsistencia \nReportes \nInformación del Proyecto \nSeleccione Empleado\nNombre del Empleado\n\n* Obligatorio\n\nVer\n\n\nReportes pendientes de ejecutar\n(3) Records Found\nNombre del Empleado\nPeríodo de reporte de asistencia\nAcciones\nTest 10 akhil user\nLun, 16 Jan 2023 - Dom, 22 Jan 2023\nVer\nTest 10 akhil user\nLun, 15 Aug 2022 - Dom, 21 Aug 2022\nVer\nTest 10 akhil user\nLun, 14 Sep 2020 - Dom, 20 Sep 2020\nVer\n\nOrangeHRM OS 5.9\n\n© 2005 - 2026 OrangeHRM, Inc. All rights reserved.\n\n\n",
                 "requested_url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule",
                 "final_url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
                 "crawl_depth": 1,
@@ -28798,7 +29356,7 @@
                 ],
                 "menus": [
                     {
-                        "text": "Admin",
+                        "text": "Administrador",
                         "href": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewAdminModule",
                         "type": "a",
                         "role": "",
@@ -28806,7 +29364,7 @@
                         "title": ""
                     },
                     {
-                        "text": "PIM",
+                        "text": "Módulo de Información Personal",
                         "href": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPimModule",
                         "type": "a",
                         "role": "",
@@ -28814,7 +29372,7 @@
                         "title": ""
                     },
                     {
-                        "text": "Leave",
+                        "text": "Licencias y Permisos",
                         "href": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveModule",
                         "type": "a",
                         "role": "",
@@ -28822,7 +29380,7 @@
                         "title": ""
                     },
                     {
-                        "text": "Time",
+                        "text": "Tiempo",
                         "href": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewTimeModule",
                         "type": "a",
                         "role": "",
@@ -28830,7 +29388,7 @@
                         "title": ""
                     },
                     {
-                        "text": "Recruitment",
+                        "text": "Reclutamiento",
                         "href": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewRecruitmentModule",
                         "type": "a",
                         "role": "",
@@ -28838,7 +29396,7 @@
                         "title": ""
                     },
                     {
-                        "text": "My Info",
+                        "text": "Mi Información",
                         "href": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMyDetails",
                         "type": "a",
                         "role": "",
@@ -28846,7 +29404,7 @@
                         "title": ""
                     },
                     {
-                        "text": "Performance",
+                        "text": "Desempeño",
                         "href": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewPerformanceModule",
                         "type": "a",
                         "role": "",
@@ -28854,7 +29412,7 @@
                         "title": ""
                     },
                     {
-                        "text": "Dashboard",
+                        "text": "Pizarra de pendientes",
                         "href": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
                         "type": "a",
                         "role": "",
@@ -28903,49 +29461,49 @@
                     },
                     {
                         "tag": "a",
-                        "text": "Admin",
+                        "text": "Administrador",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "PIM",
+                        "text": "Módulo de Información Personal",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Leave",
+                        "text": "Licencias y Permisos",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Time",
+                        "text": "Tiempo",
                         "role": null,
                         "class": "oxd-main-menu-item active"
                     },
                     {
                         "tag": "a",
-                        "text": "Recruitment",
+                        "text": "Reclutamiento",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "My Info",
+                        "text": "Mi Información",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Performance",
+                        "text": "Desempeño",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Dashboard",
+                        "text": "Pizarra de pendientes",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
@@ -28993,49 +29551,49 @@
                     },
                     {
                         "tag": "a",
-                        "text": "Admin",
+                        "text": "Administrador",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "PIM",
+                        "text": "Módulo de Información Personal",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Leave",
+                        "text": "Licencias y Permisos",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Time",
+                        "text": "Tiempo",
                         "role": null,
                         "class": "oxd-main-menu-item active"
                     },
                     {
                         "tag": "a",
-                        "text": "Recruitment",
+                        "text": "Reclutamiento",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "My Info",
+                        "text": "Mi Información",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Performance",
+                        "text": "Desempeño",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Dashboard",
+                        "text": "Pizarra de pendientes",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
@@ -29083,49 +29641,49 @@
                     },
                     {
                         "tag": "a",
-                        "text": "Admin",
+                        "text": "Administrador",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "PIM",
+                        "text": "Módulo de Información Personal",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Leave",
+                        "text": "Licencias y Permisos",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Time",
+                        "text": "Tiempo",
                         "role": null,
                         "class": "oxd-main-menu-item active"
                     },
                     {
                         "tag": "a",
-                        "text": "Recruitment",
+                        "text": "Reclutamiento",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "My Info",
+                        "text": "Mi Información",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Performance",
+                        "text": "Desempeño",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Dashboard",
+                        "text": "Pizarra de pendientes",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
@@ -29173,49 +29731,49 @@
                     },
                     {
                         "tag": "a",
-                        "text": "Admin",
+                        "text": "Administrador",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "PIM",
+                        "text": "Módulo de Información Personal",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Leave",
+                        "text": "Licencias y Permisos",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Time",
+                        "text": "Tiempo",
                         "role": null,
                         "class": "oxd-main-menu-item active"
                     },
                     {
                         "tag": "a",
-                        "text": "Recruitment",
+                        "text": "Reclutamiento",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "My Info",
+                        "text": "Mi Información",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Performance",
+                        "text": "Desempeño",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Dashboard",
+                        "text": "Pizarra de pendientes",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
@@ -29257,49 +29815,49 @@
                     },
                     {
                         "tag": "a",
-                        "text": "Admin",
+                        "text": "Administrador",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "PIM",
+                        "text": "Módulo de Información Personal",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Leave",
+                        "text": "Licencias y Permisos",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Time",
+                        "text": "Tiempo",
                         "role": null,
                         "class": "oxd-main-menu-item active"
                     },
                     {
                         "tag": "a",
-                        "text": "Recruitment",
+                        "text": "Reclutamiento",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "My Info",
+                        "text": "Mi Información",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Performance",
+                        "text": "Desempeño",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Dashboard",
+                        "text": "Pizarra de pendientes",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
@@ -29347,49 +29905,49 @@
                     },
                     {
                         "tag": "a",
-                        "text": "Admin",
+                        "text": "Administrador",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "PIM",
+                        "text": "Módulo de Información Personal",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Leave",
+                        "text": "Licencias y Permisos",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Time",
+                        "text": "Tiempo",
                         "role": null,
                         "class": "oxd-main-menu-item active"
                     },
                     {
                         "tag": "a",
-                        "text": "Recruitment",
+                        "text": "Reclutamiento",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "My Info",
+                        "text": "Mi Información",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Performance",
+                        "text": "Desempeño",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Dashboard",
+                        "text": "Pizarra de pendientes",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
@@ -29461,49 +30019,49 @@
                     },
                     {
                         "tag": "a",
-                        "text": "Admin",
+                        "text": "Administrador",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "PIM",
+                        "text": "Módulo de Información Personal",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Leave",
+                        "text": "Licencias y Permisos",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Time",
+                        "text": "Tiempo",
                         "role": null,
                         "class": "oxd-main-menu-item active"
                     },
                     {
                         "tag": "a",
-                        "text": "Recruitment",
+                        "text": "Reclutamiento",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "My Info",
+                        "text": "Mi Información",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Performance",
+                        "text": "Desempeño",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
                     {
                         "tag": "a",
-                        "text": "Dashboard",
+                        "text": "Pizarra de pendientes",
                         "role": null,
                         "class": "oxd-main-menu-item"
                     },
@@ -29557,25 +30115,25 @@
                     },
                     {
                         "tag": "button",
-                        "text": "View",
+                        "text": "Ver",
                         "role": null,
                         "class": "oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space"
                     },
                     {
                         "tag": "button",
-                        "text": "View",
+                        "text": "Ver",
                         "role": null,
                         "class": "oxd-button oxd-button--medium oxd-button--text oxd-table-cell-action-space"
                     },
                     {
                         "tag": "button",
-                        "text": "View",
+                        "text": "Ver",
                         "role": null,
                         "class": "oxd-button oxd-button--medium oxd-button--text oxd-table-cell-action-space"
                     },
                     {
                         "tag": "button",
-                        "text": "View",
+                        "text": "Ver",
                         "role": null,
                         "class": "oxd-button oxd-button--medium oxd-button--text oxd-table-cell-action-space"
                     }
@@ -29658,11 +30216,11 @@
                         "visible": true,
                         "locator": {
                             "strategy": "text",
-                            "value": "View"
+                            "value": "Ver"
                         },
                         "label": null,
                         "element_type": "button",
-                        "text": "View",
+                        "text": "Ver",
                         "semantic_hints": {
                             "possible_actions": []
                         }
@@ -29679,11 +30237,11 @@
                         "visible": true,
                         "locator": {
                             "strategy": "text",
-                            "value": "View"
+                            "value": "Ver"
                         },
                         "label": null,
                         "element_type": "button",
-                        "text": "View",
+                        "text": "Ver",
                         "semantic_hints": {
                             "possible_actions": []
                         }
@@ -29700,11 +30258,11 @@
                         "visible": true,
                         "locator": {
                             "strategy": "text",
-                            "value": "View"
+                            "value": "Ver"
                         },
                         "label": null,
                         "element_type": "button",
-                        "text": "View",
+                        "text": "Ver",
                         "semantic_hints": {
                             "possible_actions": []
                         }
@@ -29721,11 +30279,11 @@
                         "visible": true,
                         "locator": {
                             "strategy": "text",
-                            "value": "View"
+                            "value": "Ver"
                         },
                         "label": null,
                         "element_type": "button",
-                        "text": "View",
+                        "text": "Ver",
                         "semantic_hints": {
                             "possible_actions": []
                         }
@@ -29744,17 +30302,17 @@
                         "visible": true,
                         "locator": {
                             "strategy": "placeholder",
-                            "value": "[placeholder='Search']"
+                            "value": "[placeholder='Buscar']"
                         },
                         "label": null,
                         "element_type": "input",
                         "input_type": "text",
                         "value": "",
-                        "placeholder": "Search",
+                        "placeholder": "Buscar",
                         "required": false,
                         "readonly": false,
                         "semantic_hints": {
-                            "possible_purpose": "search"
+                            "possible_purpose": "unknown"
                         }
                     },
                     {
@@ -29796,11 +30354,11 @@
                         "visible": true,
                         "locator": {
                             "strategy": "text",
-                            "value": "Admin"
+                            "value": "Administrador"
                         },
                         "label": null,
                         "element_type": "link",
-                        "text": "Admin",
+                        "text": "Administrador",
                         "href": "/web/index.php/admin/viewAdminModule",
                         "semantic_hints": {
                             "possible_actions": []
@@ -29818,11 +30376,11 @@
                         "visible": true,
                         "locator": {
                             "strategy": "text",
-                            "value": "PIM"
+                            "value": "Módulo de Información Personal"
                         },
                         "label": null,
                         "element_type": "link",
-                        "text": "PIM",
+                        "text": "Módulo de Información Personal",
                         "href": "/web/index.php/pim/viewPimModule",
                         "semantic_hints": {
                             "possible_actions": []
@@ -29840,11 +30398,11 @@
                         "visible": true,
                         "locator": {
                             "strategy": "text",
-                            "value": "Leave"
+                            "value": "Licencias y Permisos"
                         },
                         "label": null,
                         "element_type": "link",
-                        "text": "Leave",
+                        "text": "Licencias y Permisos",
                         "href": "/web/index.php/leave/viewLeaveModule",
                         "semantic_hints": {
                             "possible_actions": []
@@ -29862,11 +30420,11 @@
                         "visible": true,
                         "locator": {
                             "strategy": "text",
-                            "value": "Time"
+                            "value": "Tiempo"
                         },
                         "label": null,
                         "element_type": "link",
-                        "text": "Time",
+                        "text": "Tiempo",
                         "href": "/web/index.php/time/viewTimeModule",
                         "semantic_hints": {
                             "possible_actions": []
@@ -29884,11 +30442,11 @@
                         "visible": true,
                         "locator": {
                             "strategy": "text",
-                            "value": "Recruitment"
+                            "value": "Reclutamiento"
                         },
                         "label": null,
                         "element_type": "link",
-                        "text": "Recruitment",
+                        "text": "Reclutamiento",
                         "href": "/web/index.php/recruitment/viewRecruitmentModule",
                         "semantic_hints": {
                             "possible_actions": []
@@ -29906,11 +30464,11 @@
                         "visible": true,
                         "locator": {
                             "strategy": "text",
-                            "value": "My Info"
+                            "value": "Mi Información"
                         },
                         "label": null,
                         "element_type": "link",
-                        "text": "My Info",
+                        "text": "Mi Información",
                         "href": "/web/index.php/pim/viewMyDetails",
                         "semantic_hints": {
                             "possible_actions": []
@@ -29928,11 +30486,11 @@
                         "visible": true,
                         "locator": {
                             "strategy": "text",
-                            "value": "Performance"
+                            "value": "Desempeño"
                         },
                         "label": null,
                         "element_type": "link",
-                        "text": "Performance",
+                        "text": "Desempeño",
                         "href": "/web/index.php/performance/viewPerformanceModule",
                         "semantic_hints": {
                             "possible_actions": []
@@ -29950,11 +30508,11 @@
                         "visible": true,
                         "locator": {
                             "strategy": "text",
-                            "value": "Dashboard"
+                            "value": "Pizarra de pendientes"
                         },
                         "label": null,
                         "element_type": "link",
-                        "text": "Dashboard",
+                        "text": "Pizarra de pendientes",
                         "href": "/web/index.php/dashboard/index",
                         "semantic_hints": {
                             "possible_actions": []
@@ -30103,19 +30661,19 @@
             "headings": [
                 {
                     "tag": "h6",
-                    "text": "Time"
+                    "text": "Tiempo"
                 },
                 {
                     "tag": "h6",
-                    "text": "Timesheets"
+                    "text": "Hojas de asistencia"
                 },
                 {
                     "tag": "h6",
-                    "text": "Select Employee"
+                    "text": "Seleccione Empleado"
                 },
                 {
                     "tag": "h6",
-                    "text": "Timesheets Pending Action"
+                    "text": "Reportes pendientes de ejecutar"
                 }
             ],
             "dialogs": [],
@@ -30126,7 +30684,7 @@
                     "maxlength": null,
                     "minlength": null,
                     "pattern": null,
-                    "placeholder": "Search"
+                    "placeholder": "Buscar"
                 },
                 {
                     "required": false,
@@ -30143,16 +30701,14 @@
                         "type": "data_grid",
                         "locator": "[role='table']",
                         "columns": [
-                            "Actions",
-                            "Employee Name",
-                            "Timesheet Period"
+                            "Acciones",
+                            "Nombre del Empleado",
+                            "Período de reporte de asistencia"
                         ],
-                        "actions": [
-                            "View"
-                        ],
+                        "actions": [],
                         "features": {
                             "pagination": false,
-                            "search": true,
+                            "search": false,
                             "filters": false
                         }
                     }
@@ -30161,45 +30717,45 @@
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "Select Employee",
+                        "title": "Seleccione Empleado",
                         "content": [
-                            "Select Employee",
-                            "Employee Name",
-                            "* Required",
-                            "View"
+                            "Seleccione Empleado",
+                            "Nombre del Empleado",
+                            "* Obligatorio",
+                            "Ver"
                         ],
                         "locator": "div.orangehrm-card-container"
                     },
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "manda akhil user",
+                        "title": "Test 10 akhil user",
                         "content": [
-                            "manda akhil user",
-                            "2023-16-01 - 2023-22-01",
-                            "View"
+                            "Test 10 akhil user",
+                            "Lun, 16 Jan 2023 - Dom, 22 Jan 2023",
+                            "Ver"
                         ],
                         "locator": "div.oxd-table-card"
                     },
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "manda akhil user",
+                        "title": "Test 10 akhil user",
                         "content": [
-                            "manda akhil user",
-                            "2022-15-08 - 2022-21-08",
-                            "View"
+                            "Test 10 akhil user",
+                            "Lun, 15 Aug 2022 - Dom, 21 Aug 2022",
+                            "Ver"
                         ],
                         "locator": "div.oxd-table-card"
                     },
                     {
                         "type": "card",
                         "selector": "[class*='card']",
-                        "title": "manda akhil user",
+                        "title": "Test 10 akhil user",
                         "content": [
-                            "manda akhil user",
-                            "2020-14-09 - 2020-20-09",
-                            "View"
+                            "Test 10 akhil user",
+                            "Lun, 14 Sep 2020 - Dom, 20 Sep 2020",
+                            "Ver"
                         ],
                         "locator": "div.oxd-table-card"
                     }
@@ -30268,7 +30824,7 @@
                 },
                 {
                     "tag": "a",
-                    "text": "Admin",
+                    "text": "Administrador",
                     "label": null,
                     "role": null,
                     "aria_label": null,
@@ -30280,7 +30836,7 @@
                 },
                 {
                     "tag": "a",
-                    "text": "PIM",
+                    "text": "Módulo de Información Personal",
                     "label": null,
                     "role": null,
                     "aria_label": null,
@@ -30292,7 +30848,7 @@
                 },
                 {
                     "tag": "a",
-                    "text": "Leave",
+                    "text": "Licencias y Permisos",
                     "label": null,
                     "role": null,
                     "aria_label": null,
@@ -30304,7 +30860,7 @@
                 },
                 {
                     "tag": "a",
-                    "text": "Time",
+                    "text": "Tiempo",
                     "label": null,
                     "role": null,
                     "aria_label": null,
@@ -30316,7 +30872,7 @@
                 },
                 {
                     "tag": "a",
-                    "text": "Recruitment",
+                    "text": "Reclutamiento",
                     "label": null,
                     "role": null,
                     "aria_label": null,
@@ -30328,7 +30884,7 @@
                 },
                 {
                     "tag": "a",
-                    "text": "My Info",
+                    "text": "Mi Información",
                     "label": null,
                     "role": null,
                     "aria_label": null,
@@ -30340,7 +30896,7 @@
                 },
                 {
                     "tag": "a",
-                    "text": "Performance",
+                    "text": "Desempeño",
                     "label": null,
                     "role": null,
                     "aria_label": null,
@@ -30352,7 +30908,7 @@
                 },
                 {
                     "tag": "a",
-                    "text": "Dashboard",
+                    "text": "Pizarra de pendientes",
                     "label": null,
                     "role": null,
                     "aria_label": null,
@@ -30460,7 +31016,7 @@
                 },
                 {
                     "tag": "button",
-                    "text": "View",
+                    "text": "Ver",
                     "label": null,
                     "role": null,
                     "aria_label": null,
@@ -30472,7 +31028,7 @@
                 },
                 {
                     "tag": "button",
-                    "text": "View",
+                    "text": "Ver",
                     "label": null,
                     "role": null,
                     "aria_label": null,
@@ -30484,7 +31040,7 @@
                 },
                 {
                     "tag": "button",
-                    "text": "View",
+                    "text": "Ver",
                     "label": null,
                     "role": null,
                     "aria_label": null,
@@ -30496,7 +31052,7 @@
                 },
                 {
                     "tag": "button",
-                    "text": "View",
+                    "text": "Ver",
                     "label": null,
                     "role": null,
                     "aria_label": null,

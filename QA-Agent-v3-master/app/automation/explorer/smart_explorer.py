@@ -46,6 +46,12 @@ class SmartExplorer:
 
         # Discover available actions
         actions = self.action_engine.discover_actions()
+        print("\n========== ACTIONS ==========")
+
+        for action in actions:
+           print(action)
+
+        print("=============================\n")
 
         return {
 

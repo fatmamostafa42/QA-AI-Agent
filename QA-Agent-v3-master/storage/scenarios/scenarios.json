@@ -1,384 +1,62 @@
-{
-    "application": {
-        "base_url": "https://opensource-demo.orangehrmlive.com",
-        "generated_at": "2026-07-23T20:06:40.914598",
-        "pages_count": 12
+[
+    {
+        "name": "Auto Complete",
+        "source": "feature",
+        "intent": "UNKNOWN",
+        "entity": "Auto Complete",
+        "category": "UNKNOWN",
+        "page": "OrangeHRM",
+        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+        "steps": [],
+        "expected_result": "",
+        "actions": []
     },
-    "summary": {
-        "pages": 12,
-        "buttons": 80,
-        "inputs": 38,
-        "links": 182,
-        "forms": 0,
-        "tables": 0,
-        "dialogs": 0,
-        "components": 162,
-        "cards": 143,
-        "grids": 8,
-        "menus": 132,
-        "headings": 28,
-        "validation_messages": 158,
-        "accessibility_items": 698
+    {
+        "name": "Button Actions",
+        "source": "feature",
+        "intent": "UNKNOWN",
+        "entity": "Button Actions",
+        "category": "UNKNOWN",
+        "page": "OrangeHRM",
+        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+        "steps": [],
+        "expected_result": "",
+        "actions": []
     },
-    "scenarios": [
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Dashboard",
-                "Data Entry",
-                "Navigation",
-                "Search"
-            ],
-            "scenarios": [
-                "Click Buttons",
-                "Enter Invalid Data",
-                "Enter Valid Data",
-                "Navigate Between Pages",
-                "Open Module",
-                "Refresh Dashboard",
-                "Search Empty",
-                "Search Invalid Data",
-                "Search Valid Data",
-                "Validate Dashboard Widgets",
-                "View Dashboard"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
-            "title": "OrangeHRM",
-            "features": [
-                "Auto Complete",
-                "Button Actions",
-                "Corporate Branding",
-                "Create Records",
-                "Data Entry",
-                "Nationality Management",
-                "Navigation",
-                "Reset Forms",
-                "Search",
-                "User Management"
-            ],
-            "scenarios": [
-                "Add Nationality",
-                "Click Buttons",
-                "Create Record",
-                "Create User",
-                "Delete Nationality",
-                "Delete User",
-                "Edit Nationality",
-                "Edit User",
-                "Enter Invalid Data",
-                "Enter Valid Data",
-                "Filter Users",
-                "Navigate Between Pages",
-                "No Matching Result",
-                "Open Module",
-                "Reset Form",
-                "Restore Defaults",
-                "Search Empty",
-                "Search Invalid Data",
-                "Search User",
-                "Search Valid Data",
-                "Select Suggested Value",
-                "Update Branding",
-                "Upload Logo"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Buzz Feed",
-                "Data Entry",
-                "Navigation",
-                "Photo Upload",
-                "Post Management",
-                "Search",
-                "Video Upload"
-            ],
-            "scenarios": [
-                "Click Buttons",
-                "Comment Post",
-                "Create Post",
-                "Delete Post",
-                "Edit Post",
-                "Enter Invalid Data",
-                "Enter Valid Data",
-                "Invalid Photo Upload",
-                "Invalid Video Upload",
-                "Like Post",
-                "Navigate Between Pages",
-                "Open Module",
-                "Replace Photo",
-                "Replace Video",
-                "Search Empty",
-                "Search Invalid Data",
-                "Search Valid Data",
-                "Share Post",
-                "Upload Photo",
-                "Upload Video"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
-            "title": "OrangeHRM",
-            "features": [
-                "Auto Complete",
-                "Button Actions",
-                "Claim Management",
-                "Data Entry",
-                "Data Persistence",
-                "Navigation",
-                "Reset Forms",
-                "Search"
-            ],
-            "scenarios": [
-                "Assign Claim",
-                "Click Buttons",
-                "Create Claim",
-                "Enter Invalid Data",
-                "Enter Valid Data",
-                "Navigate Between Pages",
-                "No Matching Result",
-                "Open Module",
-                "Reset Form",
-                "Save Changes",
-                "Search Claim",
-                "Search Empty",
-                "Search Invalid Data",
-                "Search Valid Data",
-                "Select Suggested Value",
-                "Verify Saved Data"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
-            "title": "OrangeHRM",
-            "features": [
-                "Auto Complete",
-                "Button Actions",
-                "Data Entry",
-                "Employee Directory",
-                "Navigation",
-                "Reset Forms",
-                "Search"
-            ],
-            "scenarios": [
-                "Click Buttons",
-                "Enter Invalid Data",
-                "Enter Valid Data",
-                "Navigate Between Pages",
-                "No Matching Result",
-                "Open Module",
-                "Reset Form",
-                "Search Employee",
-                "Search Empty",
-                "Search Invalid Data",
-                "Search Valid Data",
-                "Select Suggested Value",
-                "View Employee Profile"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
-            "title": "OrangeHRM",
-            "features": [
-                "Auto Complete",
-                "Button Actions",
-                "Data Entry",
-                "Data Persistence",
-                "Leave Management",
-                "Navigation",
-                "Reset Forms",
-                "Search"
-            ],
-            "scenarios": [
-                "Apply Leave",
-                "Approve Leave",
-                "Cancel Leave",
-                "Click Buttons",
-                "Enter Invalid Data",
-                "Enter Valid Data",
-                "Navigate Between Pages",
-                "No Matching Result",
-                "Open Module",
-                "Reject Leave",
-                "Reset Form",
-                "Save Changes",
-                "Search Empty",
-                "Search Invalid Data",
-                "Search Leave",
-                "Search Valid Data",
-                "Select Suggested Value",
-                "Verify Saved Data"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Cancel Operation",
-                "Data Entry",
-                "Maintenance",
-                "Navigation"
-            ],
-            "scenarios": [
-                "Cancel Changes",
-                "Click Buttons",
-                "Enter Invalid Data",
-                "Enter Valid Data",
-                "Navigate Between Pages",
-                "Open Module"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
-            "title": "OrangeHRM",
-            "features": [
-                "Auto Complete",
-                "Button Actions",
-                "Data Entry",
-                "Navigation",
-                "Performance Management",
-                "Reset Forms",
-                "Search"
-            ],
-            "scenarios": [
-                "Click Buttons",
-                "Create Review",
-                "Edit Review",
-                "Enter Invalid Data",
-                "Enter Valid Data",
-                "Navigate Between Pages",
-                "No Matching Result",
-                "Open Module",
-                "Reset Form",
-                "Search Empty",
-                "Search Invalid Data",
-                "Search Reviews",
-                "Search Valid Data",
-                "Select Suggested Value"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Create Records",
-                "Data Entry",
-                "Data Persistence",
-                "Employee Management",
-                "Navigation",
-                "Search"
-            ],
-            "scenarios": [
-                "Add Employee",
-                "Click Buttons",
-                "Create Record",
-                "Delete Employee",
-                "Edit Employee",
-                "Enter Invalid Data",
-                "Enter Valid Data",
-                "Filter Employee",
-                "Navigate Between Pages",
-                "Open Module",
-                "Save Changes",
-                "Search Employee",
-                "Search Empty",
-                "Search Invalid Data",
-                "Search Valid Data",
-                "Verify Saved Data"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
-            "title": "OrangeHRM",
-            "features": [
-                "Auto Complete",
-                "Button Actions",
-                "Create Records",
-                "Data Entry",
-                "Employee Management",
-                "Navigation",
-                "Reset Forms",
-                "Search"
-            ],
-            "scenarios": [
-                "Add Employee",
-                "Click Buttons",
-                "Create Record",
-                "Delete Employee",
-                "Edit Employee",
-                "Enter Invalid Data",
-                "Enter Valid Data",
-                "Filter Employee",
-                "Navigate Between Pages",
-                "No Matching Result",
-                "Open Module",
-                "Reset Form",
-                "Search Employee",
-                "Search Empty",
-                "Search Invalid Data",
-                "Search Valid Data",
-                "Select Suggested Value"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
-            "title": "OrangeHRM",
-            "features": [
-                "Auto Complete",
-                "Button Actions",
-                "Create Records",
-                "Data Entry",
-                "Navigation",
-                "Recruitment",
-                "Reset Forms",
-                "Search"
-            ],
-            "scenarios": [
-                "Click Buttons",
-                "Create Record",
-                "Enter Invalid Data",
-                "Enter Valid Data",
-                "Navigate Between Pages",
-                "No Matching Result",
-                "Open Module",
-                "Reset Form",
-                "Search Empty",
-                "Search Invalid Data",
-                "Search Valid Data",
-                "Select Suggested Value"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
-            "title": "OrangeHRM",
-            "features": [
-                "Auto Complete",
-                "Button Actions",
-                "Data Entry",
-                "Navigation",
-                "Search",
-                "Time Management"
-            ],
-            "scenarios": [
-                "Click Buttons",
-                "Enter Invalid Data",
-                "Enter Valid Data",
-                "Navigate Between Pages",
-                "No Matching Result",
-                "Open Module",
-                "Search Empty",
-                "Search Invalid Data",
-                "Search Valid Data",
-                "Select Suggested Value"
-            ]
-        }
-    ]
-}
+    {
+        "name": "Data Entry",
+        "source": "feature",
+        "intent": "UNKNOWN",
+        "entity": "Data Entry",
+        "category": "UNKNOWN",
+        "page": "OrangeHRM",
+        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+        "steps": [],
+        "expected_result": "",
+        "actions": []
+    },
+    {
+        "name": "Navigation",
+        "source": "feature",
+        "intent": "UNKNOWN",
+        "entity": "Navigation",
+        "category": "UNKNOWN",
+        "page": "OrangeHRM",
+        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+        "steps": [],
+        "expected_result": "",
+        "actions": []
+    },
+    {
+        "name": "Time Management",
+        "source": "feature",
+        "intent": "UNKNOWN",
+        "entity": "Time Management",
+        "category": "UNKNOWN",
+        "page": "OrangeHRM",
+        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+        "steps": [],
+        "expected_result": "",
+        "actions": []
+    }
+]

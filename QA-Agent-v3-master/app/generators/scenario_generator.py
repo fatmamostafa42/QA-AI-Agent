@@ -1,6 +1,7 @@
 from typing import Dict, List, Any
 
 from app.generators.scenario_intelligence import ScenarioIntelligence
+import re
 
 
 class ScenarioGenerator:
@@ -53,7 +54,7 @@ class ScenarioGenerator:
         )
 
         return scenarios
-        # =====================================================
+    # =====================================================
     # Feature-Based Scenarios
     # =====================================================
 
@@ -61,13 +62,13 @@ class ScenarioGenerator:
 
         scenarios = []
 
-        for feature in self.features:
+        for page in self.features:
 
-            feature_name = (
-                feature.get("name")
-                or feature.get("title")
-                or ""
-            ).strip()
+            page_features = page.get("features", [])
+
+        for feature_name in page_features:
+
+            feature_name = feature_name.strip()
 
             if not feature_name:
                 continue
@@ -86,6 +87,10 @@ class ScenarioGenerator:
 
                 "category": analysis["category"],
 
+                "page": page.get("title", ""),
+
+                "url": page.get("url", ""),
+
                 "steps": [],
 
                 "expected_result": "",
@@ -95,7 +100,6 @@ class ScenarioGenerator:
             })
 
         return scenarios
-
     # =====================================================
     # Flow-Based Scenarios
     # =====================================================
@@ -105,58 +109,64 @@ class ScenarioGenerator:
         scenarios = []
 
         if self.flow is None:
+            print("FlowDiscovery is None")
             return scenarios
 
         try:
-
             flows = self.flow.extract_flows()
+            print("\n========== FLOW DEBUG ==========")
+            print("Flows:", len(flows))
+            for f in flows[:5]:
+                print(f)
+            print("================================\n")
 
-        except Exception:
+        except Exception as e:
+             print("FLOW ERROR:", e)
+             return scenarios
 
-            return scenarios
+
 
         for flow in flows:
 
+            print("Processing flow:", flow)
             pages = flow.get("pages", [])
-
             actions = flow.get("actions", [])
 
-            if not pages:
-                continue
+            if len(pages) < 2:
+               continue
 
-            scenario_name = self._build_flow_name(
-                pages,
-                actions
-            )
+            for i in range(len(pages) - 1):
 
-            analysis = self.ai.analyze(
-                scenario_name
-            )
+                from_page = pages[i]
+                to_page = pages[i + 1]
 
-            scenarios.append({
+                scenario_name = f"{from_page} -> {to_page}"
 
-                "name": scenario_name,
+                analysis = self.ai.analyze(scenario_name)
 
-                "source": "flow",
+                scenarios.append({
 
-                "intent": analysis["intent"],
+                   "name": scenario_name,
 
-                "entity": analysis["entity"],
+                   "source": "flow",
 
-                "category": analysis["category"],
+                   "intent": analysis["intent"],
 
-                "pages": pages,
+                   "entity": to_page,
 
-                "actions": actions,
+                   "category": analysis["category"],
 
-                "steps": [],
+                   "pages": [from_page, to_page],
 
-                "expected_result": ""
+                   "actions": actions,
 
-            })
+                   "steps": [],
 
+                   "expected_result": ""
+
+                })
         return scenarios
-        # =====================================================
+    # =====================================================
     # Flow Name Builder
     # =====================================================
 
@@ -210,6 +220,33 @@ class ScenarioGenerator:
     # Duplicate Removal
     # =====================================================
 
+    def _normalize_name(self, name):
+
+        name = name.lower()
+
+        name = re.sub(
+        r"[^a-z0-9 ]",
+        "",
+        name
+        )
+
+        replacements = {
+        "add": "create",
+        "new": "create",
+        "remove": "delete",
+        "modify": "edit",
+        "update": "edit"
+        }
+
+        words = name.split()
+
+        words = [
+        replacements.get(w, w)
+        for w in words
+        ]
+
+        return " ".join(words)
+
     def _remove_duplicates(
         self,
         scenarios
@@ -223,11 +260,11 @@ class ScenarioGenerator:
 
             key = (
 
-                scenario.get("name", "").lower(),
+            self._normalize_name(
+            scenario.get("name","")
+            ),
 
-                scenario.get("intent", "").lower(),
-
-                scenario.get("entity", "").lower()
+            scenario.get("entity","").lower()
 
             )
 
@@ -300,3 +337,4 @@ class ScenarioGenerator:
         )
 
         return scenarios
+    

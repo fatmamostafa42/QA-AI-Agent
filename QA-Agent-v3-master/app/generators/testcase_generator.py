@@ -1,4 +1,4 @@
-from app.generators.template_engine import TemplateEngine
+from app.generators.smart_step_builder import SmartStepBuilder
 from app.generators.priorities import PriorityResolver
 from app.generators.testcase_utils import TestCaseUtils
 
@@ -9,6 +9,9 @@ class TestCaseGenerator:
     Generates Dynamic Test Cases from:
 
         Knowledge
+        
+
+        
             +
         Scenarios
 
@@ -25,7 +28,7 @@ class TestCaseGenerator:
         self.knowledge = knowledge
         self.scenarios = scenarios
 
-        self.engine = TemplateEngine()
+    
 
         self.counter = 1
 
@@ -38,10 +41,23 @@ class TestCaseGenerator:
             []
         )
 
-        scenario_pages = self.scenarios.get(
+        if isinstance(self.scenarios, list):
+
+            scenario_pages = [
+            {
+            "url": "",
+            "title": "",
+            "features": [],
+            "scenarios": self.scenarios
+            }
+        ]
+
+        else:
+
+            scenario_pages = self.scenarios.get(
             "scenarios",
             []
-        )
+            )
 
         result = {
 
@@ -217,16 +233,20 @@ class TestCaseGenerator:
             ""
         )
 
-        steps, expected = self.engine.build(
+        builder = SmartStepBuilder(
 
-            scenario=scenario,
+        page=page,
 
-            page=page,
-
-            case_kind=case_kind
+        scenario=scenario
 
         )
 
+        result = builder.build()
+
+        steps = result["steps"]
+
+        expected = result["expected_result"]
+        
         testcase = {
 
             "id":

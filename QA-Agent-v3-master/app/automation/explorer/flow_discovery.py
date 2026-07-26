@@ -1,3 +1,10 @@
+# flow_discovery.py
+
+from __future__ import annotations
+
+from typing import Dict, List, Optional, Set, Any
+from collections import deque
+
 
 
 
@@ -103,7 +110,7 @@ class FlowDiscovery:
     ):
 
         return self.nodes.get(url)
-        # ===========================================================
+    # ===========================================================
     # Edge Management
     # ===========================================================
 
@@ -118,7 +125,9 @@ class FlowDiscovery:
 
         if not source or not target:
             return
-
+        
+        print(f"ADD EDGE: {source} ---> {target}")
+        
         self.add_node(source)
         self.add_node(target)
 
@@ -734,6 +743,12 @@ class FlowDiscovery:
         """
 
         flows = []
+        print("\n========== GRAPH DEBUG ==========")
+        print("Nodes:", len(self.nodes))
+        print("Edges:", len(self.edges))
+        print("Roots:", self.get_root_pages())
+        print("Leaves:", self.get_leaf_pages())
+        print("=================================\n")
 
         roots = self.get_root_pages()
 
@@ -753,6 +768,7 @@ class FlowDiscovery:
                     root,
                     leaf
                 )
+                print("PATH:", root, "->", leaf, "=", path)
 
                 if len(path) <= 1:
                     continue

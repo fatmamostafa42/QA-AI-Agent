@@ -12,8 +12,7 @@ from app.exporters.testcase_exporter import TestCaseExporter
 from app.knowledge.knowledge_builder import KnowledgeBuilder
 from app.analyzers.requirement_analyzer import RequirementAnalyzer
 from app.analyzers.feature_splitter import FeatureSplitter
-from app.analyzers.scenario_generator import ScenarioGenerator
-
+from app.generators.scenario_generator import ScenarioGenerator
 from app.generators.testcase_generator import TestCaseGenerator
 
 
@@ -96,17 +95,28 @@ def main():
         # -----------------------------
         # Scenario Generator
         # -----------------------------
+       
         print("Generating Scenarios...")
 
         flow_discovery = crawler.flow_discovery
 
+        feature_list = features.get("features", [])
+
+        print("\n========== FEATURES DEBUG ==========")
+        print("Feature count:", len(feature_list))
+
+        for f in feature_list[:3]:
+            print(f)
+
+        print("===================================\n")
+
         scenarios = ScenarioGenerator(
-                features=features,
-                flow_discovery=flow_discovery
-            ).generate()
+            features=feature_list,
+            flow_discovery=flow_discovery
+        ).generate()
 
         ScenariosExporter().export(
-            scenarios
+           scenarios
         )
 
         # -----------------------------

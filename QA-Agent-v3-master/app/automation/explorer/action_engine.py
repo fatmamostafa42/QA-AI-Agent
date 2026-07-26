@@ -409,39 +409,49 @@ class ActionEngine:
 
 
         classification = self._classify_action(
-            semantic_text,
-            element_type,
-            metadata
+        semantic_text,
+        element_type,
+        metadata
         )
 
+        navigation = metadata.get("navigation", {})
 
+        if navigation.get("detected"):
+            print(
+            "NAV:",
+            metadata.get("text"),
+            "->",
+            navigation.get("target")
+        )
 
-        return {
+            return {
 
-            "element_type": element_type,
+    "element_type": element_type,
 
-            "action": classification["action"],
+    "action": classification["action"],
 
-            "confidence": classification["confidence"],
+    "target": metadata.get("navigation", {}).get("target"),
 
-            "risk": classification["risk"],
+    "confidence": classification["confidence"],
 
-            "requires_input":
-                classification["requires_input"],
+    "risk": classification["risk"],
 
-            "may_navigate":
-                classification["may_navigate"],
+    "requires_input":
+        classification["requires_input"],
 
-            "may_open_dialog":
-                classification["may_open_dialog"],
+    "may_navigate":
+        classification["may_navigate"],
 
-            "metadata": metadata,
+    "may_open_dialog":
+        classification["may_open_dialog"],
 
-            "locator":
-                self._build_locator(element)
+    "metadata": metadata,
 
-        }
-        # =====================================================
+    "locator":
+        self._build_locator(element)
+
+}
+    # =====================================================
     # Metadata Extraction
     # =====================================================
 
@@ -613,15 +623,15 @@ class ActionEngine:
 
                 value = None
 
-
+            print("ATTR:", attr, "=", value)
 
             if not value:
 
                 continue
 
-
-
             value = value.strip()
+
+            print("FOUND NAV:", attr, "->", value)
 
 
 
@@ -630,6 +640,8 @@ class ActionEngine:
             # -----------------------------
 
             if attr == "href":
+                print("HREF TARGET:", value)
+
 
 
                 navigation.update({

@@ -1,24 +1,24 @@
 {
     "application": {
         "base_url": "https://opensource-demo.orangehrmlive.com",
-        "generated_at": "2026-07-23T20:06:40.914598",
+        "generated_at": "2026-07-25T18:34:15.612357",
         "pages_count": 12
     },
     "summary": {
         "pages": 12,
-        "buttons": 80,
+        "buttons": 84,
         "inputs": 38,
         "links": 182,
         "forms": 0,
         "tables": 0,
         "dialogs": 0,
-        "components": 162,
-        "cards": 143,
+        "components": 166,
+        "cards": 147,
         "grids": 8,
         "menus": 132,
         "headings": 28,
-        "validation_messages": 158,
-        "accessibility_items": 698
+        "validation_messages": 166,
+        "accessibility_items": 720
     },
     "pages": [
         {
@@ -41,7 +41,7 @@
                 "card"
             ],
             "card_titles": [
-                "(1) Pending Self Review",
+                "(1) Candidate to Interview",
                 "0h 0m",
                 "0h 0m Today",
                 "2020-08-10 05:33 AM",
@@ -63,12 +63,12 @@
                 "Rebecca Harmony",
                 "Russel Hamilton",
                 "Sania Shaheen",
+                "Test 10 akhil user",
                 "This Week",
                 "Throwback Thursdays!!",
                 "Time at Work",
                 "Timesheets",
-                "World Championship: What makes the perfect snooker player?",
-                "manda akhil user"
+                "World Championship: What makes the perfect snooker player?"
             ],
             "grid_columns": [],
             "grid_actions": [],
@@ -132,7 +132,7 @@
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 4,
+                "cards": 10,
                 "grids": 1,
                 "tabs": 0
             },
@@ -141,9 +141,15 @@
             ],
             "card_titles": [
                 "Admin",
+                "Admin5678",
+                "BhavikTestUser3",
                 "FMLName",
                 "FMLName1",
-                "Jobinsam@6742"
+                "Jobinsam@6742",
+                "test_user_05657005",
+                "test_user_10725206",
+                "test_user_42556406",
+                "test_user_75554562"
             ],
             "grid_columns": [
                 "Actions",
@@ -401,7 +407,7 @@
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 19,
+                "cards": 15,
                 "grids": 0,
                 "tabs": 0
             },
@@ -413,17 +419,13 @@
                 "99N75 425 5TlV",
                 "A8DCo 4Ys 010Z",
                 "Administration",
-                "Amelia Brown",
-                "Charles Carter",
+                "Boom Boo Bang",
                 "Chief Financial Officer",
-                "Darren Clark",
-                "James Butler",
+                "Manoj B",
                 "New York Sales Office",
                 "Peter Mac Anderson",
-                "Rahul Das",
                 "Ranga Akunuri",
                 "Ravi M B",
-                "Thomas Kutty Benny",
                 "Timothy Lewis Amiano",
                 "yedghjb1 ru84 90jsnd"
             ],
@@ -485,19 +487,24 @@
             "title": "OrangeHRM",
             "page_type": "form",
             "description": "",
-            "buttons": 5,
+            "buttons": 9,
             "inputs": 4,
             "links": 18,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 0,
+                "cards": 2,
                 "grids": 1,
                 "tabs": 0
             },
-            "component_types": [],
-            "card_titles": [],
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "2026-01-09 to 2026-02-09",
+                "2026-03-09 to 2026-04-09"
+            ],
             "grid_columns": [
                 "Actions",
                 "Comments",
@@ -508,7 +515,10 @@
                 "Number of Days",
                 "Status"
             ],
-            "grid_actions": [],
+            "grid_actions": [
+                "Approve",
+                "Reject"
+            ],
             "tabs": [],
             "dialog_titles": [],
             "dropdowns": {
@@ -517,6 +527,8 @@
                 "custom_dropdowns": 0
             },
             "button_texts": [
+                "Approve",
+                "Reject",
                 "Reset",
                 "Search",
                 "Upgrade"
@@ -716,7 +728,7 @@
             ],
             "card_titles": [
                 "Custom Fields",
-                "manda user",
+                "Test 10 user",
                 "test.png"
             ],
             "grid_columns": [
@@ -804,7 +816,7 @@
                 "Custom Fields",
                 "PIM",
                 "Personal Details",
-                "manda user"
+                "Test 10 user"
             ],
             "validation_texts": []
         },
@@ -828,6 +840,9 @@
                 "card"
             ],
             "card_titles": [
+                "00001241",
+                "00001243",
+                "00001265",
                 "00392",
                 "01715",
                 "0290",
@@ -837,30 +852,26 @@
                 "0303",
                 "0312",
                 "0315hh",
-                "0317",
                 "0320",
-                "0321",
-                "0322",
-                "0323",
                 "0335",
-                "0342",
                 "0359",
                 "0360",
                 "0361",
                 "0363",
-                "0364",
                 "0365",
                 "0367",
                 "0367010",
-                "0376",
-                "0382",
+                "0371",
+                "0377",
+                "0388",
+                "0392",
+                "0393",
+                "0400",
                 "09557",
                 "1235",
-                "3719",
-                "4347",
-                "923",
-                "9999",
+                "917",
                 "ATPValue",
+                "Api",
                 "dfgsjsjdh"
             ],
             "grid_columns": [
@@ -963,8 +974,8 @@
                 "Senior QA Lead",
                 "Tanmay Anderson O'Keefe",
                 "Tanmay sree Dachu",
-                "madhav m",
-                "pp pp"
+                "Test Code Automate",
+                "madhav m"
             ],
             "grid_columns": [
                 "Actions",
@@ -1055,17 +1066,15 @@
                 "card"
             ],
             "card_titles": [
-                "Select Employee",
-                "manda akhil user"
+                "Seleccione Empleado",
+                "Test 10 akhil user"
             ],
             "grid_columns": [
-                "Actions",
-                "Employee Name",
-                "Timesheet Period"
+                "Acciones",
+                "Nombre del Empleado",
+                "Período de reporte de asistencia"
             ],
-            "grid_actions": [
-                "View"
-            ],
+            "grid_actions": [],
             "tabs": [],
             "dialog_titles": [],
             "dropdowns": {
@@ -1075,47 +1084,47 @@
             },
             "button_texts": [
                 "Upgrade",
-                "View"
+                "Ver"
             ],
             "input_placeholders": [
-                "Search",
+                "Buscar",
                 "Type for hints..."
             ],
             "navigation": [
-                "Admin",
+                "Administrador",
                 "Buzz",
                 "Claim",
-                "Dashboard",
+                "Desempeño",
                 "Directory",
-                "Leave",
+                "Licencias y Permisos",
                 "Maintenance",
-                "My Info",
+                "Mi Información",
+                "Módulo de Información Personal",
                 "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo",
                 "Upgrade"
             ],
             "menu_items": [
-                "Admin",
+                "Administrador",
                 "Buzz",
                 "Claim",
-                "Dashboard",
+                "Desempeño",
                 "Directory",
-                "Leave",
+                "Licencias y Permisos",
                 "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
+                "Mi Información",
+                "Módulo de Información Personal",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo"
             ],
             "headings_text": [
-                "Select Employee",
-                "Time",
-                "Timesheets",
-                "Timesheets Pending Action"
+                "Hojas de asistencia",
+                "Reportes pendientes de ejecutar",
+                "Seleccione Empleado",
+                "Tiempo"
             ],
             "validation_texts": []
         }

@@ -158,9 +158,9 @@ class Explorer:
                     break
 
 
-            previous = current
+                previous = current
 
-            self.page.wait_for_timeout(300)
+                self.page.wait_for_timeout(300)
 
 
         except Exception:
@@ -207,6 +207,7 @@ class Explorer:
         print(
             f"\nExploring: {self.page.url}"
         )
+        print("EXPLORER PAGE:", self.page.url)
 
         # ---------------------------------
         # Run lightweight scanners first
@@ -215,6 +216,12 @@ class Explorer:
         
          # Wait until application UI is stable
         self.wait_until_ready()
+        print("URL:", self.page.url)
+        print("BODY:", self.page.locator("body").count())
+        print("HTML:", self.page.locator("html").count())
+        print("BUTTONS:", self.page.locator("button").count())
+        print("LINKS:", self.page.locator("a").count())
+        print("INPUTS:", self.page.locator("input").count())
 
         page_info = self.run_scanner(
             "page"

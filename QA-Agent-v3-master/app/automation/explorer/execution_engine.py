@@ -3,6 +3,7 @@ from __future__ import annotations
 from typing import Any, Dict, Optional
 
 from playwright.sync_api import Page, Locator, TimeoutError
+import time
 
 
 class ExecutionEngine:
@@ -55,6 +56,20 @@ class ExecutionEngine:
                 .strip()
             )
 
+            before_url = self.page.url
+
+            try:
+                before_title = self.page.title()
+            except Exception:
+                before_title = ""
+
+            before_state = {
+                "url": before_url,
+                "title": before_title
+            }
+
+            start_time = time.time()
+
             if action_name in (
                 "navigate",
                 "click",
@@ -102,8 +117,49 @@ class ExecutionEngine:
                     "message": f"Unsupported action: {action_name}"
                 }
 
-            result["success"] = True
-            result["message"] = "Executed successfully"
+            try:
+                self.page.wait_for_load_state(
+                "networkidle",
+                timeout=3000
+                )
+            except Exception:
+                pass
+
+            after_url = self.page.url
+
+            try:
+                after_title = self.page.title()
+            except Exception:
+                after_title = ""
+
+            after_state = {
+                "url": after_url,
+                "title": after_title
+            }
+
+            result.update({
+
+            "success": True,
+
+            "message": "Executed successfully",
+
+            "old_url": before_url,
+            "new_url": after_url,
+
+            "old_title": before_title,
+            "new_title": after_title,
+
+            "old_state": before_state,
+            "old_state": after_state,
+
+            "navigated": before_url != after_url,
+
+            "execution_time": round(
+                time.time() - start_time,
+                3
+            )
+
+        })
 
         except TimeoutError as ex:
 

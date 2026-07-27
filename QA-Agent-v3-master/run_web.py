@@ -109,6 +109,9 @@ def main():
             print(f)
 
         print("===================================\n")
+        print("\n========== FLOW BEFORE SCENARIO ==========")
+        print("Nodes:", len(flow_discovery.nodes))
+        print("Edges:", len(flow_discovery.edges))
 
         scenarios = ScenarioGenerator(
             features=feature_list,

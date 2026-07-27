@@ -36,6 +36,12 @@ class ActionEngine:
         """
 
         actions = []
+        print("\n========== ACTION ENGINE ==========")
+        print("ACTION PAGE URL:", self.page.url)
+        print("BUTTONS:", self.page.locator("button").count())
+        print("LINKS:", self.page.locator("a").count())
+        print("INPUTS:", self.page.locator("input").count())
+        print("==================================\n")
 
 
         actions.extend(
@@ -426,31 +432,29 @@ class ActionEngine:
 
             return {
 
-    "element_type": element_type,
+                "element_type": element_type,
 
-    "action": classification["action"],
+                "action": classification["action"],
 
-    "target": metadata.get("navigation", {}).get("target"),
+                "target": metadata.get("navigation", {}).get("target"),
 
-    "confidence": classification["confidence"],
+                "executed": False,
 
-    "risk": classification["risk"],
+                "confidence": classification["confidence"],
 
-    "requires_input":
-        classification["requires_input"],
+                "risk": classification["risk"],
 
-    "may_navigate":
-        classification["may_navigate"],
+                "requires_input": classification["requires_input"],
 
-    "may_open_dialog":
-        classification["may_open_dialog"],
+                "may_navigate": classification["may_navigate"],
 
-    "metadata": metadata,
+                "may_open_dialog": classification["may_open_dialog"],
 
-    "locator":
-        self._build_locator(element)
+                "metadata": metadata,
 
-}
+                "locator": self._build_locator(element)
+
+            }
     # =====================================================
     # Metadata Extraction
     # =====================================================

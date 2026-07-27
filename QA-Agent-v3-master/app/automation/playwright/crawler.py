@@ -6,6 +6,7 @@ from app.automation.playwright.explorer import Explorer
 from app.core.collector import Collector
 from app.automation.explorer.smart_explorer import SmartExplorer
 from app.automation.explorer.flow_discovery import FlowDiscovery
+from app.automation.explorer.execution_engine import ExecutionEngine
 
 
 class Crawler:
@@ -30,6 +31,7 @@ class Crawler:
         self.explorer = Explorer(page)
         self.smart_explorer = SmartExplorer(page)
         self.flow_discovery = FlowDiscovery()
+        self.execution_engine = ExecutionEngine(self.page)
 
         parsed = urlparse(page.url)
 
@@ -127,6 +129,7 @@ class Crawler:
         )
 
         page_counter = 0
+        previous_page = None
 
         while queue:
 
@@ -198,6 +201,14 @@ class Crawler:
                 ai_page = self.smart_explorer.analyze_page()
 
                 current_page = ai_page["url"]
+                if previous_page is not None:
+                    self.flow_discovery.add_edge(
+                    previous_page,
+                    current_page,
+                    action="navigate"
+                    )
+
+                previous_page = current_page
 
                 # Add current page node
                 self.flow_discovery.add_node(
@@ -214,32 +225,11 @@ class Crawler:
                 )
 
 
-                for action in ai_page.get("actions", []):
-                    print("=" * 60)
-                    print(action)
-
-                    target_page = action.get("target")
-
-                    if not target_page:
-                       continue
-
-                    target_page = self.normalize_url(target_page)
-
-                    if not target_page:
-                        continue
-                    print("RAW TARGET:", target_page)
-
-                    target_page = self.normalize_url(target_page)
-
-                    print("NORMALIZED TARGET:", target_page)
-
-                    self.flow_discovery.add_edge(
+                # Store discovered actions only
+                self.flow_discovery.set_actions(
                     current_page,
-                    target_page,
-                    action=action.get("action", "navigate"),
-                    element=action.get("metadata", {}).get("text", ""),
-                    locator=action.get("locator", "")
-                    )
+                    ai_page.get("actions", [])
+                )
                        
                 page_data["page"]["requested_url"] = requested_url
                 page_data["page"]["final_url"] = final_url

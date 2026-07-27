@@ -1,39 +1,1039 @@
 [
     {
-        "name": "Auto Complete",
+        "name": "Search",
         "source": "feature",
-        "intent": "UNKNOWN",
-        "entity": "Auto Complete",
-        "category": "UNKNOWN",
+        "intent": "SEARCH",
+        "entity": "",
+        "category": "CRUD",
         "page": "OrangeHRM",
-        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
         "steps": [],
         "expected_result": "",
         "actions": []
     },
     {
-        "name": "Button Actions",
+        "name": "Video Upload",
         "source": "feature",
-        "intent": "UNKNOWN",
-        "entity": "Button Actions",
-        "category": "UNKNOWN",
+        "intent": "UPLOAD",
+        "entity": "Video",
+        "category": "UPLOAD",
         "page": "OrangeHRM",
-        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
         "steps": [],
         "expected_result": "",
         "actions": []
     },
     {
-        "name": "Data Entry",
-        "source": "feature",
+        "name": "Navigate",
+        "source": "flow",
         "intent": "UNKNOWN",
-        "entity": "Data Entry",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
         "category": "UNKNOWN",
-        "page": "OrangeHRM",
-        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            }
+        ],
         "steps": [],
-        "expected_result": "",
-        "actions": []
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+                "action": "navigate",
+                "element": "",
+                "locator": ""
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
     },
     {
         "name": "Navigation",
@@ -42,7 +1042,7 @@
         "entity": "Navigation",
         "category": "UNKNOWN",
         "page": "OrangeHRM",
-        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
         "steps": [],
         "expected_result": "",
         "actions": []
@@ -55,6 +1055,18 @@
         "category": "UNKNOWN",
         "page": "OrangeHRM",
         "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+        "steps": [],
+        "expected_result": "",
+        "actions": []
+    },
+    {
+        "name": "User Management",
+        "source": "feature",
+        "intent": "UNKNOWN",
+        "entity": "User Management",
+        "category": "UNKNOWN",
+        "page": "OrangeHRM",
+        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
         "steps": [],
         "expected_result": "",
         "actions": []

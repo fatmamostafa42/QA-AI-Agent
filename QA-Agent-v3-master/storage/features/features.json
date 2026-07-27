@@ -1,24 +1,24 @@
 {
     "application": {
         "base_url": "https://opensource-demo.orangehrmlive.com",
-        "generated_at": "2026-07-25T18:34:15.612357",
+        "generated_at": "2026-07-27T19:16:01.471895",
         "pages_count": 12
     },
     "summary": {
         "pages": 12,
-        "buttons": 84,
+        "buttons": 80,
         "inputs": 38,
         "links": 182,
         "forms": 0,
         "tables": 0,
         "dialogs": 0,
-        "components": 166,
-        "cards": 147,
+        "components": 185,
+        "cards": 166,
         "grids": 8,
         "menus": 132,
         "headings": 28,
-        "validation_messages": 166,
-        "accessibility_items": 720
+        "validation_messages": 178,
+        "accessibility_items": 756
     },
     "features": [
         {
@@ -176,6 +176,7 @@
                 "Button Actions",
                 "Data Entry",
                 "Navigation",
+                "Search",
                 "Time Management"
             ]
         }

@@ -66,12 +66,12 @@ class ScenarioGenerator:
 
             page_features = page.get("features", [])
 
-        for feature_name in page_features:
+            for feature_name in page_features:
 
-            feature_name = feature_name.strip()
+                feature_name = feature_name.strip()
 
-            if not feature_name:
-                continue
+                if not feature_name:
+                    continue
 
             analysis = self.ai.analyze(feature_name)
 
@@ -140,7 +140,10 @@ class ScenarioGenerator:
                 from_page = pages[i]
                 to_page = pages[i + 1]
 
-                scenario_name = f"{from_page} -> {to_page}"
+                scenario_name = self._build_flow_name(
+                    pages=[from_page, to_page],
+                    actions=actions
+                    )
 
                 analysis = self.ai.analyze(scenario_name)
 

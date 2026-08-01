@@ -63,9 +63,15 @@ class ExecutionEngine:
             except Exception:
                 before_title = ""
 
+            try:
+                before_dom = self.page.locator("body").inner_text()[:1000]
+            except Exception:
+               before_dom = ""
+
             before_state = {
                 "url": before_url,
-                "title": before_title
+                "title": before_title,
+                "dom": before_dom,
             }
 
             start_time = time.time()
@@ -88,8 +94,26 @@ class ExecutionEngine:
                 "download",
                 "upload",
             ):
+                print("=" * 60)
+                print("CLICKING:", action["locator"])
+                print("COUNT:", locator.count())
+                print("URL BEFORE:", self.page.url)
+                print("=" * 60)
+                print("OUTER HTML:")
+                print(locator.first.evaluate("e => e.outerHTML"))
 
-                locator.click(timeout=5000)
+                locator.click(
+                    timeout=5000,
+                    force=False,      
+                )
+                print("COUNT:", locator.count())
+
+                for i in range(locator.count()):
+                    print(f"\nCandidate {i}")
+                    print(locator.nth(i).evaluate("e => e.outerHTML"))
+                print("=" * 60)
+                print("URL AFTER CLICK:", self.page.url)
+                print("=" * 60)
 
             elif action_name in (
                 "fill",
@@ -118,48 +142,96 @@ class ExecutionEngine:
                 }
 
             try:
+                self.page.wait_for_timeout(300)
+            except Exception:
+                pass
+
+            try:
                 self.page.wait_for_load_state(
-                "networkidle",
+                "domcontentloaded",
                 timeout=3000
                 )
             except Exception:
                 pass
 
+            try:
+                self.page.wait_for_load_state(
+                "networkidle",
+                timeout=3000
+    )
+            except Exception:
+                pass
+
             after_url = self.page.url
+
+            print("=" * 60)
+            print("EXECUTION RESULT")
+            print("BEFORE :", before_url)
+            print("AFTER  :", after_url)
+            print("=" * 60)
 
             try:
                 after_title = self.page.title()
             except Exception:
                 after_title = ""
 
+            try:
+                after_dom = self.page.locator("body").inner_text()[:1000]
+            except Exception:
+                after_dom = ""
+
             after_state = {
                 "url": after_url,
-                "title": after_title
+                "title": after_title,
+                "dom": after_dom,
             }
+
+            same_page = (
+                before_state["url"] ==
+                after_state["url"]
+            )
+            
+            navigated = (
+                before_state["url"] !=
+                after_state["url"]
+            )
+
+
+            title_changed = (
+                before_state["title"] !=
+                after_state["title"]
+            )
+
+            content_changed = (
+                before_state["dom"] !=
+                after_state["dom"]
+            )
 
             result.update({
 
-            "success": True,
+                "success": True,
 
-            "message": "Executed successfully",
+                "action": action.get("action"),
+                "locator": action.get("locator"),
 
-            "old_url": before_url,
-            "new_url": after_url,
+                "message": "Executed successfully",
+                "exception": None,
 
-            "old_title": before_title,
-            "new_title": after_title,
+                "old_state": before_state,
+                "new_state": after_state,
+                "same_page": same_page,
+                "navigated": navigated,
 
-            "old_state": before_state,
-            "old_state": after_state,
+                "title_changed": title_changed,
 
-            "navigated": before_url != after_url,
+                "content_changed": content_changed,
 
-            "execution_time": round(
-                time.time() - start_time,
-                3
-            )
+                "execution_time": round(
+                   time.time() - start_time,
+                   3
+                )
 
-        })
+            })
 
         except TimeoutError as ex:
 
@@ -186,40 +258,61 @@ class ExecutionEngine:
         value = locator.get("value")
 
         if strategy == "text":
-            return self.page.get_by_text(
+
+            candidates = self.page.get_by_text(
                 value,
-                exact=False,
+                exact=True,
             )
+
+            try:
+                if candidates.count() == 1:
+                    return candidates.first
+            except Exception:
+                pass
+
+            try:
+                link = self.page.get_by_role(
+                    "link",
+                    name=value,
+                    exact=True,
+                )
+
+                if link.count():
+                    return link.first
+            except Exception:
+                pass
+
+            try:
+                button = self.page.get_by_role(
+                    "button",
+                    name=value,
+                    exact=True,
+                )
+
+                if button.count():
+                    return button.first
+            except Exception:
+                pass
+
+            return candidates.first
 
         if strategy == "id":
-            return self.page.locator(
-                f"#{value}"
-            )
+            return self.page.locator(f"#{value}")
 
         if strategy == "name":
-            return self.page.locator(
-                f'[name="{value}"]'
-            )
+            return self.page.locator(f'[name="{value}"]')
 
         if strategy == "placeholder":
-            return self.page.get_by_placeholder(
-                value
-            )
+            return self.page.get_by_placeholder(value)
 
         if strategy == "title":
-            return self.page.locator(
-                f'[title="{value}"]'
-            )
+            return self.page.locator(f'[title="{value}"]')
 
         if strategy == "aria-label":
-            return self.page.get_by_label(
-                value
-            )
+            return self.page.get_by_label(value)
 
         if strategy == "css":
-            return self.page.locator(
-                value
-            )
+            return self.page.locator(value)
 
         raise ValueError(
             f"Unknown locator strategy: {strategy}"

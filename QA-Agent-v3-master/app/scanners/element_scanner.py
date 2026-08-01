@@ -319,7 +319,7 @@ class ElementScanner:
     def _scan_links(self):
 
         elements = []
-
+        seen = set()
 
         locator = self.page.locator(
             "a"
@@ -378,6 +378,15 @@ class ElementScanner:
 
 
                 if self._is_meaningful(data):
+                    href = (data.get("href") or "").strip()
+                    text = (data.get("text") or "").strip() 
+
+                    key = (href, text)
+
+                    if key in seen:
+                        continue
+
+                    seen.add(key)
 
                     elements.append(data)
 

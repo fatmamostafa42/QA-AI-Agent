@@ -46,7 +46,7 @@ class LoginManager:
 
         print("Current URL:", current_url)
 
-        if "login" not in current_url.lower():
+        if "/auth/login" not in current_url.lower():
             print("Login verification passed.")
             return True
 

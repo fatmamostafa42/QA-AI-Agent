@@ -120,7 +120,7 @@ class FlowDiscovery:
         target: str,
         action: str = "navigate",
         element: str = "",
-        locator: str = "",
+        locator: dict | None = None,
     ):
 
         if not source or not target:
@@ -141,7 +141,7 @@ class FlowDiscovery:
 
             "element": element,
 
-            "locator": locator
+            "locator": locator or {}
 
         }
 

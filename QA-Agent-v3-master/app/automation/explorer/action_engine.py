@@ -146,7 +146,6 @@ class ActionEngine:
 
             "a",
 
-            "a[href]",
 
             "[role='link']"
 
@@ -167,7 +166,17 @@ class ActionEngine:
             for index in range(count):
 
                 element = elements.nth(index)
+                try:
+                    text = element.inner_text().strip()
+                except:
+                    text = ""
 
+                try:
+                    href = element.get_attribute("href")
+                except:
+                    href = ""
+
+                # print(f"LINK FOUND -> text='{text}' href='{href}'")
 
                 action = self._analyze_element(
                     element,
@@ -422,39 +431,39 @@ class ActionEngine:
 
         navigation = metadata.get("navigation", {})
 
-        if navigation.get("detected"):
-            print(
-            "NAV:",
-            metadata.get("text"),
-            "->",
-            navigation.get("target")
-        )
+        # if navigation.get("detected"):
+        #     print(
+        #     "NAV:",
+        #     metadata.get("text"),
+        #     "->",
+        #     navigation.get("target")
+        # )
 
-            return {
+        return {
 
-                "element_type": element_type,
+            "element_type": element_type,
 
-                "action": classification["action"],
+            "action": classification["action"],
 
-                "target": metadata.get("navigation", {}).get("target"),
+            "target": metadata.get("navigation", {}).get("target"),
 
-                "executed": False,
+            "executed": False,
 
-                "confidence": classification["confidence"],
+            "confidence": classification["confidence"],
 
-                "risk": classification["risk"],
+            "risk": classification["risk"],
 
-                "requires_input": classification["requires_input"],
+            "requires_input": classification["requires_input"],
 
-                "may_navigate": classification["may_navigate"],
+            "may_navigate": classification["may_navigate"],
 
-                "may_open_dialog": classification["may_open_dialog"],
+            "may_open_dialog": classification["may_open_dialog"],
 
-                "metadata": metadata,
+            "metadata": metadata,
 
-                "locator": self._build_locator(element)
+            "locator": self._build_locator(element)
 
-            }
+        }
     # =====================================================
     # Metadata Extraction
     # =====================================================
@@ -627,7 +636,7 @@ class ActionEngine:
 
                 value = None
 
-            print("ATTR:", attr, "=", value)
+            # print("ATTR:", attr, "=", value)
 
             if not value:
 
@@ -635,7 +644,7 @@ class ActionEngine:
 
             value = value.strip()
 
-            print("FOUND NAV:", attr, "->", value)
+            # print("FOUND NAV:", attr, "->", value)
 
 
 
@@ -644,7 +653,7 @@ class ActionEngine:
             # -----------------------------
 
             if attr == "href":
-                print("HREF TARGET:", value)
+                # print("HREF TARGET:", value)
 
 
 
@@ -1305,8 +1314,12 @@ class ActionEngine:
                     "action"
                 ),
 
-                text
+                text,
+                action.get("target"),
 
+                action.get("locator", {}).get("strategy"),
+
+                action.get("locator", {}).get("value")
             )
 
 

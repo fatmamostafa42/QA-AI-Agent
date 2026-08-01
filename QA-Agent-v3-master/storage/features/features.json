@@ -1,24 +1,24 @@
 {
     "application": {
         "base_url": "https://opensource-demo.orangehrmlive.com",
-        "generated_at": "2026-07-27T19:16:01.471895",
-        "pages_count": 12
+        "generated_at": "2026-07-31T22:44:00.773966",
+        "pages_count": 43
     },
     "summary": {
-        "pages": 12,
-        "buttons": 80,
-        "inputs": 38,
-        "links": 182,
+        "pages": 43,
+        "buttons": 277,
+        "inputs": 104,
+        "links": 791,
         "forms": 0,
         "tables": 0,
         "dialogs": 0,
-        "components": 185,
-        "cards": 166,
-        "grids": 8,
-        "menus": 132,
-        "headings": 28,
-        "validation_messages": 178,
-        "accessibility_items": 756
+        "components": 506,
+        "cards": 434,
+        "grids": 30,
+        "menus": 504,
+        "headings": 123,
+        "validation_messages": 463,
+        "accessibility_items": 2257
     },
     "features": [
         {
@@ -49,41 +49,14 @@
             ]
         },
         {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Buzz Feed",
-                "Data Entry",
-                "Navigation",
-                "Photo Upload",
-                "Post Management",
-                "Search",
-                "Video Upload"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
             "title": "OrangeHRM",
             "features": [
                 "Auto Complete",
                 "Button Actions",
-                "Claim Management",
+                "Create Records",
                 "Data Entry",
-                "Data Persistence",
-                "Navigation",
-                "Reset Forms",
-                "Search"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
-            "title": "OrangeHRM",
-            "features": [
-                "Auto Complete",
-                "Button Actions",
-                "Data Entry",
-                "Employee Directory",
+                "Employee Management",
                 "Navigation",
                 "Reset Forms",
                 "Search"
@@ -104,25 +77,27 @@
             ]
         },
         {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
-            "title": "OrangeHRM",
-            "features": [
-                "Button Actions",
-                "Cancel Operation",
-                "Data Entry",
-                "Maintenance",
-                "Navigation"
-            ]
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
             "title": "OrangeHRM",
             "features": [
                 "Auto Complete",
                 "Button Actions",
                 "Data Entry",
                 "Navigation",
-                "Performance Management",
+                "Search",
+                "Time Management"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+            "title": "OrangeHRM",
+            "features": [
+                "Auto Complete",
+                "Button Actions",
+                "Create Records",
+                "Data Entry",
+                "Navigation",
+                "Recruitment",
                 "Reset Forms",
                 "Search"
             ]
@@ -141,6 +116,132 @@
             ]
         },
         {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
+            "title": "OrangeHRM",
+            "features": [
+                "Auto Complete",
+                "Button Actions",
+                "Data Entry",
+                "Navigation",
+                "Performance Management",
+                "Reset Forms",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Dashboard",
+                "Data Entry",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+            "title": "OrangeHRM",
+            "features": [
+                "Auto Complete",
+                "Button Actions",
+                "Data Entry",
+                "Employee Directory",
+                "Navigation",
+                "Reset Forms",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Cancel Operation",
+                "Data Entry",
+                "Maintenance",
+                "Navigation"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+            "title": "OrangeHRM",
+            "features": [
+                "Auto Complete",
+                "Button Actions",
+                "Claim Management",
+                "Data Entry",
+                "Data Persistence",
+                "Navigation",
+                "Reset Forms",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Buzz Feed",
+                "Data Entry",
+                "Navigation",
+                "Photo Upload",
+                "Post Management",
+                "Search",
+                "Video Upload"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Dashboard",
+                "Data Entry",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Dashboard",
+                "Data Entry",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/nationality",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Corporate Branding",
+                "Create Records",
+                "Data Entry",
+                "Nationality Management",
+                "Navigation",
+                "Search",
+                "User Management"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/addTheme",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Corporate Branding",
+                "Data Entry",
+                "Nationality Management",
+                "Navigation",
+                "Reset Forms",
+                "Search",
+                "User Management"
+            ]
+        },
+        {
             "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
             "title": "OrangeHRM",
             "features": [
@@ -151,6 +252,87 @@
                 "Employee Management",
                 "Navigation",
                 "Reset Forms",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Cancel Operation",
+                "Create Records",
+                "Data Entry",
+                "Data Persistence",
+                "Employee Management",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDefinedPredefinedReports",
+            "title": "OrangeHRM",
+            "features": [
+                "Auto Complete",
+                "Button Actions",
+                "Create Records",
+                "Data Entry",
+                "Employee Management",
+                "Navigation",
+                "Reset Forms",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Data Entry",
+                "Data Persistence",
+                "Leave Management",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewMyLeaveList",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Cancel Operation",
+                "Data Entry",
+                "Data Persistence",
+                "Leave Management",
+                "Navigation",
+                "Reset Forms",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+            "title": "OrangeHRM",
+            "features": [
+                "Auto Complete",
+                "Button Actions",
+                "Data Entry",
+                "Data Persistence",
+                "Leave Management",
+                "Navigation",
+                "Reset Forms",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/assignLeave",
+            "title": "OrangeHRM",
+            "features": [
+                "Auto Complete",
+                "Button Actions",
+                "Data Entry",
+                "Data Persistence",
+                "Leave Management",
+                "Navigation",
                 "Search"
             ]
         },
@@ -169,15 +351,225 @@
             ]
         },
         {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Create Records",
+                "Data Entry",
+                "Navigation",
+                "Recruitment",
+                "Reset Forms",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Create Records",
+                "Data Entry",
+                "Data Persistence",
+                "Employee Management",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Create Records",
+                "Data Entry",
+                "Data Persistence",
+                "Employee Management",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Create Records",
+                "Data Entry",
+                "Employee Management",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Create Records",
+                "Data Entry",
+                "Employee Management",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Create Records",
+                "Data Entry",
+                "Employee Management",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Data Entry",
+                "Employee Management",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Data Entry",
+                "Employee Management",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewUsTaxExemptions/empNumber/7",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Data Entry",
+                "Employee Management",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Data Entry",
+                "Employee Management",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Create Records",
+                "Data Entry",
+                "Employee Management",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Create Records",
+                "Data Entry",
+                "Employee Management",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewMyPerformanceTrackerList",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Data Entry",
+                "Navigation",
+                "Performance Management",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewEmployeePerformanceTrackerList",
             "title": "OrangeHRM",
             "features": [
                 "Auto Complete",
                 "Button Actions",
                 "Data Entry",
                 "Navigation",
-                "Search",
-                "Time Management"
+                "Performance Management",
+                "Reset Forms",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/submitClaim",
+            "title": "OrangeHRM",
+            "features": [
+                "Button Actions",
+                "Cancel Operation",
+                "Claim Management",
+                "Data Entry",
+                "Data Persistence",
+                "Navigation",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim",
+            "title": "OrangeHRM",
+            "features": [
+                "Auto Complete",
+                "Button Actions",
+                "Claim Management",
+                "Data Entry",
+                "Data Persistence",
+                "Navigation",
+                "Reset Forms",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+            "title": "OrangeHRM",
+            "features": [
+                "Auto Complete",
+                "Button Actions",
+                "Claim Management",
+                "Data Entry",
+                "Data Persistence",
+                "Navigation",
+                "Reset Forms",
+                "Search"
+            ]
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/assignClaim",
+            "title": "OrangeHRM",
+            "features": [
+                "Auto Complete",
+                "Button Actions",
+                "Cancel Operation",
+                "Claim Management",
+                "Data Entry",
+                "Data Persistence",
+                "Navigation",
+                "Search"
             ]
         }
     ]

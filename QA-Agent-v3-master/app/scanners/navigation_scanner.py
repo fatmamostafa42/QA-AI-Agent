@@ -107,53 +107,57 @@ class NavigationScanner:
 
         selectors = [
 
-    # Standard links
-    "a",
-    "a[href]",
+            # Standard
+            "a",
+            "button",
+            "input[type=button]",
+            "input[type=submit]",
 
-    # SPA routing
-    "[routerlink]",
-    "[data-url]",
-    "[data-href]",
+            # Roles 
+            "[role='button']",
+            "[role='link']",
+            "[role='tab']",
+            "[role='menuitem']",
+            "[role='option']",
 
-    # Accessibility
-    "[role='link']",
-    "[role='menuitem']",
+            # SPA
+            "[routerlink]",
+            "[router-link]",
+            "[data-url]",
+            "[data-href]",
+            "[data-link]",
+            "[data-route]",
 
-    # Generic navigation containers
-    "nav a",
-    "nav *",
+            # Clickable
+           "[onclick]",
+           "[tabindex]",
 
-    "aside a",
-    "aside *",
+            # Aria
+           "[aria-expanded]",
+           "[aria-controls]",
 
-    "header a",
-    "header *",
+           # Navigation containers
+           "nav *",
+           "aside *",
+           "header *",
 
-    "footer a",
+            # Generic menus
+            "ul li",
+            "ol li",
 
-    # Menus
-    "[role='navigation'] *",
-    "[role='menu'] *",
+            # Common frameworks
+            "[class*=menu]",
+            "[class*=nav]",
+            "[class*=sidebar]",
+            "[class*=tab]",
+            "[class*=accordion]",
+            "[class*=dropdown]",
 
-    # Tabs
-    "[role='tab']",
-
-    # Buttons that may navigate
-    "button",
-    "[role='button']",
-
-    # Generic clickable elements
-    "[onclick]",
-    "[tabindex]"
-]
+        ]
 
         for selector in selectors:
 
-
             try:
-
-
                 elements = self.page.locator(
                     selector
                 )
@@ -169,18 +173,12 @@ class NavigationScanner:
 
             except Exception:
 
-
                 continue
-
-
 
 
             for i in range(count):
 
-
                 try:
-
-
                     element = elements.nth(i)
 
                     tag = self.detect_type(element)
@@ -770,37 +768,69 @@ class NavigationScanner:
         tag,
         role
     ):
+
         try:
 
-            if tag in [
+        # عناصر HTML التفاعلية الطبيعية
+            if tag in (
+                "a",
+                "button",
+                "input",
+                "select",
+                "textarea",
+                "summary"
+            ):
+                return True
 
-            "a",
-            "button",
-            "input",
-            "select",
-            "textarea"
+        # عناصر Accessibility
+            if role in (
+                "button",
+                "link",
+                "menuitem",
+                "tab",
+                "option",
+                "treeitem",
+                "switch"
+            ):
+                return True
 
-            ]:
+        # عناصر عليها أحداث مباشرة
+            if element.get_attribute("onclick"):
+                return True
 
-               return True
+        # عناصر عليها tabindex (غالباً قابلة للتفاعل)
+            tabindex = element.get_attribute("tabindex")
+            if tabindex is not None:
+                return True
 
+        # عناصر تتحكم فى أجزاء أخرى من الصفحة
+            if element.get_attribute("aria-expanded") is not None:
+                return True
 
-            if role in [
+            if element.get_attribute("aria-controls") is not None:
+                return True
 
-            "button",
-            "link",
-            "menuitem",
-            "tab",
-            "option"
+        # عناصر عليها Router
+            for attr in (
+                "routerlink",
+                "router-link",
+                "data-url",
+                "data-href",
+                "data-link",
+                "data-route",
+            ):
+                if element.get_attribute(attr):
+                    return True
 
-            ]:
+        # Cursor Pointer
+            style = element.evaluate(
+                "el => window.getComputedStyle(el).cursor"
+            )
 
-               return True
-
+            if style == "pointer":
+                return True
 
             return False
 
-
         except Exception:
-
             return False

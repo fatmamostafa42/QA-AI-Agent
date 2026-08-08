@@ -190,12 +190,6 @@ class ExecutionEngine:
                 before_state["url"] ==
                 after_state["url"]
             )
-            
-            navigated = (
-                before_state["url"] !=
-                after_state["url"]
-            )
-
 
             title_changed = (
                 before_state["title"] !=
@@ -207,6 +201,13 @@ class ExecutionEngine:
                 after_state["dom"]
             )
 
+# يعتبر Navigation إذا تغير URL أو تغير محتوى الصفحة أو العنوان
+            navigated = (
+                (not same_page)
+                or title_changed
+                or content_changed
+            )
+            
             result.update({
 
                 "success": True,

@@ -1,695 +1,5 @@
 [
     {
-        "name": "Navigate Employee Name\nEmployee Id\nEmployment Status\n-- Select --\nInclude\nCurrent Employees Only\nSupervisor Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
-                "action": "navigate",
-                "element": "Employee Name\nEmployee Id\nEmployment Status\n-- Select --\nInclude\nCurrent Employees Only\nSupervisor Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Employee Name\nEmployee Id\nEmployment Status\n-- Select --\nInclude\nCurrent Employees Only\nSupervisor Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee",
-                "action": "navigate",
-                "element": "Accepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 200px\n\nEmployee Full Name\nEmployee Id\n\nCreate Login Details\n\n* Required\n\nCancel\nSave",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Accepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 200px\n\nEmployee Full Name\nEmployee Id\n\nCreate Login Details\n\n* Required\n\nCancel\nSave"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Employee Name\nEmployee Id\nEmployment Status\n-- Select --\nInclude\nCurrent Employees Only\nSupervisor Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
-                "action": "navigate",
-                "element": "Employee Name\nEmployee Id\nEmployment Status\n-- Select --\nInclude\nCurrent Employees Only\nSupervisor Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Employee Name\nEmployee Id\nEmployment Status\n-- Select --\nInclude\nCurrent Employees Only\nSupervisor Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee",
-                "action": "navigate",
-                "element": "Accepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 200px\n\nEmployee Full Name\nEmployee Id\n\nCreate Login Details\n\n* Required\n\nCancel\nSave",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Accepts jpg, .png, .gif up to 1MB. Recommended dimensions: 200px X 200px\n\nEmployee Full Name\nEmployee Id\n\nCreate Login Details\n\n* Required\n\nCancel\nSave"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Employee Name\nEmployee Id\nEmployment Status\n-- Select --\nInclude\nCurrent Employees Only\nSupervisor Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDefinedPredefinedReports",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDefinedPredefinedReports"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
-                "action": "navigate",
-                "element": "Employee Name\nEmployee Id\nEmployment Status\n-- Select --\nInclude\nCurrent Employees Only\nSupervisor Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Employee Name\nEmployee Id\nEmployment Status\n-- Select --\nInclude\nCurrent Employees Only\nSupervisor Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDefinedPredefinedReports",
-                "action": "navigate",
-                "element": "Report Name\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Report Name\nReset\nSearch"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Employee Name\nJob Title\n-- Select --\nLocation\n-- Select --\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
-                "action": "navigate",
-                "element": "Employee Name\nJob Title\n-- Select --\nLocation\n-- Select --\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Employee Name\nJob Title\n-- Select --\nLocation\n-- Select --\nReset\nSearch"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Employee Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nInclude\nCurrent Employees Only\nReview Status\n-- Select --\nFrom Date\nTo Date\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
-                "action": "navigate",
-                "element": "Employee Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nInclude\nCurrent Employees Only\nReview Status\n-- Select --\nFrom Date\nTo Date\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Employee Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nInclude\nCurrent Employees Only\nReview Status\n-- Select --\nFrom Date\nTo Date\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewMyPerformanceTrackerList",
-                "action": "navigate",
-                "element": "",
-                "locator": {
-                    "strategy": "placeholder",
-                    "value": "Search"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Employee Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nInclude\nCurrent Employees Only\nReview Status\n-- Select --\nFrom Date\nTo Date\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewMyPerformanceTrackerList",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewMyPerformanceTrackerList"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
-                "action": "navigate",
-                "element": "Employee Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nInclude\nCurrent Employees Only\nReview Status\n-- Select --\nFrom Date\nTo Date\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Employee Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nInclude\nCurrent Employees Only\nReview Status\n-- Select --\nFrom Date\nTo Date\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewMyPerformanceTrackerList",
-                "action": "navigate",
-                "element": "",
-                "locator": {
-                    "strategy": "placeholder",
-                    "value": "Search"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Employee Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nInclude\nCurrent Employees Only\nReview Status\n-- Select --\nFrom Date\nTo Date\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewEmployeePerformanceTrackerList",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewEmployeePerformanceTrackerList"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
-                "action": "navigate",
-                "element": "Employee Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nInclude\nCurrent Employees Only\nReview Status\n-- Select --\nFrom Date\nTo Date\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Employee Name\nJob Title\n-- Select --\nSub Unit\n-- Select --\nInclude\nCurrent Employees Only\nReview Status\n-- Select --\nFrom Date\nTo Date\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewEmployeePerformanceTrackerList",
-                "action": "navigate",
-                "element": "Employee Name\nInclude\nCurrent Employees Only\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Employee Name\nInclude\nCurrent Employees Only\nReset\nSearch"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Employee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
-                "action": "navigate",
-                "element": "Employee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Employee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/submitClaim",
-                "action": "navigate",
-                "element": "Event\n-- Select --\nCurrency\n-- Select --\nRemarks\n\n* Required\n\nCancel\nCreate",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Event\n-- Select --\nCurrency\n-- Select --\nRemarks\n\n* Required\n\nCancel\nCreate"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Employee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/submitClaim",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/claim/submitClaim"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
-                "action": "navigate",
-                "element": "Employee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Employee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/submitClaim",
-                "action": "navigate",
-                "element": "Event\n-- Select --\nCurrency\n-- Select --\nRemarks\n\n* Required\n\nCancel\nCreate",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Event\n-- Select --\nCurrency\n-- Select --\nRemarks\n\n* Required\n\nCancel\nCreate"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Employee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
-                "action": "navigate",
-                "element": "Employee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Employee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim",
-                "action": "navigate",
-                "element": "Reference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Reference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nReset\nSearch"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Employee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/assignClaim",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/claim/assignClaim"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
-                "action": "navigate",
-                "element": "Employee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Employee Name\nReference Id\nEvent Name\n-- Select --\nStatus\n-- Select --\nFrom Date\nTo Date\nInclude\nCurrent Employees Only\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/assignClaim",
-                "action": "navigate",
-                "element": "Employee Name\nEvent\n-- Select --\nCurrency\n-- Select --\nRemarks\n\n* Required\n\nCancel\nCreate",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Employee Name\nEvent\n-- Select --\nCurrency\n-- Select --\nRemarks\n\n* Required\n\nCancel\nCreate"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate From Date\nTo Date\nShow Leave With Status\n-- Select --\nPending Approval\nLeave Type\n-- Select --\nEmployee Name\nSub Unit\n-- Select --\n\nInclude Past Employees\n\n* Required\n\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
-                "action": "navigate",
-                "element": "From Date\nTo Date\nShow Leave with Status\n-- Select --\nPending Approval\nLeave Type\n-- Select --\nEmployee Name\nSub Unit\n-- Select --\n\nInclude Past Employees\n\n* Required\n\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "From Date\nTo Date\nShow Leave with Status\n-- Select --\nPending Approval\nLeave Type\n-- Select --\nEmployee Name\nSub Unit\n-- Select --\n\nInclude Past Employees\n\n* Required\n\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave",
-                "action": "navigate",
-                "element": "Leave Type\n-- Select --\nLeave Balance\n\n0.00 Day(s)\n\nFrom Date\nTo Date\nComments\n\n* Required\n\nApply",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Leave Type\n-- Select --\nLeave Balance\n\n0.00 Day(s)\n\nFrom Date\nTo Date\nComments\n\n* Required\n\nApply"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate From Date\nTo Date\nShow Leave With Status\n-- Select --\nPending Approval\nLeave Type\n-- Select --\nEmployee Name\nSub Unit\n-- Select --\n\nInclude Past Employees\n\n* Required\n\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
-                "action": "navigate",
-                "element": "From Date\nTo Date\nShow Leave with Status\n-- Select --\nPending Approval\nLeave Type\n-- Select --\nEmployee Name\nSub Unit\n-- Select --\n\nInclude Past Employees\n\n* Required\n\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "From Date\nTo Date\nShow Leave with Status\n-- Select --\nPending Approval\nLeave Type\n-- Select --\nEmployee Name\nSub Unit\n-- Select --\n\nInclude Past Employees\n\n* Required\n\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave",
-                "action": "navigate",
-                "element": "Leave Type\n-- Select --\nLeave Balance\n\n0.00 Day(s)\n\nFrom Date\nTo Date\nComments\n\n* Required\n\nApply",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Leave Type\n-- Select --\nLeave Balance\n\n0.00 Day(s)\n\nFrom Date\nTo Date\nComments\n\n* Required\n\nApply"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate From Date\nTo Date\nShow Leave With Status\n-- Select --\nPending Approval\nLeave Type\n-- Select --\nEmployee Name\nSub Unit\n-- Select --\n\nInclude Past Employees\n\n* Required\n\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewMyLeaveList",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewMyLeaveList"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
-                "action": "navigate",
-                "element": "From Date\nTo Date\nShow Leave with Status\n-- Select --\nPending Approval\nLeave Type\n-- Select --\nEmployee Name\nSub Unit\n-- Select --\n\nInclude Past Employees\n\n* Required\n\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "From Date\nTo Date\nShow Leave with Status\n-- Select --\nPending Approval\nLeave Type\n-- Select --\nEmployee Name\nSub Unit\n-- Select --\n\nInclude Past Employees\n\n* Required\n\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewMyLeaveList",
-                "action": "navigate",
-                "element": "From Date\nTo Date\nShow Leave with Status\nSelect\nRejected\nCancelled\nPending Approval\nScheduled\nTaken\nLeave Type\n-- Select --\n\n* Required\n\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "From Date\nTo Date\nShow Leave with Status\nSelect\nRejected\nCancelled\nPending Approval\nScheduled\nTaken\nLeave Type\n-- Select --\n\n* Required\n\nReset\nSearch"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate From Date\nTo Date\nShow Leave With Status\n-- Select --\nPending Approval\nLeave Type\n-- Select --\nEmployee Name\nSub Unit\n-- Select --\n\nInclude Past Employees\n\n* Required\n\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/assignLeave",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/assignLeave"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
-                "action": "navigate",
-                "element": "From Date\nTo Date\nShow Leave with Status\n-- Select --\nPending Approval\nLeave Type\n-- Select --\nEmployee Name\nSub Unit\n-- Select --\n\nInclude Past Employees\n\n* Required\n\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "From Date\nTo Date\nShow Leave with Status\n-- Select --\nPending Approval\nLeave Type\n-- Select --\nEmployee Name\nSub Unit\n-- Select --\n\nInclude Past Employees\n\n* Required\n\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/assignLeave",
-                "action": "navigate",
-                "element": "Employee Name\nLeave Type\n-- Select --\nLeave Balance\n\n0.00 Day(s)\n\nFrom Date\nTo Date\nComments\n\n* Required\n\nAssign",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Employee Name\nLeave Type\n-- Select --\nLeave Balance\n\n0.00 Day(s)\n\nFrom Date\nTo Date\nComments\n\n* Required\n\nAssign"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Job Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nCandidate Name\nKeywords\nDate Of Application\n \nMethod Of Application\n-- Select --\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
-                "action": "navigate",
-                "element": "Job Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nCandidate Name\nKeywords\nDate of Application\n \nMethod of Application\n-- Select --\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Job Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nCandidate Name\nKeywords\nDate of Application\n \nMethod of Application\n-- Select --\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy",
-                "action": "navigate",
-                "element": "Job Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Job Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nReset\nSearch"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Job Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nCandidate Name\nKeywords\nDate Of Application\n \nMethod Of Application\n-- Select --\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
-                "action": "navigate",
-                "element": "Job Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nCandidate Name\nKeywords\nDate of Application\n \nMethod of Application\n-- Select --\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Job Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nCandidate Name\nKeywords\nDate of Application\n \nMethod of Application\n-- Select --\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy",
-                "action": "navigate",
-                "element": "Job Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Job Title\n-- Select --\nVacancy\n-- Select --\nHiring Manager\n-- Select --\nStatus\n-- Select --\nReset\nSearch"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Username\nUser Role\n-- Select --\nEmployee Name\nStatus\n-- Select --\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
-                "action": "navigate",
-                "element": "Username\nUser Role\n-- Select --\nEmployee Name\nStatus\n-- Select --\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Username\nUser Role\n-- Select --\nEmployee Name\nStatus\n-- Select --\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/nationality",
-                "action": "navigate",
-                "element": "",
-                "locator": {
-                    "strategy": "css",
-                    "value": "unknown"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Username\nUser Role\n-- Select --\nEmployee Name\nStatus\n-- Select --\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/nationality",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/admin/nationality"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
-                "action": "navigate",
-                "element": "Username\nUser Role\n-- Select --\nEmployee Name\nStatus\n-- Select --\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Username\nUser Role\n-- Select --\nEmployee Name\nStatus\n-- Select --\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/nationality",
-                "action": "navigate",
-                "element": "",
-                "locator": {
-                    "strategy": "css",
-                    "value": "unknown"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Username\nUser Role\n-- Select --\nEmployee Name\nStatus\n-- Select --\nReset\nSearch",
-        "source": "flow",
-        "intent": "SEARCH",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/addTheme",
-        "category": "CRUD",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/admin/addTheme"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
-                "action": "navigate",
-                "element": "Username\nUser Role\n-- Select --\nEmployee Name\nStatus\n-- Select --\nReset\nSearch",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Username\nUser Role\n-- Select --\nEmployee Name\nStatus\n-- Select --\nReset\nSearch"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/addTheme",
-                "action": "navigate",
-                "element": "Primary Color\nSecondary Color\nPrimary Font Color\nSecondary Font Color\nPrimary Gradient Color 1\nPrimary Gradient Color 2\n\n\n\n\nClient Logo\nBrowse\nNo file selected\n\nAccepts jpg, .png, .gif, .svg up to 1MB. Recommended dimensions: 50px X 50px\n\nClient Banner\nBrowse\nNo file selected\n\nAccepts jpg, .png, .gif, .svg up to 1MB. Recommended dimensions: 182px X 50px\n\nLogin Banner\nBrowse\nNo file selected\n\nAccepts jpg, .png, .gif, .svg up to 1MB. Recommended dimensions: 340px X 65px\n\nSocial Media Images\n\n* Required\n\nReset to Default\nPreview\nPublish",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Primary Color\nSecondary Color\nPrimary Font Color\nSecondary Font Color\nPrimary Gradient Color 1\nPrimary Gradient Color 2\n\n\n\n\nClient Logo\nBrowse\nNo file selected\n\nAccepts jpg, .png, .gif, .svg up to 1MB. Recommended dimensions: 50px X 50px\n\nClient Banner\nBrowse\nNo file selected\n\nAccepts jpg, .png, .gif, .svg up to 1MB. Recommended dimensions: 182px X 50px\n\nLogin Banner\nBrowse\nNo file selected\n\nAccepts jpg, .png, .gif, .svg up to 1MB. Recommended dimensions: 340px X 65px\n\nSocial Media Images\n\n* Required\n\nReset to Default\nPreview\nPublish"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
         "name": "Search",
         "source": "feature",
         "intent": "SEARCH",
@@ -700,31 +10,6 @@
         "steps": [],
         "expected_result": "",
         "actions": []
-    },
-    {
-        "name": "Navigate Employee Name\n\n* Required\n\nView",
-        "source": "flow",
-        "intent": "VIEW",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
-        "category": "VIEW",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
-                "action": "navigate",
-                "element": "Employee Name\n\n* Required\n\nView",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Employee Name\n\n* Required\n\nView"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
     },
     {
         "name": "Video Upload",
@@ -739,7 +24,417 @@
         "actions": []
     },
     {
-        "name": "Navigate Administrator Access\n\n\nYou Have Requested To Access A Critical Administrator Function In Orangehrm And Are Required To Validate Your Credentials Below\nUsername\nPassword\nCancel\nConfirm",
+        "name": "Navigate Admin",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "action": "navigate",
+                "element": "Admin",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Admin"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+                "action": "create",
+                "element": "Add",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Add"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Admin",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "action": "navigate",
+                "element": "Admin",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Admin"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+                "action": "create",
+                "element": "Add",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Add"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Admin",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/nationality",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/admin/nationality"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "action": "navigate",
+                "element": "Admin",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Admin"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/nationality",
+                "action": "navigate",
+                "element": "Nationalities",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Nationalities"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Admin",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/addTheme",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/admin/addTheme"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "action": "navigate",
+                "element": "Admin",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Admin"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/addTheme",
+                "action": "navigate",
+                "element": "Corporate Branding",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Corporate Branding"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Claim",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "action": "navigate",
+                "element": "Claim",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Claim"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim",
+                "action": "navigate",
+                "element": "My Claims",
+                "locator": {
+                    "strategy": "text",
+                    "value": "My Claims"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Claim",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "action": "navigate",
+                "element": "Claim",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Claim"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewClaim",
+                "action": "navigate",
+                "element": "My Claims",
+                "locator": {
+                    "strategy": "text",
+                    "value": "My Claims"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Claim",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/assignClaim",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/claim/assignClaim"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "action": "navigate",
+                "element": "Claim",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Claim"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/viewAssignClaim",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/assignClaim",
+                "action": "navigate",
+                "element": "Assign Claim",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Assign Claim"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Directory",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/directory/viewDirectory",
+                "action": "navigate",
+                "element": "Directory",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Directory"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Leave",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "action": "navigate",
+                "element": "Leave",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Leave"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave",
+                "action": "navigate",
+                "element": "Apply",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Apply"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Leave",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "action": "navigate",
+                "element": "Leave",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Leave"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/applyLeave",
+                "action": "navigate",
+                "element": "Apply",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Apply"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Leave",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewMyLeaveList",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewMyLeaveList"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "action": "navigate",
+                "element": "Leave",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Leave"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewMyLeaveList",
+                "action": "navigate",
+                "element": "My Leave",
+                "locator": {
+                    "strategy": "text",
+                    "value": "My Leave"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Leave",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/assignLeave",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/leave/assignLeave"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "action": "navigate",
+                "element": "Leave",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Leave"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/viewLeaveList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/leave/assignLeave",
+                "action": "navigate",
+                "element": "Assign Leave",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Assign Leave"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Maintenance",
         "source": "flow",
         "intent": "UNKNOWN",
         "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
@@ -753,10 +448,10 @@
                 "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
                 "to": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
                 "action": "navigate",
-                "element": "Administrator Access\n\n\nYou have requested to access a critical Administrator function in OrangeHRM and are required to validate your credentials below\nUsername\nPassword\nCancel\nConfirm",
+                "element": "Maintenance",
                 "locator": {
                     "strategy": "text",
-                    "value": "Administrator Access\n\n\nYou have requested to access a critical Administrator function in OrangeHRM and are required to validate your credentials below\nUsername\nPassword\nCancel\nConfirm"
+                    "value": "Maintenance"
                 }
             }
         ],
@@ -764,7 +459,7 @@
         "expected_result": ""
     },
     {
-        "name": "Navigate Memberships",
+        "name": "Navigate My Info",
         "source": "flow",
         "intent": "UNKNOWN",
         "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
@@ -778,20 +473,20 @@
                 "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
                 "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
                 "action": "navigate",
-                "element": "Memberships",
+                "element": "My Info",
                 "locator": {
                     "strategy": "text",
-                    "value": "Memberships"
+                    "value": "My Info"
                 }
             },
             {
                 "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
                 "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
                 "action": "navigate",
-                "element": "Memberships",
+                "element": "Contact Details",
                 "locator": {
                     "strategy": "text",
-                    "value": "Memberships"
+                    "value": "Contact Details"
                 }
             }
         ],
@@ -799,7 +494,7 @@
         "expected_result": ""
     },
     {
-        "name": "Navigate Memberships",
+        "name": "Navigate My Info",
         "source": "flow",
         "intent": "UNKNOWN",
         "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
@@ -813,20 +508,20 @@
                 "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
                 "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
                 "action": "navigate",
-                "element": "Memberships",
+                "element": "My Info",
                 "locator": {
                     "strategy": "text",
-                    "value": "Memberships"
+                    "value": "My Info"
                 }
             },
             {
                 "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
                 "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/contactDetails/empNumber/7",
                 "action": "navigate",
-                "element": "Memberships",
+                "element": "Contact Details",
                 "locator": {
                     "strategy": "text",
-                    "value": "Memberships"
+                    "value": "Contact Details"
                 }
             }
         ],
@@ -834,7 +529,7 @@
         "expected_result": ""
     },
     {
-        "name": "Navigate Memberships",
+        "name": "Navigate My Info",
         "source": "flow",
         "intent": "UNKNOWN",
         "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
@@ -848,20 +543,20 @@
                 "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
                 "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
                 "action": "navigate",
-                "element": "Memberships",
+                "element": "My Info",
                 "locator": {
                     "strategy": "text",
-                    "value": "Memberships"
+                    "value": "My Info"
                 }
             },
             {
                 "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
                 "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmergencyContacts/empNumber/7",
                 "action": "navigate",
-                "element": "Memberships",
+                "element": "Emergency Contacts",
                 "locator": {
                     "strategy": "text",
-                    "value": "Memberships"
+                    "value": "Emergency Contacts"
                 }
             }
         ],
@@ -869,7 +564,7 @@
         "expected_result": ""
     },
     {
-        "name": "Navigate Memberships",
+        "name": "Navigate My Info",
         "source": "flow",
         "intent": "UNKNOWN",
         "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
@@ -883,20 +578,20 @@
                 "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
                 "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
                 "action": "navigate",
-                "element": "Memberships",
+                "element": "My Info",
                 "locator": {
                     "strategy": "text",
-                    "value": "Memberships"
+                    "value": "My Info"
                 }
             },
             {
                 "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
                 "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDependents/empNumber/7",
                 "action": "navigate",
-                "element": "Memberships",
+                "element": "Dependents",
                 "locator": {
                     "strategy": "text",
-                    "value": "Memberships"
+                    "value": "Dependents"
                 }
             }
         ],
@@ -904,269 +599,224 @@
         "expected_result": ""
     },
     {
-        "name": "Navigate Memberships",
+        "name": "Navigate Performance",
         "source": "flow",
         "intent": "UNKNOWN",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
-        "category": "UNKNOWN",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-                "action": "navigate",
-                "element": "Memberships",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Memberships"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
-                "action": "navigate",
-                "element": "Memberships",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Memberships"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Memberships",
-        "source": "flow",
-        "intent": "UNKNOWN",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
-        "category": "UNKNOWN",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-                "action": "navigate",
-                "element": "Memberships",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Memberships"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
-                "action": "navigate",
-                "element": "Memberships",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Memberships"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Memberships",
-        "source": "flow",
-        "intent": "UNKNOWN",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
-        "category": "UNKNOWN",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-                "action": "navigate",
-                "element": "Memberships",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Memberships"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
-                "action": "navigate",
-                "element": "Memberships",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Memberships"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Memberships",
-        "source": "flow",
-        "intent": "UNKNOWN",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewUsTaxExemptions/empNumber/7",
-        "category": "UNKNOWN",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewUsTaxExemptions/empNumber/7"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-                "action": "navigate",
-                "element": "Memberships",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Memberships"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewUsTaxExemptions/empNumber/7",
-                "action": "navigate",
-                "element": "Memberships",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Memberships"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Memberships",
-        "source": "flow",
-        "intent": "UNKNOWN",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
-        "category": "UNKNOWN",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-                "action": "navigate",
-                "element": "Memberships",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Memberships"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
-                "action": "navigate",
-                "element": "Memberships",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Memberships"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Memberships",
-        "source": "flow",
-        "intent": "UNKNOWN",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
-        "category": "UNKNOWN",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-                "action": "navigate",
-                "element": "Memberships",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Memberships"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
-                "action": "navigate",
-                "element": "Memberships",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Memberships"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Memberships",
-        "source": "flow",
-        "intent": "UNKNOWN",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
-        "category": "UNKNOWN",
-        "pages": [
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7"
-        ],
-        "actions": [
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-                "action": "navigate",
-                "element": "Memberships",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Memberships"
-                }
-            },
-            {
-                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewPersonalDetails/empNumber/7",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
-                "action": "navigate",
-                "element": "Memberships",
-                "locator": {
-                    "strategy": "text",
-                    "value": "Memberships"
-                }
-            }
-        ],
-        "steps": [],
-        "expected_result": ""
-    },
-    {
-        "name": "Navigate Post",
-        "source": "flow",
-        "intent": "UNKNOWN",
-        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
         "category": "UNKNOWN",
         "pages": [
             "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-            "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz"
+            "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview"
         ],
         "actions": [
             {
                 "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
-                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/searchEvaluatePerformanceReview",
                 "action": "navigate",
-                "element": "Post",
+                "element": "Performance",
                 "locator": {
                     "strategy": "text",
-                    "value": "Post"
+                    "value": "Performance"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Pim",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "action": "navigate",
+                "element": "PIM",
+                "locator": {
+                    "strategy": "text",
+                    "value": "PIM"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee",
+                "action": "navigate",
+                "element": "Add Employee",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Add Employee"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Pim",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "action": "navigate",
+                "element": "PIM",
+                "locator": {
+                    "strategy": "text",
+                    "value": "PIM"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee",
+                "action": "navigate",
+                "element": "Add Employee",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Add Employee"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Pim",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDefinedPredefinedReports",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDefinedPredefinedReports"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "action": "navigate",
+                "element": "PIM",
+                "locator": {
+                    "strategy": "text",
+                    "value": "PIM"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewDefinedPredefinedReports",
+                "action": "navigate",
+                "element": "Reports",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Reports"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Recruitment",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "action": "navigate",
+                "element": "Recruitment",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Recruitment"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy",
+                "action": "navigate",
+                "element": "Vacancies",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Vacancies"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Recruitment",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "action": "navigate",
+                "element": "Recruitment",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Recruitment"
+                }
+            },
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewCandidates",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/recruitment/viewJobVacancy",
+                "action": "navigate",
+                "element": "Vacancies",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Vacancies"
+                }
+            }
+        ],
+        "steps": [],
+        "expected_result": ""
+    },
+    {
+        "name": "Navigate Time",
+        "source": "flow",
+        "intent": "UNKNOWN",
+        "entity": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+        "category": "UNKNOWN",
+        "pages": [
+            "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+            "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet"
+        ],
+        "actions": [
+            {
+                "from": "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index",
+                "to": "https://opensource-demo.orangehrmlive.com/web/index.php/time/viewEmployeeTimesheet",
+                "action": "navigate",
+                "element": "Time",
+                "locator": {
+                    "strategy": "text",
+                    "value": "Time"
                 }
             }
         ],
@@ -1180,7 +830,7 @@
         "entity": "Navigation",
         "category": "UNKNOWN",
         "page": "OrangeHRM",
-        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/maintenance/purgeEmployee",
+        "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
         "steps": [],
         "expected_result": "",
         "actions": []

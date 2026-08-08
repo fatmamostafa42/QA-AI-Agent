@@ -145,8 +145,15 @@ class FlowDiscovery:
 
         }
 
-        if edge in self.edges:
-            return
+        for existing_edge in self.edges:
+            if (
+                existing_edge["from"] == source
+                and existing_edge["to"] == target
+                and existing_edge["action"] == action
+            ):
+                return
+            
+        print(f"ADD EDGE: {source} ---> {target}")
 
         self.edges.append(edge)
 

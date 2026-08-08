@@ -109,7 +109,7 @@ class ActionEngine:
             )
 
 
-            count = elements.count()
+            count = min(elements.count(), 30)
 
 
             for index in range(count):
@@ -160,7 +160,7 @@ class ActionEngine:
             )
 
 
-            count = elements.count()
+            count = min(elements.count(), 30)
 
 
             for index in range(count):
@@ -224,7 +224,7 @@ class ActionEngine:
             )
 
 
-            count = elements.count()
+            count = min(elements.count(), 20)
 
 
             for index in range(count):
@@ -294,71 +294,42 @@ class ActionEngine:
 
         actions = []
 
-
         selectors = [
 
-            "[onclick]",
-
-            "[data-url]",
-
-            "[data-href]",
-
-            "[data-link]",
-
-            "[data-route]",
-
-            "[routerLink]",
-
-            "[router-link]",
-
-            "[to]",
-
-            ".menu-item",
-
-            ".nav-item",
-
-            ".sidebar-item",
-
-            ".tab",
+            "[aria-haspopup]",
+            "[aria-expanded]",
+            "[aria-controls]",
 
             "[role='menuitem']",
+            "[role='tab']",
 
-            "[role='tab']"
+            "summary",
+
+            "[class*='dropdown']",
+            "[class*='toggle']",
+            "[class*='accordion']",
+            "[class*='submenu']",
+            "[class*='menu-item']",
 
         ]
 
-
         for selector in selectors:
 
+            elements = self.page.locator(selector)
 
-            elements = self.page.locator(
-                selector
-            )
-
-
-            count = elements.count()
-
+            count = min(elements.count(), 30)
 
             for index in range(count):
 
-                element = elements.nth(index)
-
-
                 action = self._analyze_element(
-                    element,
+                    elements.nth(index),
                     "component"
                 )
 
-
                 if action:
-
                     actions.append(action)
 
-
-
         return actions
-
-
 
     # =====================================================
     # Element Analyzer
@@ -386,6 +357,17 @@ class ActionEngine:
             element
         )
 
+        try:
+
+            cursor = element.evaluate(
+            "el => window.getComputedStyle(el).cursor"
+            )
+
+            metadata["cursor"] = cursor
+
+        except Exception:
+
+            metadata["cursor"] = ""
 
         if not metadata:
 
@@ -421,7 +403,11 @@ class ActionEngine:
 
         ]).lower()
 
-
+        try:
+            if not self._is_interactive(element, metadata):
+                return None
+        except Exception:
+            return None
 
         classification = self._classify_action(
         semantic_text,
@@ -464,6 +450,137 @@ class ActionEngine:
             "locator": self._build_locator(element)
 
         }
+
+# =====================================================
+# _is_interactive
+# =====================================================
+
+    def _is_interactive(self, element, metadata):
+
+        score = 0
+
+        try:
+            if element.is_visible():
+                score += 1
+        except:
+            return False
+
+        try:
+            if element.is_enabled():
+                score += 1
+        except:
+            pass
+
+        try:
+            cursor = element.evaluate(
+                "el => window.getComputedStyle(el).cursor"
+        )
+
+            if cursor == "pointer":
+                score += 2
+
+        except:
+            pass
+
+        attrs = metadata.get("attributes", "").lower()
+
+        tag = metadata.get("tag", "").lower()
+
+        interactive_tags = {
+
+            "a",
+            "button",
+            "input",
+            "summary",
+            "details",
+            "select",
+            "option",
+
+        }
+
+        if tag in interactive_tags:
+            score += 2
+
+        if tag in {"div", "span"} and any(
+            word in classes for word in [
+                "dropdown",
+                "toggle",
+                "menu",
+                "submenu",
+                "accordion",
+                "expand",
+                "collapse",
+                "tree",
+                "nav"
+            ]
+        ):
+            score += 2
+
+        if tag == "svg":
+            score += 1
+
+        classes = metadata.get("class", "").lower()
+
+        keywords = [
+
+            "dropdown",
+            "toggle",
+            "menu",
+            "submenu",
+            "accordion",
+            "expand",
+            "collapse",
+            "tab",
+            "tree",
+            "sidebar",
+            "nav",
+
+        ]
+
+        if any(word in classes for word in keywords):
+            score += 1
+
+        interactive_attrs = [
+
+            # Native interaction
+            "onclick",
+            "href",
+            "tabindex",
+
+            # ARIA
+            "role",
+            "aria-expanded",
+            "aria-controls",
+            "aria-haspopup",
+            "aria-selected",
+            "aria-current",
+            "aria-pressed",
+
+            # Generic data attributes
+            "data-action",
+            "data-url",
+            "data-href",
+            "data-route",
+            "data-target",
+            "data-toggle",
+            "data-testid",
+            "data-test",
+            "data-cy",
+            "data-qa",
+        ]
+
+        for attr in interactive_attrs:
+
+            if attr in attrs:
+                score += 1
+
+        text = metadata.get("text", "").strip()
+
+        if text:
+            score += 1
+
+        return score >= 2
+    
     # =====================================================
     # Metadata Extraction
     # =====================================================
@@ -481,7 +598,6 @@ class ActionEngine:
             "navigation": {}
 
         }
-
 
         try:
 
@@ -564,16 +680,15 @@ class ActionEngine:
                 """
             )
 
-
             metadata["attributes"] = attributes or ""
-
-
         except Exception:
+            metadata["attributes"] = ""
 
-            pass
-
-
-
+        try:
+            metadata["class"] = element.get_attribute("class") or ""
+        except Exception:
+           metadata["class"] = ""
+        
         return metadata
 
 
@@ -616,7 +731,11 @@ class ActionEngine:
 
             "data-route",
 
-            "onclick"
+            "onclick",
+
+            "aria-expanded",
+
+            "aria-haspopup"
 
         ]
 
@@ -642,6 +761,34 @@ class ActionEngine:
 
                 continue
 
+            if attr == "aria-expanded":
+
+                return {
+
+                    "detected": True,
+
+                    "type": "expand",
+
+                    "target": value,
+
+                    "source": attr
+
+                }
+
+            if attr == "aria-haspopup":
+
+                return {
+
+                    "detected": True,
+
+                    "type": "menu",
+
+                    "target": value,
+
+                    "source": attr
+
+                }
+            
             value = value.strip()
 
             # print("FOUND NAV:", attr, "->", value)
@@ -653,9 +800,17 @@ class ActionEngine:
             # -----------------------------
 
             if attr == "href":
-                # print("HREF TARGET:", value)
 
+                invalid_hrefs = {
+                    "",
+                    "#",
+                    "javascript:void(0)",
+                    "javascript:;",
+                    "javascript:void(0);"
+                }
 
+                if value.lower() in invalid_hrefs:
+                     continue
 
                 navigation.update({
 
@@ -669,10 +824,7 @@ class ActionEngine:
 
                 })
 
-
                 return navigation
-
-
 
             # -----------------------------
             # Angular
@@ -912,6 +1064,34 @@ class ActionEngine:
             "navigation",
             {}
         )
+
+        if navigation.get("type") == "expand":
+
+            result.update({
+
+                "action": "expand",
+
+                "confidence": 0.95,
+
+                "may_open_dialog": True
+
+            })
+
+            return result
+
+        if navigation.get("type") == "menu":
+
+            result.update({
+
+                "action": "expand",
+
+                "confidence": 0.95,
+
+                "may_open_dialog": True
+
+            })
+
+            return result
 
 
         # ---------------------------------
@@ -1170,11 +1350,32 @@ class ActionEngine:
 
             result["may_open_dialog"] = True
 
+        # ---------------------------------
+        # Generic Clickable Detection
+        # ---------------------------------
 
+        if result["action"] == "unknown":
+
+            attrs = metadata.get("attributes", "").lower()
+
+            if (
+                metadata.get("cursor") == "pointer"
+                or "aria-expanded" in attrs
+                or "aria-haspopup" in attrs
+                or "dropdown" in attrs
+                or "toggle" in attrs
+                or "collapse" in attrs
+            ):
+
+                result.update({
+
+                    "action": "click",
+
+                    "confidence": 0.85
+
+                })
 
         return result
-
-
 
 
     # =====================================================

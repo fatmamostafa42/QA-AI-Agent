@@ -1,24 +1,24 @@
 {
     "application": {
         "base_url": "https://opensource-demo.orangehrmlive.com",
-        "generated_at": "2026-07-31T22:44:00.773966",
-        "pages_count": 43
+        "generated_at": "2026-08-01T22:04:01.446631",
+        "pages_count": 42
     },
     "summary": {
-        "pages": 43,
-        "buttons": 277,
+        "pages": 42,
+        "buttons": 278,
         "inputs": 104,
-        "links": 791,
+        "links": 703,
         "forms": 0,
         "tables": 0,
         "dialogs": 0,
-        "components": 506,
-        "cards": 434,
-        "grids": 30,
-        "menus": 504,
-        "headings": 123,
-        "validation_messages": 463,
-        "accessibility_items": 2257
+        "components": 549,
+        "cards": 484,
+        "grids": 24,
+        "menus": 542,
+        "headings": 96,
+        "validation_messages": 500,
+        "accessibility_items": 2325
     },
     "pages": [
         {
@@ -33,7 +33,7 @@
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 36,
+                "cards": 45,
                 "grids": 0,
                 "tabs": 0
             },
@@ -44,25 +44,31 @@
                 "(1) Pending Self Review",
                 "0h 0m",
                 "0h 0m Today",
-                "2026-01-08 01:31 AM",
+                "2020-08-10 05:33 AM",
+                "2020-08-10 05:34 AM",
+                "2020-08-10 05:38 AM",
                 "Apply Leave",
                 "Assign Leave",
-                "Brad",
                 "Buzz Latest Posts",
                 "Employees on Leave Today",
+                "Hi All;",
                 "Leave List",
+                "Live SIMPLY",
                 "My Actions",
                 "My Leave",
                 "My Timesheet",
-                "Pablo",
                 "Punched Out",
                 "Punched Out: Mar 29th at 01:19 PM (GMT 7)",
                 "Quick Launch",
+                "Rebecca Harmony",
+                "Russel Hamilton",
+                "Sania Shaheen",
                 "This Week",
+                "Throwback Thursdays!!",
                 "Time at Work",
                 "Timesheets",
-                "Willian Augusto Silva",
-                "null"
+                "World Championship: What makes the perfect snooker player?",
+                "manda akhil user"
             ],
             "grid_columns": [],
             "grid_actions": [],
@@ -126,7 +132,7 @@
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 6,
+                "cards": 4,
                 "grids": 1,
                 "tabs": 0
             },
@@ -137,9 +143,7 @@
                 "Admin",
                 "FMLName",
                 "FMLName1",
-                "Jobinsam@6742",
-                "Wintheiser and Sons",
-                "nithyasen_1785535915f"
+                "Jobinsam@6742"
             ],
             "grid_columns": [
                 "Actions",
@@ -210,7 +214,7 @@
             "title": "OrangeHRM",
             "page_type": "form",
             "description": "",
-            "buttons": 9,
+            "buttons": 8,
             "inputs": 3,
             "links": 17,
             "forms": 0,
@@ -226,17 +230,25 @@
             ],
             "card_titles": [
                 "00392",
+                "01715",
+                "0264",
                 "0290",
                 "0292",
                 "0294",
                 "0295",
+                "0301",
                 "0303",
+                "0308",
                 "0312",
+                "0315",
                 "0315hh",
                 "0317",
                 "0320",
+                "0321",
+                "0322",
                 "0323",
                 "0335",
+                "0342",
                 "0359",
                 "0360",
                 "0361",
@@ -245,20 +257,12 @@
                 "0365",
                 "0367",
                 "0367010",
-                "0372",
+                "0370",
                 "09557",
                 "1235",
-                "444",
                 "ATPValue",
-                "Alberta Fabian Schmeler Torphy",
-                "Brant Margo Wunsch Morar",
-                "Deandre Lee Medhurst Bins",
-                "Del Shon Schuster Mosciski",
-                "Felica Myles Hudson Pacocha",
-                "Filiberto Graham Kris Nader Jr.",
-                "Henriette Ellis Bins Bayer",
-                "Jeffry Verena Wintheiser Okuneva III",
-                "dfgsjsjdh"
+                "dfgsjsjdh",
+                "muser"
             ],
             "grid_columns": [
                 "Actions",
@@ -281,7 +285,6 @@
             "button_texts": [
                 "1",
                 "2",
-                "3",
                 "Add",
                 "Reset",
                 "Search",
@@ -342,16 +345,12 @@
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 1,
+                "cards": 0,
                 "grids": 1,
                 "tabs": 0
             },
-            "component_types": [
-                "card"
-            ],
-            "card_titles": [
-                "2026-15-08 to 2026-20-08"
-            ],
+            "component_types": [],
+            "card_titles": [],
             "grid_columns": [
                 "Actions",
                 "Comments",
@@ -441,7 +440,7 @@
             ],
             "card_titles": [
                 "Select Employee",
-                "Willian Augusto Silva"
+                "manda akhil user"
             ],
             "grid_columns": [
                 "Actions",
@@ -528,10 +527,12 @@
                 "Anto 10:20 AM M Varghese",
                 "Anto 10:26 AM M Varghese",
                 "Anto 10:28 AM M Varghese",
+                "Anto 10:37 AM M Varghese",
+                "Anto 10:40 AM M Varghese",
                 "AntoAnto 09:58 AM M Varghese",
-                "Macejkovic, Funk and Cremin Pollich, Tremblay and Marks Graham and Sons",
                 "Manu K M",
                 "Payroll Administrator",
+                "Sales Representative",
                 "Senior QA Lead",
                 "Tanmay Anderson O'Keefe",
                 "Tanmay sree Dachu",
@@ -613,21 +614,21 @@
             "description": "",
             "buttons": 6,
             "inputs": 6,
-            "links": 25,
+            "links": 24,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
                 "cards": 3,
                 "grids": 1,
-                "tabs": 11
+                "tabs": 10
             },
             "component_types": [
                 "card"
             ],
             "card_titles": [
                 "Custom Fields",
-                "Willian Silva",
+                "manda user",
                 "test.png"
             ],
             "grid_columns": [
@@ -650,8 +651,7 @@
                 "Personal Details",
                 "Qualifications",
                 "Report-to",
-                "Salary",
-                "Tax Exemptions"
+                "Salary"
             ],
             "dialog_titles": [],
             "dropdowns": {
@@ -694,7 +694,6 @@
                 "Recruitment",
                 "Report-to",
                 "Salary",
-                "Tax Exemptions",
                 "Time",
                 "Upgrade"
             ],
@@ -702,14 +701,24 @@
                 "Admin",
                 "Buzz",
                 "Claim",
+                "Contact Details",
                 "Dashboard",
+                "Dependents",
                 "Directory",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
                 "Leave",
                 "Maintenance",
+                "Memberships",
                 "My Info",
                 "PIM",
                 "Performance",
+                "Personal Details",
+                "Qualifications",
                 "Recruitment",
+                "Report-to",
+                "Salary",
                 "Time"
             ],
             "headings_text": [
@@ -717,7 +726,7 @@
                 "Custom Fields",
                 "PIM",
                 "Personal Details",
-                "Willian Silva"
+                "manda user"
             ],
             "validation_texts": []
         },
@@ -817,7 +826,7 @@
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 36,
+                "cards": 45,
                 "grids": 0,
                 "tabs": 0
             },
@@ -828,25 +837,31 @@
                 "(1) Pending Self Review",
                 "0h 0m",
                 "0h 0m Today",
-                "2026-01-08 01:31 AM",
+                "2020-08-10 05:33 AM",
+                "2020-08-10 05:34 AM",
+                "2020-08-10 05:38 AM",
                 "Apply Leave",
                 "Assign Leave",
-                "Brad",
                 "Buzz Latest Posts",
                 "Employees on Leave Today",
+                "Hi All;",
                 "Leave List",
+                "Live SIMPLY",
                 "My Actions",
                 "My Leave",
                 "My Timesheet",
-                "Pablo",
                 "Punched Out",
                 "Punched Out: Mar 29th at 01:19 PM (GMT 7)",
                 "Quick Launch",
+                "Rebecca Harmony",
+                "Russel Hamilton",
+                "Sania Shaheen",
                 "This Week",
+                "Throwback Thursdays!!",
                 "Time at Work",
                 "Timesheets",
-                "Willian Augusto Silva",
-                "null"
+                "World Championship: What makes the perfect snooker player?",
+                "manda akhil user"
             ],
             "grid_columns": [],
             "grid_actions": [],
@@ -910,7 +925,7 @@
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 19,
+                "cards": 18,
                 "grids": 0,
                 "tabs": 0
             },
@@ -922,16 +937,15 @@
                 "99N75 425 5TlV",
                 "A8DCo 4Ys 010Z",
                 "Administration",
+                "Amelia Brown",
                 "Charles Carter",
                 "Chief Financial Officer",
                 "James Butler",
-                "Justice Cummerata",
-                "Kayla Earl Keeling O'Reilly Collins",
                 "New York Sales Office",
                 "Peter Mac Anderson",
+                "Rahul Das",
                 "Ranga Akunuri",
                 "Ravi M B",
-                "Rena Collen Dickens Macejkovic I Bailey",
                 "Thomas Kutty Benny",
                 "Timothy Lewis Amiano",
                 "yedghjb1 ru84 90jsnd"
@@ -1039,14 +1053,14 @@
             "title": "OrangeHRM",
             "page_type": "form",
             "description": "",
-            "buttons": 13,
+            "buttons": 9,
             "inputs": 5,
             "links": 18,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 13,
+                "cards": 6,
                 "grids": 1,
                 "tabs": 0
             },
@@ -1057,15 +1071,8 @@
                 "202307180000001",
                 "202307180000002",
                 "202307180000003",
-                "202608010000007",
-                "202608010000008",
-                "202608010000009",
-                "202608010000010",
                 "Accommodation",
-                "Business Travel on 2026-07-31 22:11:53c",
                 "Medical Reimbursement",
-                "Teressa",
-                "Testing",
                 "Travel Allowance"
             ],
             "grid_columns": [
@@ -1233,7 +1240,7 @@
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 36,
+                "cards": 45,
                 "grids": 0,
                 "tabs": 0
             },
@@ -1244,25 +1251,31 @@
                 "(1) Pending Self Review",
                 "0h 0m",
                 "0h 0m Today",
-                "2026-01-08 01:31 AM",
+                "2020-08-10 05:33 AM",
+                "2020-08-10 05:34 AM",
+                "2020-08-10 05:38 AM",
                 "Apply Leave",
                 "Assign Leave",
-                "Brad",
                 "Buzz Latest Posts",
                 "Employees on Leave Today",
+                "Hi All;",
                 "Leave List",
+                "Live SIMPLY",
                 "My Actions",
                 "My Leave",
                 "My Timesheet",
-                "Pablo",
                 "Punched Out",
                 "Punched Out: Mar 29th at 01:19 PM (GMT 7)",
                 "Quick Launch",
+                "Rebecca Harmony",
+                "Russel Hamilton",
+                "Sania Shaheen",
                 "This Week",
+                "Throwback Thursdays!!",
                 "Time at Work",
                 "Timesheets",
-                "Willian Augusto Silva",
-                "null"
+                "World Championship: What makes the perfect snooker player?",
+                "manda akhil user"
             ],
             "grid_columns": [],
             "grid_actions": [],
@@ -1326,7 +1339,7 @@
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 36,
+                "cards": 45,
                 "grids": 0,
                 "tabs": 0
             },
@@ -1337,25 +1350,31 @@
                 "(1) Pending Self Review",
                 "0h 0m",
                 "0h 0m Today",
-                "2026-01-08 01:31 AM",
+                "2020-08-10 05:33 AM",
+                "2020-08-10 05:34 AM",
+                "2020-08-10 05:38 AM",
                 "Apply Leave",
                 "Assign Leave",
-                "Brad",
                 "Buzz Latest Posts",
                 "Employees on Leave Today",
+                "Hi All;",
                 "Leave List",
+                "Live SIMPLY",
                 "My Actions",
                 "My Leave",
                 "My Timesheet",
-                "Pablo",
                 "Punched Out",
                 "Punched Out: Mar 29th at 01:19 PM (GMT 7)",
                 "Quick Launch",
+                "Rebecca Harmony",
+                "Russel Hamilton",
+                "Sania Shaheen",
                 "This Week",
+                "Throwback Thursdays!!",
                 "Time at Work",
                 "Timesheets",
-                "Willian Augusto Silva",
-                "null"
+                "World Championship: What makes the perfect snooker player?",
+                "manda akhil user"
             ],
             "grid_columns": [],
             "grid_actions": [],
@@ -1404,6 +1423,173 @@
             ],
             "headings_text": [
                 "Dashboard"
+            ],
+            "validation_texts": []
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+            "title": "OrangeHRM",
+            "page_type": "form",
+            "description": "",
+            "buttons": 6,
+            "inputs": 2,
+            "links": 16,
+            "forms": 0,
+            "tables": 0,
+            "dialogs": 0,
+            "components": {
+                "cards": 4,
+                "grids": 1,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "Admin",
+                "FMLName",
+                "FMLName1",
+                "Jobinsam@6742"
+            ],
+            "grid_columns": [
+                "Actions",
+                "Employee Name",
+                "Status",
+                "User Role",
+                "Username"
+            ],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
+            "button_texts": [
+                "Add",
+                "Reset",
+                "Search",
+                "Upgrade"
+            ],
+            "input_placeholders": [
+                "Search",
+                "Type for hints..."
+            ],
+            "navigation": [
+                "Admin",
+                "Buzz",
+                "Claim",
+                "Corporate Branding",
+                "Dashboard",
+                "Directory",
+                "Leave",
+                "Maintenance",
+                "My Info",
+                "Nationalities",
+                "OrangeHRM, Inc",
+                "PIM",
+                "Performance",
+                "Recruitment",
+                "Time",
+                "Upgrade"
+            ],
+            "menu_items": [
+                "Admin",
+                "Buzz",
+                "Claim",
+                "Dashboard",
+                "Directory",
+                "Leave",
+                "Maintenance",
+                "My Info",
+                "PIM",
+                "Performance",
+                "Recruitment",
+                "Time"
+            ],
+            "headings_text": [
+                "Admin",
+                "System Users",
+                "User Management"
+            ],
+            "validation_texts": []
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser",
+            "title": "OrangeHRM",
+            "page_type": "form",
+            "description": "",
+            "buttons": 5,
+            "inputs": 2,
+            "links": 16,
+            "forms": 0,
+            "tables": 0,
+            "dialogs": 0,
+            "components": {
+                "cards": 1,
+                "grids": 0,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "Add User"
+            ],
+            "grid_columns": [],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
+            "button_texts": [
+                "Cancel",
+                "Save",
+                "Upgrade"
+            ],
+            "input_placeholders": [
+                "Search",
+                "Type for hints..."
+            ],
+            "navigation": [
+                "Admin",
+                "Buzz",
+                "Claim",
+                "Corporate Branding",
+                "Dashboard",
+                "Directory",
+                "Leave",
+                "Maintenance",
+                "My Info",
+                "Nationalities",
+                "OrangeHRM, Inc",
+                "PIM",
+                "Performance",
+                "Recruitment",
+                "Time",
+                "Upgrade"
+            ],
+            "menu_items": [
+                "Admin",
+                "Buzz",
+                "Claim",
+                "Dashboard",
+                "Directory",
+                "Leave",
+                "Maintenance",
+                "My Info",
+                "PIM",
+                "Performance",
+                "Recruitment",
+                "Time"
+            ],
+            "headings_text": [
+                "Add User",
+                "Admin"
             ],
             "validation_texts": []
         },
@@ -1622,7 +1808,7 @@
             "title": "OrangeHRM",
             "page_type": "form",
             "description": "",
-            "buttons": 9,
+            "buttons": 8,
             "inputs": 3,
             "links": 17,
             "forms": 0,
@@ -1638,16 +1824,25 @@
             ],
             "card_titles": [
                 "00392",
+                "01715",
                 "0290",
                 "0292",
                 "0294",
                 "0295",
+                "0301",
                 "0303",
+                "0308",
                 "0312",
+                "0315",
                 "0315hh",
+                "0317",
                 "0320",
                 "0321",
+                "0322",
+                "0323",
                 "0335",
+                "0342",
+                "0359",
                 "0360",
                 "0361",
                 "0363",
@@ -1655,22 +1850,13 @@
                 "0365",
                 "0367",
                 "0367010",
-                "0372",
+                "0370",
                 "09557",
                 "1235",
-                "2155",
-                "444",
-                "8131",
+                "861",
                 "ATPValue",
-                "Alberta Fabian Schmeler Torphy",
-                "Brant Margo Wunsch Morar",
-                "Deandre Lee Medhurst Bins",
-                "Del Shon Schuster Mosciski",
-                "Felica Myles Hudson Pacocha",
-                "Filiberto Graham Kris Nader Jr.",
-                "Henriette Ellis Bins Bayer",
-                "Jeffry Verena Wintheiser Okuneva III",
-                "dfgsjsjdh"
+                "dfgsjsjdh",
+                "muser"
             ],
             "grid_columns": [
                 "Actions",
@@ -1693,7 +1879,6 @@
             "button_texts": [
                 "1",
                 "2",
-                "3",
                 "Add",
                 "Reset",
                 "Search",
@@ -1914,8 +2099,8 @@
             "title": "OrangeHRM",
             "page_type": "form",
             "description": "",
-            "buttons": 4,
-            "inputs": 3,
+            "buttons": 3,
+            "inputs": 1,
             "links": 18,
             "forms": 0,
             "tables": 0,
@@ -1941,12 +2126,10 @@
                 "custom_dropdowns": 0
             },
             "button_texts": [
-                "Apply",
                 "Upgrade"
             ],
             "input_placeholders": [
-                "Search",
-                "yyyy-dd-mm"
+                "Search"
             ],
             "navigation": [
                 "Admin",
@@ -1993,23 +2176,19 @@
             "title": "OrangeHRM",
             "page_type": "form",
             "description": "",
-            "buttons": 6,
+            "buttons": 5,
             "inputs": 3,
             "links": 18,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 1,
+                "cards": 0,
                 "grids": 1,
                 "tabs": 0
             },
-            "component_types": [
-                "card"
-            ],
-            "card_titles": [
-                "2026-15-08 to 2026-20-08"
-            ],
+            "component_types": [],
+            "card_titles": [],
             "grid_columns": [
                 "Actions",
                 "Comments",
@@ -2020,9 +2199,7 @@
                 "Number of Days",
                 "Status"
             ],
-            "grid_actions": [
-                "Cancel"
-            ],
+            "grid_actions": [],
             "tabs": [],
             "dialog_titles": [],
             "dropdowns": {
@@ -2031,7 +2208,6 @@
                 "custom_dropdowns": 0
             },
             "button_texts": [
-                "Cancel",
                 "Reset",
                 "Search",
                 "Upgrade"
@@ -2092,16 +2268,12 @@
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 1,
+                "cards": 0,
                 "grids": 1,
                 "tabs": 0
             },
-            "component_types": [
-                "card"
-            ],
-            "card_titles": [
-                "2026-15-08 to 2026-20-08"
-            ],
+            "component_types": [],
+            "card_titles": [],
             "grid_columns": [
                 "Actions",
                 "Comments",
@@ -2274,10 +2446,12 @@
                 "Anto 10:20 AM M Varghese",
                 "Anto 10:26 AM M Varghese",
                 "Anto 10:28 AM M Varghese",
+                "Anto 10:37 AM M Varghese",
+                "Anto 10:40 AM M Varghese",
                 "AntoAnto 09:58 AM M Varghese",
-                "Macejkovic, Funk and Cremin Pollich, Tremblay and Marks Graham and Sons",
                 "Manu K M",
                 "Payroll Administrator",
+                "Sales Representative",
                 "Senior QA Lead",
                 "Tanmay Anderson O'Keefe",
                 "Tanmay sree Dachu",
@@ -2364,7 +2538,7 @@
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 8,
+                "cards": 7,
                 "grids": 1,
                 "tabs": 0
             },
@@ -2374,7 +2548,6 @@
             "card_titles": [
                 "Junior Account Assistant",
                 "Payroll Administrator",
-                "QE",
                 "Sales Representative",
                 "Senior QA Lead",
                 "Senior Support Specialist",
@@ -2450,21 +2623,21 @@
             "description": "",
             "buttons": 6,
             "inputs": 6,
-            "links": 25,
+            "links": 24,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
                 "cards": 3,
                 "grids": 1,
-                "tabs": 11
+                "tabs": 10
             },
             "component_types": [
                 "card"
             ],
             "card_titles": [
                 "Custom Fields",
-                "Willian Silva",
+                "manda user",
                 "test.png"
             ],
             "grid_columns": [
@@ -2487,8 +2660,7 @@
                 "Personal Details",
                 "Qualifications",
                 "Report-to",
-                "Salary",
-                "Tax Exemptions"
+                "Salary"
             ],
             "dialog_titles": [],
             "dropdowns": {
@@ -2531,7 +2703,6 @@
                 "Recruitment",
                 "Report-to",
                 "Salary",
-                "Tax Exemptions",
                 "Time",
                 "Upgrade"
             ],
@@ -2539,14 +2710,24 @@
                 "Admin",
                 "Buzz",
                 "Claim",
+                "Contact Details",
                 "Dashboard",
+                "Dependents",
                 "Directory",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
                 "Leave",
                 "Maintenance",
+                "Memberships",
                 "My Info",
                 "PIM",
                 "Performance",
+                "Personal Details",
+                "Qualifications",
                 "Recruitment",
+                "Report-to",
+                "Salary",
                 "Time"
             ],
             "headings_text": [
@@ -2554,7 +2735,7 @@
                 "Custom Fields",
                 "PIM",
                 "Personal Details",
-                "Willian Silva"
+                "manda user"
             ],
             "validation_texts": []
         },
@@ -2565,20 +2746,20 @@
             "description": "",
             "buttons": 5,
             "inputs": 1,
-            "links": 25,
+            "links": 24,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
                 "cards": 1,
                 "grids": 1,
-                "tabs": 11
+                "tabs": 10
             },
             "component_types": [
                 "card"
             ],
             "card_titles": [
-                "Willian Silva"
+                "manda user"
             ],
             "grid_columns": [
                 "Actions",
@@ -2600,8 +2781,7 @@
                 "Personal Details",
                 "Qualifications",
                 "Report-to",
-                "Salary",
-                "Tax Exemptions"
+                "Salary"
             ],
             "dialog_titles": [],
             "dropdowns": {
@@ -2640,7 +2820,6 @@
                 "Recruitment",
                 "Report-to",
                 "Salary",
-                "Tax Exemptions",
                 "Time",
                 "Upgrade"
             ],
@@ -2648,14 +2827,24 @@
                 "Admin",
                 "Buzz",
                 "Claim",
+                "Contact Details",
                 "Dashboard",
+                "Dependents",
                 "Directory",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
                 "Leave",
                 "Maintenance",
+                "Memberships",
                 "My Info",
                 "PIM",
                 "Performance",
+                "Personal Details",
+                "Qualifications",
                 "Recruitment",
+                "Report-to",
+                "Salary",
                 "Time"
             ],
             "headings_text": [
@@ -2665,7 +2854,7 @@
                 "Email",
                 "PIM",
                 "Telephone",
-                "Willian Silva"
+                "manda user"
             ],
             "validation_texts": []
         },
@@ -2676,20 +2865,20 @@
             "description": "",
             "buttons": 5,
             "inputs": 1,
-            "links": 25,
+            "links": 24,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
                 "cards": 1,
                 "grids": 1,
-                "tabs": 11
+                "tabs": 10
             },
             "component_types": [
                 "card"
             ],
             "card_titles": [
-                "Willian Silva"
+                "manda user"
             ],
             "grid_columns": [
                 "Actions",
@@ -2710,8 +2899,7 @@
                 "Personal Details",
                 "Qualifications",
                 "Report-to",
-                "Salary",
-                "Tax Exemptions"
+                "Salary"
             ],
             "dialog_titles": [],
             "dropdowns": {
@@ -2749,7 +2937,6 @@
                 "Recruitment",
                 "Report-to",
                 "Salary",
-                "Tax Exemptions",
                 "Time",
                 "Upgrade"
             ],
@@ -2757,21 +2944,31 @@
                 "Admin",
                 "Buzz",
                 "Claim",
+                "Contact Details",
                 "Dashboard",
+                "Dependents",
                 "Directory",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
                 "Leave",
                 "Maintenance",
+                "Memberships",
                 "My Info",
                 "PIM",
                 "Performance",
+                "Personal Details",
+                "Qualifications",
                 "Recruitment",
+                "Report-to",
+                "Salary",
                 "Time"
             ],
             "headings_text": [
                 "Assigned Emergency Contacts",
                 "Attachments",
                 "PIM",
-                "Willian Silva"
+                "manda user"
             ],
             "validation_texts": []
         },
@@ -2782,20 +2979,20 @@
             "description": "",
             "buttons": 5,
             "inputs": 1,
-            "links": 25,
+            "links": 24,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
                 "cards": 1,
                 "grids": 1,
-                "tabs": 11
+                "tabs": 10
             },
             "component_types": [
                 "card"
             ],
             "card_titles": [
-                "Willian Silva"
+                "manda user"
             ],
             "grid_columns": [
                 "Actions",
@@ -2814,8 +3011,7 @@
                 "Personal Details",
                 "Qualifications",
                 "Report-to",
-                "Salary",
-                "Tax Exemptions"
+                "Salary"
             ],
             "dialog_titles": [],
             "dropdowns": {
@@ -2853,7 +3049,6 @@
                 "Recruitment",
                 "Report-to",
                 "Salary",
-                "Tax Exemptions",
                 "Time",
                 "Upgrade"
             ],
@@ -2861,946 +3056,31 @@
                 "Admin",
                 "Buzz",
                 "Claim",
+                "Contact Details",
                 "Dashboard",
+                "Dependents",
                 "Directory",
+                "Emergency Contacts",
+                "Immigration",
+                "Job",
                 "Leave",
                 "Maintenance",
+                "Memberships",
                 "My Info",
                 "PIM",
                 "Performance",
+                "Personal Details",
+                "Qualifications",
                 "Recruitment",
+                "Report-to",
+                "Salary",
                 "Time"
             ],
             "headings_text": [
                 "Assigned Dependents",
                 "Attachments",
                 "PIM",
-                "Willian Silva"
-            ],
-            "validation_texts": []
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewImmigration/empNumber/7",
-            "title": "OrangeHRM",
-            "page_type": "form",
-            "description": "",
-            "buttons": 5,
-            "inputs": 1,
-            "links": 25,
-            "forms": 0,
-            "tables": 0,
-            "dialogs": 0,
-            "components": {
-                "cards": 3,
-                "grids": 1,
-                "tabs": 11
-            },
-            "component_types": [
-                "card"
-            ],
-            "card_titles": [
-                "Immigration.txt",
-                "Passport",
-                "Willian Silva"
-            ],
-            "grid_columns": [
-                "Actions",
-                "Document",
-                "Expiry Date",
-                "Issued By",
-                "Issued Date",
-                "Number"
-            ],
-            "grid_actions": [],
-            "tabs": [
-                "Contact Details",
-                "Dependents",
-                "Emergency Contacts",
-                "Immigration",
-                "Job",
-                "Memberships",
-                "Personal Details",
-                "Qualifications",
-                "Report-to",
-                "Salary",
-                "Tax Exemptions"
-            ],
-            "dialog_titles": [],
-            "dropdowns": {
-                "native_selects": 0,
-                "aria_combobox": 0,
-                "custom_dropdowns": 0
-            },
-            "button_texts": [
-                "Add",
-                "Upgrade"
-            ],
-            "input_placeholders": [
-                "Search"
-            ],
-            "navigation": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Contact Details",
-                "Dashboard",
-                "Dependents",
-                "Directory",
-                "Emergency Contacts",
-                "Immigration",
-                "Job",
-                "Leave",
-                "Maintenance",
-                "Memberships",
-                "My Info",
-                "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Personal Details",
-                "Qualifications",
-                "Recruitment",
-                "Report-to",
-                "Salary",
-                "Tax Exemptions",
-                "Time",
-                "Upgrade"
-            ],
-            "menu_items": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Leave",
-                "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
-            ],
-            "headings_text": [
-                "Assigned Immigration Records",
-                "Attachments",
-                "PIM",
-                "Willian Silva"
-            ],
-            "validation_texts": []
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewJobDetails/empNumber/7",
-            "title": "OrangeHRM",
-            "page_type": "form",
-            "description": "",
-            "buttons": 3,
-            "inputs": 2,
-            "links": 25,
-            "forms": 0,
-            "tables": 0,
-            "dialogs": 0,
-            "components": {
-                "cards": 1,
-                "grids": 1,
-                "tabs": 11
-            },
-            "component_types": [
-                "card"
-            ],
-            "card_titles": [
-                "Willian Silva"
-            ],
-            "grid_columns": [
-                "Actions",
-                "Added By",
-                "Date Added",
-                "Description",
-                "File Name",
-                "Size",
-                "Type"
-            ],
-            "grid_actions": [],
-            "tabs": [
-                "Contact Details",
-                "Dependents",
-                "Emergency Contacts",
-                "Immigration",
-                "Job",
-                "Memberships",
-                "Personal Details",
-                "Qualifications",
-                "Report-to",
-                "Salary",
-                "Tax Exemptions"
-            ],
-            "dialog_titles": [],
-            "dropdowns": {
-                "native_selects": 0,
-                "aria_combobox": 0,
-                "custom_dropdowns": 0
-            },
-            "button_texts": [
-                "Upgrade"
-            ],
-            "input_placeholders": [
-                "Search",
-                "yyyy-dd-mm"
-            ],
-            "navigation": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Contact Details",
-                "Dashboard",
-                "Dependents",
-                "Directory",
-                "Emergency Contacts",
-                "Immigration",
-                "Job",
-                "Leave",
-                "Maintenance",
-                "Memberships",
-                "My Info",
-                "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Personal Details",
-                "Qualifications",
-                "Recruitment",
-                "Report-to",
-                "Salary",
-                "Tax Exemptions",
-                "Time",
-                "Upgrade"
-            ],
-            "menu_items": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Leave",
-                "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
-            ],
-            "headings_text": [
-                "Attachments",
-                "Job Details",
-                "PIM",
-                "Willian Silva"
-            ],
-            "validation_texts": []
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewSalaryList/empNumber/7",
-            "title": "OrangeHRM",
-            "page_type": "form",
-            "description": "",
-            "buttons": 3,
-            "inputs": 1,
-            "links": 25,
-            "forms": 0,
-            "tables": 0,
-            "dialogs": 0,
-            "components": {
-                "cards": 2,
-                "grids": 1,
-                "tabs": 11
-            },
-            "component_types": [
-                "card"
-            ],
-            "card_titles": [
-                "Custom Fields",
-                "Willian Silva"
-            ],
-            "grid_columns": [
-                "Amount",
-                "Currency",
-                "Direct Deposit Amount",
-                "Pay Frequency",
-                "Salary Component"
-            ],
-            "grid_actions": [],
-            "tabs": [
-                "Contact Details",
-                "Dependents",
-                "Emergency Contacts",
-                "Immigration",
-                "Job",
-                "Memberships",
-                "Personal Details",
-                "Qualifications",
-                "Report-to",
-                "Salary",
-                "Tax Exemptions"
-            ],
-            "dialog_titles": [],
-            "dropdowns": {
-                "native_selects": 0,
-                "aria_combobox": 0,
-                "custom_dropdowns": 0
-            },
-            "button_texts": [
-                "Upgrade"
-            ],
-            "input_placeholders": [
-                "Search"
-            ],
-            "navigation": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Contact Details",
-                "Dashboard",
-                "Dependents",
-                "Directory",
-                "Emergency Contacts",
-                "Immigration",
-                "Job",
-                "Leave",
-                "Maintenance",
-                "Memberships",
-                "My Info",
-                "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Personal Details",
-                "Qualifications",
-                "Recruitment",
-                "Report-to",
-                "Salary",
-                "Tax Exemptions",
-                "Time",
-                "Upgrade"
-            ],
-            "menu_items": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Leave",
-                "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
-            ],
-            "headings_text": [
-                "Assigned Salary Components",
-                "Attachments",
-                "Custom Fields",
-                "PIM",
-                "Willian Silva"
-            ],
-            "validation_texts": []
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewUsTaxExemptions/empNumber/7",
-            "title": "OrangeHRM",
-            "page_type": "form",
-            "description": "",
-            "buttons": 3,
-            "inputs": 1,
-            "links": 25,
-            "forms": 0,
-            "tables": 0,
-            "dialogs": 0,
-            "components": {
-                "cards": 1,
-                "grids": 1,
-                "tabs": 11
-            },
-            "component_types": [
-                "card"
-            ],
-            "card_titles": [
-                "Willian Silva"
-            ],
-            "grid_columns": [
-                "Actions",
-                "Added By",
-                "Date Added",
-                "Description",
-                "File Name",
-                "Size",
-                "Type"
-            ],
-            "grid_actions": [],
-            "tabs": [
-                "Contact Details",
-                "Dependents",
-                "Emergency Contacts",
-                "Immigration",
-                "Job",
-                "Memberships",
-                "Personal Details",
-                "Qualifications",
-                "Report-to",
-                "Salary",
-                "Tax Exemptions"
-            ],
-            "dialog_titles": [],
-            "dropdowns": {
-                "native_selects": 0,
-                "aria_combobox": 0,
-                "custom_dropdowns": 0
-            },
-            "button_texts": [
-                "Upgrade"
-            ],
-            "input_placeholders": [
-                "Search"
-            ],
-            "navigation": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Contact Details",
-                "Dashboard",
-                "Dependents",
-                "Directory",
-                "Emergency Contacts",
-                "Immigration",
-                "Job",
-                "Leave",
-                "Maintenance",
-                "Memberships",
-                "My Info",
-                "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Personal Details",
-                "Qualifications",
-                "Recruitment",
-                "Report-to",
-                "Salary",
-                "Tax Exemptions",
-                "Time",
-                "Upgrade"
-            ],
-            "menu_items": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Leave",
-                "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
-            ],
-            "headings_text": [
-                "Attachments",
-                "Federal Income Tax",
-                "PIM",
-                "State Income Tax",
-                "Tax Exemptions",
-                "Willian Silva"
-            ],
-            "validation_texts": []
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewReportToDetails/empNumber/7",
-            "title": "OrangeHRM",
-            "page_type": "form",
-            "description": "",
-            "buttons": 3,
-            "inputs": 1,
-            "links": 25,
-            "forms": 0,
-            "tables": 0,
-            "dialogs": 0,
-            "components": {
-                "cards": 2,
-                "grids": 1,
-                "tabs": 11
-            },
-            "component_types": [
-                "card"
-            ],
-            "card_titles": [
-                "Sara Tencrady",
-                "Willian Silva"
-            ],
-            "grid_columns": [
-                "Name",
-                "Reporting Method"
-            ],
-            "grid_actions": [],
-            "tabs": [
-                "Contact Details",
-                "Dependents",
-                "Emergency Contacts",
-                "Immigration",
-                "Job",
-                "Memberships",
-                "Personal Details",
-                "Qualifications",
-                "Report-to",
-                "Salary",
-                "Tax Exemptions"
-            ],
-            "dialog_titles": [],
-            "dropdowns": {
-                "native_selects": 0,
-                "aria_combobox": 0,
-                "custom_dropdowns": 0
-            },
-            "button_texts": [
-                "Upgrade"
-            ],
-            "input_placeholders": [
-                "Search"
-            ],
-            "navigation": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Contact Details",
-                "Dashboard",
-                "Dependents",
-                "Directory",
-                "Emergency Contacts",
-                "Immigration",
-                "Job",
-                "Leave",
-                "Maintenance",
-                "Memberships",
-                "My Info",
-                "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Personal Details",
-                "Qualifications",
-                "Recruitment",
-                "Report-to",
-                "Salary",
-                "Tax Exemptions",
-                "Time",
-                "Upgrade"
-            ],
-            "menu_items": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Leave",
-                "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
-            ],
-            "headings_text": [
-                "Assigned Subordinates",
-                "Assigned Supervisors",
-                "Attachments",
-                "PIM",
-                "Report to",
-                "Willian Silva"
-            ],
-            "validation_texts": []
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewQualifications/empNumber/7",
-            "title": "OrangeHRM",
-            "page_type": "form",
-            "description": "",
-            "buttons": 9,
-            "inputs": 1,
-            "links": 25,
-            "forms": 0,
-            "tables": 0,
-            "dialogs": 0,
-            "components": {
-                "cards": 4,
-                "grids": 1,
-                "tabs": 11
-            },
-            "component_types": [
-                "card"
-            ],
-            "card_titles": [
-                "Bachelor's Degree",
-                "English",
-                "TCS",
-                "Willian Silva"
-            ],
-            "grid_columns": [
-                "Actions",
-                "Comment",
-                "Company",
-                "From",
-                "Job Title",
-                "To"
-            ],
-            "grid_actions": [],
-            "tabs": [
-                "Contact Details",
-                "Dependents",
-                "Emergency Contacts",
-                "Immigration",
-                "Job",
-                "Memberships",
-                "Personal Details",
-                "Qualifications",
-                "Report-to",
-                "Salary",
-                "Tax Exemptions"
-            ],
-            "dialog_titles": [],
-            "dropdowns": {
-                "native_selects": 0,
-                "aria_combobox": 0,
-                "custom_dropdowns": 0
-            },
-            "button_texts": [
-                "Add",
-                "Upgrade"
-            ],
-            "input_placeholders": [
-                "Search"
-            ],
-            "navigation": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Contact Details",
-                "Dashboard",
-                "Dependents",
-                "Directory",
-                "Emergency Contacts",
-                "Immigration",
-                "Job",
-                "Leave",
-                "Maintenance",
-                "Memberships",
-                "My Info",
-                "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Personal Details",
-                "Qualifications",
-                "Recruitment",
-                "Report-to",
-                "Salary",
-                "Tax Exemptions",
-                "Time",
-                "Upgrade"
-            ],
-            "menu_items": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Leave",
-                "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
-            ],
-            "headings_text": [
-                "Attachments",
-                "Education",
-                "Languages",
-                "License",
-                "PIM",
-                "Qualifications",
-                "Skills",
-                "Willian Silva",
-                "Work Experience"
-            ],
-            "validation_texts": []
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewMemberships/empNumber/7",
-            "title": "OrangeHRM",
-            "page_type": "form",
-            "description": "",
-            "buttons": 5,
-            "inputs": 1,
-            "links": 25,
-            "forms": 0,
-            "tables": 0,
-            "dialogs": 0,
-            "components": {
-                "cards": 2,
-                "grids": 1,
-                "tabs": 11
-            },
-            "component_types": [
-                "card"
-            ],
-            "card_titles": [
-                "Willian Silva",
-                "abc.txt"
-            ],
-            "grid_columns": [
-                "Actions",
-                "Currency",
-                "Membership",
-                "Subscription Amount",
-                "Subscription Commence Date",
-                "Subscription Paid By",
-                "Subscription Renewal Date"
-            ],
-            "grid_actions": [],
-            "tabs": [
-                "Contact Details",
-                "Dependents",
-                "Emergency Contacts",
-                "Immigration",
-                "Job",
-                "Memberships",
-                "Personal Details",
-                "Qualifications",
-                "Report-to",
-                "Salary",
-                "Tax Exemptions"
-            ],
-            "dialog_titles": [],
-            "dropdowns": {
-                "native_selects": 0,
-                "aria_combobox": 0,
-                "custom_dropdowns": 0
-            },
-            "button_texts": [
-                "Add",
-                "Upgrade"
-            ],
-            "input_placeholders": [
-                "Search"
-            ],
-            "navigation": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Contact Details",
-                "Dashboard",
-                "Dependents",
-                "Directory",
-                "Emergency Contacts",
-                "Immigration",
-                "Job",
-                "Leave",
-                "Maintenance",
-                "Memberships",
-                "My Info",
-                "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Personal Details",
-                "Qualifications",
-                "Recruitment",
-                "Report-to",
-                "Salary",
-                "Tax Exemptions",
-                "Time",
-                "Upgrade"
-            ],
-            "menu_items": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Leave",
-                "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
-            ],
-            "headings_text": [
-                "Assigned Memberships",
-                "Attachments",
-                "PIM",
-                "Willian Silva"
-            ],
-            "validation_texts": []
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewMyPerformanceTrackerList",
-            "title": "OrangeHRM",
-            "page_type": "form",
-            "description": "",
-            "buttons": 4,
-            "inputs": 1,
-            "links": 16,
-            "forms": 0,
-            "tables": 0,
-            "dialogs": 0,
-            "components": {
-                "cards": 1,
-                "grids": 1,
-                "tabs": 0
-            },
-            "component_types": [
-                "card"
-            ],
-            "card_titles": [
-                "Tracker for paul"
-            ],
-            "grid_columns": [
-                "Actions",
-                "Added Date",
-                "Modified Date",
-                "Tracker"
-            ],
-            "grid_actions": [
-                "View"
-            ],
-            "tabs": [],
-            "dialog_titles": [],
-            "dropdowns": {
-                "native_selects": 0,
-                "aria_combobox": 0,
-                "custom_dropdowns": 0
-            },
-            "button_texts": [
-                "Upgrade",
-                "View"
-            ],
-            "input_placeholders": [
-                "Search"
-            ],
-            "navigation": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Employee Trackers",
-                "Leave",
-                "Maintenance",
-                "My Info",
-                "My Trackers",
-                "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time",
-                "Upgrade"
-            ],
-            "menu_items": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Leave",
-                "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
-            ],
-            "headings_text": [
-                "My Performance Trackers",
-                "Performance"
-            ],
-            "validation_texts": []
-        },
-        {
-            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/performance/viewEmployeePerformanceTrackerList",
-            "title": "OrangeHRM",
-            "page_type": "form",
-            "description": "",
-            "buttons": 6,
-            "inputs": 2,
-            "links": 16,
-            "forms": 0,
-            "tables": 0,
-            "dialogs": 0,
-            "components": {
-                "cards": 1,
-                "grids": 1,
-                "tabs": 0
-            },
-            "component_types": [
-                "card"
-            ],
-            "card_titles": [
-                "Willian Silva"
-            ],
-            "grid_columns": [
-                "Actions",
-                "Added Date",
-                "Employee Name",
-                "Modified Date",
-                "Trackers"
-            ],
-            "grid_actions": [
-                "View"
-            ],
-            "tabs": [],
-            "dialog_titles": [],
-            "dropdowns": {
-                "native_selects": 0,
-                "aria_combobox": 0,
-                "custom_dropdowns": 0
-            },
-            "button_texts": [
-                "Reset",
-                "Search",
-                "Upgrade",
-                "View"
-            ],
-            "input_placeholders": [
-                "Search",
-                "Type for hints..."
-            ],
-            "navigation": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Employee Trackers",
-                "Leave",
-                "Maintenance",
-                "My Info",
-                "My Trackers",
-                "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time",
-                "Upgrade"
-            ],
-            "menu_items": [
-                "Admin",
-                "Buzz",
-                "Claim",
-                "Dashboard",
-                "Directory",
-                "Leave",
-                "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
-            ],
-            "headings_text": [
-                "Employee Performance Trackers",
-                "Performance"
+                "manda user"
             ],
             "validation_texts": []
         },
@@ -3836,46 +3116,46 @@
                 "custom_dropdowns": 0
             },
             "button_texts": [
-                "Cancel",
+                "Cancelar",
                 "Create",
                 "Upgrade"
             ],
             "input_placeholders": [
-                "Search"
+                "Buscar"
             ],
             "navigation": [
-                "Admin",
+                "Administrador",
                 "Assign Claim",
                 "Buzz",
                 "Claim",
-                "Dashboard",
+                "Desempeño",
                 "Directory",
                 "Employee Claims",
-                "Leave",
+                "Licencias y Permisos",
                 "Maintenance",
+                "Mi Información",
                 "My Claims",
-                "My Info",
+                "Módulo de Información Personal",
                 "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Recruitment",
+                "Pizarra de pendientes",
+                "Reclutamiento",
                 "Submit Claim",
-                "Time",
+                "Tiempo",
                 "Upgrade"
             ],
             "menu_items": [
-                "Admin",
+                "Administrador",
                 "Buzz",
                 "Claim",
-                "Dashboard",
+                "Desempeño",
                 "Directory",
-                "Leave",
+                "Licencias y Permisos",
                 "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
+                "Mi Información",
+                "Módulo de Información Personal",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo"
             ],
             "headings_text": [
                 "Claim",
@@ -3888,14 +3168,14 @@
             "title": "OrangeHRM",
             "page_type": "form",
             "description": "",
-            "buttons": 13,
+            "buttons": 9,
             "inputs": 4,
             "links": 18,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 13,
+                "cards": 6,
                 "grids": 1,
                 "tabs": 0
             },
@@ -3906,25 +3186,18 @@
                 "202307180000001",
                 "202307180000002",
                 "202307180000003",
-                "202608010000007",
-                "202608010000008",
-                "202608010000009",
-                "202608010000010",
                 "Accommodation",
-                "Business Travel on 2026-07-31 22:11:53c",
                 "Medical Reimbursement",
-                "Teressa",
-                "Testing",
                 "Travel Allowance"
             ],
             "grid_columns": [
-                "Actions",
+                "Acciones",
                 "Amount",
-                "Currency",
-                "Description",
+                "Descripción",
+                "Estatus",
                 "Event Name",
+                "Moneda",
                 "Reference Id",
-                "Status",
                 "Submitted Date"
             ],
             "grid_actions": [
@@ -3939,50 +3212,50 @@
                 "custom_dropdowns": 0
             },
             "button_texts": [
-                "Reset",
-                "Search",
+                "Buscar",
+                "Reiniciar",
                 "Submit Claim",
                 "Upgrade",
                 "View Details"
             ],
             "input_placeholders": [
-                "Search",
-                "Type for hints...",
-                "yyyy-dd-mm"
+                "Buscar",
+                "D, dd M yyyy",
+                "Type for hints..."
             ],
             "navigation": [
-                "Admin",
+                "Administrador",
                 "Assign Claim",
                 "Buzz",
                 "Claim",
-                "Dashboard",
+                "Desempeño",
                 "Directory",
                 "Employee Claims",
-                "Leave",
+                "Licencias y Permisos",
                 "Maintenance",
+                "Mi Información",
                 "My Claims",
-                "My Info",
+                "Módulo de Información Personal",
                 "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Recruitment",
+                "Pizarra de pendientes",
+                "Reclutamiento",
                 "Submit Claim",
-                "Time",
+                "Tiempo",
                 "Upgrade"
             ],
             "menu_items": [
-                "Admin",
+                "Administrador",
                 "Buzz",
                 "Claim",
-                "Dashboard",
+                "Desempeño",
                 "Directory",
-                "Leave",
+                "Licencias y Permisos",
                 "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
+                "Mi Información",
+                "Módulo de Información Personal",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo"
             ],
             "headings_text": [
                 "Claim",
@@ -3995,14 +3268,14 @@
             "title": "OrangeHRM",
             "page_type": "form",
             "description": "",
-            "buttons": 13,
+            "buttons": 9,
             "inputs": 5,
             "links": 18,
             "forms": 0,
             "tables": 0,
             "dialogs": 0,
             "components": {
-                "cards": 13,
+                "cards": 6,
                 "grids": 1,
                 "tabs": 0
             },
@@ -4013,26 +3286,19 @@
                 "202307180000001",
                 "202307180000002",
                 "202307180000003",
-                "202608010000007",
-                "202608010000008",
-                "202608010000009",
-                "202608010000010",
                 "Accommodation",
-                "Business Travel on 2026-07-31 22:11:53c",
                 "Medical Reimbursement",
-                "Teressa",
-                "Testing",
                 "Travel Allowance"
             ],
             "grid_columns": [
-                "Actions",
+                "Acciones",
                 "Amount",
-                "Currency",
-                "Description",
-                "Employee Name",
+                "Descripción",
+                "Estatus",
                 "Event Name",
+                "Moneda",
+                "Nombre del Empleado",
                 "Reference Id",
-                "Status",
                 "Submitted Date"
             ],
             "grid_actions": [
@@ -4048,49 +3314,49 @@
             },
             "button_texts": [
                 "Assign Claim",
-                "Reset",
-                "Search",
+                "Buscar",
+                "Reiniciar",
                 "Upgrade",
                 "View Details"
             ],
             "input_placeholders": [
-                "Search",
-                "Type for hints...",
-                "yyyy-dd-mm"
+                "Buscar",
+                "D, dd M yyyy",
+                "Type for hints..."
             ],
             "navigation": [
-                "Admin",
+                "Administrador",
                 "Assign Claim",
                 "Buzz",
                 "Claim",
-                "Dashboard",
+                "Desempeño",
                 "Directory",
                 "Employee Claims",
-                "Leave",
+                "Licencias y Permisos",
                 "Maintenance",
+                "Mi Información",
                 "My Claims",
-                "My Info",
+                "Módulo de Información Personal",
                 "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Recruitment",
+                "Pizarra de pendientes",
+                "Reclutamiento",
                 "Submit Claim",
-                "Time",
+                "Tiempo",
                 "Upgrade"
             ],
             "menu_items": [
-                "Admin",
+                "Administrador",
                 "Buzz",
                 "Claim",
-                "Dashboard",
+                "Desempeño",
                 "Directory",
-                "Leave",
+                "Licencias y Permisos",
                 "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
+                "Mi Información",
+                "Módulo de Información Personal",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo"
             ],
             "headings_text": [
                 "Claim",
@@ -4130,51 +3396,582 @@
                 "custom_dropdowns": 0
             },
             "button_texts": [
-                "Cancel",
+                "Cancelar",
                 "Create",
                 "Upgrade"
             ],
             "input_placeholders": [
-                "Search",
+                "Buscar",
                 "Type for hints..."
             ],
             "navigation": [
-                "Admin",
+                "Administrador",
                 "Assign Claim",
                 "Buzz",
                 "Claim",
-                "Dashboard",
+                "Desempeño",
                 "Directory",
                 "Employee Claims",
-                "Leave",
+                "Licencias y Permisos",
                 "Maintenance",
+                "Mi Información",
                 "My Claims",
-                "My Info",
+                "Módulo de Información Personal",
                 "OrangeHRM, Inc",
-                "PIM",
-                "Performance",
-                "Recruitment",
+                "Pizarra de pendientes",
+                "Reclutamiento",
                 "Submit Claim",
-                "Time",
+                "Tiempo",
                 "Upgrade"
             ],
             "menu_items": [
-                "Admin",
+                "Administrador",
                 "Buzz",
                 "Claim",
-                "Dashboard",
+                "Desempeño",
                 "Directory",
-                "Leave",
+                "Licencias y Permisos",
                 "Maintenance",
-                "My Info",
-                "PIM",
-                "Performance",
-                "Recruitment",
-                "Time"
+                "Mi Información",
+                "Módulo de Información Personal",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo"
             ],
             "headings_text": [
                 "Claim",
                 "Create Claim Request"
+            ],
+            "validation_texts": []
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+            "title": "OrangeHRM",
+            "page_type": "form",
+            "description": "",
+            "buttons": 9,
+            "inputs": 1,
+            "links": 14,
+            "forms": 0,
+            "tables": 0,
+            "dialogs": 0,
+            "components": {
+                "cards": 2,
+                "grids": 0,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "Buzz Newsfeed",
+                "Upcoming Anniversaries"
+            ],
+            "grid_columns": [],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
+            "button_texts": [
+                "Most Commented Posts",
+                "Most Liked Posts",
+                "Most Recent Posts",
+                "Post",
+                "Share Photos",
+                "Share Video",
+                "Upgrade"
+            ],
+            "input_placeholders": [
+                "Buscar"
+            ],
+            "navigation": [
+                "Administrador",
+                "Buzz",
+                "Claim",
+                "Desempeño",
+                "Directory",
+                "Licencias y Permisos",
+                "Maintenance",
+                "Mi Información",
+                "Módulo de Información Personal",
+                "OrangeHRM, Inc",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo",
+                "Upgrade"
+            ],
+            "menu_items": [
+                "Administrador",
+                "Buzz",
+                "Claim",
+                "Desempeño",
+                "Directory",
+                "Licencias y Permisos",
+                "Maintenance",
+                "Mi Información",
+                "Módulo de Información Personal",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo"
+            ],
+            "headings_text": [
+                "Buzz"
+            ],
+            "validation_texts": []
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+            "title": "OrangeHRM",
+            "page_type": "form",
+            "description": "",
+            "buttons": 9,
+            "inputs": 1,
+            "links": 14,
+            "forms": 0,
+            "tables": 0,
+            "dialogs": 0,
+            "components": {
+                "cards": 2,
+                "grids": 0,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "Buzz Newsfeed",
+                "Upcoming Anniversaries"
+            ],
+            "grid_columns": [],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
+            "button_texts": [
+                "Most Commented Posts",
+                "Most Liked Posts",
+                "Most Recent Posts",
+                "Post",
+                "Share Photos",
+                "Share Video",
+                "Upgrade"
+            ],
+            "input_placeholders": [
+                "Buscar"
+            ],
+            "navigation": [
+                "Administrador",
+                "Buzz",
+                "Claim",
+                "Desempeño",
+                "Directory",
+                "Licencias y Permisos",
+                "Maintenance",
+                "Mi Información",
+                "Módulo de Información Personal",
+                "OrangeHRM, Inc",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo",
+                "Upgrade"
+            ],
+            "menu_items": [
+                "Administrador",
+                "Buzz",
+                "Claim",
+                "Desempeño",
+                "Directory",
+                "Licencias y Permisos",
+                "Maintenance",
+                "Mi Información",
+                "Módulo de Información Personal",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo"
+            ],
+            "headings_text": [
+                "Buzz"
+            ],
+            "validation_texts": []
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/buzz/viewBuzz",
+            "title": "OrangeHRM",
+            "page_type": "form",
+            "description": "",
+            "buttons": 9,
+            "inputs": 1,
+            "links": 14,
+            "forms": 0,
+            "tables": 0,
+            "dialogs": 0,
+            "components": {
+                "cards": 2,
+                "grids": 0,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "Buzz Newsfeed",
+                "Upcoming Anniversaries"
+            ],
+            "grid_columns": [],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
+            "button_texts": [
+                "Most Commented Posts",
+                "Most Liked Posts",
+                "Most Recent Posts",
+                "Post",
+                "Share Photos",
+                "Share Video",
+                "Upgrade"
+            ],
+            "input_placeholders": [
+                "Buscar"
+            ],
+            "navigation": [
+                "Administrador",
+                "Buzz",
+                "Claim",
+                "Desempeño",
+                "Directory",
+                "Licencias y Permisos",
+                "Maintenance",
+                "Mi Información",
+                "Módulo de Información Personal",
+                "OrangeHRM, Inc",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo",
+                "Upgrade"
+            ],
+            "menu_items": [
+                "Administrador",
+                "Buzz",
+                "Claim",
+                "Desempeño",
+                "Directory",
+                "Licencias y Permisos",
+                "Maintenance",
+                "Mi Información",
+                "Módulo de Información Personal",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo"
+            ],
+            "headings_text": [
+                "Buzz"
+            ],
+            "validation_texts": []
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/claim/submitClaim",
+            "title": "OrangeHRM",
+            "page_type": "form",
+            "description": "",
+            "buttons": 5,
+            "inputs": 1,
+            "links": 18,
+            "forms": 0,
+            "tables": 0,
+            "dialogs": 0,
+            "components": {
+                "cards": 1,
+                "grids": 0,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "Create Claim Request"
+            ],
+            "grid_columns": [],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
+            "button_texts": [
+                "Cancelar",
+                "Create",
+                "Upgrade"
+            ],
+            "input_placeholders": [
+                "Buscar"
+            ],
+            "navigation": [
+                "Administrador",
+                "Assign Claim",
+                "Buzz",
+                "Claim",
+                "Desempeño",
+                "Directory",
+                "Employee Claims",
+                "Licencias y Permisos",
+                "Maintenance",
+                "Mi Información",
+                "My Claims",
+                "Módulo de Información Personal",
+                "OrangeHRM, Inc",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Submit Claim",
+                "Tiempo",
+                "Upgrade"
+            ],
+            "menu_items": [
+                "Administrador",
+                "Buzz",
+                "Claim",
+                "Desempeño",
+                "Directory",
+                "Licencias y Permisos",
+                "Maintenance",
+                "Mi Información",
+                "Módulo de Información Personal",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo"
+            ],
+            "headings_text": [
+                "Claim",
+                "Create Claim Request"
+            ],
+            "validation_texts": []
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/admin/viewSystemUsers",
+            "title": "OrangeHRM",
+            "page_type": "form",
+            "description": "",
+            "buttons": 6,
+            "inputs": 2,
+            "links": 15,
+            "forms": 0,
+            "tables": 0,
+            "dialogs": 0,
+            "components": {
+                "cards": 6,
+                "grids": 1,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "Admin",
+                "FMLName1",
+                "Jobinsam@6742",
+                "Robert_Kuvalis0",
+                "emp_1785624237988",
+                "emp_1785624332516"
+            ],
+            "grid_columns": [
+                "Acciones",
+                "Estatus",
+                "Nombre de usuario",
+                "Nombre del Empleado",
+                "Rol de Usuario"
+            ],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
+            "button_texts": [
+                "Agregar",
+                "Buscar",
+                "Reiniciar",
+                "Upgrade"
+            ],
+            "input_placeholders": [
+                "Buscar",
+                "Type for hints..."
+            ],
+            "navigation": [
+                "Administrador",
+                "Buzz",
+                "Claim",
+                "Desempeño",
+                "Directory",
+                "Licencias y Permisos",
+                "Maintenance",
+                "Mi Información",
+                "Módulo de Información Personal",
+                "Nacionalidades",
+                "OrangeHRM, Inc",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo",
+                "Upgrade"
+            ],
+            "menu_items": [
+                "Administrador",
+                "Buzz",
+                "Claim",
+                "Desempeño",
+                "Directory",
+                "Licencias y Permisos",
+                "Maintenance",
+                "Mi Información",
+                "Módulo de Información Personal",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo"
+            ],
+            "headings_text": [
+                "Administración de usuarios",
+                "Administrador",
+                "Usuarios del Sistema"
+            ],
+            "validation_texts": []
+        },
+        {
+            "url": "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList",
+            "title": "OrangeHRM",
+            "page_type": "form",
+            "description": "",
+            "buttons": 9,
+            "inputs": 3,
+            "links": 17,
+            "forms": 0,
+            "tables": 0,
+            "dialogs": 0,
+            "components": {
+                "cards": 41,
+                "grids": 1,
+                "tabs": 0
+            },
+            "component_types": [
+                "card"
+            ],
+            "card_titles": [
+                "00392",
+                "01715",
+                "0290",
+                "0292",
+                "0294",
+                "0295",
+                "0303",
+                "0312",
+                "0315",
+                "0315hh",
+                "0317",
+                "0320",
+                "0321",
+                "0322",
+                "0323",
+                "0335",
+                "0342",
+                "0359",
+                "0360",
+                "0361",
+                "0363",
+                "0364",
+                "0365",
+                "0367",
+                "0367010",
+                "0370",
+                "09557",
+                "1235",
+                "2929",
+                "8071",
+                "861",
+                "ATPValue",
+                "dfgsjsjdh",
+                "muser"
+            ],
+            "grid_columns": [
+                "Acciones",
+                "Apellido del empleado",
+                "Estado del Empleado",
+                "Identificación",
+                "Primer (& Middle) Nombre",
+                "Sub Unidad",
+                "Supervisor",
+                "Título del Puesto"
+            ],
+            "grid_actions": [],
+            "tabs": [],
+            "dialog_titles": [],
+            "dropdowns": {
+                "native_selects": 0,
+                "aria_combobox": 0,
+                "custom_dropdowns": 0
+            },
+            "button_texts": [
+                "1",
+                "2",
+                "3",
+                "Agregar",
+                "Buscar",
+                "Reiniciar",
+                "Upgrade"
+            ],
+            "input_placeholders": [
+                "Buscar",
+                "Type for hints..."
+            ],
+            "navigation": [
+                "Administrador",
+                "Agregar Empleado",
+                "Buzz",
+                "Claim",
+                "Desempeño",
+                "Directory",
+                "Licencias y Permisos",
+                "Lista de empleados",
+                "Maintenance",
+                "Mi Información",
+                "Módulo de Información Personal",
+                "OrangeHRM, Inc",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Reportes",
+                "Tiempo",
+                "Upgrade"
+            ],
+            "menu_items": [
+                "Administrador",
+                "Buzz",
+                "Claim",
+                "Desempeño",
+                "Directory",
+                "Licencias y Permisos",
+                "Maintenance",
+                "Mi Información",
+                "Módulo de Información Personal",
+                "Pizarra de pendientes",
+                "Reclutamiento",
+                "Tiempo"
+            ],
+            "headings_text": [
+                "Información del empleado",
+                "Módulo de Información Personal"
             ],
             "validation_texts": []
         }

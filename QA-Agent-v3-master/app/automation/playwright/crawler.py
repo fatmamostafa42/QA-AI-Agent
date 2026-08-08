@@ -153,6 +153,7 @@ class Crawler:
             elif item_type == "action":
 
                 action = item["action"]
+                executed_action = action  
                 
 
             else:
@@ -248,16 +249,27 @@ class Crawler:
                             wait_until="domcontentloaded",
                             timeout=30000
                         )
-
-
                     self.explorer.wait_until_ready()
 
+                    current = self.normalize_url(self.page.url)
+
+                    if current != self.normalize_url(source_url):
+                        print("FAILED TO RETURN TO SOURCE")
+                        continue
                   
                     print(
                         f"EXECUTING ACTION: {action.get('locator')}"
                     )
 
                     result = self.execution_engine.execute(action)
+
+                    if not result or not result.get("success"):
+                        continue
+
+                    page_changed = (
+                        result.get("navigated", False)
+                        or result.get("content_changed", False)
+                    )
 
                     print("=" * 60)
                     print("CURRENT PAGE :", self.page.url)
@@ -276,10 +288,17 @@ class Crawler:
                     action_fp = self.get_action_fingerprint(action)
 
                     if result and result.get("success"):
+
                         self.executed_actions.add(action_fp)
                         self.stats["actions_executed"] += 1
+
                     else:
+
                         self.failed_actions.add(action_fp)
+
+                        print("FAILED ACTION - SKIP:", action_fp)
+
+                        continue
 
                     self.explorer.wait_until_ready()
 
@@ -313,29 +332,33 @@ class Crawler:
                 
                 for action in actions:
 
-                    if action["action"] not in ("navigate", "click"):
+                    metadata = action.get("metadata", {})
+                    navigation = metadata.get("navigation", {})
+
+                    # Execute only navigation candidates
+                    allowed_actions = {
+                        "navigate",
+                        "expand",
+                        "view",
+                        "create",
+                        "edit",
+                        "search",
+                        "filter",
+                        "pagination"
+                    }
+
+                    should_execute = (
+                        action.get("action") in allowed_actions
+                        or action.get("may_navigate")
+                        or navigation.get("detected")
+                    )
+
+                    if not should_execute:
                         continue
 
                     locator = action.get("locator", {})
 
                     if locator.get("value") == "unknown":
-                        continue
-
-                    target = action.get("target")
-                    metadata = action.get("metadata", {})
-                    navigation = metadata.get("navigation", {})
-                    attributes = metadata.get("attributes", "")
-
-                    is_navigable = (
-                        target not in ("", None, "#")
-                        or action.get("may_navigate")
-                        or navigation.get("detected")
-                        or metadata.get("tag") == "button"
-                        or "role=tab" in attributes
-                        or "role=menuitem" in attributes
-                    )
-
-                    if not is_navigable:
                         continue
 
                     action_fp = self.get_action_fingerprint(action)
@@ -378,21 +401,21 @@ class Crawler:
                 if (
                     result
                     and result["success"]
-                    and result["navigated"]
-                ):   
+                    and page_changed
+                ):
                     print("=" * 60)
                     print("EDGE DEBUG")
-                    print("ACTION :", action.get("action"))
-                    print("TEXT   :", action.get("metadata", {}).get("text"))
-                    print("LOCATOR:", action.get("locator"))
+                    print("ACTION :", executed_action.get("action"))
+                    print("TEXT   :", executed_action.get("metadata", {}).get("text"))
+                    print("LOCATOR:", executed_action.get("locator"))
                     print("=" * 60) 
 
                     self.flow_discovery.add_edge(
                         result["old_state"]["url"],
                         result["new_state"]["url"],
                         action=result["action"],
-                        element=action.get("metadata", {}).get("text", ""),
-                        locator=action.get("locator", {})
+                        element=executed_action.get("metadata", {}).get("text", ""),
+                        locator=executed_action.get("locator", {})
                     )
 
                     print(
@@ -670,8 +693,10 @@ class Crawler:
             or action.get("target")
             or ""
         )
+        source = action.get("source_url", "")
 
         return (
+            source,
             action.get("action"),
             locator.get("strategy"),
             locator.get("value"),
